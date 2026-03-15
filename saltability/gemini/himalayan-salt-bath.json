@@ -1,0 +1,167 @@
+{
+    "version": "0.1.20260311",
+    "status_code": 20000,
+    "status_message": "Ok.",
+    "time": "20.0724 sec.",
+    "cost": 0.004,
+    "tasks_count": 1,
+    "tasks_error": 0,
+    "tasks": [
+        {
+            "id": "03152202-4353-0629-0000-cce2c6f20880",
+            "status_code": 20000,
+            "status_message": "Ok.",
+            "time": "20.0452 sec.",
+            "cost": 0.004,
+            "result_count": 1,
+            "path": [
+                "v3",
+                "ai_optimization",
+                "gemini",
+                "llm_scraper",
+                "live",
+                "advanced"
+            ],
+            "data": {
+                "api": "ai_optimization",
+                "function": "llm_scraper",
+                "se": "gemini",
+                "keyword": "himalayan salt bath",
+                "language_code": "en",
+                "location_name": "United States",
+                "device": "desktop",
+                "os": "windows"
+            },
+            "result": [
+                {
+                    "keyword": "himalayan salt bath",
+                    "location_code": 2840,
+                    "language_code": "en",
+                    "model": "Fast",
+                    "datetime": "2026-03-15 20:02:32 +00:00",
+                    "markdown": "Taking a Himalayan salt bath is like giving your body a giant reset button. Beyond just feeling like a spa day in your own tub, these pink mineral crystals are packed with trace elements—like magnesium, potassium, and calcium—that offer more than just a pretty color.\n\nHere is a quick guide on how to do it right and why people swear by it.\n\n---\n\n### Why Take the Plunge?\n\n* **Skin Hydration:** Unlike regular salt which can be drying, Himalayan salt helps the skin retain moisture and can soothe irritation or redness.\n* **Relaxation:** The warm water combined with magnesium helps ease muscle tension and promotes better sleep.\n* **Exfoliation:** It naturally sloughs off dead skin cells, leaving you feeling much smoother.\n* **Mineral Absorption:** Proponents suggest that your skin absorbs trace minerals through \"dermal absorption,\" though the science on the extent of this is still debated.\n\n---\n\n### The \"Perfect Soak\" Recipe\n\nTo get the most out of your bath, follow these steps:\n\n| Step | Instruction |\n| :--- | :--- |\n| **The Salt** | Use about **1 to 2 cups** of high-quality Himalayan pink salt for a standard bathtub. |\n| **Dissolving** | Put the salt in as the tub is filling. If the crystals are large, let them sit for a few minutes to dissolve so you aren't sitting on \"rocks.\" |\n| **Temperature** | Aim for **warm, not scalding** (roughly 37°C to 39°C). If the water is too hot, it can be taxing on your heart and dehydrate you. |\n| **Duration** | Soak for **15 to 20 minutes**. This is the sweet spot for mineral absorption without pruning too much. |\n\n---\n\n### Pro-Tips for a Better Experience\n\n* **Hydrate First:** Drink a glass of water before and after your bath. Salt baths can cause you to sweat more than you realize.\n* **Skip the Soap:** Avoid using harsh soaps or shampoos while soaking in the salt. Let the minerals do the work, then rinse with fresh water afterward.\n* **Rest Afterward:** Your body might feel heavy or very relaxed. Give yourself 30 minutes of \"chill time\" after drying off.\n\n> **A Note on Safety:** If you have a heart condition, low blood pressure, or are pregnant, it’s always a good idea to check with your doctor before trying a salt soak, as the heat and mineral content can affect circulation.\n\nWould you like me to suggest a few essential oil pairings to add to your salt bath for specific moods, like sleep or energy?",
+                    "sources": null,
+                    "se_results_count": 0,
+                    "item_types": [
+                        "gemini_text",
+                        "gemini_table"
+                    ],
+                    "items_count": 11,
+                    "items": [
+                        {
+                            "type": "gemini_text",
+                            "rank_group": 1,
+                            "rank_absolute": 1,
+                            "markdown": "Taking a Himalayan salt bath is like giving your body a giant reset button. Beyond just feeling like a spa day in your own tub, these pink mineral crystals are packed with trace elements—like magnesium, potassium, and calcium—that offer more than just a pretty color.",
+                            "original_text": "Taking a Himalayan salt bath is like giving your body a giant reset button. Beyond just feeling like a spa day in your own tub, these pink mineral crystals are packed with trace elements—like magnesium, potassium, and calcium—that offer more than just a pretty color.",
+                            "sources": null
+                        },
+                        {
+                            "type": "gemini_text",
+                            "rank_group": 2,
+                            "rank_absolute": 2,
+                            "markdown": "Here is a quick guide on how to do it right and why people swear by it.",
+                            "original_text": "Here is a quick guide on how to do it right and why people swear by it.",
+                            "sources": null
+                        },
+                        {
+                            "type": "gemini_text",
+                            "rank_group": 3,
+                            "rank_absolute": 3,
+                            "markdown": "### Why Take the Plunge?",
+                            "original_text": "Why Take the Plunge?",
+                            "sources": null
+                        },
+                        {
+                            "type": "gemini_text",
+                            "rank_group": 4,
+                            "rank_absolute": 4,
+                            "markdown": "* **Skin Hydration:** Unlike regular salt which can be drying, Himalayan salt helps the skin retain moisture and can soothe irritation or redness.\n* **Relaxation:** The warm water combined with magnesium helps ease muscle tension and promotes better sleep.\n* **Exfoliation:** It naturally sloughs off dead skin cells, leaving you feeling much smoother.\n* **Mineral Absorption:** Proponents suggest that your skin absorbs trace minerals through \"dermal absorption,\" though the science on the extent of this is still debated.",
+                            "original_text": "Skin Hydration: Unlike regular salt which can be drying, Himalayan salt helps the skin retain moisture and can soothe irritation or redness.\nRelaxation: The warm water combined with magnesium helps ease muscle tension and promotes better sleep.\nExfoliation: It naturally sloughs off dead skin cells, leaving you feeling much smoother.\nMineral Absorption: Proponents suggest that your skin absorbs trace minerals through \"dermal absorption,\" though the science on the extent of this is still debated.",
+                            "sources": null
+                        },
+                        {
+                            "type": "gemini_text",
+                            "rank_group": 5,
+                            "rank_absolute": 5,
+                            "markdown": "### The \"Perfect Soak\" Recipe",
+                            "original_text": "The \"Perfect Soak\" Recipe",
+                            "sources": null
+                        },
+                        {
+                            "type": "gemini_text",
+                            "rank_group": 6,
+                            "rank_absolute": 6,
+                            "markdown": "To get the most out of your bath, follow these steps:",
+                            "original_text": "To get the most out of your bath, follow these steps:",
+                            "sources": null
+                        },
+                        {
+                            "type": "gemini_table",
+                            "rank_group": 1,
+                            "rank_absolute": 7,
+                            "markdown": "| Step | Instruction |\n| :--- | :--- |\n| **The Salt** | Use about **1 to 2 cups** of high-quality Himalayan pink salt for a standard bathtub. |\n| **Dissolving** | Put the salt in as the tub is filling. If the crystals are large, let them sit for a few minutes to dissolve so you aren't sitting on \"rocks.\" |\n| **Temperature** | Aim for **warm, not scalding** (roughly 37°C to 39°C). If the water is too hot, it can be taxing on your heart and dehydrate you. |\n| **Duration** | Soak for **15 to 20 minutes**. This is the sweet spot for mineral absorption without pruning too much. |",
+                            "original_text": "Step\tInstruction\nThe Salt\tUse about 1 to 2 cups of high-quality Himalayan pink salt for a standard bathtub.\nDissolving\tPut the salt in as the tub is filling. If the crystals are large, let them sit for a few minutes to dissolve so you aren't sitting on \"rocks.\"\nTemperature\tAim for warm, not scalding (roughly 37°C to 39°C). If the water is too hot, it can be taxing on your heart and dehydrate you.\nDuration\tSoak for 15 to 20 minutes. This is the sweet spot for mineral absorption without pruning too much.",
+                            "table": {
+                                "table_header": [
+                                    "Step",
+                                    "Instruction"
+                                ],
+                                "table_content": [
+                                    [
+                                        "The Salt",
+                                        "Use about 1 to 2 cups of high-quality Himalayan pink salt for a standard bathtub."
+                                    ],
+                                    [
+                                        "Dissolving",
+                                        "Put the salt in as the tub is filling. If the crystals are large, let them sit for a few minutes to dissolve so you aren't sitting on \"rocks.\""
+                                    ],
+                                    [
+                                        "Temperature",
+                                        "Aim for warm, not scalding (roughly 37°C to 39°C). If the water is too hot, it can be taxing on your heart and dehydrate you."
+                                    ],
+                                    [
+                                        "Duration",
+                                        "Soak for 15 to 20 minutes. This is the sweet spot for mineral absorption without pruning too much."
+                                    ]
+                                ]
+                            }
+                        },
+                        {
+                            "type": "gemini_text",
+                            "rank_group": 7,
+                            "rank_absolute": 8,
+                            "markdown": "### Pro-Tips for a Better Experience",
+                            "original_text": "Pro-Tips for a Better Experience",
+                            "sources": null
+                        },
+                        {
+                            "type": "gemini_text",
+                            "rank_group": 8,
+                            "rank_absolute": 9,
+                            "markdown": "* **Hydrate First:** Drink a glass of water before and after your bath. Salt baths can cause you to sweat more than you realize.\n* **Skip the Soap:** Avoid using harsh soaps or shampoos while soaking in the salt. Let the minerals do the work, then rinse with fresh water afterward.\n* **Rest Afterward:** Your body might feel heavy or very relaxed. Give yourself 30 minutes of \"chill time\" after drying off.",
+                            "original_text": "Hydrate First: Drink a glass of water before and after your bath. Salt baths can cause you to sweat more than you realize.\nSkip the Soap: Avoid using harsh soaps or shampoos while soaking in the salt. Let the minerals do the work, then rinse with fresh water afterward.\nRest Afterward: Your body might feel heavy or very relaxed. Give yourself 30 minutes of \"chill time\" after drying off.",
+                            "sources": null
+                        },
+                        {
+                            "type": "gemini_text",
+                            "rank_group": 9,
+                            "rank_absolute": 10,
+                            "markdown": "> **A Note on Safety:** If you have a heart condition, low blood pressure, or are pregnant, it’s always a good idea to check with your doctor before trying a salt soak, as the heat and mineral content can affect circulation.",
+                            "original_text": "A Note on Safety: If you have a heart condition, low blood pressure, or are pregnant, it’s always a good idea to check with your doctor before trying a salt soak, as the heat and mineral content can affect circulation.",
+                            "sources": null
+                        },
+                        {
+                            "type": "gemini_text",
+                            "rank_group": 10,
+                            "rank_absolute": 11,
+                            "markdown": "Would you like me to suggest a few essential oil pairings to add to your salt bath for specific moods, like sleep or energy?",
+                            "original_text": "Would you like me to suggest a few essential oil pairings to add to your salt bath for specific moods, like sleep or energy?",
+                            "sources": null
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}
