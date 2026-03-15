@@ -1,0 +1,191 @@
+{
+    "version": "0.1.20260311",
+    "status_code": 20000,
+    "status_message": "Ok.",
+    "time": "12.0865 sec.",
+    "cost": 0.004,
+    "tasks_count": 1,
+    "tasks_error": 0,
+    "tasks": [
+        {
+            "id": "03152208-4353-0629-0000-9671ab9f16b9",
+            "status_code": 20000,
+            "status_message": "Ok.",
+            "time": "12.0326 sec.",
+            "cost": 0.004,
+            "result_count": 1,
+            "path": [
+                "v3",
+                "ai_optimization",
+                "gemini",
+                "llm_scraper",
+                "live",
+                "advanced"
+            ],
+            "data": {
+                "api": "ai_optimization",
+                "function": "llm_scraper",
+                "se": "gemini",
+                "keyword": "himalayan salt panels",
+                "language_code": "en",
+                "location_name": "United States",
+                "device": "desktop",
+                "os": "windows"
+            },
+            "result": [
+                {
+                    "keyword": "himalayan salt panels",
+                    "location_code": 2840,
+                    "language_code": "en",
+                    "model": "Fast",
+                    "datetime": "2026-03-15 20:08:37 +00:00",
+                    "markdown": "Himalayan salt panels are a striking blend of natural wellness and high-end interior design. Whether you’re looking to build a \"salt cave\" vibe for relaxation or simply want a unique backlit feature wall, these panels offer a warm, amber glow that’s hard to replicate with other materials.\n\nHere is a breakdown of how they work, their purported benefits, and what to consider before installing them.\n\n### What Are Salt Panels?\n\nTypically, these panels consist of authentic Himalayan salt blocks or bricks mounted onto a transparent or semi-transparent backing (often acrylic or wood). They are usually integrated with **LED backlighting**, which brings out the natural crystalline patterns and deep orange-pink hues of the salt.\n\n---\n\n### Potential Benefits\n\nWhile the aesthetic appeal is undeniable, many people install them for \"halotherapy\" (salt therapy) and wellness reasons:\n\n* **Ambient Ionization:** When heated (even slightly by LEDs), salt is claimed to release negative ions, which some believe can help neutralize \"electronic smog\" and improve air quality.\n* **Chromotherapy:** The soft, warm orange light is known to promote relaxation, reduce stress, and improve sleep quality by mimicking the spectrum of a sunset.\n* **Humidity Regulation:** Salt is naturally hygroscopic, meaning it absorbs moisture from the air, which can help slightly manage room humidity.\n\n> **A Quick Reality Check:** While salt rooms are popular in spas, the scientific evidence for significant air purification from a single wall is limited. Most people choose them primarily for their stunning visual impact and calming atmosphere.\n\n---\n\n### Installation & Maintenance\n\nIf you’re considering adding one to your home or business, keep these technical points in mind:\n\n| Feature | Consideration |\n| :--- | :--- |\n| **Weight** | Salt is heavy. A standard panel can weigh significantly more than drywall, so ensure your wall studs can handle the load. |\n| **Moisture** | **Avoid high-humidity areas** like bathrooms with showers. If the salt gets too wet, it will begin to \"cry\" (dissolve and drip), which can damage the LEDs and your flooring. |\n| **Lighting** | Use dimmable LEDs. This allows you to transition the room from a bright feature piece to a low-light nightlight. |\n| **Cleaning** | Never use water or spray cleaners. A simple dusting with a dry microfiber cloth or a slightly damp (not wet) rag is all you need. |\n\n---\n\n### Popular Use Cases\n\n* **Home Spas\/Saunas:** Often used in \"dry saunas\" (not steam rooms) to enhance the detox experience.\n* **Bedrooms:** Used as a floor-to-ceiling headboard for a tranquil sleep environment.\n* **Commercial Spaces:** Frequently found in yoga studios, massage therapy rooms, and high-end hotel lobbies.\n\n**Would you like me to help you estimate the number of salt bricks you'd need for a specific wall size, or are you looking for tips on how to DIY a frame for one?**",
+                    "sources": null,
+                    "se_results_count": 0,
+                    "item_types": [
+                        "gemini_text",
+                        "gemini_table"
+                    ],
+                    "items_count": 14,
+                    "items": [
+                        {
+                            "type": "gemini_text",
+                            "rank_group": 1,
+                            "rank_absolute": 1,
+                            "markdown": "Himalayan salt panels are a striking blend of natural wellness and high-end interior design. Whether you’re looking to build a \"salt cave\" vibe for relaxation or simply want a unique backlit feature wall, these panels offer a warm, amber glow that’s hard to replicate with other materials.",
+                            "original_text": "Himalayan salt panels are a striking blend of natural wellness and high-end interior design. Whether you’re looking to build a \"salt cave\" vibe for relaxation or simply want a unique backlit feature wall, these panels offer a warm, amber glow that’s hard to replicate with other materials.",
+                            "sources": null
+                        },
+                        {
+                            "type": "gemini_text",
+                            "rank_group": 2,
+                            "rank_absolute": 2,
+                            "markdown": "Here is a breakdown of how they work, their purported benefits, and what to consider before installing them.",
+                            "original_text": "Here is a breakdown of how they work, their purported benefits, and what to consider before installing them.",
+                            "sources": null
+                        },
+                        {
+                            "type": "gemini_text",
+                            "rank_group": 3,
+                            "rank_absolute": 3,
+                            "markdown": "### What Are Salt Panels?",
+                            "original_text": "What Are Salt Panels?",
+                            "sources": null
+                        },
+                        {
+                            "type": "gemini_text",
+                            "rank_group": 4,
+                            "rank_absolute": 4,
+                            "markdown": "Typically, these panels consist of authentic Himalayan salt blocks or bricks mounted onto a transparent or semi-transparent backing (often acrylic or wood). They are usually integrated with **LED backlighting**, which brings out the natural crystalline patterns and deep orange-pink hues of the salt.",
+                            "original_text": "Typically, these panels consist of authentic Himalayan salt blocks or bricks mounted onto a transparent or semi-transparent backing (often acrylic or wood). They are usually integrated with LED backlighting, which brings out the natural crystalline patterns and deep orange-pink hues of the salt.",
+                            "sources": null
+                        },
+                        {
+                            "type": "gemini_text",
+                            "rank_group": 5,
+                            "rank_absolute": 5,
+                            "markdown": "### Potential Benefits",
+                            "original_text": "Potential Benefits",
+                            "sources": null
+                        },
+                        {
+                            "type": "gemini_text",
+                            "rank_group": 6,
+                            "rank_absolute": 6,
+                            "markdown": "While the aesthetic appeal is undeniable, many people install them for \"halotherapy\" (salt therapy) and wellness reasons:",
+                            "original_text": "While the aesthetic appeal is undeniable, many people install them for \"halotherapy\" (salt therapy) and wellness reasons:",
+                            "sources": null
+                        },
+                        {
+                            "type": "gemini_text",
+                            "rank_group": 7,
+                            "rank_absolute": 7,
+                            "markdown": "* **Ambient Ionization:** When heated (even slightly by LEDs), salt is claimed to release negative ions, which some believe can help neutralize \"electronic smog\" and improve air quality.\n* **Chromotherapy:** The soft, warm orange light is known to promote relaxation, reduce stress, and improve sleep quality by mimicking the spectrum of a sunset.\n* **Humidity Regulation:** Salt is naturally hygroscopic, meaning it absorbs moisture from the air, which can help slightly manage room humidity.",
+                            "original_text": "Ambient Ionization: When heated (even slightly by LEDs), salt is claimed to release negative ions, which some believe can help neutralize \"electronic smog\" and improve air quality.\nChromotherapy: The soft, warm orange light is known to promote relaxation, reduce stress, and improve sleep quality by mimicking the spectrum of a sunset.\nHumidity Regulation: Salt is naturally hygroscopic, meaning it absorbs moisture from the air, which can help slightly manage room humidity.",
+                            "sources": null
+                        },
+                        {
+                            "type": "gemini_text",
+                            "rank_group": 8,
+                            "rank_absolute": 8,
+                            "markdown": "> **A Quick Reality Check:** While salt rooms are popular in spas, the scientific evidence for significant air purification from a single wall is limited. Most people choose them primarily for their stunning visual impact and calming atmosphere.",
+                            "original_text": "A Quick Reality Check: While salt rooms are popular in spas, the scientific evidence for significant air purification from a single wall is limited. Most people choose them primarily for their stunning visual impact and calming atmosphere.",
+                            "sources": null
+                        },
+                        {
+                            "type": "gemini_text",
+                            "rank_group": 9,
+                            "rank_absolute": 9,
+                            "markdown": "### Installation & Maintenance",
+                            "original_text": "Installation & Maintenance",
+                            "sources": null
+                        },
+                        {
+                            "type": "gemini_text",
+                            "rank_group": 10,
+                            "rank_absolute": 10,
+                            "markdown": "If you’re considering adding one to your home or business, keep these technical points in mind:",
+                            "original_text": "If you’re considering adding one to your home or business, keep these technical points in mind:",
+                            "sources": null
+                        },
+                        {
+                            "type": "gemini_table",
+                            "rank_group": 1,
+                            "rank_absolute": 11,
+                            "markdown": "| Feature | Consideration |\n| :--- | :--- |\n| **Weight** | Salt is heavy. A standard panel can weigh significantly more than drywall, so ensure your wall studs can handle the load. |\n| **Moisture** | **Avoid high-humidity areas** like bathrooms with showers. If the salt gets too wet, it will begin to \"cry\" (dissolve and drip), which can damage the LEDs and your flooring. |\n| **Lighting** | Use dimmable LEDs. This allows you to transition the room from a bright feature piece to a low-light nightlight. |\n| **Cleaning** | Never use water or spray cleaners. A simple dusting with a dry microfiber cloth or a slightly damp (not wet) rag is all you need. |",
+                            "original_text": "Feature\tConsideration\nWeight\tSalt is heavy. A standard panel can weigh significantly more than drywall, so ensure your wall studs can handle the load.\nMoisture\tAvoid high-humidity areas like bathrooms with showers. If the salt gets too wet, it will begin to \"cry\" (dissolve and drip), which can damage the LEDs and your flooring.\nLighting\tUse dimmable LEDs. This allows you to transition the room from a bright feature piece to a low-light nightlight.\nCleaning\tNever use water or spray cleaners. A simple dusting with a dry microfiber cloth or a slightly damp (not wet) rag is all you need.",
+                            "table": {
+                                "table_header": [
+                                    "Feature",
+                                    "Consideration"
+                                ],
+                                "table_content": [
+                                    [
+                                        "Weight",
+                                        "Salt is heavy. A standard panel can weigh significantly more than drywall, so ensure your wall studs can handle the load."
+                                    ],
+                                    [
+                                        "Moisture",
+                                        "Avoid high-humidity areas like bathrooms with showers. If the salt gets too wet, it will begin to \"cry\" (dissolve and drip), which can damage the LEDs and your flooring."
+                                    ],
+                                    [
+                                        "Lighting",
+                                        "Use dimmable LEDs. This allows you to transition the room from a bright feature piece to a low-light nightlight."
+                                    ],
+                                    [
+                                        "Cleaning",
+                                        "Never use water or spray cleaners. A simple dusting with a dry microfiber cloth or a slightly damp (not wet) rag is all you need."
+                                    ]
+                                ]
+                            }
+                        },
+                        {
+                            "type": "gemini_text",
+                            "rank_group": 11,
+                            "rank_absolute": 12,
+                            "markdown": "### Popular Use Cases",
+                            "original_text": "Popular Use Cases",
+                            "sources": null
+                        },
+                        {
+                            "type": "gemini_text",
+                            "rank_group": 12,
+                            "rank_absolute": 13,
+                            "markdown": "* **Home Spas\/Saunas:** Often used in \"dry saunas\" (not steam rooms) to enhance the detox experience.\n* **Bedrooms:** Used as a floor-to-ceiling headboard for a tranquil sleep environment.\n* **Commercial Spaces:** Frequently found in yoga studios, massage therapy rooms, and high-end hotel lobbies.",
+                            "original_text": "Home Spas\/Saunas: Often used in \"dry saunas\" (not steam rooms) to enhance the detox experience.\nBedrooms: Used as a floor-to-ceiling headboard for a tranquil sleep environment.\nCommercial Spaces: Frequently found in yoga studios, massage therapy rooms, and high-end hotel lobbies.",
+                            "sources": null
+                        },
+                        {
+                            "type": "gemini_text",
+                            "rank_group": 13,
+                            "rank_absolute": 14,
+                            "markdown": "**Would you like me to help you estimate the number of salt bricks you'd need for a specific wall size, or are you looking for tips on how to DIY a frame for one?**",
+                            "original_text": "Would you like me to help you estimate the number of salt bricks you'd need for a specific wall size, or are you looking for tips on how to DIY a frame for one?",
+                            "sources": null
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}
