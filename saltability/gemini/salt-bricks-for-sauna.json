@@ -1,0 +1,223 @@
+{
+    "version": "0.1.20260311",
+    "status_code": 20000,
+    "status_message": "Ok.",
+    "time": "30.0803 sec.",
+    "cost": 0.004,
+    "tasks_count": 1,
+    "tasks_error": 0,
+    "tasks": [
+        {
+            "id": "03152208-4353-0629-0000-4bdf524fb9dd",
+            "status_code": 20000,
+            "status_message": "Ok.",
+            "time": "30.0516 sec.",
+            "cost": 0.004,
+            "result_count": 1,
+            "path": [
+                "v3",
+                "ai_optimization",
+                "gemini",
+                "llm_scraper",
+                "live",
+                "advanced"
+            ],
+            "data": {
+                "api": "ai_optimization",
+                "function": "llm_scraper",
+                "se": "gemini",
+                "keyword": "salt bricks for sauna",
+                "language_code": "en",
+                "location_name": "United States",
+                "device": "desktop",
+                "os": "windows"
+            },
+            "result": [
+                {
+                    "keyword": "salt bricks for sauna",
+                    "location_code": 2840,
+                    "language_code": "en",
+                    "model": "Fast",
+                    "datetime": "2026-03-15 20:09:12 +00:00",
+                    "markdown": "Using salt bricks in a sauna—often referred to as a **Himalayan Salt Sauna**—is a fantastic way to level up your relaxation game. Beyond just looking like a high-end spa, adding salt elements can actually change the \"feel\" of the air.\n\nHere is a breakdown of why people use them, how to install them, and a few things to keep in mind.\n\n---\n\n## Why Use Salt Bricks?\n\nThe primary appeal is **halotherapy** (salt therapy). When the bricks are heated, they release negative ions into the air.\n\n* **Respiratory Support:** Breathable salt particles can help clear airways and reduce inflammation, which is why people with allergies or asthma often swear by them.\n* **Skin Health:** Salt is naturally antibacterial and antimicrobial, which can help detoxify the skin.\n* **Ambiance:** Himalayan salt has a natural pinkish-orange hue. When backlit with LED strips, it creates a warm, grounding glow that’s much more relaxing than standard sauna lighting.\n\n---\n\n## Installation & Best Practices\n\nYou don't necessarily need to build an entire wall out of salt to get the benefits. Here are the common ways to integrate them:\n\n### 1. The Salt Wall\n\nThe most popular method. You stack the bricks (usually $8 \\times 4 \\times 1$ inches) against an existing wall.\n\n* **Adhesive:** Use a specialized non-toxic, heat-resistant salt glue.\n* **Lighting:** Leave a small gap (about 1–2 inches) between the salt wall and the sauna wall to install heat-resistant LED backlighting.\n\n### 2. The Salt Frame\n\nIf a full wall is too much work or too expensive, you can build a smaller wooden frame filled with salt bricks and mount it like a piece of \"living\" art.\n\n### 3. Near the Heater\n\nPlacing a few bricks or a bowl of salt stones near (but usually not directly *on*) the heater helps maximize the release of ions, as higher temperatures accelerate the process.\n\n---\n\n## ⚠️ Important Considerations\n\n| Feature | Guidance |\n| :--- | :--- |\n| **Sauna Type** | Best for **Dry Saunas** or **Infrared Saunas**. |\n| **Humidity** | **Avoid high humidity.** Salt is hygroscopic, meaning it absorbs water. In a wet sauna or steam room, the bricks will eventually melt and create a salty mess. |\n| **Corrosion** | Salt air can be corrosive to certain metals. Ensure your heater and door hardware are high-quality stainless steel or protected. |\n| **Maintenance** | Occasionally wipe the bricks with a slightly damp cloth to remove dust, but never soak them. |\n\n> **Pro Tip:** If you're building a DIY salt wall, make sure your floor can handle the weight. Himalayan salt is surprisingly heavy—a standard wall can add hundreds of pounds to the room's load.\n\n---\n\n**Would you like me to help you calculate how many bricks you'd need for a specific wall size, or are you looking for advice on the best lighting setups for salt?**",
+                    "sources": null,
+                    "se_results_count": 0,
+                    "item_types": [
+                        "gemini_text",
+                        "gemini_table"
+                    ],
+                    "items_count": 18,
+                    "items": [
+                        {
+                            "type": "gemini_text",
+                            "rank_group": 1,
+                            "rank_absolute": 1,
+                            "markdown": "Using salt bricks in a sauna—often referred to as a **Himalayan Salt Sauna**—is a fantastic way to level up your relaxation game. Beyond just looking like a high-end spa, adding salt elements can actually change the \"feel\" of the air.",
+                            "original_text": "Using salt bricks in a sauna—often referred to as a Himalayan Salt Sauna—is a fantastic way to level up your relaxation game. Beyond just looking like a high-end spa, adding salt elements can actually change the \"feel\" of the air.",
+                            "sources": null
+                        },
+                        {
+                            "type": "gemini_text",
+                            "rank_group": 2,
+                            "rank_absolute": 2,
+                            "markdown": "Here is a breakdown of why people use them, how to install them, and a few things to keep in mind.",
+                            "original_text": "Here is a breakdown of why people use them, how to install them, and a few things to keep in mind.",
+                            "sources": null
+                        },
+                        {
+                            "type": "gemini_text",
+                            "rank_group": 3,
+                            "rank_absolute": 3,
+                            "markdown": "## Why Use Salt Bricks?",
+                            "original_text": "Why Use Salt Bricks?",
+                            "sources": null
+                        },
+                        {
+                            "type": "gemini_text",
+                            "rank_group": 4,
+                            "rank_absolute": 4,
+                            "markdown": "The primary appeal is **halotherapy** (salt therapy). When the bricks are heated, they release negative ions into the air.",
+                            "original_text": "The primary appeal is halotherapy (salt therapy). When the bricks are heated, they release negative ions into the air.",
+                            "sources": null
+                        },
+                        {
+                            "type": "gemini_text",
+                            "rank_group": 5,
+                            "rank_absolute": 5,
+                            "markdown": "* **Respiratory Support:** Breathable salt particles can help clear airways and reduce inflammation, which is why people with allergies or asthma often swear by them.\n* **Skin Health:** Salt is naturally antibacterial and antimicrobial, which can help detoxify the skin.\n* **Ambiance:** Himalayan salt has a natural pinkish-orange hue. When backlit with LED strips, it creates a warm, grounding glow that’s much more relaxing than standard sauna lighting.",
+                            "original_text": "Respiratory Support: Breathable salt particles can help clear airways and reduce inflammation, which is why people with allergies or asthma often swear by them.\nSkin Health: Salt is naturally antibacterial and antimicrobial, which can help detoxify the skin.\nAmbiance: Himalayan salt has a natural pinkish-orange hue. When backlit with LED strips, it creates a warm, grounding glow that’s much more relaxing than standard sauna lighting.",
+                            "sources": null
+                        },
+                        {
+                            "type": "gemini_text",
+                            "rank_group": 6,
+                            "rank_absolute": 6,
+                            "markdown": "## Installation & Best Practices",
+                            "original_text": "Installation & Best Practices",
+                            "sources": null
+                        },
+                        {
+                            "type": "gemini_text",
+                            "rank_group": 7,
+                            "rank_absolute": 7,
+                            "markdown": "You don't necessarily need to build an entire wall out of salt to get the benefits. Here are the common ways to integrate them:",
+                            "original_text": "You don't necessarily need to build an entire wall out of salt to get the benefits. Here are the common ways to integrate them:",
+                            "sources": null
+                        },
+                        {
+                            "type": "gemini_text",
+                            "rank_group": 8,
+                            "rank_absolute": 8,
+                            "markdown": "### 1. The Salt Wall",
+                            "original_text": "1. The Salt Wall",
+                            "sources": null
+                        },
+                        {
+                            "type": "gemini_text",
+                            "rank_group": 9,
+                            "rank_absolute": 9,
+                            "markdown": "The most popular method. You stack the bricks (usually $8 \\times 4 \\times 1$ inches) against an existing wall.",
+                            "original_text": "The most popular method. You stack the bricks (usually 8 \\times 4 \\times 1 inches) against an existing wall.",
+                            "sources": null
+                        },
+                        {
+                            "type": "gemini_text",
+                            "rank_group": 10,
+                            "rank_absolute": 10,
+                            "markdown": "* **Adhesive:** Use a specialized non-toxic, heat-resistant salt glue.\n* **Lighting:** Leave a small gap (about 1–2 inches) between the salt wall and the sauna wall to install heat-resistant LED backlighting.",
+                            "original_text": "Adhesive: Use a specialized non-toxic, heat-resistant salt glue.\nLighting: Leave a small gap (about 1–2 inches) between the salt wall and the sauna wall to install heat-resistant LED backlighting.",
+                            "sources": null
+                        },
+                        {
+                            "type": "gemini_text",
+                            "rank_group": 11,
+                            "rank_absolute": 11,
+                            "markdown": "### 2. The Salt Frame",
+                            "original_text": "2. The Salt Frame",
+                            "sources": null
+                        },
+                        {
+                            "type": "gemini_text",
+                            "rank_group": 12,
+                            "rank_absolute": 12,
+                            "markdown": "If a full wall is too much work or too expensive, you can build a smaller wooden frame filled with salt bricks and mount it like a piece of \"living\" art.",
+                            "original_text": "If a full wall is too much work or too expensive, you can build a smaller wooden frame filled with salt bricks and mount it like a piece of \"living\" art.",
+                            "sources": null
+                        },
+                        {
+                            "type": "gemini_text",
+                            "rank_group": 13,
+                            "rank_absolute": 13,
+                            "markdown": "### 3. Near the Heater",
+                            "original_text": "3. Near the Heater",
+                            "sources": null
+                        },
+                        {
+                            "type": "gemini_text",
+                            "rank_group": 14,
+                            "rank_absolute": 14,
+                            "markdown": "Placing a few bricks or a bowl of salt stones near (but usually not directly *on*) the heater helps maximize the release of ions, as higher temperatures accelerate the process.",
+                            "original_text": "Placing a few bricks or a bowl of salt stones near (but usually not directly on) the heater helps maximize the release of ions, as higher temperatures accelerate the process.",
+                            "sources": null
+                        },
+                        {
+                            "type": "gemini_text",
+                            "rank_group": 15,
+                            "rank_absolute": 15,
+                            "markdown": "## ⚠️ Important Considerations",
+                            "original_text": "⚠️ Important Considerations",
+                            "sources": null
+                        },
+                        {
+                            "type": "gemini_table",
+                            "rank_group": 1,
+                            "rank_absolute": 16,
+                            "markdown": "| Feature | Guidance |\n| :--- | :--- |\n| **Sauna Type** | Best for **Dry Saunas** or **Infrared Saunas**. |\n| **Humidity** | **Avoid high humidity.** Salt is hygroscopic, meaning it absorbs water. In a wet sauna or steam room, the bricks will eventually melt and create a salty mess. |\n| **Corrosion** | Salt air can be corrosive to certain metals. Ensure your heater and door hardware are high-quality stainless steel or protected. |\n| **Maintenance** | Occasionally wipe the bricks with a slightly damp cloth to remove dust, but never soak them. |",
+                            "original_text": "Feature\tGuidance\nSauna Type\tBest for Dry Saunas or Infrared Saunas.\nHumidity\tAvoid high humidity. Salt is hygroscopic, meaning it absorbs water. In a wet sauna or steam room, the bricks will eventually melt and create a salty mess.\nCorrosion\tSalt air can be corrosive to certain metals. Ensure your heater and door hardware are high-quality stainless steel or protected.\nMaintenance\tOccasionally wipe the bricks with a slightly damp cloth to remove dust, but never soak them.",
+                            "table": {
+                                "table_header": [
+                                    "Feature",
+                                    "Guidance"
+                                ],
+                                "table_content": [
+                                    [
+                                        "Sauna Type",
+                                        "Best for Dry Saunas or Infrared Saunas."
+                                    ],
+                                    [
+                                        "Humidity",
+                                        "Avoid high humidity. Salt is hygroscopic, meaning it absorbs water. In a wet sauna or steam room, the bricks will eventually melt and create a salty mess."
+                                    ],
+                                    [
+                                        "Corrosion",
+                                        "Salt air can be corrosive to certain metals. Ensure your heater and door hardware are high-quality stainless steel or protected."
+                                    ],
+                                    [
+                                        "Maintenance",
+                                        "Occasionally wipe the bricks with a slightly damp cloth to remove dust, but never soak them."
+                                    ]
+                                ]
+                            }
+                        },
+                        {
+                            "type": "gemini_text",
+                            "rank_group": 16,
+                            "rank_absolute": 17,
+                            "markdown": "> **Pro Tip:** If you're building a DIY salt wall, make sure your floor can handle the weight. Himalayan salt is surprisingly heavy—a standard wall can add hundreds of pounds to the room's load.",
+                            "original_text": "Pro Tip: If you're building a DIY salt wall, make sure your floor can handle the weight. Himalayan salt is surprisingly heavy—a standard wall can add hundreds of pounds to the room's load.",
+                            "sources": null
+                        },
+                        {
+                            "type": "gemini_text",
+                            "rank_group": 17,
+                            "rank_absolute": 18,
+                            "markdown": "**Would you like me to help you calculate how many bricks you'd need for a specific wall size, or are you looking for advice on the best lighting setups for salt?**",
+                            "original_text": "Would you like me to help you calculate how many bricks you'd need for a specific wall size, or are you looking for advice on the best lighting setups for salt?",
+                            "sources": null
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}
