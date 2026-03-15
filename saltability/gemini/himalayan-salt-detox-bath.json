@@ -1,0 +1,323 @@
+{
+    "version": "0.1.20260311",
+    "status_code": 20000,
+    "status_message": "Ok.",
+    "time": "25.1077 sec.",
+    "cost": 0.004,
+    "tasks_count": 1,
+    "tasks_error": 0,
+    "tasks": [
+        {
+            "id": "03152202-4353-0629-0000-40e550fe4c95",
+            "status_code": 20000,
+            "status_message": "Ok.",
+            "time": "25.0655 sec.",
+            "cost": 0.004,
+            "result_count": 1,
+            "path": [
+                "v3",
+                "ai_optimization",
+                "gemini",
+                "llm_scraper",
+                "live",
+                "advanced"
+            ],
+            "data": {
+                "api": "ai_optimization",
+                "function": "llm_scraper",
+                "se": "gemini",
+                "keyword": "himalayan salt detox bath",
+                "language_code": "en",
+                "location_name": "United States",
+                "device": "desktop",
+                "os": "windows"
+            },
+            "result": [
+                {
+                    "keyword": "himalayan salt detox bath",
+                    "location_code": 2840,
+                    "language_code": "en",
+                    "model": "Fast",
+                    "datetime": "2026-03-15 20:03:02 +00:00",
+                    "markdown": "Taking a Himalayan salt detox bath is a popular way to unwind, soothe tired muscles, and give your skin a little extra attention.[henniebekker.com](https:\/\/henniebekker.com\/blog\/pink-himalayan-salt-bath\/) While the term \"detox\" is often used loosely—your liver and kidneys handle the heavy lifting of actual detoxification—the mineral content of the salt offers some genuine self-care benefits.[en.wikipedia.org](https:\/\/en.wikipedia.org\/wiki\/Detoxification)\n\n### The Benefits\n\n* **Relaxation:** The high magnesium content (though lower than Epsom salt) can help ease muscle tension and promote better sleep.[gemstonegifts.co.uk](https:\/\/gemstonegifts.co.uk\/blogs\/news\/healing-with-himalayan-salt-the-benefits-of-salt-massage-therapy)\n* **Skin Hydration:** Unlike regular table salt, which can be drying, the minerals in Himalayan salt help support the skin’s natural barrier.\n* **Exfoliation:** The salt helps slough off dead skin cells, leaving your skin feeling softer.[www.complexions.com](https:\/\/www.complexions.com\/what-are-himalayan-salt-stones\/)\n\n---\n\n### How to Prep the Ultimate Soak\n\nTo get the most out of your bath, follow these simple steps:\n\n1.  **Rinse First:** Take a quick shower to remove any dirt or lotions so the minerals can better interact with your skin.[www.thesaltbox.com.au](https:\/\/www.thesaltbox.com.au\/news\/a-guide-to-himalayan-bath-salts-to-revive-and-restore\/)\n2.  **Temperature:** Aim for \"luke-warm to warm\" rather than scalding.[beaire.com](https:\/\/beaire.com\/en\/aire-magazine\/salt-baths) Ideally, the water should be close to body temperature (around **37°C**) to help your body absorb the minerals without causing heat stress.[westlabsalts.co.uk](https:\/\/westlabsalts.co.uk\/blogs\/cleansing-detoxing-your-body\/detox-your-skin-naturally-with-himalayan-salt)\n3.  **Salt Ratio:** Add roughly **1 to 2 cups** of high-quality Himalayan pink salt to a standard-sized tub.[sobaansalts.com](https:\/\/sobaansalts.com\/himalayan-salt-detox-guide\/)\n4.  **Dissolve:** Let the salt dissolve completely before getting in.\n5.  **Soak Time:** Stay in for **20 to 30 minutes**.\n6.  **Hydrate:** Drink a glass of water before and after the bath, as the salt can be slightly dehydrating.\n\n### A Few Precautions\n\n> **Note:** Salt baths can occasionally cause dizziness or a drop in blood pressure due to the heat and mineral exchange. If you have heart conditions, diabetes, or are pregnant, it’s best to check with a doctor first. Avoid soaking if you have open wounds or severe skin infections.\n\n---\n\n### Pro-Tips for the Vibe\n\n* **Add Essential Oils:** Mix 5–10 drops of lavender or eucalyptus into the salt *before* adding it to the water to ensure the oil disperses evenly.\n* **Don't Rinse:** After getting out, try patting your skin dry instead of rinsing off immediately to let the minerals sit on the skin a bit longer.\n\nWould you like me to suggest a specific essential oil blend based on whether you want to feel energized or sleepy?",
+                    "sources": [
+                        {
+                            "type": "gemini_source",
+                            "title": "6 Reasons Why You Should Take Pink Himalayan Salt Baths | Official Hennie \nBekker Blog",
+                            "snippet": "For that reason, I am a big proponent of taking pink Himalayan salt baths \nas a way to detox. You may not know this, but salt baths have been part of \nhuman ...",
+                            "domain": "henniebekker.com",
+                            "url": "https:\/\/henniebekker.com\/blog\/pink-himalayan-salt-bath\/",
+                            "thumbnail": "https:\/\/encrypted-tbn1.gstatic.com\/favicon-tbn?q=tbn:ANd9GcQDXI_Qr_J8bWzocjqpbVKsTw0ZJIm05Xyedq05fQ333eZnuNmGLnYMN-wA1VhjosZKUFufberajugC7Lw3WDfZjYYpyvzFi2uEMA",
+                            "source_name": "Hennie Bekker Official Website",
+                            "publication_date": null,
+                            "markdown": "Taking a Himalayan salt detox bath is a popular way to unwind, soothe tired muscles, and give your skin a little extra attention."
+                        },
+                        {
+                            "type": "gemini_source",
+                            "title": "Detoxification - Wikipedia",
+                            "snippet": "Detoxification or detoxication (detox for short) is the physiological or \nmedicinal removal of toxic substances from a living organism, including the \nhuman ...",
+                            "domain": "en.wikipedia.org",
+                            "url": "https:\/\/en.wikipedia.org\/wiki\/Detoxification",
+                            "thumbnail": "https:\/\/encrypted-tbn2.gstatic.com\/favicon-tbn?q=tbn:ANd9GcTGo2ldWXblVJVy9av_nsZSibxa_2qWNauc-_aN3Z88QWRlrBwOirgky4S2BQx4HAP717l1X6fwOGXal25Xka-QwL048XUpux7h5g",
+                            "source_name": "Wikipedia",
+                            "publication_date": null,
+                            "markdown": "While the term \"detox\" is often used loosely—your liver and kidneys handle the heavy lifting of actual detoxification—the mineral content of the salt offers some genuine self-care benefits."
+                        },
+                        {
+                            "type": "gemini_source",
+                            "title": "Healing with Himalayan Salt – The Benefits of Salt Massage Therapy - \nGemstone Gifts",
+                            "snippet": "What are the Health Benefits of a Himalayan Salt Massage? - Muscle \nRelaxation. - Improved Blood Circulation. - Skin Care Benefits. - Reduced \nStress.",
+                            "domain": "gemstonegifts.co.uk",
+                            "url": "https:\/\/gemstonegifts.co.uk\/blogs\/news\/healing-with-himalayan-salt-the-benefits-of-salt-massage-therapy",
+                            "thumbnail": "https:\/\/encrypted-tbn3.gstatic.com\/favicon-tbn?q=tbn:ANd9GcT7mkSnbnrfwAryd7x5eOw8vGvflQKkzpoCiXbW6NhiCdbIjAS7kbgJKfLv30KjvRKpNX_uwHBdVc4QvFOrGCE0r087JUDurBJtT5G8Bw",
+                            "source_name": "Gemstone Gifts",
+                            "publication_date": null,
+                            "markdown": "* **Relaxation:** The high magnesium content (though lower than Epsom salt) can help ease muscle tension and promote better sleep."
+                        },
+                        {
+                            "type": "gemini_source",
+                            "title": "What are Himalayan Salt Stones? | Complexions Spa for Beauty & Wellness",
+                            "snippet": ": Salt stones gently exfoliate the skin, removing dead cells and \nimpurities. The salt helps draw out toxins, making the skin feel smoother \nand refreshed. ...",
+                            "domain": "www.complexions.com",
+                            "url": "https:\/\/www.complexions.com\/what-are-himalayan-salt-stones\/",
+                            "thumbnail": "https:\/\/encrypted-tbn2.gstatic.com\/favicon-tbn?q=tbn:ANd9GcTAVfb9LkV95u-yXxQeDld7E8-JWOonQTsOMmotamJV6ctMByBbziMH0-tDCheA9sYy3ZYKjNwGkEUwLoAKW3jrOgimNIUdPvYYA9lslA",
+                            "source_name": "Complexions Spa for Beauty and Wellness",
+                            "publication_date": null,
+                            "markdown": "* **Exfoliation:** The salt helps slough off dead skin cells, leaving your skin feeling softer."
+                        },
+                        {
+                            "type": "gemini_source",
+                            "title": "A Guide to Himalayan Bath Salts to Revive and Restore",
+                            "snippet": "You may want to take a quick shower before your soak to remove any extra \ndirt. You don't want unnecessary germs and grime in your tub when your goal \nis to ...",
+                            "domain": "www.thesaltbox.com.au",
+                            "url": "https:\/\/www.thesaltbox.com.au\/news\/a-guide-to-himalayan-bath-salts-to-revive-and-restore\/",
+                            "thumbnail": "https:\/\/encrypted-tbn0.gstatic.com\/favicon-tbn?q=tbn:ANd9GcSDMI4xTYAxVVf7JyGXlsYN3vaM1EMI7IRuCFAhUAxWZtOw6-z3g4yVLizz8PnU0BY6ovqzUoyFm5t8fX3qGWmKikDUdpw67ITRPtPUSryH",
+                            "source_name": "The Salt Box",
+                            "publication_date": null,
+                            "markdown": "* Take a quick shower to remove any dirt or lotions so the minerals can better interact with your skin."
+                        },
+                        {
+                            "type": "gemini_source",
+                            "title": "Salt Baths: Benefits, Rituals, and How to Relax Naturally - AIRE Ancient \nBaths",
+                            "snippet": "This guide will help you understand what salt baths are used for, how to \nprepare them correctly at home, and what precautions to take to enjoy them \nsafely. ...",
+                            "domain": "beaire.com",
+                            "url": "https:\/\/beaire.com\/en\/aire-magazine\/salt-baths",
+                            "thumbnail": "https:\/\/encrypted-tbn1.gstatic.com\/favicon-tbn?q=tbn:ANd9GcQkYUw1-WzDEqMRA-l_IoODhRHnhNuXQRaOezQPmh3uXFOrL23HKTnqGjsWrWL2_nXWHfkyFZ6tyy2UM9bqeiFOeUCBAA",
+                            "source_name": "AIRE Ancient Baths",
+                            "publication_date": null,
+                            "markdown": "2.  **Temperature:** Aim for \"luke-warm to warm\" rather than scalding."
+                        },
+                        {
+                            "type": "gemini_source",
+                            "title": "Detox your skin naturally, with Himalayan Salt - Westlab",
+                            "snippet": "How to enjoy a Cleansing Himalayan Salt Bath. To run the perfect Himalayan \nSalt Bath – great for a deep-cleanse and detox: .Himalayan Bath Salt. 100% \npure ...",
+                            "domain": "westlabsalts.co.uk",
+                            "url": "https:\/\/westlabsalts.co.uk\/blogs\/cleansing-detoxing-your-body\/detox-your-skin-naturally-with-himalayan-salt",
+                            "thumbnail": "https:\/\/encrypted-tbn3.gstatic.com\/favicon-tbn?q=tbn:ANd9GcRJ6F3j153O_xFiTELBUc1ucEPVSkIdw9KAxF6tlXhy--CFTBZBde3QqL0D8X1nywtOZTXJ-b8zCPrVZilJQlWCRwmtaFPxjGOk8KEZ",
+                            "source_name": "Westlab Salts",
+                            "publication_date": null,
+                            "markdown": "Ideally, the water should be close to body temperature (around **37°C**) to help your body absorb the minerals without causing heat stress."
+                        },
+                        {
+                            "type": "gemini_source",
+                            "title": "Himalayan Salt Detox: Benefits and How to Use It Safely",
+                            "snippet": "1. Salt Bath Detox - Fill your bathtub with warm (not hot) water. - Add 1 \nto 2 cups of Himalayan pink salt. - Soak for 20 to 30 minutes. - Rinse off \nand rest ...",
+                            "domain": "sobaansalts.com",
+                            "url": "https:\/\/sobaansalts.com\/himalayan-salt-detox-guide\/",
+                            "thumbnail": "https:\/\/encrypted-tbn2.gstatic.com\/favicon-tbn?q=tbn:ANd9GcT7qZDaAMW1T-pEavDU2qv0a8h-7pKzOrwPyFCdZ-7sQ583T6B1pM0qdf9Dc8Xq5dWW_WOK3T4_BIUrOdB4UxW5uf0L38tx6eq-",
+                            "source_name": "Sobaan Salts",
+                            "publication_date": null,
+                            "markdown": "3.  **Salt Ratio:** Add roughly **1 to 2 cups** of high-quality Himalayan pink salt to a standard-sized tub."
+                        }
+                    ],
+                    "se_results_count": 0,
+                    "item_types": [
+                        "gemini_text"
+                    ],
+                    "items_count": 11,
+                    "items": [
+                        {
+                            "type": "gemini_text",
+                            "rank_group": 1,
+                            "rank_absolute": 1,
+                            "markdown": "Taking a Himalayan salt detox bath is a popular way to unwind, soothe tired muscles, and give your skin a little extra attention.[henniebekker.com](https:\/\/henniebekker.com\/blog\/pink-himalayan-salt-bath\/) While the term \"detox\" is often used loosely—your liver and kidneys handle the heavy lifting of actual detoxification—the mineral content of the salt offers some genuine self-care benefits.[en.wikipedia.org](https:\/\/en.wikipedia.org\/wiki\/Detoxification)",
+                            "original_text": "Taking a Himalayan salt detox bath is a popular way to unwind, soothe tired muscles, and give your skin a little extra attention. While the term \"detox\" is often used loosely—your liver and kidneys handle the heavy lifting of actual detoxification—the mineral content of the salt offers some genuine self-care benefits.",
+                            "sources": [
+                                {
+                                    "type": "gemini_source",
+                                    "title": "6 Reasons Why You Should Take Pink Himalayan Salt Baths | Official Hennie \nBekker Blog",
+                                    "snippet": "For that reason, I am a big proponent of taking pink Himalayan salt baths \nas a way to detox. You may not know this, but salt baths have been part of \nhuman ...",
+                                    "domain": "henniebekker.com",
+                                    "url": "https:\/\/henniebekker.com\/blog\/pink-himalayan-salt-bath\/",
+                                    "thumbnail": "https:\/\/encrypted-tbn1.gstatic.com\/favicon-tbn?q=tbn:ANd9GcQDXI_Qr_J8bWzocjqpbVKsTw0ZJIm05Xyedq05fQ333eZnuNmGLnYMN-wA1VhjosZKUFufberajugC7Lw3WDfZjYYpyvzFi2uEMA",
+                                    "source_name": "Hennie Bekker Official Website",
+                                    "publication_date": null,
+                                    "markdown": "Taking a Himalayan salt detox bath is a popular way to unwind, soothe tired muscles, and give your skin a little extra attention."
+                                },
+                                {
+                                    "type": "gemini_source",
+                                    "title": "Detoxification - Wikipedia",
+                                    "snippet": "Detoxification or detoxication (detox for short) is the physiological or \nmedicinal removal of toxic substances from a living organism, including the \nhuman ...",
+                                    "domain": "en.wikipedia.org",
+                                    "url": "https:\/\/en.wikipedia.org\/wiki\/Detoxification",
+                                    "thumbnail": "https:\/\/encrypted-tbn2.gstatic.com\/favicon-tbn?q=tbn:ANd9GcTGo2ldWXblVJVy9av_nsZSibxa_2qWNauc-_aN3Z88QWRlrBwOirgky4S2BQx4HAP717l1X6fwOGXal25Xka-QwL048XUpux7h5g",
+                                    "source_name": "Wikipedia",
+                                    "publication_date": null,
+                                    "markdown": "While the term \"detox\" is often used loosely—your liver and kidneys handle the heavy lifting of actual detoxification—the mineral content of the salt offers some genuine self-care benefits."
+                                }
+                            ]
+                        },
+                        {
+                            "type": "gemini_text",
+                            "rank_group": 2,
+                            "rank_absolute": 2,
+                            "markdown": "### The Benefits",
+                            "original_text": "The Benefits",
+                            "sources": null
+                        },
+                        {
+                            "type": "gemini_text",
+                            "rank_group": 3,
+                            "rank_absolute": 3,
+                            "markdown": "* **Relaxation:** The high magnesium content (though lower than Epsom salt) can help ease muscle tension and promote better sleep.[gemstonegifts.co.uk](https:\/\/gemstonegifts.co.uk\/blogs\/news\/healing-with-himalayan-salt-the-benefits-of-salt-massage-therapy)\n* **Skin Hydration:** Unlike regular table salt, which can be drying, the minerals in Himalayan salt help support the skin’s natural barrier.\n* **Exfoliation:** The salt helps slough off dead skin cells, leaving your skin feeling softer.[www.complexions.com](https:\/\/www.complexions.com\/what-are-himalayan-salt-stones\/)",
+                            "original_text": "Relaxation: The high magnesium content (though lower than Epsom salt) can help ease muscle tension and promote better sleep.\nSkin Hydration: Unlike regular table salt, which can be drying, the minerals in Himalayan salt help support the skin’s natural barrier.\nExfoliation: The salt helps slough off dead skin cells, leaving your skin feeling softer.",
+                            "sources": [
+                                {
+                                    "type": "gemini_source",
+                                    "title": "Healing with Himalayan Salt – The Benefits of Salt Massage Therapy - \nGemstone Gifts",
+                                    "snippet": "What are the Health Benefits of a Himalayan Salt Massage? - Muscle \nRelaxation. - Improved Blood Circulation. - Skin Care Benefits. - Reduced \nStress.",
+                                    "domain": "gemstonegifts.co.uk",
+                                    "url": "https:\/\/gemstonegifts.co.uk\/blogs\/news\/healing-with-himalayan-salt-the-benefits-of-salt-massage-therapy",
+                                    "thumbnail": "https:\/\/encrypted-tbn3.gstatic.com\/favicon-tbn?q=tbn:ANd9GcT7mkSnbnrfwAryd7x5eOw8vGvflQKkzpoCiXbW6NhiCdbIjAS7kbgJKfLv30KjvRKpNX_uwHBdVc4QvFOrGCE0r087JUDurBJtT5G8Bw",
+                                    "source_name": "Gemstone Gifts",
+                                    "publication_date": null,
+                                    "markdown": "* **Relaxation:** The high magnesium content (though lower than Epsom salt) can help ease muscle tension and promote better sleep."
+                                },
+                                {
+                                    "type": "gemini_source",
+                                    "title": "What are Himalayan Salt Stones? | Complexions Spa for Beauty & Wellness",
+                                    "snippet": ": Salt stones gently exfoliate the skin, removing dead cells and \nimpurities. The salt helps draw out toxins, making the skin feel smoother \nand refreshed. ...",
+                                    "domain": "www.complexions.com",
+                                    "url": "https:\/\/www.complexions.com\/what-are-himalayan-salt-stones\/",
+                                    "thumbnail": "https:\/\/encrypted-tbn2.gstatic.com\/favicon-tbn?q=tbn:ANd9GcTAVfb9LkV95u-yXxQeDld7E8-JWOonQTsOMmotamJV6ctMByBbziMH0-tDCheA9sYy3ZYKjNwGkEUwLoAKW3jrOgimNIUdPvYYA9lslA",
+                                    "source_name": "Complexions Spa for Beauty and Wellness",
+                                    "publication_date": null,
+                                    "markdown": "* **Exfoliation:** The salt helps slough off dead skin cells, leaving your skin feeling softer."
+                                }
+                            ]
+                        },
+                        {
+                            "type": "gemini_text",
+                            "rank_group": 4,
+                            "rank_absolute": 4,
+                            "markdown": "### How to Prep the Ultimate Soak",
+                            "original_text": "How to Prep the Ultimate Soak",
+                            "sources": null
+                        },
+                        {
+                            "type": "gemini_text",
+                            "rank_group": 5,
+                            "rank_absolute": 5,
+                            "markdown": "To get the most out of your bath, follow these simple steps:",
+                            "original_text": "To get the most out of your bath, follow these simple steps:",
+                            "sources": null
+                        },
+                        {
+                            "type": "gemini_text",
+                            "rank_group": 6,
+                            "rank_absolute": 6,
+                            "markdown": "1.  **Rinse First:** Take a quick shower to remove any dirt or lotions so the minerals can better interact with your skin.[www.thesaltbox.com.au](https:\/\/www.thesaltbox.com.au\/news\/a-guide-to-himalayan-bath-salts-to-revive-and-restore\/)\n2.  **Temperature:** Aim for \"luke-warm to warm\" rather than scalding.[beaire.com](https:\/\/beaire.com\/en\/aire-magazine\/salt-baths) Ideally, the water should be close to body temperature (around **37°C**) to help your body absorb the minerals without causing heat stress.[westlabsalts.co.uk](https:\/\/westlabsalts.co.uk\/blogs\/cleansing-detoxing-your-body\/detox-your-skin-naturally-with-himalayan-salt)\n3.  **Salt Ratio:** Add roughly **1 to 2 cups** of high-quality Himalayan pink salt to a standard-sized tub.[sobaansalts.com](https:\/\/sobaansalts.com\/himalayan-salt-detox-guide\/)\n4.  **Dissolve:** Let the salt dissolve completely before getting in.\n5.  **Soak Time:** Stay in for **20 to 30 minutes**.\n6.  **Hydrate:** Drink a glass of water before and after the bath, as the salt can be slightly dehydrating.",
+                            "original_text": "Rinse First: Take a quick shower to remove any dirt or lotions so the minerals can better interact with your skin.\nTemperature: Aim for \"luke-warm to warm\" rather than scalding. Ideally, the water should be close to body temperature (around 37°C) to help your body absorb the minerals without causing heat stress.\nSalt Ratio: Add roughly 1 to 2 cups of high-quality Himalayan pink salt to a standard-sized tub.\nDissolve: Let the salt dissolve completely before getting in.\nSoak Time: Stay in for 20 to 30 minutes.\nHydrate: Drink a glass of water before and after the bath, as the salt can be slightly dehydrating.",
+                            "sources": [
+                                {
+                                    "type": "gemini_source",
+                                    "title": "A Guide to Himalayan Bath Salts to Revive and Restore",
+                                    "snippet": "You may want to take a quick shower before your soak to remove any extra \ndirt. You don't want unnecessary germs and grime in your tub when your goal \nis to ...",
+                                    "domain": "www.thesaltbox.com.au",
+                                    "url": "https:\/\/www.thesaltbox.com.au\/news\/a-guide-to-himalayan-bath-salts-to-revive-and-restore\/",
+                                    "thumbnail": "https:\/\/encrypted-tbn0.gstatic.com\/favicon-tbn?q=tbn:ANd9GcSDMI4xTYAxVVf7JyGXlsYN3vaM1EMI7IRuCFAhUAxWZtOw6-z3g4yVLizz8PnU0BY6ovqzUoyFm5t8fX3qGWmKikDUdpw67ITRPtPUSryH",
+                                    "source_name": "The Salt Box",
+                                    "publication_date": null,
+                                    "markdown": "* Take a quick shower to remove any dirt or lotions so the minerals can better interact with your skin."
+                                },
+                                {
+                                    "type": "gemini_source",
+                                    "title": "Salt Baths: Benefits, Rituals, and How to Relax Naturally - AIRE Ancient \nBaths",
+                                    "snippet": "This guide will help you understand what salt baths are used for, how to \nprepare them correctly at home, and what precautions to take to enjoy them \nsafely. ...",
+                                    "domain": "beaire.com",
+                                    "url": "https:\/\/beaire.com\/en\/aire-magazine\/salt-baths",
+                                    "thumbnail": "https:\/\/encrypted-tbn1.gstatic.com\/favicon-tbn?q=tbn:ANd9GcQkYUw1-WzDEqMRA-l_IoODhRHnhNuXQRaOezQPmh3uXFOrL23HKTnqGjsWrWL2_nXWHfkyFZ6tyy2UM9bqeiFOeUCBAA",
+                                    "source_name": "AIRE Ancient Baths",
+                                    "publication_date": null,
+                                    "markdown": "2.  **Temperature:** Aim for \"luke-warm to warm\" rather than scalding."
+                                },
+                                {
+                                    "type": "gemini_source",
+                                    "title": "Detox your skin naturally, with Himalayan Salt - Westlab",
+                                    "snippet": "How to enjoy a Cleansing Himalayan Salt Bath. To run the perfect Himalayan \nSalt Bath – great for a deep-cleanse and detox: .Himalayan Bath Salt. 100% \npure ...",
+                                    "domain": "westlabsalts.co.uk",
+                                    "url": "https:\/\/westlabsalts.co.uk\/blogs\/cleansing-detoxing-your-body\/detox-your-skin-naturally-with-himalayan-salt",
+                                    "thumbnail": "https:\/\/encrypted-tbn3.gstatic.com\/favicon-tbn?q=tbn:ANd9GcRJ6F3j153O_xFiTELBUc1ucEPVSkIdw9KAxF6tlXhy--CFTBZBde3QqL0D8X1nywtOZTXJ-b8zCPrVZilJQlWCRwmtaFPxjGOk8KEZ",
+                                    "source_name": "Westlab Salts",
+                                    "publication_date": null,
+                                    "markdown": "Ideally, the water should be close to body temperature (around **37°C**) to help your body absorb the minerals without causing heat stress."
+                                },
+                                {
+                                    "type": "gemini_source",
+                                    "title": "Himalayan Salt Detox: Benefits and How to Use It Safely",
+                                    "snippet": "1. Salt Bath Detox - Fill your bathtub with warm (not hot) water. - Add 1 \nto 2 cups of Himalayan pink salt. - Soak for 20 to 30 minutes. - Rinse off \nand rest ...",
+                                    "domain": "sobaansalts.com",
+                                    "url": "https:\/\/sobaansalts.com\/himalayan-salt-detox-guide\/",
+                                    "thumbnail": "https:\/\/encrypted-tbn2.gstatic.com\/favicon-tbn?q=tbn:ANd9GcT7qZDaAMW1T-pEavDU2qv0a8h-7pKzOrwPyFCdZ-7sQ583T6B1pM0qdf9Dc8Xq5dWW_WOK3T4_BIUrOdB4UxW5uf0L38tx6eq-",
+                                    "source_name": "Sobaan Salts",
+                                    "publication_date": null,
+                                    "markdown": "3.  **Salt Ratio:** Add roughly **1 to 2 cups** of high-quality Himalayan pink salt to a standard-sized tub."
+                                }
+                            ]
+                        },
+                        {
+                            "type": "gemini_text",
+                            "rank_group": 7,
+                            "rank_absolute": 7,
+                            "markdown": "### A Few Precautions",
+                            "original_text": "A Few Precautions",
+                            "sources": null
+                        },
+                        {
+                            "type": "gemini_text",
+                            "rank_group": 8,
+                            "rank_absolute": 8,
+                            "markdown": "> **Note:** Salt baths can occasionally cause dizziness or a drop in blood pressure due to the heat and mineral exchange. If you have heart conditions, diabetes, or are pregnant, it’s best to check with a doctor first. Avoid soaking if you have open wounds or severe skin infections.",
+                            "original_text": "Note: Salt baths can occasionally cause dizziness or a drop in blood pressure due to the heat and mineral exchange. If you have heart conditions, diabetes, or are pregnant, it’s best to check with a doctor first. Avoid soaking if you have open wounds or severe skin infections.",
+                            "sources": null
+                        },
+                        {
+                            "type": "gemini_text",
+                            "rank_group": 9,
+                            "rank_absolute": 9,
+                            "markdown": "### Pro-Tips for the Vibe",
+                            "original_text": "Pro-Tips for the Vibe",
+                            "sources": null
+                        },
+                        {
+                            "type": "gemini_text",
+                            "rank_group": 10,
+                            "rank_absolute": 10,
+                            "markdown": "* **Add Essential Oils:** Mix 5–10 drops of lavender or eucalyptus into the salt *before* adding it to the water to ensure the oil disperses evenly.\n* **Don't Rinse:** After getting out, try patting your skin dry instead of rinsing off immediately to let the minerals sit on the skin a bit longer.",
+                            "original_text": "Add Essential Oils: Mix 5–10 drops of lavender or eucalyptus into the salt before adding it to the water to ensure the oil disperses evenly.\nDon't Rinse: After getting out, try patting your skin dry instead of rinsing off immediately to let the minerals sit on the skin a bit longer.",
+                            "sources": null
+                        },
+                        {
+                            "type": "gemini_text",
+                            "rank_group": 11,
+                            "rank_absolute": 11,
+                            "markdown": "Would you like me to suggest a specific essential oil blend based on whether you want to feel energized or sleepy?",
+                            "original_text": "Would you like me to suggest a specific essential oil blend based on whether you want to feel energized or sleepy?",
+                            "sources": null
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}
