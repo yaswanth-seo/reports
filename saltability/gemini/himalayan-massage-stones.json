@@ -1,0 +1,171 @@
+{
+    "version": "0.1.20260311",
+    "status_code": 20000,
+    "status_message": "Ok.",
+    "time": "17.2077 sec.",
+    "cost": 0.004,
+    "tasks_count": 1,
+    "tasks_error": 0,
+    "tasks": [
+        {
+            "id": "03152156-4353-0629-0000-d1a54107bd8f",
+            "status_code": 20000,
+            "status_message": "Ok.",
+            "time": "17.0558 sec.",
+            "cost": 0.004,
+            "result_count": 1,
+            "path": [
+                "v3",
+                "ai_optimization",
+                "gemini",
+                "llm_scraper",
+                "live",
+                "advanced"
+            ],
+            "data": {
+                "api": "ai_optimization",
+                "function": "llm_scraper",
+                "se": "gemini",
+                "keyword": "himalayan massage stones",
+                "language_code": "en",
+                "location_name": "United States",
+                "device": "desktop",
+                "os": "windows"
+            },
+            "result": [
+                {
+                    "keyword": "himalayan massage stones",
+                    "location_code": 2840,
+                    "language_code": "en",
+                    "model": "Fast",
+                    "datetime": "2026-03-15 19:56:49 +00:00",
+                    "markdown": "Himalayan salt massage stones are a popular alternative to traditional basalt (volcanic) stones. Carved from pink salt crystals mined from the Himalayan mountains, these stones offer a unique blend of thermal therapy and skin benefits.\n\nUnlike traditional stones that are strictly used for heat, Himalayan stones are **antimicrobial** and **mildly exfoliating**.\n\n### Benefits of Himalayan Stone Massage\n\n* **Negative Ion Release:** When heated, the salt is believed to release negative ions. In a world full of \"electronic smog\" (positive ions from devices), this is said to help create a sense of calm and balance.\n* **Skin Nourishment:** The stones contain 84 trace minerals (including magnesium, calcium, and potassium). As the stones glide over the skin, these minerals are lightly absorbed.\n* **Natural Detoxification:** Salt is a natural puller of toxins. The combination of heat and salt helps to draw out impurities while the stone’s texture smooths the skin.\n* **Deep Relaxation:** The heat penetrates deep into muscle tissue, melting away tension faster than a standard manual massage.\n\n---\n\n### How They Are Used\n\nHimalayan stones are versatile and can be used in three primary ways:\n\n| Method | Use Case |\n| :--- | :--- |\n| **Heated** | The most common method. Stones are warmed to about **49°C (120°F)** to soothe sore muscles and improve circulation. |\n| **Chilled** | Excellent for reducing inflammation, soothing \"hot\" injuries, or refreshing the face and neck. |\n| **Deodorant** | Because salt is antimicrobial, a dry stone can be used as a natural, chemical-free deodorant bar. |\n\n---\n\n### Important Care Tips\n\nBecause these stones are made of salt, they require different maintenance than regular stones:\n\n1.  **Avoid Water:** Never soak them. Water will dissolve the salt and make the stones feel \"pitted\" or rough.\n2.  **Cleaning:** Use a specialized salt-rated disinfectant spray or a very lightly dampened cloth to wipe them down after use.\n3.  **Drying:** Dry them immediately after cleaning to preserve their smooth surface.\n4.  **Heating:** It is best to use a \"dry\" heat source, such as a specialized Himalayan salt lamp bowl or a heating pad, rather than a water-based stone warmer.\n\n> **Note:** If you have extremely sensitive skin or open cuts, be cautious. Since the stones are salt-based, they can cause a stinging sensation on broken skin.\n\nWould you like me to find some instructions on how to safely heat these stones at home using everyday items?",
+                    "sources": null,
+                    "se_results_count": 0,
+                    "item_types": [
+                        "gemini_text",
+                        "gemini_table"
+                    ],
+                    "items_count": 12,
+                    "items": [
+                        {
+                            "type": "gemini_text",
+                            "rank_group": 1,
+                            "rank_absolute": 1,
+                            "markdown": "Himalayan salt massage stones are a popular alternative to traditional basalt (volcanic) stones. Carved from pink salt crystals mined from the Himalayan mountains, these stones offer a unique blend of thermal therapy and skin benefits.",
+                            "original_text": "Himalayan salt massage stones are a popular alternative to traditional basalt (volcanic) stones. Carved from pink salt crystals mined from the Himalayan mountains, these stones offer a unique blend of thermal therapy and skin benefits.",
+                            "sources": null
+                        },
+                        {
+                            "type": "gemini_text",
+                            "rank_group": 2,
+                            "rank_absolute": 2,
+                            "markdown": "Unlike traditional stones that are strictly used for heat, Himalayan stones are **antimicrobial** and **mildly exfoliating**.",
+                            "original_text": "Unlike traditional stones that are strictly used for heat, Himalayan stones are antimicrobial and mildly exfoliating.",
+                            "sources": null
+                        },
+                        {
+                            "type": "gemini_text",
+                            "rank_group": 3,
+                            "rank_absolute": 3,
+                            "markdown": "### Benefits of Himalayan Stone Massage",
+                            "original_text": "Benefits of Himalayan Stone Massage",
+                            "sources": null
+                        },
+                        {
+                            "type": "gemini_text",
+                            "rank_group": 4,
+                            "rank_absolute": 4,
+                            "markdown": "* **Negative Ion Release:** When heated, the salt is believed to release negative ions. In a world full of \"electronic smog\" (positive ions from devices), this is said to help create a sense of calm and balance.\n* **Skin Nourishment:** The stones contain 84 trace minerals (including magnesium, calcium, and potassium). As the stones glide over the skin, these minerals are lightly absorbed.\n* **Natural Detoxification:** Salt is a natural puller of toxins. The combination of heat and salt helps to draw out impurities while the stone’s texture smooths the skin.\n* **Deep Relaxation:** The heat penetrates deep into muscle tissue, melting away tension faster than a standard manual massage.",
+                            "original_text": "Negative Ion Release: When heated, the salt is believed to release negative ions. In a world full of \"electronic smog\" (positive ions from devices), this is said to help create a sense of calm and balance.\nSkin Nourishment: The stones contain 84 trace minerals (including magnesium, calcium, and potassium). As the stones glide over the skin, these minerals are lightly absorbed.\nNatural Detoxification: Salt is a natural puller of toxins. The combination of heat and salt helps to draw out impurities while the stone’s texture smooths the skin.\nDeep Relaxation: The heat penetrates deep into muscle tissue, melting away tension faster than a standard manual massage.",
+                            "sources": null
+                        },
+                        {
+                            "type": "gemini_text",
+                            "rank_group": 5,
+                            "rank_absolute": 5,
+                            "markdown": "### How They Are Used",
+                            "original_text": "How They Are Used",
+                            "sources": null
+                        },
+                        {
+                            "type": "gemini_text",
+                            "rank_group": 6,
+                            "rank_absolute": 6,
+                            "markdown": "Himalayan stones are versatile and can be used in three primary ways:",
+                            "original_text": "Himalayan stones are versatile and can be used in three primary ways:",
+                            "sources": null
+                        },
+                        {
+                            "type": "gemini_table",
+                            "rank_group": 1,
+                            "rank_absolute": 7,
+                            "markdown": "| Method | Use Case |\n| :--- | :--- |\n| **Heated** | The most common method. Stones are warmed to about **49°C (120°F)** to soothe sore muscles and improve circulation. |\n| **Chilled** | Excellent for reducing inflammation, soothing \"hot\" injuries, or refreshing the face and neck. |\n| **Deodorant** | Because salt is antimicrobial, a dry stone can be used as a natural, chemical-free deodorant bar. |",
+                            "original_text": "Method\tUse Case\nHeated\tThe most common method. Stones are warmed to about 49°C (120°F) to soothe sore muscles and improve circulation.\nChilled\tExcellent for reducing inflammation, soothing \"hot\" injuries, or refreshing the face and neck.\nDeodorant\tBecause salt is antimicrobial, a dry stone can be used as a natural, chemical-free deodorant bar.",
+                            "table": {
+                                "table_header": [
+                                    "Method",
+                                    "Use Case"
+                                ],
+                                "table_content": [
+                                    [
+                                        "Heated",
+                                        "The most common method. Stones are warmed to about 49°C (120°F) to soothe sore muscles and improve circulation."
+                                    ],
+                                    [
+                                        "Chilled",
+                                        "Excellent for reducing inflammation, soothing \"hot\" injuries, or refreshing the face and neck."
+                                    ],
+                                    [
+                                        "Deodorant",
+                                        "Because salt is antimicrobial, a dry stone can be used as a natural, chemical-free deodorant bar."
+                                    ]
+                                ]
+                            }
+                        },
+                        {
+                            "type": "gemini_text",
+                            "rank_group": 7,
+                            "rank_absolute": 8,
+                            "markdown": "### Important Care Tips",
+                            "original_text": "Important Care Tips",
+                            "sources": null
+                        },
+                        {
+                            "type": "gemini_text",
+                            "rank_group": 8,
+                            "rank_absolute": 9,
+                            "markdown": "Because these stones are made of salt, they require different maintenance than regular stones:",
+                            "original_text": "Because these stones are made of salt, they require different maintenance than regular stones:",
+                            "sources": null
+                        },
+                        {
+                            "type": "gemini_text",
+                            "rank_group": 9,
+                            "rank_absolute": 10,
+                            "markdown": "1.  **Avoid Water:** Never soak them. Water will dissolve the salt and make the stones feel \"pitted\" or rough.\n2.  **Cleaning:** Use a specialized salt-rated disinfectant spray or a very lightly dampened cloth to wipe them down after use.\n3.  **Drying:** Dry them immediately after cleaning to preserve their smooth surface.\n4.  **Heating:** It is best to use a \"dry\" heat source, such as a specialized Himalayan salt lamp bowl or a heating pad, rather than a water-based stone warmer.",
+                            "original_text": "Avoid Water: Never soak them. Water will dissolve the salt and make the stones feel \"pitted\" or rough.\nCleaning: Use a specialized salt-rated disinfectant spray or a very lightly dampened cloth to wipe them down after use.\nDrying: Dry them immediately after cleaning to preserve their smooth surface.\nHeating: It is best to use a \"dry\" heat source, such as a specialized Himalayan salt lamp bowl or a heating pad, rather than a water-based stone warmer.",
+                            "sources": null
+                        },
+                        {
+                            "type": "gemini_text",
+                            "rank_group": 10,
+                            "rank_absolute": 11,
+                            "markdown": "> **Note:** If you have extremely sensitive skin or open cuts, be cautious. Since the stones are salt-based, they can cause a stinging sensation on broken skin.",
+                            "original_text": "Note: If you have extremely sensitive skin or open cuts, be cautious. Since the stones are salt-based, they can cause a stinging sensation on broken skin.",
+                            "sources": null
+                        },
+                        {
+                            "type": "gemini_text",
+                            "rank_group": 11,
+                            "rank_absolute": 12,
+                            "markdown": "Would you like me to find some instructions on how to safely heat these stones at home using everyday items?",
+                            "original_text": "Would you like me to find some instructions on how to safely heat these stones at home using everyday items?",
+                            "sources": null
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}
