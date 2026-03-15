@@ -1,0 +1,178 @@
+{
+    "version": "0.1.20260311",
+    "status_code": 20000,
+    "status_message": "Ok.",
+    "time": "24.1015 sec.",
+    "cost": 0.004,
+    "tasks_count": 1,
+    "tasks_error": 0,
+    "tasks": [
+        {
+            "id": "03152209-4353-0629-0000-dbbdc0e3d71e",
+            "status_code": 20000,
+            "status_message": "Ok.",
+            "time": "24.0488 sec.",
+            "cost": 0.004,
+            "result_count": 1,
+            "path": [
+                "v3",
+                "ai_optimization",
+                "gemini",
+                "llm_scraper",
+                "live",
+                "advanced"
+            ],
+            "data": {
+                "api": "ai_optimization",
+                "function": "llm_scraper",
+                "se": "gemini",
+                "keyword": "himalayan salt tiles for walls",
+                "language_code": "en",
+                "location_name": "United States",
+                "device": "desktop",
+                "os": "windows"
+            },
+            "result": [
+                {
+                    "keyword": "himalayan salt tiles for walls",
+                    "location_code": 2840,
+                    "language_code": "en",
+                    "model": "Fast",
+                    "datetime": "2026-03-15 20:09:42 +00:00",
+                    "markdown": "Himalayan salt tiles (or bricks) have become a massive trend in interior design, moving from high-end spas into residential homes. They offer a unique, organic aesthetic that brings warmth and texture to a space.\n\nIf you’re considering a salt wall, here is a breakdown of what you need to know regarding installation, benefits, and maintenance.\n\n### Why Use Salt Tiles?\n\n* **Aesthetics:** When backlit, the tiles glow with a warm, amber hue. Each tile is naturally unique, offering variations in pink, white, and deep orange.\n* **Ambient Lighting:** They are frequently used to create \"salt rooms\" or feature walls in bedrooms and meditation spaces to promote a calming atmosphere.\n* **Durability:** In dry environments, salt is incredibly hard and stable. It won't degrade over time if kept away from moisture.\n\n---\n\n### Installation Methods\n\nThere are two primary ways to get these onto your wall:\n\n| Method | Best For... | Description |\n| :--- | :--- | :--- |\n| **Glue\/Adhesive** | Permanent fixtures | Tiles are glued directly to a sturdy backing (like marine-grade plywood) using a specialized salt-compatible adhesive. |\n| **Aluminum Framing** | Backlighting & Portability | Tiles are slotted into a metal track system. This is ideal if you want to install LED strips behind the wall or if you may want to move the wall later. |\n\n---\n\n### Critical Considerations\n\nBefore you start sticking rocks to your walls, keep these \"physics of salt\" in mind:\n\n* **Weight:** Himalayan salt is heavy. A standard 8\"x4\"x1\" tile weighs about 2.5 lbs (1.1 kg). Ensure your wall studs and sub-structure can handle the cumulative load.\n* **The \"Melting\" Factor:** Salt is **hygroscopic**, meaning it attracts water from the air.\n  *   * **Do not** install salt tiles in bathrooms, kitchens, or outdoors.\n  * In high-humidity areas, the salt may \"sweat,\" leading to puddles at the base of the wall and potential structural damage.\n* **Backlighting:** If you want that classic glow, use **LED strips**. Traditional bulbs can generate too much localized heat, which might cause the salt to crack or expand unevenly.\n\n### Maintenance\n\nMaintenance is surprisingly low. Since salt is naturally antimicrobial, you don't need to scrub it. A simple **dry microfiber cloth** or a light vacuum with a brush attachment is usually all you need to remove dust. Never use wet cleaners or sprays.\n\n---\n\n**Would you like me to calculate how many tiles you would need based on your wall's dimensions?**",
+                    "sources": null,
+                    "se_results_count": 0,
+                    "item_types": [
+                        "gemini_text",
+                        "gemini_table"
+                    ],
+                    "items_count": 13,
+                    "items": [
+                        {
+                            "type": "gemini_text",
+                            "rank_group": 1,
+                            "rank_absolute": 1,
+                            "markdown": "Himalayan salt tiles (or bricks) have become a massive trend in interior design, moving from high-end spas into residential homes. They offer a unique, organic aesthetic that brings warmth and texture to a space.",
+                            "original_text": "Himalayan salt tiles (or bricks) have become a massive trend in interior design, moving from high-end spas into residential homes. They offer a unique, organic aesthetic that brings warmth and texture to a space.",
+                            "sources": null
+                        },
+                        {
+                            "type": "gemini_text",
+                            "rank_group": 2,
+                            "rank_absolute": 2,
+                            "markdown": "If you’re considering a salt wall, here is a breakdown of what you need to know regarding installation, benefits, and maintenance.",
+                            "original_text": "If you’re considering a salt wall, here is a breakdown of what you need to know regarding installation, benefits, and maintenance.",
+                            "sources": null
+                        },
+                        {
+                            "type": "gemini_text",
+                            "rank_group": 3,
+                            "rank_absolute": 3,
+                            "markdown": "### Why Use Salt Tiles?",
+                            "original_text": "Why Use Salt Tiles?",
+                            "sources": null
+                        },
+                        {
+                            "type": "gemini_text",
+                            "rank_group": 4,
+                            "rank_absolute": 4,
+                            "markdown": "* **Aesthetics:** When backlit, the tiles glow with a warm, amber hue. Each tile is naturally unique, offering variations in pink, white, and deep orange.\n* **Ambient Lighting:** They are frequently used to create \"salt rooms\" or feature walls in bedrooms and meditation spaces to promote a calming atmosphere.\n* **Durability:** In dry environments, salt is incredibly hard and stable. It won't degrade over time if kept away from moisture.",
+                            "original_text": "Aesthetics: When backlit, the tiles glow with a warm, amber hue. Each tile is naturally unique, offering variations in pink, white, and deep orange.\nAmbient Lighting: They are frequently used to create \"salt rooms\" or feature walls in bedrooms and meditation spaces to promote a calming atmosphere.\nDurability: In dry environments, salt is incredibly hard and stable. It won't degrade over time if kept away from moisture.",
+                            "sources": null
+                        },
+                        {
+                            "type": "gemini_text",
+                            "rank_group": 5,
+                            "rank_absolute": 5,
+                            "markdown": "### Installation Methods",
+                            "original_text": "Installation Methods",
+                            "sources": null
+                        },
+                        {
+                            "type": "gemini_text",
+                            "rank_group": 6,
+                            "rank_absolute": 6,
+                            "markdown": "There are two primary ways to get these onto your wall:",
+                            "original_text": "There are two primary ways to get these onto your wall:",
+                            "sources": null
+                        },
+                        {
+                            "type": "gemini_table",
+                            "rank_group": 1,
+                            "rank_absolute": 7,
+                            "markdown": "| Method | Best For... | Description |\n| :--- | :--- | :--- |\n| **Glue\/Adhesive** | Permanent fixtures | Tiles are glued directly to a sturdy backing (like marine-grade plywood) using a specialized salt-compatible adhesive. |\n| **Aluminum Framing** | Backlighting & Portability | Tiles are slotted into a metal track system. This is ideal if you want to install LED strips behind the wall or if you may want to move the wall later. |",
+                            "original_text": "Method\tBest For...\tDescription\nGlue\/Adhesive\tPermanent fixtures\tTiles are glued directly to a sturdy backing (like marine-grade plywood) using a specialized salt-compatible adhesive.\nAluminum Framing\tBacklighting & Portability\tTiles are slotted into a metal track system. This is ideal if you want to install LED strips behind the wall or if you may want to move the wall later.",
+                            "table": {
+                                "table_header": [
+                                    "Method",
+                                    "Best For...",
+                                    "Description"
+                                ],
+                                "table_content": [
+                                    [
+                                        "Glue\/Adhesive",
+                                        "Permanent fixtures",
+                                        "Tiles are glued directly to a sturdy backing (like marine-grade plywood) using a specialized salt-compatible adhesive."
+                                    ],
+                                    [
+                                        "Aluminum Framing",
+                                        "Backlighting & Portability",
+                                        "Tiles are slotted into a metal track system. This is ideal if you want to install LED strips behind the wall or if you may want to move the wall later."
+                                    ]
+                                ]
+                            }
+                        },
+                        {
+                            "type": "gemini_text",
+                            "rank_group": 7,
+                            "rank_absolute": 8,
+                            "markdown": "### Critical Considerations",
+                            "original_text": "Critical Considerations",
+                            "sources": null
+                        },
+                        {
+                            "type": "gemini_text",
+                            "rank_group": 8,
+                            "rank_absolute": 9,
+                            "markdown": "Before you start sticking rocks to your walls, keep these \"physics of salt\" in mind:",
+                            "original_text": "Before you start sticking rocks to your walls, keep these \"physics of salt\" in mind:",
+                            "sources": null
+                        },
+                        {
+                            "type": "gemini_text",
+                            "rank_group": 9,
+                            "rank_absolute": 10,
+                            "markdown": "* **Weight:** Himalayan salt is heavy. A standard 8\"x4\"x1\" tile weighs about 2.5 lbs (1.1 kg). Ensure your wall studs and sub-structure can handle the cumulative load.\n* **The \"Melting\" Factor:** Salt is **hygroscopic**, meaning it attracts water from the air.\n  *   * **Do not** install salt tiles in bathrooms, kitchens, or outdoors.\n  * In high-humidity areas, the salt may \"sweat,\" leading to puddles at the base of the wall and potential structural damage.\n* **Backlighting:** If you want that classic glow, use **LED strips**. Traditional bulbs can generate too much localized heat, which might cause the salt to crack or expand unevenly.",
+                            "original_text": "Weight: Himalayan salt is heavy. A standard 8\"x4\"x1\" tile weighs about 2.5 lbs (1.1 kg). Ensure your wall studs and sub-structure can handle the cumulative load.\nThe \"Melting\" Factor: Salt is hygroscopic, meaning it attracts water from the air.\nDo not install salt tiles in bathrooms, kitchens, or outdoors.\nIn high-humidity areas, the salt may \"sweat,\" leading to puddles at the base of the wall and potential structural damage.\nBacklighting: If you want that classic glow, use LED strips. Traditional bulbs can generate too much localized heat, which might cause the salt to crack or expand unevenly.",
+                            "sources": null
+                        },
+                        {
+                            "type": "gemini_text",
+                            "rank_group": 10,
+                            "rank_absolute": 11,
+                            "markdown": "### Maintenance",
+                            "original_text": "Maintenance",
+                            "sources": null
+                        },
+                        {
+                            "type": "gemini_text",
+                            "rank_group": 11,
+                            "rank_absolute": 12,
+                            "markdown": "Maintenance is surprisingly low. Since salt is naturally antimicrobial, you don't need to scrub it. A simple **dry microfiber cloth** or a light vacuum with a brush attachment is usually all you need to remove dust. Never use wet cleaners or sprays.",
+                            "original_text": "Maintenance is surprisingly low. Since salt is naturally antimicrobial, you don't need to scrub it. A simple dry microfiber cloth or a light vacuum with a brush attachment is usually all you need to remove dust. Never use wet cleaners or sprays.",
+                            "sources": null
+                        },
+                        {
+                            "type": "gemini_text",
+                            "rank_group": 12,
+                            "rank_absolute": 13,
+                            "markdown": "**Would you like me to calculate how many tiles you would need based on your wall's dimensions?**",
+                            "original_text": "Would you like me to calculate how many tiles you would need based on your wall's dimensions?",
+                            "sources": null
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}
