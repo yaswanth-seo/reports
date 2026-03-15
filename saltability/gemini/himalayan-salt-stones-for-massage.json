@@ -1,0 +1,180 @@
+{
+    "version": "0.1.20260311",
+    "status_code": 20000,
+    "status_message": "Ok.",
+    "time": "30.0947 sec.",
+    "cost": 0.004,
+    "tasks_count": 1,
+    "tasks_error": 0,
+    "tasks": [
+        {
+            "id": "03152159-4353-0629-0000-049259d846d7",
+            "status_code": 20000,
+            "status_message": "Ok.",
+            "time": "30.0455 sec.",
+            "cost": 0.004,
+            "result_count": 1,
+            "path": [
+                "v3",
+                "ai_optimization",
+                "gemini",
+                "llm_scraper",
+                "live",
+                "advanced"
+            ],
+            "data": {
+                "api": "ai_optimization",
+                "function": "llm_scraper",
+                "se": "gemini",
+                "keyword": "himalayan salt stones for massage",
+                "language_code": "en",
+                "location_name": "United States",
+                "device": "desktop",
+                "os": "windows"
+            },
+            "result": [
+                {
+                    "keyword": "himalayan salt stones for massage",
+                    "location_code": 2840,
+                    "language_code": "en",
+                    "model": "Fast",
+                    "datetime": "2026-03-15 19:59:46 +00:00",
+                    "markdown": "Himalayan salt stone massage is a beautiful evolution of the traditional hot stone treatment. Instead of using smooth basalt (volcanic) stones, this practice uses hand-carved stones made from 100% pure Himalayan pink salt.\n\nBecause these stones contain 84 naturally occurring minerals and elements, they offer a bit more \"oomph\" than your standard river rock.\n\n---\n\n## Why Use Himalayan Salt Stones?\n\nWhile basalt stones are great for heat retention, salt stones add a chemical and energetic layer to the massage:\n\n* **Light Exfoliation:** The texture of the stone gently removes dead skin cells, leaving the skin smoother than a standard massage would.\n* **Mineral Absorption:** As the stones warm up, they release minerals (like magnesium, potassium, and calcium) that can be absorbed topically.\n* **Ionic Balance:** Proponents suggest that when heated, the salt helps emit negative ions, which can help reduce the \"electro-smog\" caused by our constant proximity to devices.\n* **Deep Relaxation:** The heat allows the therapist to get into the muscle tissue deeper and faster without needing heavy, painful pressure.\n\n## How the Treatment Works\n\n1.  **Preparation:** The stones are warmed in a specialized professional heater (usually a dry heat source, as water will eventually dissolve the salt).\n2.  **The Technique:** A therapist typically applies a light layer of oil to your skin first. They then use the stones as an extension of their hands, using long, flowing strokes (Effleurage) to melt away tension.\n3.  **Targeted Work:** The stones come in various shapes—rounds for palms, teardrops for trigger points, and rectangles for the back—to hit specific knots.\n\n---\n\n## Comparison: Salt vs. Basalt\n\n| Feature | Himalayan Salt Stones | Basalt (Traditional) Stones |\n| :--- | :--- | :--- |\n| **Material** | Mineral-rich Pink Salt | Volcanic Rock |\n| **Skin Benefit** | Exfoliates & Remineralizes | Purely Thermal |\n| **Longevity** | Will eventually wear down | Lasts forever |\n| **Cleaning** | Requires specific \"dry\" sanitizing | Can be washed in soap and water |\n\n---\n\n### ⚠️ A Quick Heads-Up\n\nBecause these are made of salt, they can be a bit **abrasive** if the therapist isn't careful or if your skin is particularly sensitive. Also, if you have any small cuts or \"road rash,\" it’s going to sting—just like rubbing salt in a wound (literally!).\n\nWould you like me to find some tips on how to properly clean and care for these stones if you're planning to use them at home?",
+                    "sources": null,
+                    "se_results_count": 0,
+                    "item_types": [
+                        "gemini_text",
+                        "gemini_table"
+                    ],
+                    "items_count": 12,
+                    "items": [
+                        {
+                            "type": "gemini_text",
+                            "rank_group": 1,
+                            "rank_absolute": 1,
+                            "markdown": "Himalayan salt stone massage is a beautiful evolution of the traditional hot stone treatment. Instead of using smooth basalt (volcanic) stones, this practice uses hand-carved stones made from 100% pure Himalayan pink salt.",
+                            "original_text": "Himalayan salt stone massage is a beautiful evolution of the traditional hot stone treatment. Instead of using smooth basalt (volcanic) stones, this practice uses hand-carved stones made from 100% pure Himalayan pink salt.",
+                            "sources": null
+                        },
+                        {
+                            "type": "gemini_text",
+                            "rank_group": 2,
+                            "rank_absolute": 2,
+                            "markdown": "Because these stones contain 84 naturally occurring minerals and elements, they offer a bit more \"oomph\" than your standard river rock.",
+                            "original_text": "Because these stones contain 84 naturally occurring minerals and elements, they offer a bit more \"oomph\" than your standard river rock.",
+                            "sources": null
+                        },
+                        {
+                            "type": "gemini_text",
+                            "rank_group": 3,
+                            "rank_absolute": 3,
+                            "markdown": "## Why Use Himalayan Salt Stones?",
+                            "original_text": "Why Use Himalayan Salt Stones?",
+                            "sources": null
+                        },
+                        {
+                            "type": "gemini_text",
+                            "rank_group": 4,
+                            "rank_absolute": 4,
+                            "markdown": "While basalt stones are great for heat retention, salt stones add a chemical and energetic layer to the massage:",
+                            "original_text": "While basalt stones are great for heat retention, salt stones add a chemical and energetic layer to the massage:",
+                            "sources": null
+                        },
+                        {
+                            "type": "gemini_text",
+                            "rank_group": 5,
+                            "rank_absolute": 5,
+                            "markdown": "* **Light Exfoliation:** The texture of the stone gently removes dead skin cells, leaving the skin smoother than a standard massage would.\n* **Mineral Absorption:** As the stones warm up, they release minerals (like magnesium, potassium, and calcium) that can be absorbed topically.\n* **Ionic Balance:** Proponents suggest that when heated, the salt helps emit negative ions, which can help reduce the \"electro-smog\" caused by our constant proximity to devices.\n* **Deep Relaxation:** The heat allows the therapist to get into the muscle tissue deeper and faster without needing heavy, painful pressure.",
+                            "original_text": "Light Exfoliation: The texture of the stone gently removes dead skin cells, leaving the skin smoother than a standard massage would.\nMineral Absorption: As the stones warm up, they release minerals (like magnesium, potassium, and calcium) that can be absorbed topically.\nIonic Balance: Proponents suggest that when heated, the salt helps emit negative ions, which can help reduce the \"electro-smog\" caused by our constant proximity to devices.\nDeep Relaxation: The heat allows the therapist to get into the muscle tissue deeper and faster without needing heavy, painful pressure.",
+                            "sources": null
+                        },
+                        {
+                            "type": "gemini_text",
+                            "rank_group": 6,
+                            "rank_absolute": 6,
+                            "markdown": "## How the Treatment Works",
+                            "original_text": "How the Treatment Works",
+                            "sources": null
+                        },
+                        {
+                            "type": "gemini_text",
+                            "rank_group": 7,
+                            "rank_absolute": 7,
+                            "markdown": "1.  **Preparation:** The stones are warmed in a specialized professional heater (usually a dry heat source, as water will eventually dissolve the salt).\n2.  **The Technique:** A therapist typically applies a light layer of oil to your skin first. They then use the stones as an extension of their hands, using long, flowing strokes (Effleurage) to melt away tension.\n3.  **Targeted Work:** The stones come in various shapes—rounds for palms, teardrops for trigger points, and rectangles for the back—to hit specific knots.",
+                            "original_text": "Preparation: The stones are warmed in a specialized professional heater (usually a dry heat source, as water will eventually dissolve the salt).\nThe Technique: A therapist typically applies a light layer of oil to your skin first. They then use the stones as an extension of their hands, using long, flowing strokes (Effleurage) to melt away tension.\nTargeted Work: The stones come in various shapes—rounds for palms, teardrops for trigger points, and rectangles for the back—to hit specific knots.",
+                            "sources": null
+                        },
+                        {
+                            "type": "gemini_text",
+                            "rank_group": 8,
+                            "rank_absolute": 8,
+                            "markdown": "## Comparison: Salt vs. Basalt",
+                            "original_text": "Comparison: Salt vs. Basalt",
+                            "sources": null
+                        },
+                        {
+                            "type": "gemini_table",
+                            "rank_group": 1,
+                            "rank_absolute": 9,
+                            "markdown": "| Feature | Himalayan Salt Stones | Basalt (Traditional) Stones |\n| :--- | :--- | :--- |\n| **Material** | Mineral-rich Pink Salt | Volcanic Rock |\n| **Skin Benefit** | Exfoliates & Remineralizes | Purely Thermal |\n| **Longevity** | Will eventually wear down | Lasts forever |\n| **Cleaning** | Requires specific \"dry\" sanitizing | Can be washed in soap and water |",
+                            "original_text": "Feature\tHimalayan Salt Stones\tBasalt (Traditional) Stones\nMaterial\tMineral-rich Pink Salt\tVolcanic Rock\nSkin Benefit\tExfoliates & Remineralizes\tPurely Thermal\nLongevity\tWill eventually wear down\tLasts forever\nCleaning\tRequires specific \"dry\" sanitizing\tCan be washed in soap and water",
+                            "table": {
+                                "table_header": [
+                                    "Feature",
+                                    "Himalayan Salt Stones",
+                                    "Basalt (Traditional) Stones"
+                                ],
+                                "table_content": [
+                                    [
+                                        "Material",
+                                        "Mineral-rich Pink Salt",
+                                        "Volcanic Rock"
+                                    ],
+                                    [
+                                        "Skin Benefit",
+                                        "Exfoliates & Remineralizes",
+                                        "Purely Thermal"
+                                    ],
+                                    [
+                                        "Longevity",
+                                        "Will eventually wear down",
+                                        "Lasts forever"
+                                    ],
+                                    [
+                                        "Cleaning",
+                                        "Requires specific \"dry\" sanitizing",
+                                        "Can be washed in soap and water"
+                                    ]
+                                ]
+                            }
+                        },
+                        {
+                            "type": "gemini_text",
+                            "rank_group": 9,
+                            "rank_absolute": 10,
+                            "markdown": "### ⚠️ A Quick Heads-Up",
+                            "original_text": "⚠️ A Quick Heads-Up",
+                            "sources": null
+                        },
+                        {
+                            "type": "gemini_text",
+                            "rank_group": 10,
+                            "rank_absolute": 11,
+                            "markdown": "Because these are made of salt, they can be a bit **abrasive** if the therapist isn't careful or if your skin is particularly sensitive. Also, if you have any small cuts or \"road rash,\" it’s going to sting—just like rubbing salt in a wound (literally!).",
+                            "original_text": "Because these are made of salt, they can be a bit abrasive if the therapist isn't careful or if your skin is particularly sensitive. Also, if you have any small cuts or \"road rash,\" it’s going to sting—just like rubbing salt in a wound (literally!).",
+                            "sources": null
+                        },
+                        {
+                            "type": "gemini_text",
+                            "rank_group": 11,
+                            "rank_absolute": 12,
+                            "markdown": "Would you like me to find some tips on how to properly clean and care for these stones if you're planning to use them at home?",
+                            "original_text": "Would you like me to find some tips on how to properly clean and care for these stones if you're planning to use them at home?",
+                            "sources": null
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}
