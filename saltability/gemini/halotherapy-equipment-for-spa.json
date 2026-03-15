@@ -1,0 +1,389 @@
+{
+    "version": "0.1.20260311",
+    "status_code": 20000,
+    "status_message": "Ok.",
+    "time": "29.0717 sec.",
+    "cost": 0.004,
+    "tasks_count": 1,
+    "tasks_error": 0,
+    "tasks": [
+        {
+            "id": "03152210-4353-0629-0000-ad71e5fdf3fa",
+            "status_code": 20000,
+            "status_message": "Ok.",
+            "time": "29.0566 sec.",
+            "cost": 0.004,
+            "result_count": 1,
+            "path": [
+                "v3",
+                "ai_optimization",
+                "gemini",
+                "llm_scraper",
+                "live",
+                "advanced"
+            ],
+            "data": {
+                "api": "ai_optimization",
+                "function": "llm_scraper",
+                "se": "gemini",
+                "keyword": "halotherapy equipment for spa",
+                "language_code": "en",
+                "location_name": "United States",
+                "device": "desktop",
+                "os": "windows"
+            },
+            "result": [
+                {
+                    "keyword": "halotherapy equipment for spa",
+                    "location_code": 2840,
+                    "language_code": "en",
+                    "model": "Fast",
+                    "datetime": "2026-03-15 20:11:13 +00:00",
+                    "markdown": "Integrating halotherapy (salt therapy) into a spa can range from adding a portable device to a treatment room to building a full-scale \"salt cave.\"[www.saltchamberinc.com](https:\/\/www.saltchamberinc.com\/blog\/spa-treatments-to-pair-with-halotherapy-treatment#:~:text=In%20some%20cases%2C%20practitioners%20even,capitalize%20on%20the%20therapy's%20benefits.) The goal is to create an environment where a **halogenerator** can effectively disperse medical-grade salt aerosol.\n\nHere is a breakdown of the essential equipment and considerations for a professional spa setup.\n\n---\n\n## 1. The Core Technology: Halogenerators\n\nThe halogenerator is the only piece of equipment that makes a room \"halotherapy-capable.\" It crushes pharmaceutical-grade salt into micro-particles (0.5 to 5 microns) and blows them into the air.[www.saltchamberinc.com](https:\/\/www.saltchamberinc.com\/resources\/what-is-a-halogenerator#:~:text=A%20reliable%20halogenerator%20releases%20that,particle%20sizes%20and%20concentration%20levels.)\n\n* **Wall-Mounted Units:** Best for dedicated salt rooms. They are programmed for specific session lengths and concentrations.[vivasalt-halogenerator.eu](https:\/\/vivasalt-halogenerator.eu\/halogenerator\/)\n* **Portable\/Compact Units:** Ideal for retrofitting existing massage rooms or for use in \"salt booths\" and \"salt cocoons.\"[www.saltchamberinc.com](https:\/\/www.saltchamberinc.com\/blog\/how-to-choose-best-halotherapy-machine)\n* **Smart Features:** Look for units with Bluetooth or Wi-Fi control, allowing therapists to adjust settings via a tablet.[halogenerators-saltrooms-inhalators-for.eu](https:\/\/halogenerators-saltrooms-inhalators-for.eu\/halogenerators-prizma\/halogenerator-prizsalt-with-touch-screen\/)\n\n## 2. Delivery Environments\n\nDepending on your square footage and budget, you have three main ways to offer the service:\n\n| Option | Best For... | Pros |\n| :--- | :--- | :--- |\n| **Salt Rooms\/Caves** | Group sessions & relaxation | High ROI; \"wow\" factor for guests; multi-person capacity. |\n| **Salt Booths** | Quick sessions & small footprints | 10–20 minute sessions; easy to clean; fits in a corner. |\n| **Salt Cocoons** | Private, intensive treatments | Enclosed pods that allow for concentrated inhalation in a small space. |\n\n## 3. Structural & Functional Essentials\n\nIf you are building a dedicated room, you need more than just the machine:\n\n* **Ventilation & HVAC:** You need a dedicated exhaust system to pull the salt air out after a session so it doesn't corrode the rest of your spa's electronics or ductwork.[www.saltchamberinc.com](https:\/\/www.saltchamberinc.com\/blog\/dos-and-donts-adding-salt-therapy-to-your-business)\n* **Salt Decor:** While \"Himalayan salt bricks\" look beautiful and provide ambient negative ions, they **do not** provide the respiratory benefits of a halogenerator. They are used primarily for aesthetics and mood lighting.\n* **Non-Corrosive Materials:** Salt is corrosive.[wilkinsoncoutts.com](https:\/\/wilkinsoncoutts.com\/salt-is-bad-for-your-health-corrosion-basics\/#:~:text=Basics%20Part%201-,Salt%20is%20bad%20for%20your%20health!%20%E2%80%93,to%20%E2%80%9Ceat-away%E2%80%9D.) Use plastic, wood, or specialized salt-resistant coatings for furniture and fixtures.\n\n## 4. Consumables\n\n* **Pharmaceutical Grade Sodium Chloride (NaCl):** You cannot use table salt or sea salt in a halogenerator. It must be 99.99% pure medical-grade salt to ensure it is free of minerals and impurities that could irritate the lungs.[www.saltchamberinc.com](https:\/\/www.saltchamberinc.com\/blog\/types-of-salt-explained)\n\n---\n\n### Key Technical Consideration\n\n> **Note:** Proper humidity control is vital. If a salt room is too humid (above 40-50%), the salt particles will clump together and fall to the ground rather than remaining suspended in the air for inhalation.\n\n**Would you like me to help you draft a checklist of questions to ask equipment suppliers before you make a purchase?**",
+                    "sources": [
+                        {
+                            "type": "gemini_source",
+                            "title": "Spa Treatments to Pair with Halotherapy Treatment - Salt Chamber",
+                            "snippet": "In some cases, practitioners even suggest that one might build salt cave \nsessions to further capitalize on the therapy's benefits.",
+                            "domain": "www.saltchamberinc.com",
+                            "url": "https:\/\/www.saltchamberinc.com\/blog\/spa-treatments-to-pair-with-halotherapy-treatment#:~:text=In%20some%20cases%2C%20practitioners%20even,capitalize%20on%20the%20therapy's%20benefits.",
+                            "thumbnail": "https:\/\/encrypted-tbn1.gstatic.com\/favicon-tbn?q=tbn:ANd9GcSXxfcnZsqAWr4yg8N_dDUTQNu6HddF4j5giBsl0w-7Ibjaz2McrHalVeI5ejYtSHMwlZJZhrEALLWx_Lp3-f1jeWyC8nqUIRVFf52Sdu4gYA",
+                            "source_name": "Salt Chamber",
+                            "publication_date": null,
+                            "markdown": "Integrating halotherapy (salt therapy) into a spa can range from adding a portable device to a treatment room to building a full-scale \"salt cave.\""
+                        },
+                        {
+                            "type": "gemini_source",
+                            "title": "What is a Halogenerator? | Salt Chamber Inc.",
+                            "snippet": "A reliable halogenerator releases that pure salt in precise microscopic \nparticle sizes and concentration levels.",
+                            "domain": "www.saltchamberinc.com",
+                            "url": "https:\/\/www.saltchamberinc.com\/resources\/what-is-a-halogenerator#:~:text=A%20reliable%20halogenerator%20releases%20that,particle%20sizes%20and%20concentration%20levels.",
+                            "thumbnail": "https:\/\/encrypted-tbn1.gstatic.com\/favicon-tbn?q=tbn:ANd9GcSXxfcnZsqAWr4yg8N_dDUTQNu6HddF4j5giBsl0w-7Ibjaz2McrHalVeI5ejYtSHMwlZJZhrEALLWx_Lp3-f1jeWyC8nqUIRVFf52Sdu4gYA",
+                            "source_name": "Salt Chamber",
+                            "publication_date": null,
+                            "markdown": "It crushes pharmaceutical-grade salt into micro-particles (0.5 to 5 microns) and blows them into the air."
+                        },
+                        {
+                            "type": "gemini_source",
+                            "title": "Halogenerator | VivaSalt",
+                            "snippet": "It is mounted vertically on an exterior wall of the salt room, with opening \ncoming through the wall into the salt room. The environment of installing \n...",
+                            "domain": "vivasalt-halogenerator.eu",
+                            "url": "https:\/\/vivasalt-halogenerator.eu\/halogenerator\/",
+                            "thumbnail": "https:\/\/encrypted-tbn1.gstatic.com\/favicon-tbn?q=tbn:ANd9GcSWqza9qxO-HI0SXU6PRz1rPZfeu730esJ0mENBjKL0ZApGYK21W0T7zx1cBDneBlKiZr6DmGWtsbIwlpA8WgHjaz90DfBG_n6MwEjgFlZ4Cz7Z6w",
+                            "source_name": "VivaSalt Halogenerator",
+                            "publication_date": null,
+                            "markdown": "They are programmed for specific session lengths and concentrations."
+                        },
+                        {
+                            "type": "gemini_source",
+                            "title": "How to Choose the Best Halotherapy Machine - Salt Chamber",
+                            "snippet": "Whether at home or on the road, this portable halogenerator by SALT Chamber \ncan transform any small space (even your bathroom) into a personal salt \ncave. SALT ...",
+                            "domain": "www.saltchamberinc.com",
+                            "url": "https:\/\/www.saltchamberinc.com\/blog\/how-to-choose-best-halotherapy-machine",
+                            "thumbnail": "https:\/\/encrypted-tbn1.gstatic.com\/favicon-tbn?q=tbn:ANd9GcSXxfcnZsqAWr4yg8N_dDUTQNu6HddF4j5giBsl0w-7Ibjaz2McrHalVeI5ejYtSHMwlZJZhrEALLWx_Lp3-f1jeWyC8nqUIRVFf52Sdu4gYA",
+                            "source_name": "Salt Chamber",
+                            "publication_date": null,
+                            "markdown": "* **Portable\/Compact Units:** Ideal for retrofitting existing massage rooms or for use in \"salt booths\" and \"salt cocoons.\""
+                        },
+                        {
+                            "type": "gemini_source",
+                            "title": "Halogenerator Prizsalt+ with touch screen",
+                            "snippet": "is the most modern medical professional salt aerosol generator with top \nhigh technology intended for use in bigger salt rooms or salt cabins. All \nparts coming ...",
+                            "domain": "halogenerators-saltrooms-inhalators-for.eu",
+                            "url": "https:\/\/halogenerators-saltrooms-inhalators-for.eu\/halogenerators-prizma\/halogenerator-prizsalt-with-touch-screen\/",
+                            "thumbnail": "https:\/\/encrypted-tbn1.gstatic.com\/favicon-tbn?q=tbn:ANd9GcTZ9FBE4HdCid0pcG-X0AdV2yigPFEXh7cpscmwxcwciwGMc2PNHCuw0Uw3WpbSGCVLTzOjNvqhJxNmHiKAFk2VZmmk8ko5AlS7F7shM2cLqmWNw-Nz3VcLAXVf_5xzdfV-SaVc",
+                            "source_name": null,
+                            "publication_date": null,
+                            "markdown": "* **Smart Features:** Look for units with Bluetooth or Wi-Fi control, allowing therapists to adjust settings via a tablet."
+                        },
+                        {
+                            "type": "gemini_source",
+                            "title": "The Do's and Don'ts of Adding Salt Therapy to Your Business",
+                            "snippet": "Salt is a highly corrosive mineral, which means it's vital that it stays \ncontained within the salt room or SALT Booth®. As a result, salt rooms \nrequire a ...",
+                            "domain": "www.saltchamberinc.com",
+                            "url": "https:\/\/www.saltchamberinc.com\/blog\/dos-and-donts-adding-salt-therapy-to-your-business",
+                            "thumbnail": "https:\/\/encrypted-tbn1.gstatic.com\/favicon-tbn?q=tbn:ANd9GcSXxfcnZsqAWr4yg8N_dDUTQNu6HddF4j5giBsl0w-7Ibjaz2McrHalVeI5ejYtSHMwlZJZhrEALLWx_Lp3-f1jeWyC8nqUIRVFf52Sdu4gYA",
+                            "source_name": "Salt Chamber",
+                            "publication_date": null,
+                            "markdown": "* **Ventilation & HVAC:** You need a dedicated exhaust system to pull the salt air out after a session so it doesn't corrode the rest of your spa's electronics or ductwork."
+                        },
+                        {
+                            "type": "gemini_source",
+                            "title": "Salt is bad for your health! - Corrosion basics | Wilkinson Coutts \nEngineering Training Ltd",
+                            "snippet": "Salt is bad for your health! – Corrosion basics. Definition: Corrosion is \nthe degradation of a metal by its environment–it literally means to ...",
+                            "domain": "wilkinsoncoutts.com",
+                            "url": "https:\/\/wilkinsoncoutts.com\/salt-is-bad-for-your-health-corrosion-basics\/#:~:text=Basics%20Part%201-,Salt%20is%20bad%20for%20your%20health!%20%E2%80%93,to%20%E2%80%9Ceat-away%E2%80%9D.",
+                            "thumbnail": "https:\/\/encrypted-tbn1.gstatic.com\/favicon-tbn?q=tbn:ANd9GcTIj1imJDg5PU-fR0yAxmKGTuz9V68qYYbJkdjBU8DU37lLZ4yodWgZsyZ5yOkyFHkcDHTLiNBdEzNSE7SgdRjGYGk_q79hoj8Oj-9gHg",
+                            "source_name": "Wilkinson Coutts Engineering Training Ltd",
+                            "publication_date": null,
+                            "markdown": "* Salt is corrosive."
+                        },
+                        {
+                            "type": "gemini_source",
+                            "title": "All 12 Types of Salt Explained | SALT Chamber Blog",
+                            "snippet": "The only salt that can be used for halotherapy is pure grade sodium \nchloride (also known as medical-grade or pharmaceutical-grade salt), which \nis the highest ...",
+                            "domain": "www.saltchamberinc.com",
+                            "url": "https:\/\/www.saltchamberinc.com\/blog\/types-of-salt-explained",
+                            "thumbnail": "https:\/\/encrypted-tbn1.gstatic.com\/favicon-tbn?q=tbn:ANd9GcSXxfcnZsqAWr4yg8N_dDUTQNu6HddF4j5giBsl0w-7Ibjaz2McrHalVeI5ejYtSHMwlZJZhrEALLWx_Lp3-f1jeWyC8nqUIRVFf52Sdu4gYA",
+                            "source_name": "Salt Chamber",
+                            "publication_date": null,
+                            "markdown": "It must be 99.99% pure medical-grade salt to ensure it is free of minerals and impurities that could irritate the lungs."
+                        }
+                    ],
+                    "se_results_count": 0,
+                    "item_types": [
+                        "gemini_text",
+                        "gemini_table"
+                    ],
+                    "items_count": 16,
+                    "items": [
+                        {
+                            "type": "gemini_text",
+                            "rank_group": 1,
+                            "rank_absolute": 1,
+                            "markdown": "Integrating halotherapy (salt therapy) into a spa can range from adding a portable device to a treatment room to building a full-scale \"salt cave.\"[www.saltchamberinc.com](https:\/\/www.saltchamberinc.com\/blog\/spa-treatments-to-pair-with-halotherapy-treatment#:~:text=In%20some%20cases%2C%20practitioners%20even,capitalize%20on%20the%20therapy's%20benefits.) The goal is to create an environment where a **halogenerator** can effectively disperse medical-grade salt aerosol.",
+                            "original_text": "Integrating halotherapy (salt therapy) into a spa can range from adding a portable device to a treatment room to building a full-scale \"salt cave.\" The goal is to create an environment where a halogenerator can effectively disperse medical-grade salt aerosol.",
+                            "sources": [
+                                {
+                                    "type": "gemini_source",
+                                    "title": "Spa Treatments to Pair with Halotherapy Treatment - Salt Chamber",
+                                    "snippet": "In some cases, practitioners even suggest that one might build salt cave \nsessions to further capitalize on the therapy's benefits.",
+                                    "domain": "www.saltchamberinc.com",
+                                    "url": "https:\/\/www.saltchamberinc.com\/blog\/spa-treatments-to-pair-with-halotherapy-treatment#:~:text=In%20some%20cases%2C%20practitioners%20even,capitalize%20on%20the%20therapy's%20benefits.",
+                                    "thumbnail": "https:\/\/encrypted-tbn1.gstatic.com\/favicon-tbn?q=tbn:ANd9GcSXxfcnZsqAWr4yg8N_dDUTQNu6HddF4j5giBsl0w-7Ibjaz2McrHalVeI5ejYtSHMwlZJZhrEALLWx_Lp3-f1jeWyC8nqUIRVFf52Sdu4gYA",
+                                    "source_name": "Salt Chamber",
+                                    "publication_date": null,
+                                    "markdown": "Integrating halotherapy (salt therapy) into a spa can range from adding a portable device to a treatment room to building a full-scale \"salt cave.\""
+                                }
+                            ]
+                        },
+                        {
+                            "type": "gemini_text",
+                            "rank_group": 2,
+                            "rank_absolute": 2,
+                            "markdown": "Here is a breakdown of the essential equipment and considerations for a professional spa setup.",
+                            "original_text": "Here is a breakdown of the essential equipment and considerations for a professional spa setup.",
+                            "sources": null
+                        },
+                        {
+                            "type": "gemini_text",
+                            "rank_group": 3,
+                            "rank_absolute": 3,
+                            "markdown": "## 1. The Core Technology: Halogenerators",
+                            "original_text": "1. The Core Technology: Halogenerators",
+                            "sources": null
+                        },
+                        {
+                            "type": "gemini_text",
+                            "rank_group": 4,
+                            "rank_absolute": 4,
+                            "markdown": "The halogenerator is the only piece of equipment that makes a room \"halotherapy-capable.\" It crushes pharmaceutical-grade salt into micro-particles (0.5 to 5 microns) and blows them into the air.[www.saltchamberinc.com](https:\/\/www.saltchamberinc.com\/resources\/what-is-a-halogenerator#:~:text=A%20reliable%20halogenerator%20releases%20that,particle%20sizes%20and%20concentration%20levels.)",
+                            "original_text": "The halogenerator is the only piece of equipment that makes a room \"halotherapy-capable.\" It crushes pharmaceutical-grade salt into micro-particles (0.5 to 5 microns) and blows them into the air.",
+                            "sources": [
+                                {
+                                    "type": "gemini_source",
+                                    "title": "What is a Halogenerator? | Salt Chamber Inc.",
+                                    "snippet": "A reliable halogenerator releases that pure salt in precise microscopic \nparticle sizes and concentration levels.",
+                                    "domain": "www.saltchamberinc.com",
+                                    "url": "https:\/\/www.saltchamberinc.com\/resources\/what-is-a-halogenerator#:~:text=A%20reliable%20halogenerator%20releases%20that,particle%20sizes%20and%20concentration%20levels.",
+                                    "thumbnail": "https:\/\/encrypted-tbn1.gstatic.com\/favicon-tbn?q=tbn:ANd9GcSXxfcnZsqAWr4yg8N_dDUTQNu6HddF4j5giBsl0w-7Ibjaz2McrHalVeI5ejYtSHMwlZJZhrEALLWx_Lp3-f1jeWyC8nqUIRVFf52Sdu4gYA",
+                                    "source_name": "Salt Chamber",
+                                    "publication_date": null,
+                                    "markdown": "It crushes pharmaceutical-grade salt into micro-particles (0.5 to 5 microns) and blows them into the air."
+                                }
+                            ]
+                        },
+                        {
+                            "type": "gemini_text",
+                            "rank_group": 5,
+                            "rank_absolute": 5,
+                            "markdown": "* **Wall-Mounted Units:** Best for dedicated salt rooms. They are programmed for specific session lengths and concentrations.[vivasalt-halogenerator.eu](https:\/\/vivasalt-halogenerator.eu\/halogenerator\/)\n* **Portable\/Compact Units:** Ideal for retrofitting existing massage rooms or for use in \"salt booths\" and \"salt cocoons.\"[www.saltchamberinc.com](https:\/\/www.saltchamberinc.com\/blog\/how-to-choose-best-halotherapy-machine)\n* **Smart Features:** Look for units with Bluetooth or Wi-Fi control, allowing therapists to adjust settings via a tablet.[halogenerators-saltrooms-inhalators-for.eu](https:\/\/halogenerators-saltrooms-inhalators-for.eu\/halogenerators-prizma\/halogenerator-prizsalt-with-touch-screen\/)",
+                            "original_text": "Wall-Mounted Units: Best for dedicated salt rooms. They are programmed for specific session lengths and concentrations.\nPortable\/Compact Units: Ideal for retrofitting existing massage rooms or for use in \"salt booths\" and \"salt cocoons.\"\nSmart Features: Look for units with Bluetooth or Wi-Fi control, allowing therapists to adjust settings via a tablet.",
+                            "sources": [
+                                {
+                                    "type": "gemini_source",
+                                    "title": "Halogenerator | VivaSalt",
+                                    "snippet": "It is mounted vertically on an exterior wall of the salt room, with opening \ncoming through the wall into the salt room. The environment of installing \n...",
+                                    "domain": "vivasalt-halogenerator.eu",
+                                    "url": "https:\/\/vivasalt-halogenerator.eu\/halogenerator\/",
+                                    "thumbnail": "https:\/\/encrypted-tbn1.gstatic.com\/favicon-tbn?q=tbn:ANd9GcSWqza9qxO-HI0SXU6PRz1rPZfeu730esJ0mENBjKL0ZApGYK21W0T7zx1cBDneBlKiZr6DmGWtsbIwlpA8WgHjaz90DfBG_n6MwEjgFlZ4Cz7Z6w",
+                                    "source_name": "VivaSalt Halogenerator",
+                                    "publication_date": null,
+                                    "markdown": "They are programmed for specific session lengths and concentrations."
+                                },
+                                {
+                                    "type": "gemini_source",
+                                    "title": "How to Choose the Best Halotherapy Machine - Salt Chamber",
+                                    "snippet": "Whether at home or on the road, this portable halogenerator by SALT Chamber \ncan transform any small space (even your bathroom) into a personal salt \ncave. SALT ...",
+                                    "domain": "www.saltchamberinc.com",
+                                    "url": "https:\/\/www.saltchamberinc.com\/blog\/how-to-choose-best-halotherapy-machine",
+                                    "thumbnail": "https:\/\/encrypted-tbn1.gstatic.com\/favicon-tbn?q=tbn:ANd9GcSXxfcnZsqAWr4yg8N_dDUTQNu6HddF4j5giBsl0w-7Ibjaz2McrHalVeI5ejYtSHMwlZJZhrEALLWx_Lp3-f1jeWyC8nqUIRVFf52Sdu4gYA",
+                                    "source_name": "Salt Chamber",
+                                    "publication_date": null,
+                                    "markdown": "* **Portable\/Compact Units:** Ideal for retrofitting existing massage rooms or for use in \"salt booths\" and \"salt cocoons.\""
+                                },
+                                {
+                                    "type": "gemini_source",
+                                    "title": "Halogenerator Prizsalt+ with touch screen",
+                                    "snippet": "is the most modern medical professional salt aerosol generator with top \nhigh technology intended for use in bigger salt rooms or salt cabins. All \nparts coming ...",
+                                    "domain": "halogenerators-saltrooms-inhalators-for.eu",
+                                    "url": "https:\/\/halogenerators-saltrooms-inhalators-for.eu\/halogenerators-prizma\/halogenerator-prizsalt-with-touch-screen\/",
+                                    "thumbnail": "https:\/\/encrypted-tbn1.gstatic.com\/favicon-tbn?q=tbn:ANd9GcTZ9FBE4HdCid0pcG-X0AdV2yigPFEXh7cpscmwxcwciwGMc2PNHCuw0Uw3WpbSGCVLTzOjNvqhJxNmHiKAFk2VZmmk8ko5AlS7F7shM2cLqmWNw-Nz3VcLAXVf_5xzdfV-SaVc",
+                                    "source_name": null,
+                                    "publication_date": null,
+                                    "markdown": "* **Smart Features:** Look for units with Bluetooth or Wi-Fi control, allowing therapists to adjust settings via a tablet."
+                                }
+                            ]
+                        },
+                        {
+                            "type": "gemini_text",
+                            "rank_group": 6,
+                            "rank_absolute": 6,
+                            "markdown": "## 2. Delivery Environments",
+                            "original_text": "2. Delivery Environments",
+                            "sources": null
+                        },
+                        {
+                            "type": "gemini_text",
+                            "rank_group": 7,
+                            "rank_absolute": 7,
+                            "markdown": "Depending on your square footage and budget, you have three main ways to offer the service:",
+                            "original_text": "Depending on your square footage and budget, you have three main ways to offer the service:",
+                            "sources": null
+                        },
+                        {
+                            "type": "gemini_table",
+                            "rank_group": 1,
+                            "rank_absolute": 8,
+                            "markdown": "| Option | Best For... | Pros |\n| :--- | :--- | :--- |\n| **Salt Rooms\/Caves** | Group sessions & relaxation | High ROI; \"wow\" factor for guests; multi-person capacity. |\n| **Salt Booths** | Quick sessions & small footprints | 10–20 minute sessions; easy to clean; fits in a corner. |\n| **Salt Cocoons** | Private, intensive treatments | Enclosed pods that allow for concentrated inhalation in a small space. |",
+                            "original_text": "Option\tBest For...\tPros\nSalt Rooms\/Caves\tGroup sessions & relaxation\tHigh ROI; \"wow\" factor for guests; multi-person capacity.\nSalt Booths\tQuick sessions & small footprints\t10–20 minute sessions; easy to clean; fits in a corner.\nSalt Cocoons\tPrivate, intensive treatments\tEnclosed pods that allow for concentrated inhalation in a small space.",
+                            "table": {
+                                "table_header": [
+                                    "Option",
+                                    "Best For...",
+                                    "Pros"
+                                ],
+                                "table_content": [
+                                    [
+                                        "Salt Rooms\/Caves",
+                                        "Group sessions & relaxation",
+                                        "High ROI; \"wow\" factor for guests; multi-person capacity."
+                                    ],
+                                    [
+                                        "Salt Booths",
+                                        "Quick sessions & small footprints",
+                                        "10–20 minute sessions; easy to clean; fits in a corner."
+                                    ],
+                                    [
+                                        "Salt Cocoons",
+                                        "Private, intensive treatments",
+                                        "Enclosed pods that allow for concentrated inhalation in a small space."
+                                    ]
+                                ]
+                            }
+                        },
+                        {
+                            "type": "gemini_text",
+                            "rank_group": 8,
+                            "rank_absolute": 9,
+                            "markdown": "## 3. Structural & Functional Essentials",
+                            "original_text": "3. Structural & Functional Essentials",
+                            "sources": null
+                        },
+                        {
+                            "type": "gemini_text",
+                            "rank_group": 9,
+                            "rank_absolute": 10,
+                            "markdown": "If you are building a dedicated room, you need more than just the machine:",
+                            "original_text": "If you are building a dedicated room, you need more than just the machine:",
+                            "sources": null
+                        },
+                        {
+                            "type": "gemini_text",
+                            "rank_group": 10,
+                            "rank_absolute": 11,
+                            "markdown": "* **Ventilation & HVAC:** You need a dedicated exhaust system to pull the salt air out after a session so it doesn't corrode the rest of your spa's electronics or ductwork.[www.saltchamberinc.com](https:\/\/www.saltchamberinc.com\/blog\/dos-and-donts-adding-salt-therapy-to-your-business)\n* **Salt Decor:** While \"Himalayan salt bricks\" look beautiful and provide ambient negative ions, they **do not** provide the respiratory benefits of a halogenerator. They are used primarily for aesthetics and mood lighting.\n* **Non-Corrosive Materials:** Salt is corrosive.[wilkinsoncoutts.com](https:\/\/wilkinsoncoutts.com\/salt-is-bad-for-your-health-corrosion-basics\/#:~:text=Basics%20Part%201-,Salt%20is%20bad%20for%20your%20health!%20%E2%80%93,to%20%E2%80%9Ceat-away%E2%80%9D.) Use plastic, wood, or specialized salt-resistant coatings for furniture and fixtures.",
+                            "original_text": "Ventilation & HVAC: You need a dedicated exhaust system to pull the salt air out after a session so it doesn't corrode the rest of your spa's electronics or ductwork.\nSalt Decor: While \"Himalayan salt bricks\" look beautiful and provide ambient negative ions, they do not provide the respiratory benefits of a halogenerator. They are used primarily for aesthetics and mood lighting.\nNon-Corrosive Materials: Salt is corrosive. Use plastic, wood, or specialized salt-resistant coatings for furniture and fixtures.",
+                            "sources": [
+                                {
+                                    "type": "gemini_source",
+                                    "title": "The Do's and Don'ts of Adding Salt Therapy to Your Business",
+                                    "snippet": "Salt is a highly corrosive mineral, which means it's vital that it stays \ncontained within the salt room or SALT Booth®. As a result, salt rooms \nrequire a ...",
+                                    "domain": "www.saltchamberinc.com",
+                                    "url": "https:\/\/www.saltchamberinc.com\/blog\/dos-and-donts-adding-salt-therapy-to-your-business",
+                                    "thumbnail": "https:\/\/encrypted-tbn1.gstatic.com\/favicon-tbn?q=tbn:ANd9GcSXxfcnZsqAWr4yg8N_dDUTQNu6HddF4j5giBsl0w-7Ibjaz2McrHalVeI5ejYtSHMwlZJZhrEALLWx_Lp3-f1jeWyC8nqUIRVFf52Sdu4gYA",
+                                    "source_name": "Salt Chamber",
+                                    "publication_date": null,
+                                    "markdown": "* **Ventilation & HVAC:** You need a dedicated exhaust system to pull the salt air out after a session so it doesn't corrode the rest of your spa's electronics or ductwork."
+                                },
+                                {
+                                    "type": "gemini_source",
+                                    "title": "Salt is bad for your health! - Corrosion basics | Wilkinson Coutts \nEngineering Training Ltd",
+                                    "snippet": "Salt is bad for your health! – Corrosion basics. Definition: Corrosion is \nthe degradation of a metal by its environment–it literally means to ...",
+                                    "domain": "wilkinsoncoutts.com",
+                                    "url": "https:\/\/wilkinsoncoutts.com\/salt-is-bad-for-your-health-corrosion-basics\/#:~:text=Basics%20Part%201-,Salt%20is%20bad%20for%20your%20health!%20%E2%80%93,to%20%E2%80%9Ceat-away%E2%80%9D.",
+                                    "thumbnail": "https:\/\/encrypted-tbn1.gstatic.com\/favicon-tbn?q=tbn:ANd9GcTIj1imJDg5PU-fR0yAxmKGTuz9V68qYYbJkdjBU8DU37lLZ4yodWgZsyZ5yOkyFHkcDHTLiNBdEzNSE7SgdRjGYGk_q79hoj8Oj-9gHg",
+                                    "source_name": "Wilkinson Coutts Engineering Training Ltd",
+                                    "publication_date": null,
+                                    "markdown": "* Salt is corrosive."
+                                }
+                            ]
+                        },
+                        {
+                            "type": "gemini_text",
+                            "rank_group": 11,
+                            "rank_absolute": 12,
+                            "markdown": "## 4. Consumables",
+                            "original_text": "4. Consumables",
+                            "sources": null
+                        },
+                        {
+                            "type": "gemini_text",
+                            "rank_group": 12,
+                            "rank_absolute": 13,
+                            "markdown": "* **Pharmaceutical Grade Sodium Chloride (NaCl):** You cannot use table salt or sea salt in a halogenerator. It must be 99.99% pure medical-grade salt to ensure it is free of minerals and impurities that could irritate the lungs.[www.saltchamberinc.com](https:\/\/www.saltchamberinc.com\/blog\/types-of-salt-explained)",
+                            "original_text": "Pharmaceutical Grade Sodium Chloride (NaCl): You cannot use table salt or sea salt in a halogenerator. It must be 99.99% pure medical-grade salt to ensure it is free of minerals and impurities that could irritate the lungs.",
+                            "sources": [
+                                {
+                                    "type": "gemini_source",
+                                    "title": "All 12 Types of Salt Explained | SALT Chamber Blog",
+                                    "snippet": "The only salt that can be used for halotherapy is pure grade sodium \nchloride (also known as medical-grade or pharmaceutical-grade salt), which \nis the highest ...",
+                                    "domain": "www.saltchamberinc.com",
+                                    "url": "https:\/\/www.saltchamberinc.com\/blog\/types-of-salt-explained",
+                                    "thumbnail": "https:\/\/encrypted-tbn1.gstatic.com\/favicon-tbn?q=tbn:ANd9GcSXxfcnZsqAWr4yg8N_dDUTQNu6HddF4j5giBsl0w-7Ibjaz2McrHalVeI5ejYtSHMwlZJZhrEALLWx_Lp3-f1jeWyC8nqUIRVFf52Sdu4gYA",
+                                    "source_name": "Salt Chamber",
+                                    "publication_date": null,
+                                    "markdown": "It must be 99.99% pure medical-grade salt to ensure it is free of minerals and impurities that could irritate the lungs."
+                                }
+                            ]
+                        },
+                        {
+                            "type": "gemini_text",
+                            "rank_group": 13,
+                            "rank_absolute": 14,
+                            "markdown": "### Key Technical Consideration",
+                            "original_text": "Key Technical Consideration",
+                            "sources": null
+                        },
+                        {
+                            "type": "gemini_text",
+                            "rank_group": 14,
+                            "rank_absolute": 15,
+                            "markdown": "> **Note:** Proper humidity control is vital. If a salt room is too humid (above 40-50%), the salt particles will clump together and fall to the ground rather than remaining suspended in the air for inhalation.",
+                            "original_text": "Note: Proper humidity control is vital. If a salt room is too humid (above 40-50%), the salt particles will clump together and fall to the ground rather than remaining suspended in the air for inhalation.",
+                            "sources": null
+                        },
+                        {
+                            "type": "gemini_text",
+                            "rank_group": 15,
+                            "rank_absolute": 16,
+                            "markdown": "**Would you like me to help you draft a checklist of questions to ask equipment suppliers before you make a purchase?**",
+                            "original_text": "Would you like me to help you draft a checklist of questions to ask equipment suppliers before you make a purchase?",
+                            "sources": null
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}
