@@ -1,0 +1,389 @@
+{
+    "version": "0.1.20260311",
+    "status_code": 20000,
+    "status_message": "Ok.",
+    "time": "28.1103 sec.",
+    "cost": 0.004,
+    "tasks_count": 1,
+    "tasks_error": 0,
+    "tasks": [
+        {
+            "id": "03152205-4353-0629-0000-90f4a0810ff8",
+            "status_code": 20000,
+            "status_message": "Ok.",
+            "time": "28.0485 sec.",
+            "cost": 0.004,
+            "result_count": 1,
+            "path": [
+                "v3",
+                "ai_optimization",
+                "gemini",
+                "llm_scraper",
+                "live",
+                "advanced"
+            ],
+            "data": {
+                "api": "ai_optimization",
+                "function": "llm_scraper",
+                "se": "gemini",
+                "keyword": "massage home kit",
+                "language_code": "en",
+                "location_name": "United States",
+                "device": "desktop",
+                "os": "windows"
+            },
+            "result": [
+                {
+                    "keyword": "massage home kit",
+                    "location_code": 2840,
+                    "language_code": "en",
+                    "model": "Fast",
+                    "datetime": "2026-03-15 20:05:43 +00:00",
+                    "markdown": "Creating a massage kit at home can range from a few self-care tools to a professional-grade setup. Depending on whether you're looking to give massages to a partner or perform self-recovery, here is a guide to the essential components for 2026.\n\n---\n\n## 1. The Foundation: Furniture & Surface\n\nThe \"best\" surface depends on your available space and how often you'll use it.\n\n* **Portable Massage Table:** The gold standard for giving massages. Look for a model under **12kg** for easy storage. Brands like **Earthlite** and **Master Massage** are top-rated for having thick padding ($2.5+$ inches) and sturdy frames.\n* **Massage Mat (Futon):** Ideal for Thai or Shiatsu-style massage.[www.wecasa.co.uk](https:\/\/www.wecasa.co.uk\/mag\/pro-at-home-massage-material\/#:~:text=For%20masseurs%20practising%20oriental%20massage,allows%20massage%20on%20the%20floor.) These are placed on the floor, allowing the person giving the massage more leverage and movement.\n* **Bolsters:** Crucial for comfort.[clinicsense.com](https:\/\/clinicsense.com\/blog\/massage-therapy-equipment-list#:~:text=Plan%20on%20having%20enough%20linens,for%20easy%20positioning%20and%20comfort.) A **round bolster** under the knees (when lying on the back) or under the ankles (when on the stomach) relieves lower back pressure.\n\n## 2. Oils, Creams, and Lotions\n\nThe right \"glide\" prevents skin irritation and enhances the experience.\n\n* **Carrier Oils:** * **Fractionated Coconut Oil:** Stays liquid, is non-greasy, and won't stain sheets.[purespadirect.com](https:\/\/purespadirect.com\/blogs\/pure-spa-direct-blog\/best-massage-oils-for-spa-treatments-essential-choices-for-professional-therapists#:~:text=It's%20odorless%2C%20which%20makes%20it,a%20light%2C%20non-greasy%20feel)\n  *   * **Sweet Almond Oil:** A professional favorite for its slow absorption (less reapplication), but avoid if there are nut allergies.[www.themassageoilshop.com.au](https:\/\/www.themassageoilshop.com.au\/which-massage-oil-is-best.aspx#:~:text=Melrose%20Sweet%20almond%20oil%20is,try%20a%20patch%20test%20first.)\n  * **Jojoba Oil:** Best for sensitive or acne-prone skin as it mimics the skin's natural oils.\n* **Warming\/Cooling Balms:** Options like **Arnica** or **CBD-infused creams** are excellent for targeted sore muscle relief.\n\n## 3. High-Tech Recovery Tools (Percussion)\n\nFor self-massage or deep tissue work without tiring out your hands.\n\n* **Best Overall:** **Theragun Prime Plus.**[www.forbes.com](https:\/\/www.forbes.com\/sites\/forbes-personal-shopper\/article\/best-massage-guns\/#:~:text=After%20testing%2017%20options%2C%20we,Check%20Price) It’s the 2026 leader for ergonomics and power, often featuring a heated attachment head.\n* **Best for Travel\/Budget:** **Theragun Mini (3rd Gen)** or **Ekrin Bantam.**[www.forbes.com](https:\/\/www.forbes.com\/sites\/forbes-personal-shopper\/article\/best-massage-guns\/) These are quiet, palm-sized, and surprisingly powerful.\n* **Neck Specific:** Since massage guns can be too aggressive for the neck, a **Shiatsu Neck Wrap** (like those from Nekteck) with heated rotating nodes is a safer home alternative.\n\n## 4. Manual Precision Tools\n\nThese \"analog\" tools are inexpensive and perfect for knots.[www.physique.co.uk](https:\/\/www.physique.co.uk\/Buyers-Guides\/Massage-Tools#:~:text=What%20is%20a%20massage%20stick,like%20the%20calves%20and%20thighs.)\n\n* **Massage Stars\/Thumb Savers:** Small plastic tools that protect the massager's thumb while applying deep pressure to trigger points.[www.massagewarehouse.com](https:\/\/www.massagewarehouse.com\/shop-by-department\/massage-products\/massage-tools\/#:~:text=Other%20options%20for%20professional%20therapists,self-care%20and%20professional%20applications.)\n* **Cane Massagers (e.g., LiBa or Body Back Buddy):** An S-shaped hook that allows you to apply \"pinpoint\" pressure to hard-to-reach spots on your own back.\n* **Massage Balls:** A **lacrosse ball** or a **spiky massage ball** is great for rolling out the arches of the feet or the glutes.\n\n---\n\n### Comparison of Popular 2026 Setups\n\n| Kit Type | Key Components | Best For |\n| :--- | :--- | :--- |\n| **The \"Spa\" Kit** | Folding table, Jojoba oil, bolsters, candles | Couples or giving massages to others. |\n| **The \"Athlete\" Kit** | Theragun Prime, foam roller, Epsom salts | Muscle recovery and injury prevention. |\n| **The \"Desktop\" Kit** | Shiatsu neck wrap, cane massager, hand balm | Relieving \"tech neck\" and office stress. |\n\n---\n\n**Would you like me to help you find specific product recommendations based on a certain budget or the type of muscle pain you're dealing with?**",
+                    "sources": [
+                        {
+                            "type": "gemini_source",
+                            "title": "Home massage equipment: Everything you need to know - Wecasa",
+                            "snippet": "For masseurs practising oriental massage techniques such as Thai massage or \nAyurvedic massage, the purchase of a futon is essential. It is a Japanese \nmattress ...",
+                            "domain": "www.wecasa.co.uk",
+                            "url": "https:\/\/www.wecasa.co.uk\/mag\/pro-at-home-massage-material\/#:~:text=For%20masseurs%20practising%20oriental%20massage,allows%20massage%20on%20the%20floor.",
+                            "thumbnail": "https:\/\/encrypted-tbn3.gstatic.com\/favicon-tbn?q=tbn:ANd9GcR5PZohrB7dwCOrA93HxREglYGhC5AKH6MTy5cuBFiwj8YdHOjz3Zl_PkhE5ZB5YJhMvLD7M5Cn7mEKL06iRCnoAp9OkoPMZa1cDA",
+                            "source_name": "Wecasa",
+                            "publication_date": null,
+                            "markdown": "* **Massage Mat (Futon):** Ideal for Thai or Shiatsu-style massage."
+                        },
+                        {
+                            "type": "gemini_source",
+                            "title": "A Massage Therapy Must Have Equipment Checklist - Clinic Management Software",
+                            "snippet": "Plan on having enough linens to cover at least 2 full days of massage \nappointments, or more if you use a laundry service. 5. Bolsters. Not \neveryone is ...",
+                            "domain": "clinicsense.com",
+                            "url": "https:\/\/clinicsense.com\/blog\/massage-therapy-equipment-list#:~:text=Plan%20on%20having%20enough%20linens,for%20easy%20positioning%20and%20comfort.",
+                            "thumbnail": "https:\/\/encrypted-tbn2.gstatic.com\/favicon-tbn?q=tbn:ANd9GcR7tKq8n9goPe6QGeF_zi5WgMbg1OvRdf5gvpFDsGUFdxbHE4aSJuhP6eTldU8bwO3ic9t0_Oovqfv6FofmX_vOGys4sblVgf92",
+                            "source_name": "Clinic Management Software",
+                            "publication_date": null,
+                            "markdown": "* **Bolsters:** Crucial for comfort."
+                        },
+                        {
+                            "type": "gemini_source",
+                            "title": "Best Massage Oils for Spa Treatments: Essential Choices for Professional \nTherapists",
+                            "snippet": "It's odorless, which makes it perfect for blending with essential oils, and \nit's rich in antioxidants. Its thin consistency provides a gentle glide, \nsuitable ...",
+                            "domain": "purespadirect.com",
+                            "url": "https:\/\/purespadirect.com\/blogs\/pure-spa-direct-blog\/best-massage-oils-for-spa-treatments-essential-choices-for-professional-therapists#:~:text=It's%20odorless%2C%20which%20makes%20it,a%20light%2C%20non-greasy%20feel",
+                            "thumbnail": "https:\/\/encrypted-tbn3.gstatic.com\/favicon-tbn?q=tbn:ANd9GcTXuKseCa6zmOy6K0rCusZlizJsp2rYr_AVQykzihP-aZ92LrtKNFWEITo8Umz4kHJs455C3QQnDnCrqTQY_q4jfPnNkCpeii0wIkA",
+                            "source_name": "Pure Spa Direct",
+                            "publication_date": null,
+                            "markdown": "* Stays liquid, is non-greasy, and won't stain sheets."
+                        },
+                        {
+                            "type": "gemini_source",
+                            "title": "Top 5 Massage Oils -",
+                            "snippet": "Melrose Sweet almond oil is a classic base oil for many therapists, it \ncontains 100% Sweet Almond oil. It is Non allergenic so it usually does not \nirritate ...",
+                            "domain": "www.themassageoilshop.com.au",
+                            "url": "https:\/\/www.themassageoilshop.com.au\/which-massage-oil-is-best.aspx#:~:text=Melrose%20Sweet%20almond%20oil%20is,try%20a%20patch%20test%20first.",
+                            "thumbnail": "https:\/\/encrypted-tbn2.gstatic.com\/favicon-tbn?q=tbn:ANd9GcR9j_KIHOu7FyEtmzRsWj6R-qsRjUavFYmzQUEiM2yjBsy51bGTsjPV51eVDJYu0CfP2aWI9wbrdHK9UrmZJMUDxGQfU3nmNxorlhnKRSuQzrpBz0-icw",
+                            "source_name": "&nbsp;",
+                            "publication_date": null,
+                            "markdown": "* **Sweet Almond Oil:** A professional favorite for its slow absorption (less reapplication), but avoid if there are nut allergies."
+                        },
+                        {
+                            "type": "gemini_source",
+                            "title": "Best Massage Guns 2026 | Tested And Reviewed - Forbes Vetted",
+                            "snippet": "After testing 17 options, we named the Therabody Theragun Prime Plus the \nbest massage gun overall for 2026. ILLUSTRATION: FORBES \/ PHOTO: RETAILER. \nOur Top ...",
+                            "domain": "www.forbes.com",
+                            "url": "https:\/\/www.forbes.com\/sites\/forbes-personal-shopper\/article\/best-massage-guns\/#:~:text=After%20testing%2017%20options%2C%20we,Check%20Price",
+                            "thumbnail": "https:\/\/encrypted-tbn2.gstatic.com\/favicon-tbn?q=tbn:ANd9GcRgMkaXhthD6lrMoz98ttFgLqbZs3eqY0yteLEG9lSZGzY6AUW1XsWMPO8SO8trQK3ONkH3wE0kMtVbMTvtT5I62Q7yv7ODNVc",
+                            "source_name": "Forbes",
+                            "publication_date": null,
+                            "markdown": "* **Best Overall:** **Theragun Prime Plus.**"
+                        },
+                        {
+                            "type": "gemini_source",
+                            "title": "Best Massage Guns 2026 | Tested And Reviewed - Forbes Vetted",
+                            "snippet": "Our Top Recommendations - Best Massage Gun Overall: Therabody Theragun \nPrime Plus. - Best Runner-Up Massage Gun: Hyperice Hypervolt 2 Pro. - Best \nValue ...",
+                            "domain": "www.forbes.com",
+                            "url": "https:\/\/www.forbes.com\/sites\/forbes-personal-shopper\/article\/best-massage-guns\/",
+                            "thumbnail": "https:\/\/encrypted-tbn2.gstatic.com\/favicon-tbn?q=tbn:ANd9GcRgMkaXhthD6lrMoz98ttFgLqbZs3eqY0yteLEG9lSZGzY6AUW1XsWMPO8SO8trQK3ONkH3wE0kMtVbMTvtT5I62Q7yv7ODNVc",
+                            "source_name": "Forbes",
+                            "publication_date": null,
+                            "markdown": "* **Best for Travel\/Budget:** **Theragun Mini (3rd Gen)** or **Ekrin Bantam.**"
+                        },
+                        {
+                            "type": "gemini_source",
+                            "title": "8 Massage Tools for Therapists and Self Massage - Physique",
+                            "snippet": "What is a massage stick? A massage stick is used by rolling it over an area \nwith muscle tension or pain and this helps work any knots, ease muscles and \ntake ...",
+                            "domain": "www.physique.co.uk",
+                            "url": "https:\/\/www.physique.co.uk\/Buyers-Guides\/Massage-Tools#:~:text=What%20is%20a%20massage%20stick,like%20the%20calves%20and%20thighs.",
+                            "thumbnail": "https:\/\/encrypted-tbn0.gstatic.com\/favicon-tbn?q=tbn:ANd9GcSChFZmrQrO20WH2boTUmrgqTdT19L6XHDkPrOEBx-4ysGLmls8BdCE1m5iXenAJMjQyQSsMCVuybsYjmI-7bMJAbp8UvRMHNL4HzuW",
+                            "source_name": "Physique",
+                            "publication_date": null,
+                            "markdown": "These \"analog\" tools are inexpensive and perfect for knots."
+                        },
+                        {
+                            "type": "gemini_source",
+                            "title": "Massage Tools - Back & Neck Self Massagers - Deep Tissue",
+                            "snippet": "Other options for professional therapists include manual massage tools like \nmassaging cupping sets, the Original Index Knobber for accessing deep \ntissue or a ...",
+                            "domain": "www.massagewarehouse.com",
+                            "url": "https:\/\/www.massagewarehouse.com\/shop-by-department\/massage-products\/massage-tools\/#:~:text=Other%20options%20for%20professional%20therapists,self-care%20and%20professional%20applications.",
+                            "thumbnail": "https:\/\/encrypted-tbn0.gstatic.com\/favicon-tbn?q=tbn:ANd9GcSzhzz3B2fMrVjnUJSLfiNC2B-Mt2m5OelR1xq0yW37--5LPLoCgZWXvp7rX0ek08XAVJ5HxvBJ_e9lFloVdQNQQEyYnXghiErUGB64Ws3tWfFt",
+                            "source_name": "Massage Warehouse",
+                            "publication_date": null,
+                            "markdown": "* Small plastic tools that protect the massager's thumb while applying deep pressure to trigger points."
+                        }
+                    ],
+                    "se_results_count": 0,
+                    "item_types": [
+                        "gemini_text",
+                        "gemini_table"
+                    ],
+                    "items_count": 16,
+                    "items": [
+                        {
+                            "type": "gemini_text",
+                            "rank_group": 1,
+                            "rank_absolute": 1,
+                            "markdown": "Creating a massage kit at home can range from a few self-care tools to a professional-grade setup. Depending on whether you're looking to give massages to a partner or perform self-recovery, here is a guide to the essential components for 2026.",
+                            "original_text": "Creating a massage kit at home can range from a few self-care tools to a professional-grade setup. Depending on whether you're looking to give massages to a partner or perform self-recovery, here is a guide to the essential components for 2026.",
+                            "sources": null
+                        },
+                        {
+                            "type": "gemini_text",
+                            "rank_group": 2,
+                            "rank_absolute": 2,
+                            "markdown": "## 1. The Foundation: Furniture & Surface",
+                            "original_text": "1. The Foundation: Furniture & Surface",
+                            "sources": null
+                        },
+                        {
+                            "type": "gemini_text",
+                            "rank_group": 3,
+                            "rank_absolute": 3,
+                            "markdown": "The \"best\" surface depends on your available space and how often you'll use it.",
+                            "original_text": "The \"best\" surface depends on your available space and how often you'll use it.",
+                            "sources": null
+                        },
+                        {
+                            "type": "gemini_text",
+                            "rank_group": 4,
+                            "rank_absolute": 4,
+                            "markdown": "* **Portable Massage Table:** The gold standard for giving massages. Look for a model under **12kg** for easy storage. Brands like **Earthlite** and **Master Massage** are top-rated for having thick padding ($2.5+$ inches) and sturdy frames.\n* **Massage Mat (Futon):** Ideal for Thai or Shiatsu-style massage.[www.wecasa.co.uk](https:\/\/www.wecasa.co.uk\/mag\/pro-at-home-massage-material\/#:~:text=For%20masseurs%20practising%20oriental%20massage,allows%20massage%20on%20the%20floor.) These are placed on the floor, allowing the person giving the massage more leverage and movement.\n* **Bolsters:** Crucial for comfort.[clinicsense.com](https:\/\/clinicsense.com\/blog\/massage-therapy-equipment-list#:~:text=Plan%20on%20having%20enough%20linens,for%20easy%20positioning%20and%20comfort.) A **round bolster** under the knees (when lying on the back) or under the ankles (when on the stomach) relieves lower back pressure.",
+                            "original_text": "Portable Massage Table: The gold standard for giving massages. Look for a model under 12kg for easy storage. Brands like Earthlite and Master Massage are top-rated for having thick padding (2.5+ inches) and sturdy frames.\nMassage Mat (Futon): Ideal for Thai or Shiatsu-style massage. These are placed on the floor, allowing the person giving the massage more leverage and movement.\nBolsters: Crucial for comfort. A round bolster under the knees (when lying on the back) or under the ankles (when on the stomach) relieves lower back pressure.",
+                            "sources": [
+                                {
+                                    "type": "gemini_source",
+                                    "title": "Home massage equipment: Everything you need to know - Wecasa",
+                                    "snippet": "For masseurs practising oriental massage techniques such as Thai massage or \nAyurvedic massage, the purchase of a futon is essential. It is a Japanese \nmattress ...",
+                                    "domain": "www.wecasa.co.uk",
+                                    "url": "https:\/\/www.wecasa.co.uk\/mag\/pro-at-home-massage-material\/#:~:text=For%20masseurs%20practising%20oriental%20massage,allows%20massage%20on%20the%20floor.",
+                                    "thumbnail": "https:\/\/encrypted-tbn3.gstatic.com\/favicon-tbn?q=tbn:ANd9GcR5PZohrB7dwCOrA93HxREglYGhC5AKH6MTy5cuBFiwj8YdHOjz3Zl_PkhE5ZB5YJhMvLD7M5Cn7mEKL06iRCnoAp9OkoPMZa1cDA",
+                                    "source_name": "Wecasa",
+                                    "publication_date": null,
+                                    "markdown": "* **Massage Mat (Futon):** Ideal for Thai or Shiatsu-style massage."
+                                },
+                                {
+                                    "type": "gemini_source",
+                                    "title": "A Massage Therapy Must Have Equipment Checklist - Clinic Management Software",
+                                    "snippet": "Plan on having enough linens to cover at least 2 full days of massage \nappointments, or more if you use a laundry service. 5. Bolsters. Not \neveryone is ...",
+                                    "domain": "clinicsense.com",
+                                    "url": "https:\/\/clinicsense.com\/blog\/massage-therapy-equipment-list#:~:text=Plan%20on%20having%20enough%20linens,for%20easy%20positioning%20and%20comfort.",
+                                    "thumbnail": "https:\/\/encrypted-tbn2.gstatic.com\/favicon-tbn?q=tbn:ANd9GcR7tKq8n9goPe6QGeF_zi5WgMbg1OvRdf5gvpFDsGUFdxbHE4aSJuhP6eTldU8bwO3ic9t0_Oovqfv6FofmX_vOGys4sblVgf92",
+                                    "source_name": "Clinic Management Software",
+                                    "publication_date": null,
+                                    "markdown": "* **Bolsters:** Crucial for comfort."
+                                }
+                            ]
+                        },
+                        {
+                            "type": "gemini_text",
+                            "rank_group": 5,
+                            "rank_absolute": 5,
+                            "markdown": "## 2. Oils, Creams, and Lotions",
+                            "original_text": "2. Oils, Creams, and Lotions",
+                            "sources": null
+                        },
+                        {
+                            "type": "gemini_text",
+                            "rank_group": 6,
+                            "rank_absolute": 6,
+                            "markdown": "The right \"glide\" prevents skin irritation and enhances the experience.",
+                            "original_text": "The right \"glide\" prevents skin irritation and enhances the experience.",
+                            "sources": null
+                        },
+                        {
+                            "type": "gemini_text",
+                            "rank_group": 7,
+                            "rank_absolute": 7,
+                            "markdown": "* **Carrier Oils:** * **Fractionated Coconut Oil:** Stays liquid, is non-greasy, and won't stain sheets.[purespadirect.com](https:\/\/purespadirect.com\/blogs\/pure-spa-direct-blog\/best-massage-oils-for-spa-treatments-essential-choices-for-professional-therapists#:~:text=It's%20odorless%2C%20which%20makes%20it,a%20light%2C%20non-greasy%20feel)\n  *   * **Sweet Almond Oil:** A professional favorite for its slow absorption (less reapplication), but avoid if there are nut allergies.[www.themassageoilshop.com.au](https:\/\/www.themassageoilshop.com.au\/which-massage-oil-is-best.aspx#:~:text=Melrose%20Sweet%20almond%20oil%20is,try%20a%20patch%20test%20first.)\n  * **Jojoba Oil:** Best for sensitive or acne-prone skin as it mimics the skin's natural oils.\n* **Warming\/Cooling Balms:** Options like **Arnica** or **CBD-infused creams** are excellent for targeted sore muscle relief.",
+                            "original_text": "Carrier Oils: * Fractionated Coconut Oil: Stays liquid, is non-greasy, and won't stain sheets.\nSweet Almond Oil: A professional favorite for its slow absorption (less reapplication), but avoid if there are nut allergies.\nJojoba Oil: Best for sensitive or acne-prone skin as it mimics the skin's natural oils.\nWarming\/Cooling Balms: Options like Arnica or CBD-infused creams are excellent for targeted sore muscle relief.",
+                            "sources": [
+                                {
+                                    "type": "gemini_source",
+                                    "title": "Best Massage Oils for Spa Treatments: Essential Choices for Professional \nTherapists",
+                                    "snippet": "It's odorless, which makes it perfect for blending with essential oils, and \nit's rich in antioxidants. Its thin consistency provides a gentle glide, \nsuitable ...",
+                                    "domain": "purespadirect.com",
+                                    "url": "https:\/\/purespadirect.com\/blogs\/pure-spa-direct-blog\/best-massage-oils-for-spa-treatments-essential-choices-for-professional-therapists#:~:text=It's%20odorless%2C%20which%20makes%20it,a%20light%2C%20non-greasy%20feel",
+                                    "thumbnail": "https:\/\/encrypted-tbn3.gstatic.com\/favicon-tbn?q=tbn:ANd9GcTXuKseCa6zmOy6K0rCusZlizJsp2rYr_AVQykzihP-aZ92LrtKNFWEITo8Umz4kHJs455C3QQnDnCrqTQY_q4jfPnNkCpeii0wIkA",
+                                    "source_name": "Pure Spa Direct",
+                                    "publication_date": null,
+                                    "markdown": "* Stays liquid, is non-greasy, and won't stain sheets."
+                                },
+                                {
+                                    "type": "gemini_source",
+                                    "title": "Top 5 Massage Oils -",
+                                    "snippet": "Melrose Sweet almond oil is a classic base oil for many therapists, it \ncontains 100% Sweet Almond oil. It is Non allergenic so it usually does not \nirritate ...",
+                                    "domain": "www.themassageoilshop.com.au",
+                                    "url": "https:\/\/www.themassageoilshop.com.au\/which-massage-oil-is-best.aspx#:~:text=Melrose%20Sweet%20almond%20oil%20is,try%20a%20patch%20test%20first.",
+                                    "thumbnail": "https:\/\/encrypted-tbn2.gstatic.com\/favicon-tbn?q=tbn:ANd9GcR9j_KIHOu7FyEtmzRsWj6R-qsRjUavFYmzQUEiM2yjBsy51bGTsjPV51eVDJYu0CfP2aWI9wbrdHK9UrmZJMUDxGQfU3nmNxorlhnKRSuQzrpBz0-icw",
+                                    "source_name": "&nbsp;",
+                                    "publication_date": null,
+                                    "markdown": "* **Sweet Almond Oil:** A professional favorite for its slow absorption (less reapplication), but avoid if there are nut allergies."
+                                }
+                            ]
+                        },
+                        {
+                            "type": "gemini_text",
+                            "rank_group": 8,
+                            "rank_absolute": 8,
+                            "markdown": "## 3. High-Tech Recovery Tools (Percussion)",
+                            "original_text": "3. High-Tech Recovery Tools (Percussion)",
+                            "sources": null
+                        },
+                        {
+                            "type": "gemini_text",
+                            "rank_group": 9,
+                            "rank_absolute": 9,
+                            "markdown": "For self-massage or deep tissue work without tiring out your hands.",
+                            "original_text": "For self-massage or deep tissue work without tiring out your hands.",
+                            "sources": null
+                        },
+                        {
+                            "type": "gemini_text",
+                            "rank_group": 10,
+                            "rank_absolute": 10,
+                            "markdown": "* **Best Overall:** **Theragun Prime Plus.**[www.forbes.com](https:\/\/www.forbes.com\/sites\/forbes-personal-shopper\/article\/best-massage-guns\/#:~:text=After%20testing%2017%20options%2C%20we,Check%20Price) It’s the 2026 leader for ergonomics and power, often featuring a heated attachment head.\n* **Best for Travel\/Budget:** **Theragun Mini (3rd Gen)** or **Ekrin Bantam.**[www.forbes.com](https:\/\/www.forbes.com\/sites\/forbes-personal-shopper\/article\/best-massage-guns\/) These are quiet, palm-sized, and surprisingly powerful.\n* **Neck Specific:** Since massage guns can be too aggressive for the neck, a **Shiatsu Neck Wrap** (like those from Nekteck) with heated rotating nodes is a safer home alternative.",
+                            "original_text": "Best Overall: Theragun Prime Plus. It’s the 2026 leader for ergonomics and power, often featuring a heated attachment head.\nBest for Travel\/Budget: Theragun Mini (3rd Gen) or Ekrin Bantam. These are quiet, palm-sized, and surprisingly powerful.\nNeck Specific: Since massage guns can be too aggressive for the neck, a Shiatsu Neck Wrap (like those from Nekteck) with heated rotating nodes is a safer home alternative.",
+                            "sources": [
+                                {
+                                    "type": "gemini_source",
+                                    "title": "Best Massage Guns 2026 | Tested And Reviewed - Forbes Vetted",
+                                    "snippet": "After testing 17 options, we named the Therabody Theragun Prime Plus the \nbest massage gun overall for 2026. ILLUSTRATION: FORBES \/ PHOTO: RETAILER. \nOur Top ...",
+                                    "domain": "www.forbes.com",
+                                    "url": "https:\/\/www.forbes.com\/sites\/forbes-personal-shopper\/article\/best-massage-guns\/#:~:text=After%20testing%2017%20options%2C%20we,Check%20Price",
+                                    "thumbnail": "https:\/\/encrypted-tbn2.gstatic.com\/favicon-tbn?q=tbn:ANd9GcRgMkaXhthD6lrMoz98ttFgLqbZs3eqY0yteLEG9lSZGzY6AUW1XsWMPO8SO8trQK3ONkH3wE0kMtVbMTvtT5I62Q7yv7ODNVc",
+                                    "source_name": "Forbes",
+                                    "publication_date": null,
+                                    "markdown": "* **Best Overall:** **Theragun Prime Plus.**"
+                                },
+                                {
+                                    "type": "gemini_source",
+                                    "title": "Best Massage Guns 2026 | Tested And Reviewed - Forbes Vetted",
+                                    "snippet": "Our Top Recommendations - Best Massage Gun Overall: Therabody Theragun \nPrime Plus. - Best Runner-Up Massage Gun: Hyperice Hypervolt 2 Pro. - Best \nValue ...",
+                                    "domain": "www.forbes.com",
+                                    "url": "https:\/\/www.forbes.com\/sites\/forbes-personal-shopper\/article\/best-massage-guns\/",
+                                    "thumbnail": "https:\/\/encrypted-tbn2.gstatic.com\/favicon-tbn?q=tbn:ANd9GcRgMkaXhthD6lrMoz98ttFgLqbZs3eqY0yteLEG9lSZGzY6AUW1XsWMPO8SO8trQK3ONkH3wE0kMtVbMTvtT5I62Q7yv7ODNVc",
+                                    "source_name": "Forbes",
+                                    "publication_date": null,
+                                    "markdown": "* **Best for Travel\/Budget:** **Theragun Mini (3rd Gen)** or **Ekrin Bantam.**"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "gemini_text",
+                            "rank_group": 11,
+                            "rank_absolute": 11,
+                            "markdown": "## 4. Manual Precision Tools",
+                            "original_text": "4. Manual Precision Tools",
+                            "sources": null
+                        },
+                        {
+                            "type": "gemini_text",
+                            "rank_group": 12,
+                            "rank_absolute": 12,
+                            "markdown": "These \"analog\" tools are inexpensive and perfect for knots.[www.physique.co.uk](https:\/\/www.physique.co.uk\/Buyers-Guides\/Massage-Tools#:~:text=What%20is%20a%20massage%20stick,like%20the%20calves%20and%20thighs.)",
+                            "original_text": "These \"analog\" tools are inexpensive and perfect for knots.",
+                            "sources": [
+                                {
+                                    "type": "gemini_source",
+                                    "title": "8 Massage Tools for Therapists and Self Massage - Physique",
+                                    "snippet": "What is a massage stick? A massage stick is used by rolling it over an area \nwith muscle tension or pain and this helps work any knots, ease muscles and \ntake ...",
+                                    "domain": "www.physique.co.uk",
+                                    "url": "https:\/\/www.physique.co.uk\/Buyers-Guides\/Massage-Tools#:~:text=What%20is%20a%20massage%20stick,like%20the%20calves%20and%20thighs.",
+                                    "thumbnail": "https:\/\/encrypted-tbn0.gstatic.com\/favicon-tbn?q=tbn:ANd9GcSChFZmrQrO20WH2boTUmrgqTdT19L6XHDkPrOEBx-4ysGLmls8BdCE1m5iXenAJMjQyQSsMCVuybsYjmI-7bMJAbp8UvRMHNL4HzuW",
+                                    "source_name": "Physique",
+                                    "publication_date": null,
+                                    "markdown": "These \"analog\" tools are inexpensive and perfect for knots."
+                                }
+                            ]
+                        },
+                        {
+                            "type": "gemini_text",
+                            "rank_group": 13,
+                            "rank_absolute": 13,
+                            "markdown": "* **Massage Stars\/Thumb Savers:** Small plastic tools that protect the massager's thumb while applying deep pressure to trigger points.[www.massagewarehouse.com](https:\/\/www.massagewarehouse.com\/shop-by-department\/massage-products\/massage-tools\/#:~:text=Other%20options%20for%20professional%20therapists,self-care%20and%20professional%20applications.)\n* **Cane Massagers (e.g., LiBa or Body Back Buddy):** An S-shaped hook that allows you to apply \"pinpoint\" pressure to hard-to-reach spots on your own back.\n* **Massage Balls:** A **lacrosse ball** or a **spiky massage ball** is great for rolling out the arches of the feet or the glutes.",
+                            "original_text": "Massage Stars\/Thumb Savers: Small plastic tools that protect the massager's thumb while applying deep pressure to trigger points.\nCane Massagers (e.g., LiBa or Body Back Buddy): An S-shaped hook that allows you to apply \"pinpoint\" pressure to hard-to-reach spots on your own back.\nMassage Balls: A lacrosse ball or a spiky massage ball is great for rolling out the arches of the feet or the glutes.",
+                            "sources": [
+                                {
+                                    "type": "gemini_source",
+                                    "title": "Massage Tools - Back & Neck Self Massagers - Deep Tissue",
+                                    "snippet": "Other options for professional therapists include manual massage tools like \nmassaging cupping sets, the Original Index Knobber for accessing deep \ntissue or a ...",
+                                    "domain": "www.massagewarehouse.com",
+                                    "url": "https:\/\/www.massagewarehouse.com\/shop-by-department\/massage-products\/massage-tools\/#:~:text=Other%20options%20for%20professional%20therapists,self-care%20and%20professional%20applications.",
+                                    "thumbnail": "https:\/\/encrypted-tbn0.gstatic.com\/favicon-tbn?q=tbn:ANd9GcSzhzz3B2fMrVjnUJSLfiNC2B-Mt2m5OelR1xq0yW37--5LPLoCgZWXvp7rX0ek08XAVJ5HxvBJ_e9lFloVdQNQQEyYnXghiErUGB64Ws3tWfFt",
+                                    "source_name": "Massage Warehouse",
+                                    "publication_date": null,
+                                    "markdown": "* Small plastic tools that protect the massager's thumb while applying deep pressure to trigger points."
+                                }
+                            ]
+                        },
+                        {
+                            "type": "gemini_text",
+                            "rank_group": 14,
+                            "rank_absolute": 14,
+                            "markdown": "### Comparison of Popular 2026 Setups",
+                            "original_text": "Comparison of Popular 2026 Setups",
+                            "sources": null
+                        },
+                        {
+                            "type": "gemini_table",
+                            "rank_group": 1,
+                            "rank_absolute": 15,
+                            "markdown": "| Kit Type | Key Components | Best For |\n| :--- | :--- | :--- |\n| **The \"Spa\" Kit** | Folding table, Jojoba oil, bolsters, candles | Couples or giving massages to others. |\n| **The \"Athlete\" Kit** | Theragun Prime, foam roller, Epsom salts | Muscle recovery and injury prevention. |\n| **The \"Desktop\" Kit** | Shiatsu neck wrap, cane massager, hand balm | Relieving \"tech neck\" and office stress. |",
+                            "original_text": "Kit Type\tKey Components\tBest For\nThe \"Spa\" Kit\tFolding table, Jojoba oil, bolsters, candles\tCouples or giving massages to others.\nThe \"Athlete\" Kit\tTheragun Prime, foam roller, Epsom salts\tMuscle recovery and injury prevention.\nThe \"Desktop\" Kit\tShiatsu neck wrap, cane massager, hand balm\tRelieving \"tech neck\" and office stress.",
+                            "table": {
+                                "table_header": [
+                                    "Kit Type",
+                                    "Key Components",
+                                    "Best For"
+                                ],
+                                "table_content": [
+                                    [
+                                        "The \"Spa\" Kit",
+                                        "Folding table, Jojoba oil, bolsters, candles",
+                                        "Couples or giving massages to others."
+                                    ],
+                                    [
+                                        "The \"Athlete\" Kit",
+                                        "Theragun Prime, foam roller, Epsom salts",
+                                        "Muscle recovery and injury prevention."
+                                    ],
+                                    [
+                                        "The \"Desktop\" Kit",
+                                        "Shiatsu neck wrap, cane massager, hand balm",
+                                        "Relieving \"tech neck\" and office stress."
+                                    ]
+                                ]
+                            }
+                        },
+                        {
+                            "type": "gemini_text",
+                            "rank_group": 15,
+                            "rank_absolute": 16,
+                            "markdown": "**Would you like me to help you find specific product recommendations based on a certain budget or the type of muscle pain you're dealing with?**",
+                            "original_text": "Would you like me to help you find specific product recommendations based on a certain budget or the type of muscle pain you're dealing with?",
+                            "sources": null
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}
