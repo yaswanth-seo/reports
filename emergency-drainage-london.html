@@ -1,0 +1,275 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>SERP Visibility Report — Emergency Drainage London | Loops Digital</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+<style>
+:root {
+  --bg: #06060b;
+  --surface: #0e0e16;
+  --surface-2: #151520;
+  --border: #1e1e30;
+  --text: #e4e4ed;
+  --text-muted: #8888a0;
+  --accent: #7c5cfc;
+  --accent-2: #00d4aa;
+  --green: #4ade80;
+  --amber: #fbbf24;
+  --red: #f87171;
+  --blue: #60a5fa;
+}
+* { margin: 0; padding: 0; box-sizing: border-box; }
+body { font-family: 'DM Sans', sans-serif; background: var(--bg); color: var(--text); line-height: 1.6; }
+.container { max-width: 1100px; margin: 0 auto; padding: 40px 24px; }
+header { text-align: center; margin-bottom: 48px; }
+.logo { font-size: 13px; letter-spacing: 3px; text-transform: uppercase; color: var(--accent); font-weight: 700; margin-bottom: 8px; }
+h1 { font-size: 32px; font-weight: 700; margin-bottom: 6px; }
+h1 span { background: linear-gradient(135deg, var(--accent), var(--accent-2)); -webkit-background-clip: text; -webkit-text-fill-color: transparent; }
+.subtitle { color: var(--text-muted); font-size: 15px; }
+.meta { display: flex; justify-content: center; gap: 24px; margin-top: 16px; flex-wrap: wrap; }
+.meta-item { font-size: 12px; color: var(--text-muted); background: var(--surface); border: 1px solid var(--border); padding: 4px 12px; border-radius: 20px; }
+.meta-item strong { color: var(--text); }
+h2 { font-size: 20px; font-weight: 700; margin-bottom: 16px; padding-bottom: 8px; border-bottom: 1px solid var(--border); }
+h2 .badge { font-size: 11px; font-weight: 500; background: var(--surface-2); border: 1px solid var(--border); padding: 3px 10px; border-radius: 12px; margin-left: 8px; vertical-align: middle; color: var(--text-muted); }
+section { margin-bottom: 40px; }
+
+/* Stats row */
+.stats { display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 16px; margin-bottom: 40px; }
+.stat-card { background: var(--surface); border: 1px solid var(--border); border-radius: 12px; padding: 20px; }
+.stat-card .label { font-size: 12px; color: var(--text-muted); text-transform: uppercase; letter-spacing: 1px; margin-bottom: 4px; }
+.stat-card .value { font-size: 28px; font-weight: 700; font-family: 'JetBrains Mono', monospace; }
+.stat-card .value.green { color: var(--green); }
+.stat-card .value.amber { color: var(--amber); }
+.stat-card .value.blue { color: var(--blue); }
+.stat-card .value.accent { color: var(--accent); }
+
+/* Tables */
+table { width: 100%; border-collapse: collapse; font-size: 14px; }
+thead th { text-align: left; font-size: 11px; text-transform: uppercase; letter-spacing: 1px; color: var(--text-muted); padding: 10px 12px; border-bottom: 1px solid var(--border); }
+tbody td { padding: 12px; border-bottom: 1px solid var(--border); vertical-align: top; }
+tbody tr:hover { background: var(--surface); }
+.rank { font-family: 'JetBrains Mono', monospace; font-weight: 700; font-size: 16px; color: var(--accent); width: 40px; }
+.domain { font-family: 'JetBrains Mono', monospace; font-size: 13px; color: var(--accent-2); }
+.rating { display: flex; align-items: center; gap: 6px; }
+.stars { color: var(--amber); font-size: 13px; }
+.reviews { font-size: 12px; color: var(--text-muted); }
+.type-badge { font-size: 10px; font-weight: 600; text-transform: uppercase; letter-spacing: 0.5px; padding: 3px 8px; border-radius: 4px; display: inline-block; }
+.type-local { background: #0d2818; color: var(--green); border: 1px solid #1a4a2e; }
+.type-organic { background: #0d1528; color: var(--blue); border: 1px solid #1a2e4a; }
+.type-aggregator { background: #1a1528; color: var(--accent); border: 1px solid #2e1a4a; }
+
+/* ChatGPT section */
+.ai-response { background: var(--surface); border: 1px solid var(--border); border-radius: 12px; padding: 24px; font-size: 14px; line-height: 1.8; max-height: 400px; overflow-y: auto; }
+.ai-response h3 { color: var(--accent-2); font-size: 15px; margin: 16px 0 6px; }
+.ai-response strong { color: var(--text); }
+.ai-response a { color: var(--accent); text-decoration: none; }
+.ai-response hr { border: none; border-top: 1px solid var(--border); margin: 12px 0; }
+
+/* Related searches */
+.related-chips { display: flex; flex-wrap: wrap; gap: 8px; }
+.chip { font-size: 13px; background: var(--surface); border: 1px solid var(--border); padding: 6px 14px; border-radius: 20px; color: var(--text-muted); transition: border-color 0.2s; }
+.chip:hover { border-color: var(--accent); color: var(--text); }
+
+/* Footer */
+footer { text-align: center; padding: 32px 0; border-top: 1px solid var(--border); margin-top: 48px; font-size: 12px; color: var(--text-muted); }
+footer a { color: var(--accent); text-decoration: none; }
+
+/* Scrollbar */
+::-webkit-scrollbar { width: 6px; }
+::-webkit-scrollbar-track { background: var(--surface); }
+::-webkit-scrollbar-thumb { background: var(--border); border-radius: 3px; }
+</style>
+</head>
+<body>
+<div class="container">
+
+<header>
+  <div class="logo">Loops Digital</div>
+  <h1>SERP Visibility Report: <span>Emergency Drainage London</span></h1>
+  <p class="subtitle">Google Organic + Local Pack + ChatGPT Search — Live Data</p>
+  <div class="meta">
+    <span class="meta-item"><strong>Keyword:</strong> emergency drainage London</span>
+    <span class="meta-item"><strong>Location:</strong> London, England, UK</span>
+    <span class="meta-item"><strong>Device:</strong> Desktop</span>
+    <span class="meta-item"><strong>Date:</strong> 15 March 2026</span>
+    <span class="meta-item"><strong>Source:</strong> DataForSEO API</span>
+  </div>
+</header>
+
+<div class="stats">
+  <div class="stat-card">
+    <div class="label">Local Pack Results</div>
+    <div class="value green">3</div>
+  </div>
+  <div class="stat-card">
+    <div class="label">Organic Results (Page 1)</div>
+    <div class="value blue">10</div>
+  </div>
+  <div class="stat-card">
+    <div class="label">Aggregator Placements</div>
+    <div class="value accent">5</div>
+  </div>
+  <div class="stat-card">
+    <div class="label">ChatGPT Brands Cited</div>
+    <div class="value amber">4</div>
+  </div>
+</div>
+
+<section>
+  <h2>Google Local Pack <span class="badge">Top 3 Map Results</span></h2>
+  <table>
+    <thead><tr><th>#</th><th>Business</th><th>Domain</th><th>Rating</th><th>Phone</th></tr></thead>
+    <tbody>
+      <tr>
+        <td class="rank">1</td>
+        <td><strong>London Emergency Drainage LTD</strong><br><span style="font-size:12px;color:var(--text-muted)">Open 24 hours</span></td>
+        <td class="domain">londonemergencydrainage.co.uk</td>
+        <td><div class="rating"><span class="stars">★★★★★</span> <span>5.0</span> <span class="reviews">(6)</span></div></td>
+        <td style="font-family:'JetBrains Mono',monospace;font-size:13px;">020 8064 0422</td>
+      </tr>
+      <tr>
+        <td class="rank">2</td>
+        <td><strong>London City Drains</strong><br><span style="font-size:12px;color:var(--text-muted)">45 Albemarle St · Open 24 hours</span></td>
+        <td class="domain">londoncitydrains.com</td>
+        <td><div class="rating"><span class="stars">★★★★★</span> <span>5.0</span> <span class="reviews">(102)</span></div></td>
+        <td style="font-family:'JetBrains Mono',monospace;font-size:13px;">020 7362 9092</td>
+      </tr>
+      <tr>
+        <td class="rank">3</td>
+        <td><strong>24 Hr Emergency Drains</strong><br><span style="font-size:12px;color:var(--text-muted)">London · Open 24 hours</span></td>
+        <td class="domain">blockeddrain-london.com</td>
+        <td><div class="rating"><span class="stars">★★★★★</span> <span>5.0</span> <span class="reviews">(139)</span></div></td>
+        <td style="font-family:'JetBrains Mono',monospace;font-size:13px;">07940 566555</td>
+      </tr>
+    </tbody>
+  </table>
+</section>
+
+<section>
+  <h2>Google Organic Results <span class="badge">Page 1 — Top 10</span></h2>
+  <table>
+    <thead><tr><th>#</th><th>Title</th><th>Domain</th><th>Type</th></tr></thead>
+    <tbody>
+      <tr>
+        <td class="rank">1</td>
+        <td><strong>Unblocking Drains London Wide</strong><br><span style="font-size:12px;color:var(--text-muted)">24-7 Emergency Drainage — 30 minute call out, 24/7 365</span></td>
+        <td class="domain">24-7emergencydrainage.co.uk</td>
+        <td><span class="type-badge type-organic">Organic</span></td>
+      </tr>
+      <tr>
+        <td class="rank">2</td>
+        <td><strong>Blocked Drain Services & Emergency Drainage</strong><br><span style="font-size:12px;color:var(--text-muted)">London Emergency Drainage — engineers within 30 minutes</span></td>
+        <td class="domain">londonemergencydrainage.co.uk</td>
+        <td><span class="type-badge type-organic">Organic</span></td>
+      </tr>
+      <tr>
+        <td class="rank">3</td>
+        <td><strong>London Drainage</strong><br><span style="font-size:12px;color:var(--text-muted)">London Drainage Facilities Ltd — 24 hour service</span></td>
+        <td class="domain">london-drainage.com</td>
+        <td><span class="type-badge type-organic">Organic</span></td>
+      </tr>
+      <tr>
+        <td class="rank">4</td>
+        <td><strong>Blocked Drains London</strong><br><span style="font-size:12px;color:var(--text-muted)">J Snow Drainage London — 24/7 at affordable rates</span></td>
+        <td class="domain">jsnowdrainagelondon.co.uk</td>
+        <td><span class="type-badge type-organic">Organic</span></td>
+      </tr>
+      <tr>
+        <td class="rank">5</td>
+        <td><strong>Blocked Drain Clearance London</strong><br><span style="font-size:12px;color:var(--text-muted)">Quick Clear Drainage — reliable 24/7 drain clearance</span></td>
+        <td class="domain">quickcleardrainage.co.uk</td>
+        <td><span class="type-badge type-organic">Organic</span></td>
+      </tr>
+      <tr>
+        <td class="rank">6</td>
+        <td><strong>Emergency Drainage in London</strong><br><span style="font-size:12px;color:var(--text-muted)">iDrain — drainage specialists</span></td>
+        <td class="domain">idrain.uk</td>
+        <td><span class="type-badge type-organic">Organic</span></td>
+      </tr>
+      <tr>
+        <td class="rank">7</td>
+        <td><strong>Blocked Drains London | Drain Unblocking</strong><br><span style="font-size:12px;color:var(--text-muted)">Pimlico Plumbers — emergency response within 1 hr</span></td>
+        <td class="domain">pimlicoplumbers.com</td>
+        <td><span class="type-badge type-organic">Organic</span></td>
+      </tr>
+      <tr>
+        <td class="rank">8</td>
+        <td><strong>Emergency Drainage | 24/7 Drain Unblocking</strong><br><span style="font-size:12px;color:var(--text-muted)">1st Call Drain Clearance — Harrow, Ealing & Central London</span></td>
+        <td class="domain">1stcalldrains.com</td>
+        <td><span class="type-badge type-organic">Organic</span></td>
+      </tr>
+      <tr>
+        <td class="rank">9</td>
+        <td><strong>Blocked Drain London | 24/7 Emergency Drain</strong><br><span style="font-size:12px;color:var(--text-muted)">DrainLocal — no call-out fee, 2 hour response</span></td>
+        <td class="domain">drainlocal.co.uk</td>
+        <td><span class="type-badge type-organic">Organic</span></td>
+      </tr>
+      <tr>
+        <td class="rank">10</td>
+        <td><strong>24/7 Emergency Drainage Specialist</strong><br><span style="font-size:12px;color:var(--text-muted)">London Drains Direct</span></td>
+        <td class="domain">londondrainsdirect.com</td>
+        <td><span class="type-badge type-organic">Organic</span></td>
+      </tr>
+    </tbody>
+  </table>
+</section>
+
+<section>
+  <h2>Aggregator Placements <span class="badge">Above Organic Results</span></h2>
+  <table>
+    <thead><tr><th>Platform</th><th>Title</th><th>Type</th></tr></thead>
+    <tbody>
+      <tr><td class="domain">checkatrade.com</td><td>London Emergency Drainage Ltd</td><td><span class="type-badge type-aggregator">Directory</span></td></tr>
+      <tr><td class="domain">trustatrader.com</td><td>Drainage Specialists in London</td><td><span class="type-badge type-aggregator">Directory</span></td></tr>
+      <tr><td class="domain">uk.trustpilot.com</td><td>London Emergency Drainage Reviews</td><td><span class="type-badge type-aggregator">Reviews</span></td></tr>
+      <tr><td class="domain">facebook.com</td><td>London Emergency Drainage</td><td><span class="type-badge type-aggregator">Social</span></td></tr>
+      <tr><td class="domain">cylex-uk.co.uk</td><td>Emergency Drain Unblocking in London</td><td><span class="type-badge type-aggregator">Directory</span></td></tr>
+    </tbody>
+  </table>
+</section>
+
+<section>
+  <h2>ChatGPT Search Response <span class="badge">What ChatGPT recommends</span></h2>
+  <p style="font-size:13px;color:var(--text-muted);margin-bottom:12px;">Query: "best emergency drainage service London" — scraped from ChatGPT's live search mode via DataForSEO</p>
+  <div class="ai-response">
+    <p><strong>ChatGPT recommends 4 companies:</strong></p>
+    <hr>
+    <h3>1. Dyno-Rod</h3>
+    <p>24/7 emergency service, nationwide coverage, experienced technicians. <a href="https://www.dynorod.co.uk">dynorod.co.uk</a></p>
+    <h3>2. Drain Doctor</h3>
+    <p>Fast response, certified engineers, modern equipment. <a href="https://www.drain-doctor.co.uk">drain-doctor.co.uk</a></p>
+    <h3>3. Drainage London</h3>
+    <p>Local London company, 24/7 availability, transparent pricing. <a href="https://www.drainagelondon.co.uk">drainagelondon.co.uk</a></p>
+    <h3>4. London Drainage Services</h3>
+    <p>Quick response for blocked drains, no call-out charges. <a href="https://www.london-drainage-services.co.uk">london-drainage-services.co.uk</a></p>
+    <hr>
+    <p style="color:var(--text-muted);font-size:12px;margin-top:12px;"><strong>Key insight:</strong> ChatGPT cites completely different brands than Google's organic or local pack results. Only "London Drainage" has any overlap. This is a separate visibility channel requiring its own optimization strategy.</p>
+  </div>
+</section>
+
+<section>
+  <h2>Related Searches <span class="badge">Google Suggests</span></h2>
+  <div class="related-chips">
+    <span class="chip">Emergency drainage london near me</span>
+    <span class="chip">Emergency drainage london cost</span>
+    <span class="chip">London drainage co</span>
+    <span class="chip">Emergency drain unblocking near me</span>
+    <span class="chip">London Drainage Facilities reviews</span>
+    <span class="chip">London Drainage Facilities jobs</span>
+    <span class="chip">London Drains Direct</span>
+    <span class="chip">Emergency drainage services</span>
+  </div>
+</section>
+
+</div>
+
+<footer>
+  <p>Generated by <a href="https://loopsdigital.com">Loops Digital</a> using DataForSEO API · <a href="https://yaswanth-seo.github.io/reports/">Reports Hub</a></p>
+  <p style="margin-top:4px;">Data pulled live on 15 March 2026 · Google SERP (London, UK) + ChatGPT Search Mode</p>
+</footer>
+
+</body>
+</html>
