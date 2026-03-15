@@ -1,0 +1,207 @@
+{
+    "version": "0.1.20260311",
+    "status_code": 20000,
+    "status_message": "Ok.",
+    "time": "26.1129 sec.",
+    "cost": 0.004,
+    "tasks_count": 1,
+    "tasks_error": 0,
+    "tasks": [
+        {
+            "id": "03152209-4353-0629-0000-aa80d048d307",
+            "status_code": 20000,
+            "status_message": "Ok.",
+            "time": "26.0563 sec.",
+            "cost": 0.004,
+            "result_count": 1,
+            "path": [
+                "v3",
+                "ai_optimization",
+                "gemini",
+                "llm_scraper",
+                "live",
+                "advanced"
+            ],
+            "data": {
+                "api": "ai_optimization",
+                "function": "llm_scraper",
+                "se": "gemini",
+                "keyword": "himalayan salt block wall",
+                "language_code": "en",
+                "location_name": "United States",
+                "device": "desktop",
+                "os": "windows"
+            },
+            "result": [
+                {
+                    "keyword": "himalayan salt block wall",
+                    "location_code": 2840,
+                    "language_code": "en",
+                    "model": "Fast",
+                    "datetime": "2026-03-15 20:10:14 +00:00",
+                    "markdown": "Himalayan salt walls are a stunning way to bring a warm, organic aesthetic into a space. They are popular in home spas, bedrooms, and yoga studios for their unique \"sunset\" glow and the rumored (though scientifically debated) benefits of air ionization.\n\nHere is a guide on how they work and what you need to consider before building one.\n\n---\n\n## 1. Installation Methods\n\nDepending on your DIY skill level and whether the wall is permanent, there are two main ways to build one:\n\n* **The Glue-Down Method:** Salt bricks are stacked like traditional masonry using a specialized, transparent salt adhesive. This is best for permanent, solid walls.\n* **The Frame\/Clip System:** Bricks are placed into a pre-built metal or wooden track system. This is ideal if you want to replace a brick easily or if you want to move the wall later.\n\n## 2. Lighting is Key\n\nA salt wall without backlighting is just a pile of pink rocks. To get that iconic glow, you need to leave a gap (usually 2–4 inches) between the salt and the existing wall for **LED strip lights**.\n\n* **Heat Matters:** While LEDs stay cool, some people prefer traditional bulbs because the slight heat helps the salt release ions. However, modern LED strips are the standard for safety and color control.\n\n## 3. Maintenance and Environment\n\nSalt is **hygroscopic**, meaning it attracts moisture from the air. This leads to a few \"rules of the salt\":\n\n* **Humidity Control:** Do not install a salt wall in a room with high humidity (like a bathroom with a shower). The salt will literally start to \"sweat\" and eventually dissolve.\n* **Cleaning:** Never use water or cleaning sprays. Simply wipe the wall down with a dry or very slightly damp microfiber cloth.\n\n## 4. Pros and Cons\n\n| Feature | The Good Stuff | The Reality Check |\n| :--- | :--- | :--- |\n| **Aesthetics** | Unmatched natural texture and warm lighting. | Can be very heavy; requires floor reinforcement. |\n| **Wellness** | Creates a calming, spa-like atmosphere. | Health claims (like curing asthma) lack strong clinical proof. |\n| **Durability** | If kept dry, the salt will last for decades. | Susceptible to chipping or \"melting\" in humid climates. |\n\n---\n\n### Pro Tip: The \"Curb\"\n\nIf you are building a large wall, always start with a **moisture-proof base** or \"curb\" (like a piece of treated wood or stone). This prevents any moisture that might collect at the bottom from seeping into your flooring.\n\n**Would you like me to help you calculate how many bricks you’ll need based on your wall dimensions?**",
+                    "sources": null,
+                    "se_results_count": 0,
+                    "item_types": [
+                        "gemini_text",
+                        "gemini_table"
+                    ],
+                    "items_count": 16,
+                    "items": [
+                        {
+                            "type": "gemini_text",
+                            "rank_group": 1,
+                            "rank_absolute": 1,
+                            "markdown": "Himalayan salt walls are a stunning way to bring a warm, organic aesthetic into a space. They are popular in home spas, bedrooms, and yoga studios for their unique \"sunset\" glow and the rumored (though scientifically debated) benefits of air ionization.",
+                            "original_text": "Himalayan salt walls are a stunning way to bring a warm, organic aesthetic into a space. They are popular in home spas, bedrooms, and yoga studios for their unique \"sunset\" glow and the rumored (though scientifically debated) benefits of air ionization.",
+                            "sources": null
+                        },
+                        {
+                            "type": "gemini_text",
+                            "rank_group": 2,
+                            "rank_absolute": 2,
+                            "markdown": "Here is a guide on how they work and what you need to consider before building one.",
+                            "original_text": "Here is a guide on how they work and what you need to consider before building one.",
+                            "sources": null
+                        },
+                        {
+                            "type": "gemini_text",
+                            "rank_group": 3,
+                            "rank_absolute": 3,
+                            "markdown": "## 1. Installation Methods",
+                            "original_text": "1. Installation Methods",
+                            "sources": null
+                        },
+                        {
+                            "type": "gemini_text",
+                            "rank_group": 4,
+                            "rank_absolute": 4,
+                            "markdown": "Depending on your DIY skill level and whether the wall is permanent, there are two main ways to build one:",
+                            "original_text": "Depending on your DIY skill level and whether the wall is permanent, there are two main ways to build one:",
+                            "sources": null
+                        },
+                        {
+                            "type": "gemini_text",
+                            "rank_group": 5,
+                            "rank_absolute": 5,
+                            "markdown": "* **The Glue-Down Method:** Salt bricks are stacked like traditional masonry using a specialized, transparent salt adhesive. This is best for permanent, solid walls.\n* **The Frame\/Clip System:** Bricks are placed into a pre-built metal or wooden track system. This is ideal if you want to replace a brick easily or if you want to move the wall later.",
+                            "original_text": "The Glue-Down Method: Salt bricks are stacked like traditional masonry using a specialized, transparent salt adhesive. This is best for permanent, solid walls.\nThe Frame\/Clip System: Bricks are placed into a pre-built metal or wooden track system. This is ideal if you want to replace a brick easily or if you want to move the wall later.",
+                            "sources": null
+                        },
+                        {
+                            "type": "gemini_text",
+                            "rank_group": 6,
+                            "rank_absolute": 6,
+                            "markdown": "## 2. Lighting is Key",
+                            "original_text": "2. Lighting is Key",
+                            "sources": null
+                        },
+                        {
+                            "type": "gemini_text",
+                            "rank_group": 7,
+                            "rank_absolute": 7,
+                            "markdown": "A salt wall without backlighting is just a pile of pink rocks. To get that iconic glow, you need to leave a gap (usually 2–4 inches) between the salt and the existing wall for **LED strip lights**.",
+                            "original_text": "A salt wall without backlighting is just a pile of pink rocks. To get that iconic glow, you need to leave a gap (usually 2–4 inches) between the salt and the existing wall for LED strip lights.",
+                            "sources": null
+                        },
+                        {
+                            "type": "gemini_text",
+                            "rank_group": 8,
+                            "rank_absolute": 8,
+                            "markdown": "* **Heat Matters:** While LEDs stay cool, some people prefer traditional bulbs because the slight heat helps the salt release ions. However, modern LED strips are the standard for safety and color control.",
+                            "original_text": "Heat Matters: While LEDs stay cool, some people prefer traditional bulbs because the slight heat helps the salt release ions. However, modern LED strips are the standard for safety and color control.",
+                            "sources": null
+                        },
+                        {
+                            "type": "gemini_text",
+                            "rank_group": 9,
+                            "rank_absolute": 9,
+                            "markdown": "## 3. Maintenance and Environment",
+                            "original_text": "3. Maintenance and Environment",
+                            "sources": null
+                        },
+                        {
+                            "type": "gemini_text",
+                            "rank_group": 10,
+                            "rank_absolute": 10,
+                            "markdown": "Salt is **hygroscopic**, meaning it attracts moisture from the air. This leads to a few \"rules of the salt\":",
+                            "original_text": "Salt is hygroscopic, meaning it attracts moisture from the air. This leads to a few \"rules of the salt\":",
+                            "sources": null
+                        },
+                        {
+                            "type": "gemini_text",
+                            "rank_group": 11,
+                            "rank_absolute": 11,
+                            "markdown": "* **Humidity Control:** Do not install a salt wall in a room with high humidity (like a bathroom with a shower). The salt will literally start to \"sweat\" and eventually dissolve.\n* **Cleaning:** Never use water or cleaning sprays. Simply wipe the wall down with a dry or very slightly damp microfiber cloth.",
+                            "original_text": "Humidity Control: Do not install a salt wall in a room with high humidity (like a bathroom with a shower). The salt will literally start to \"sweat\" and eventually dissolve.\nCleaning: Never use water or cleaning sprays. Simply wipe the wall down with a dry or very slightly damp microfiber cloth.",
+                            "sources": null
+                        },
+                        {
+                            "type": "gemini_text",
+                            "rank_group": 12,
+                            "rank_absolute": 12,
+                            "markdown": "## 4. Pros and Cons",
+                            "original_text": "4. Pros and Cons",
+                            "sources": null
+                        },
+                        {
+                            "type": "gemini_table",
+                            "rank_group": 1,
+                            "rank_absolute": 13,
+                            "markdown": "| Feature | The Good Stuff | The Reality Check |\n| :--- | :--- | :--- |\n| **Aesthetics** | Unmatched natural texture and warm lighting. | Can be very heavy; requires floor reinforcement. |\n| **Wellness** | Creates a calming, spa-like atmosphere. | Health claims (like curing asthma) lack strong clinical proof. |\n| **Durability** | If kept dry, the salt will last for decades. | Susceptible to chipping or \"melting\" in humid climates. |",
+                            "original_text": "Feature\tThe Good Stuff\tThe Reality Check\nAesthetics\tUnmatched natural texture and warm lighting.\tCan be very heavy; requires floor reinforcement.\nWellness\tCreates a calming, spa-like atmosphere.\tHealth claims (like curing asthma) lack strong clinical proof.\nDurability\tIf kept dry, the salt will last for decades.\tSusceptible to chipping or \"melting\" in humid climates.",
+                            "table": {
+                                "table_header": [
+                                    "Feature",
+                                    "The Good Stuff",
+                                    "The Reality Check"
+                                ],
+                                "table_content": [
+                                    [
+                                        "Aesthetics",
+                                        "Unmatched natural texture and warm lighting.",
+                                        "Can be very heavy; requires floor reinforcement."
+                                    ],
+                                    [
+                                        "Wellness",
+                                        "Creates a calming, spa-like atmosphere.",
+                                        "Health claims (like curing asthma) lack strong clinical proof."
+                                    ],
+                                    [
+                                        "Durability",
+                                        "If kept dry, the salt will last for decades.",
+                                        "Susceptible to chipping or \"melting\" in humid climates."
+                                    ]
+                                ]
+                            }
+                        },
+                        {
+                            "type": "gemini_text",
+                            "rank_group": 13,
+                            "rank_absolute": 14,
+                            "markdown": "### Pro Tip: The \"Curb\"",
+                            "original_text": "Pro Tip: The \"Curb\"",
+                            "sources": null
+                        },
+                        {
+                            "type": "gemini_text",
+                            "rank_group": 14,
+                            "rank_absolute": 15,
+                            "markdown": "If you are building a large wall, always start with a **moisture-proof base** or \"curb\" (like a piece of treated wood or stone). This prevents any moisture that might collect at the bottom from seeping into your flooring.",
+                            "original_text": "If you are building a large wall, always start with a moisture-proof base or \"curb\" (like a piece of treated wood or stone). This prevents any moisture that might collect at the bottom from seeping into your flooring.",
+                            "sources": null
+                        },
+                        {
+                            "type": "gemini_text",
+                            "rank_group": 15,
+                            "rank_absolute": 16,
+                            "markdown": "**Would you like me to help you calculate how many bricks you’ll need based on your wall dimensions?**",
+                            "original_text": "Would you like me to help you calculate how many bricks you’ll need based on your wall dimensions?",
+                            "sources": null
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}
