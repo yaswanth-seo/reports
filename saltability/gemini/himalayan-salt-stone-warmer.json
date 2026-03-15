@@ -1,0 +1,214 @@
+{
+    "version": "0.1.20260311",
+    "status_code": 20000,
+    "status_message": "Ok.",
+    "time": "56.1216 sec.",
+    "cost": 0.004,
+    "tasks_count": 1,
+    "tasks_error": 0,
+    "tasks": [
+        {
+            "id": "03152159-4353-0629-0000-a03100d54dd0",
+            "status_code": 20000,
+            "status_message": "Ok.",
+            "time": "56.0904 sec.",
+            "cost": 0.004,
+            "result_count": 1,
+            "path": [
+                "v3",
+                "ai_optimization",
+                "gemini",
+                "llm_scraper",
+                "live",
+                "advanced"
+            ],
+            "data": {
+                "api": "ai_optimization",
+                "function": "llm_scraper",
+                "se": "gemini",
+                "keyword": "himalayan salt stone warmer",
+                "language_code": "en",
+                "location_name": "United States",
+                "device": "desktop",
+                "os": "windows"
+            },
+            "result": [
+                {
+                    "keyword": "himalayan salt stone warmer",
+                    "location_code": 2840,
+                    "language_code": "en",
+                    "model": "Fast",
+                    "datetime": "2026-03-15 20:00:47 +00:00",
+                    "markdown": "If you’re looking into Himalayan salt stone warmers, you’re likely aiming for that perfect \"spa at home\" vibe or professional-grade relaxation. These warmers are specifically designed to heat hand-carved salt stones to a consistent, comfortable temperature (usually around **40°C to 50°C** or **100°F to 120°F**) for massage therapy.\n\n### Why Use a Salt Stone Warmer?\n\nUnlike traditional basalt stones that are often heated in water, salt stones are **hygroscopic** (they attract moisture).[www.petercox.com](https:\/\/www.petercox.com\/blog\/what-are-hygroscopic-salts-identifying-and-treating-salt-damp\/#:~:text=Persistent%20Damp%20Patches%3A%20Hygroscopic%20salts,damp%20spots%20regardless%20of%20rain.) Heating them in water would cause them to dissolve. Specialized warmers use dry heat to keep the stones:\n\n* **Bacteria-Resistant:** Himalayan salt is naturally antimicrobial.[www.himalayansaltfactory.com.au](https:\/\/www.himalayansaltfactory.com.au\/salty-news\/the-antibacterial-properties-of-himalayan-salt-products\/#:~:text=You%20can%20assist%20your%20body,stay%20as%20healthy%20as%20possible.)\n* **Evenly Heated:** Dry heat prevents hot spots that could cause skin burns.\n* **Dehumidified:** It keeps the stones smooth and prevents them from becoming \"pitted\" or rough.\n\n---\n\n### Popular Types of Warmers\n\n| Type | Best For... | Features |\n| :--- | :--- | :--- |\n| **Salt Lamp Bowls** | Home use \/ Aesthetics | A decorative bowl filled with small round stones; doubles as a nightlight. |\n| **Professional Trays** | Massage Therapists | Flat, bamboo or metal heating surfaces that fit 12–20 stones of various shapes. |\n| **Portable Cases** | Traveling Therapists | An insulated, briefcase-style warmer that plugs into a wall or car outlet. |\n\n---\n\n### Pro-Tips for Use\n\n* **Don't Overheat:** Salt stones retain heat incredibly well. Always test the stone on your inner forearm before applying it to a \"client\" (or yourself).\n* **Cleaning:** Never use soap and water. Use a specialized salt stone spray or a slightly damp cloth with a non-toxic disinfectant, then dry immediately and return to the warmer.\n* **The \"Glow\" Benefit:** Many warmers use a 25–40 watt bulb. This creates a soft orange glow that releases negative ions, which many find helpful for mood and air quality.\n\n> **Important Note:** If you have sensitive skin or a salt allergy, use a barrier (like a thin towel) between the stone and the skin until you know how you react to the mineral content.\n\n---\n\n**Would you like me to find the top-rated warmers currently available for purchase, or are you looking for a specific DIY way to heat the stones you already have?**\n\nBy the way, to unlock the full functionality of all Apps, enable Gemini Apps Activity.",
+                    "sources": [
+                        {
+                            "type": "gemini_source",
+                            "title": "What are Hygroscopic Salts? Identifying and Treating Salt Damp - Peter Cox",
+                            "snippet": "Persistent Damp Patches: Hygroscopic salts pull atmospheric moisture into \nthe wall, causing damp spots regardless of rain.",
+                            "domain": "www.petercox.com",
+                            "url": "https:\/\/www.petercox.com\/blog\/what-are-hygroscopic-salts-identifying-and-treating-salt-damp\/#:~:text=Persistent%20Damp%20Patches%3A%20Hygroscopic%20salts,damp%20spots%20regardless%20of%20rain.",
+                            "thumbnail": "https:\/\/encrypted-tbn2.gstatic.com\/favicon-tbn?q=tbn:ANd9GcSbjIM8rofLF6K3JcDIo7Py0R_2qUb88lTXD7Q7otwIQqorju2m0msq9f-2TU1HtVqNr1XwH8_5h-Fnz3tTycEvuckyRwwQDKu1Gg",
+                            "source_name": "Peter Cox",
+                            "publication_date": null,
+                            "markdown": "Unlike traditional basalt stones that are often heated in water, salt stones are **hygroscopic** (they attract moisture)."
+                        },
+                        {
+                            "type": "gemini_source",
+                            "title": "The Antibacterial Properties Of Himalayan Salt Products | Crystal Factory",
+                            "snippet": "You can assist your body and your loved ones with the antibacterial \nproperties of Himalayan salt to stay as healthy as possible.",
+                            "domain": "www.himalayansaltfactory.com.au",
+                            "url": "https:\/\/www.himalayansaltfactory.com.au\/salty-news\/the-antibacterial-properties-of-himalayan-salt-products\/#:~:text=You%20can%20assist%20your%20body,stay%20as%20healthy%20as%20possible.",
+                            "thumbnail": "https:\/\/encrypted-tbn3.gstatic.com\/favicon-tbn?q=tbn:ANd9GcRlSWZ1Kze-q1QUm1k23QTy_2hJEDzDDROI9r2eOFroNFfP7iWv7Lwhgqx2XrJED-zBq0W36Gi6qUni2-tPVhCbxJbNOT_zBxeGhoDFXHUYy-9kV025d_3HEg",
+                            "source_name": "Himalayan Salt Factory | Crystal Factory",
+                            "publication_date": null,
+                            "markdown": "* Himalayan salt is naturally antimicrobial."
+                        }
+                    ],
+                    "se_results_count": 0,
+                    "item_types": [
+                        "gemini_text",
+                        "gemini_table"
+                    ],
+                    "items_count": 11,
+                    "items": [
+                        {
+                            "type": "gemini_text",
+                            "rank_group": 1,
+                            "rank_absolute": 1,
+                            "markdown": "If you’re looking into Himalayan salt stone warmers, you’re likely aiming for that perfect \"spa at home\" vibe or professional-grade relaxation. These warmers are specifically designed to heat hand-carved salt stones to a consistent, comfortable temperature (usually around **40°C to 50°C** or **100°F to 120°F**) for massage therapy.",
+                            "original_text": "If you’re looking into Himalayan salt stone warmers, you’re likely aiming for that perfect \"spa at home\" vibe or professional-grade relaxation. These warmers are specifically designed to heat hand-carved salt stones to a consistent, comfortable temperature (usually around 40°C to 50°C or 100°F to 120°F) for massage therapy.",
+                            "sources": null
+                        },
+                        {
+                            "type": "gemini_text",
+                            "rank_group": 2,
+                            "rank_absolute": 2,
+                            "markdown": "### Why Use a Salt Stone Warmer?",
+                            "original_text": "Why Use a Salt Stone Warmer?",
+                            "sources": null
+                        },
+                        {
+                            "type": "gemini_text",
+                            "rank_group": 3,
+                            "rank_absolute": 3,
+                            "markdown": "Unlike traditional basalt stones that are often heated in water, salt stones are **hygroscopic** (they attract moisture).[www.petercox.com](https:\/\/www.petercox.com\/blog\/what-are-hygroscopic-salts-identifying-and-treating-salt-damp\/#:~:text=Persistent%20Damp%20Patches%3A%20Hygroscopic%20salts,damp%20spots%20regardless%20of%20rain.) Heating them in water would cause them to dissolve. Specialized warmers use dry heat to keep the stones:",
+                            "original_text": "Unlike traditional basalt stones that are often heated in water, salt stones are hygroscopic (they attract moisture). Heating them in water would cause them to dissolve. Specialized warmers use dry heat to keep the stones:",
+                            "sources": [
+                                {
+                                    "type": "gemini_source",
+                                    "title": "What are Hygroscopic Salts? Identifying and Treating Salt Damp - Peter Cox",
+                                    "snippet": "Persistent Damp Patches: Hygroscopic salts pull atmospheric moisture into \nthe wall, causing damp spots regardless of rain.",
+                                    "domain": "www.petercox.com",
+                                    "url": "https:\/\/www.petercox.com\/blog\/what-are-hygroscopic-salts-identifying-and-treating-salt-damp\/#:~:text=Persistent%20Damp%20Patches%3A%20Hygroscopic%20salts,damp%20spots%20regardless%20of%20rain.",
+                                    "thumbnail": "https:\/\/encrypted-tbn2.gstatic.com\/favicon-tbn?q=tbn:ANd9GcSbjIM8rofLF6K3JcDIo7Py0R_2qUb88lTXD7Q7otwIQqorju2m0msq9f-2TU1HtVqNr1XwH8_5h-Fnz3tTycEvuckyRwwQDKu1Gg",
+                                    "source_name": "Peter Cox",
+                                    "publication_date": null,
+                                    "markdown": "Unlike traditional basalt stones that are often heated in water, salt stones are **hygroscopic** (they attract moisture)."
+                                }
+                            ]
+                        },
+                        {
+                            "type": "gemini_text",
+                            "rank_group": 4,
+                            "rank_absolute": 4,
+                            "markdown": "* **Bacteria-Resistant:** Himalayan salt is naturally antimicrobial.[www.himalayansaltfactory.com.au](https:\/\/www.himalayansaltfactory.com.au\/salty-news\/the-antibacterial-properties-of-himalayan-salt-products\/#:~:text=You%20can%20assist%20your%20body,stay%20as%20healthy%20as%20possible.)\n* **Evenly Heated:** Dry heat prevents hot spots that could cause skin burns.\n* **Dehumidified:** It keeps the stones smooth and prevents them from becoming \"pitted\" or rough.",
+                            "original_text": "Bacteria-Resistant: Himalayan salt is naturally antimicrobial.\nEvenly Heated: Dry heat prevents hot spots that could cause skin burns.\nDehumidified: It keeps the stones smooth and prevents them from becoming \"pitted\" or rough.",
+                            "sources": [
+                                {
+                                    "type": "gemini_source",
+                                    "title": "The Antibacterial Properties Of Himalayan Salt Products | Crystal Factory",
+                                    "snippet": "You can assist your body and your loved ones with the antibacterial \nproperties of Himalayan salt to stay as healthy as possible.",
+                                    "domain": "www.himalayansaltfactory.com.au",
+                                    "url": "https:\/\/www.himalayansaltfactory.com.au\/salty-news\/the-antibacterial-properties-of-himalayan-salt-products\/#:~:text=You%20can%20assist%20your%20body,stay%20as%20healthy%20as%20possible.",
+                                    "thumbnail": "https:\/\/encrypted-tbn3.gstatic.com\/favicon-tbn?q=tbn:ANd9GcRlSWZ1Kze-q1QUm1k23QTy_2hJEDzDDROI9r2eOFroNFfP7iWv7Lwhgqx2XrJED-zBq0W36Gi6qUni2-tPVhCbxJbNOT_zBxeGhoDFXHUYy-9kV025d_3HEg",
+                                    "source_name": "Himalayan Salt Factory | Crystal Factory",
+                                    "publication_date": null,
+                                    "markdown": "* Himalayan salt is naturally antimicrobial."
+                                }
+                            ]
+                        },
+                        {
+                            "type": "gemini_text",
+                            "rank_group": 5,
+                            "rank_absolute": 5,
+                            "markdown": "### Popular Types of Warmers",
+                            "original_text": "Popular Types of Warmers",
+                            "sources": null
+                        },
+                        {
+                            "type": "gemini_table",
+                            "rank_group": 1,
+                            "rank_absolute": 6,
+                            "markdown": "| Type | Best For... | Features |\n| :--- | :--- | :--- |\n| **Salt Lamp Bowls** | Home use \/ Aesthetics | A decorative bowl filled with small round stones; doubles as a nightlight. |\n| **Professional Trays** | Massage Therapists | Flat, bamboo or metal heating surfaces that fit 12–20 stones of various shapes. |\n| **Portable Cases** | Traveling Therapists | An insulated, briefcase-style warmer that plugs into a wall or car outlet. |",
+                            "original_text": "Type\tBest For...\tFeatures\nSalt Lamp Bowls\tHome use \/ Aesthetics\tA decorative bowl filled with small round stones; doubles as a nightlight.\nProfessional Trays\tMassage Therapists\tFlat, bamboo or metal heating surfaces that fit 12–20 stones of various shapes.\nPortable Cases\tTraveling Therapists\tAn insulated, briefcase-style warmer that plugs into a wall or car outlet.",
+                            "table": {
+                                "table_header": [
+                                    "Type",
+                                    "Best For...",
+                                    "Features"
+                                ],
+                                "table_content": [
+                                    [
+                                        "Salt Lamp Bowls",
+                                        "Home use \/ Aesthetics",
+                                        "A decorative bowl filled with small round stones; doubles as a nightlight."
+                                    ],
+                                    [
+                                        "Professional Trays",
+                                        "Massage Therapists",
+                                        "Flat, bamboo or metal heating surfaces that fit 12–20 stones of various shapes."
+                                    ],
+                                    [
+                                        "Portable Cases",
+                                        "Traveling Therapists",
+                                        "An insulated, briefcase-style warmer that plugs into a wall or car outlet."
+                                    ]
+                                ]
+                            }
+                        },
+                        {
+                            "type": "gemini_text",
+                            "rank_group": 6,
+                            "rank_absolute": 7,
+                            "markdown": "### Pro-Tips for Use",
+                            "original_text": "Pro-Tips for Use",
+                            "sources": null
+                        },
+                        {
+                            "type": "gemini_text",
+                            "rank_group": 7,
+                            "rank_absolute": 8,
+                            "markdown": "* **Don't Overheat:** Salt stones retain heat incredibly well. Always test the stone on your inner forearm before applying it to a \"client\" (or yourself).\n* **Cleaning:** Never use soap and water. Use a specialized salt stone spray or a slightly damp cloth with a non-toxic disinfectant, then dry immediately and return to the warmer.\n* **The \"Glow\" Benefit:** Many warmers use a 25–40 watt bulb. This creates a soft orange glow that releases negative ions, which many find helpful for mood and air quality.",
+                            "original_text": "Don't Overheat: Salt stones retain heat incredibly well. Always test the stone on your inner forearm before applying it to a \"client\" (or yourself).\nCleaning: Never use soap and water. Use a specialized salt stone spray or a slightly damp cloth with a non-toxic disinfectant, then dry immediately and return to the warmer.\nThe \"Glow\" Benefit: Many warmers use a 25–40 watt bulb. This creates a soft orange glow that releases negative ions, which many find helpful for mood and air quality.",
+                            "sources": null
+                        },
+                        {
+                            "type": "gemini_text",
+                            "rank_group": 8,
+                            "rank_absolute": 9,
+                            "markdown": "> **Important Note:** If you have sensitive skin or a salt allergy, use a barrier (like a thin towel) between the stone and the skin until you know how you react to the mineral content.",
+                            "original_text": "Important Note: If you have sensitive skin or a salt allergy, use a barrier (like a thin towel) between the stone and the skin until you know how you react to the mineral content.",
+                            "sources": null
+                        },
+                        {
+                            "type": "gemini_text",
+                            "rank_group": 9,
+                            "rank_absolute": 10,
+                            "markdown": "**Would you like me to find the top-rated warmers currently available for purchase, or are you looking for a specific DIY way to heat the stones you already have?**",
+                            "original_text": "Would you like me to find the top-rated warmers currently available for purchase, or are you looking for a specific DIY way to heat the stones you already have?",
+                            "sources": null
+                        },
+                        {
+                            "type": "gemini_text",
+                            "rank_group": 10,
+                            "rank_absolute": 11,
+                            "markdown": "By the way, to unlock the full functionality of all Apps, enable Gemini Apps Activity.",
+                            "original_text": "By the way, to unlock the full functionality of all Apps, enable Gemini Apps Activity.",
+                            "sources": null
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}
