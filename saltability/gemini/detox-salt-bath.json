@@ -1,0 +1,164 @@
+{
+    "version": "0.1.20260311",
+    "status_code": 20000,
+    "status_message": "Ok.",
+    "time": "23.0798 sec.",
+    "cost": 0.004,
+    "tasks_count": 1,
+    "tasks_error": 0,
+    "tasks": [
+        {
+            "id": "03152201-4353-0629-0000-7fdd71e126a7",
+            "status_code": 20000,
+            "status_message": "Ok.",
+            "time": "23.0448 sec.",
+            "cost": 0.004,
+            "result_count": 1,
+            "path": [
+                "v3",
+                "ai_optimization",
+                "gemini",
+                "llm_scraper",
+                "live",
+                "advanced"
+            ],
+            "data": {
+                "api": "ai_optimization",
+                "function": "llm_scraper",
+                "se": "gemini",
+                "keyword": "detox salt bath",
+                "language_code": "en",
+                "location_name": "United States",
+                "device": "desktop",
+                "os": "windows"
+            },
+            "result": [
+                {
+                    "keyword": "detox salt bath",
+                    "location_code": 2840,
+                    "language_code": "en",
+                    "model": "Fast",
+                    "datetime": "2026-03-15 20:01:37 +00:00",
+                    "markdown": "A detox salt bath is a classic way to unwind, soothe sore muscles, and give your skin a little extra attention. While the term \"detox\" is often used loosely—your liver and kidneys handle the heavy lifting of actual detoxification—soaking in mineral-rich water is fantastic for relaxation and circulation.\n\nHere is how to put together an effective soak:\n\n## The Core Ingredients\n\n| Ingredient | Purpose | Typical Amount |\n| :--- | :--- | :--- |\n| **Epsom Salt** | High in magnesium; helps relax muscles and reduce swelling. | 2 cups |\n| **Sea Salt \/ Himalayan Salt** | Contains trace minerals; helps with skin barrier function. | 1\/2 cup |\n| **Baking Soda** | Neutralizes chlorine in tap water and softens skin. | 1\/4 to 1\/2 cup |\n| **Essential Oils** | Provides aromatherapy benefits (Lavender for sleep, Eucalyptus for vigor). | 5–10 drops |\n\n---\n\n## Instructions for the Perfect Soak\n\n1.  **Hydrate First:** Drink a full glass of water before getting in. The warm water can cause you to sweat, and you want to stay hydrated.\n2.  **Temperature Matters:** Aim for warm, not scalding. Water that is too hot can stress the heart and overly dry out your skin.\n3.  **The Dissolve:** Add your salts while the tub is filling to ensure they dissolve completely.\n4.  **The Soak:** Stay in for **15–20 minutes**. This is the \"sweet spot\" for mineral absorption without pruning your skin too much.\n5.  **The Rinse:** Briefly rinse off in a cool shower afterward to remove any excess salt or sweat from your skin.\n\n---\n\n### Pro-Tips & Safety\n\n* **Carrier Oils:** If using essential oils, mix them into a tablespoon of coconut or olive oil before adding them to the water. This prevents the concentrated oil from floating on top and irritating your skin.\n* **Safety Check:** If you have low blood pressure, diabetes, or are pregnant, consult a healthcare provider before taking long, hot baths.\n* **Post-Bath Care:** Your skin will be primed to absorb moisture, so apply a good lotion or body oil immediately after drying off.\n\n> **Note:** If you experience dizziness or a rapid heartbeat while soaking, carefully exit the tub immediately and cool down.\n\nWould you like me to suggest a specific essential oil blend based on whether you want to sleep better or recover from a workout?",
+                    "sources": null,
+                    "se_results_count": 0,
+                    "item_types": [
+                        "gemini_text",
+                        "gemini_table"
+                    ],
+                    "items_count": 10,
+                    "items": [
+                        {
+                            "type": "gemini_text",
+                            "rank_group": 1,
+                            "rank_absolute": 1,
+                            "markdown": "A detox salt bath is a classic way to unwind, soothe sore muscles, and give your skin a little extra attention. While the term \"detox\" is often used loosely—your liver and kidneys handle the heavy lifting of actual detoxification—soaking in mineral-rich water is fantastic for relaxation and circulation.",
+                            "original_text": "A detox salt bath is a classic way to unwind, soothe sore muscles, and give your skin a little extra attention. While the term \"detox\" is often used loosely—your liver and kidneys handle the heavy lifting of actual detoxification—soaking in mineral-rich water is fantastic for relaxation and circulation.",
+                            "sources": null
+                        },
+                        {
+                            "type": "gemini_text",
+                            "rank_group": 2,
+                            "rank_absolute": 2,
+                            "markdown": "Here is how to put together an effective soak:",
+                            "original_text": "Here is how to put together an effective soak:",
+                            "sources": null
+                        },
+                        {
+                            "type": "gemini_text",
+                            "rank_group": 3,
+                            "rank_absolute": 3,
+                            "markdown": "## The Core Ingredients",
+                            "original_text": "The Core Ingredients",
+                            "sources": null
+                        },
+                        {
+                            "type": "gemini_table",
+                            "rank_group": 1,
+                            "rank_absolute": 4,
+                            "markdown": "| Ingredient | Purpose | Typical Amount |\n| :--- | :--- | :--- |\n| **Epsom Salt** | High in magnesium; helps relax muscles and reduce swelling. | 2 cups |\n| **Sea Salt \/ Himalayan Salt** | Contains trace minerals; helps with skin barrier function. | 1\/2 cup |\n| **Baking Soda** | Neutralizes chlorine in tap water and softens skin. | 1\/4 to 1\/2 cup |\n| **Essential Oils** | Provides aromatherapy benefits (Lavender for sleep, Eucalyptus for vigor). | 5–10 drops |",
+                            "original_text": "Ingredient\tPurpose\tTypical Amount\nEpsom Salt\tHigh in magnesium; helps relax muscles and reduce swelling.\t2 cups\nSea Salt \/ Himalayan Salt\tContains trace minerals; helps with skin barrier function.\t1\/2 cup\nBaking Soda\tNeutralizes chlorine in tap water and softens skin.\t1\/4 to 1\/2 cup\nEssential Oils\tProvides aromatherapy benefits (Lavender for sleep, Eucalyptus for vigor).\t5–10 drops",
+                            "table": {
+                                "table_header": [
+                                    "Ingredient",
+                                    "Purpose",
+                                    "Typical Amount"
+                                ],
+                                "table_content": [
+                                    [
+                                        "Epsom Salt",
+                                        "High in magnesium; helps relax muscles and reduce swelling.",
+                                        "2 cups"
+                                    ],
+                                    [
+                                        "Sea Salt \/ Himalayan Salt",
+                                        "Contains trace minerals; helps with skin barrier function.",
+                                        "1\/2 cup"
+                                    ],
+                                    [
+                                        "Baking Soda",
+                                        "Neutralizes chlorine in tap water and softens skin.",
+                                        "1\/4 to 1\/2 cup"
+                                    ],
+                                    [
+                                        "Essential Oils",
+                                        "Provides aromatherapy benefits (Lavender for sleep, Eucalyptus for vigor).",
+                                        "5–10 drops"
+                                    ]
+                                ]
+                            }
+                        },
+                        {
+                            "type": "gemini_text",
+                            "rank_group": 4,
+                            "rank_absolute": 5,
+                            "markdown": "## Instructions for the Perfect Soak",
+                            "original_text": "Instructions for the Perfect Soak",
+                            "sources": null
+                        },
+                        {
+                            "type": "gemini_text",
+                            "rank_group": 5,
+                            "rank_absolute": 6,
+                            "markdown": "1.  **Hydrate First:** Drink a full glass of water before getting in. The warm water can cause you to sweat, and you want to stay hydrated.\n2.  **Temperature Matters:** Aim for warm, not scalding. Water that is too hot can stress the heart and overly dry out your skin.\n3.  **The Dissolve:** Add your salts while the tub is filling to ensure they dissolve completely.\n4.  **The Soak:** Stay in for **15–20 minutes**. This is the \"sweet spot\" for mineral absorption without pruning your skin too much.\n5.  **The Rinse:** Briefly rinse off in a cool shower afterward to remove any excess salt or sweat from your skin.",
+                            "original_text": "Hydrate First: Drink a full glass of water before getting in. The warm water can cause you to sweat, and you want to stay hydrated.\nTemperature Matters: Aim for warm, not scalding. Water that is too hot can stress the heart and overly dry out your skin.\nThe Dissolve: Add your salts while the tub is filling to ensure they dissolve completely.\nThe Soak: Stay in for 15–20 minutes. This is the \"sweet spot\" for mineral absorption without pruning your skin too much.\nThe Rinse: Briefly rinse off in a cool shower afterward to remove any excess salt or sweat from your skin.",
+                            "sources": null
+                        },
+                        {
+                            "type": "gemini_text",
+                            "rank_group": 6,
+                            "rank_absolute": 7,
+                            "markdown": "### Pro-Tips & Safety",
+                            "original_text": "Pro-Tips & Safety",
+                            "sources": null
+                        },
+                        {
+                            "type": "gemini_text",
+                            "rank_group": 7,
+                            "rank_absolute": 8,
+                            "markdown": "* **Carrier Oils:** If using essential oils, mix them into a tablespoon of coconut or olive oil before adding them to the water. This prevents the concentrated oil from floating on top and irritating your skin.\n* **Safety Check:** If you have low blood pressure, diabetes, or are pregnant, consult a healthcare provider before taking long, hot baths.\n* **Post-Bath Care:** Your skin will be primed to absorb moisture, so apply a good lotion or body oil immediately after drying off.",
+                            "original_text": "Carrier Oils: If using essential oils, mix them into a tablespoon of coconut or olive oil before adding them to the water. This prevents the concentrated oil from floating on top and irritating your skin.\nSafety Check: If you have low blood pressure, diabetes, or are pregnant, consult a healthcare provider before taking long, hot baths.\nPost-Bath Care: Your skin will be primed to absorb moisture, so apply a good lotion or body oil immediately after drying off.",
+                            "sources": null
+                        },
+                        {
+                            "type": "gemini_text",
+                            "rank_group": 8,
+                            "rank_absolute": 9,
+                            "markdown": "> **Note:** If you experience dizziness or a rapid heartbeat while soaking, carefully exit the tub immediately and cool down.",
+                            "original_text": "Note: If you experience dizziness or a rapid heartbeat while soaking, carefully exit the tub immediately and cool down.",
+                            "sources": null
+                        },
+                        {
+                            "type": "gemini_text",
+                            "rank_group": 9,
+                            "rank_absolute": 10,
+                            "markdown": "Would you like me to suggest a specific essential oil blend based on whether you want to sleep better or recover from a workout?",
+                            "original_text": "Would you like me to suggest a specific essential oil blend based on whether you want to sleep better or recover from a workout?",
+                            "sources": null
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}
