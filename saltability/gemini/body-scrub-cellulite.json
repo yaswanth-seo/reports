@@ -1,0 +1,199 @@
+{
+    "version": "0.1.20260311",
+    "status_code": 20000,
+    "status_message": "Ok.",
+    "time": "22.1196 sec.",
+    "cost": 0.004,
+    "tasks_count": 1,
+    "tasks_error": 0,
+    "tasks": [
+        {
+            "id": "03152203-4353-0629-0000-45f79b71070f",
+            "status_code": 20000,
+            "status_message": "Ok.",
+            "time": "22.0610 sec.",
+            "cost": 0.004,
+            "result_count": 1,
+            "path": [
+                "v3",
+                "ai_optimization",
+                "gemini",
+                "llm_scraper",
+                "live",
+                "advanced"
+            ],
+            "data": {
+                "api": "ai_optimization",
+                "function": "llm_scraper",
+                "se": "gemini",
+                "keyword": "body scrub cellulite",
+                "language_code": "en",
+                "location_name": "United States",
+                "device": "desktop",
+                "os": "windows"
+            },
+            "result": [
+                {
+                    "keyword": "body scrub cellulite",
+                    "location_code": 2840,
+                    "language_code": "en",
+                    "model": "Fast",
+                    "datetime": "2026-03-15 20:03:30 +00:00",
+                    "markdown": "Let's get the reality check out of the way first: **No body scrub can permanently eliminate cellulite.** Cellulite is caused by fat cells pushing through connective tissue deep under the skin, and a surface-level scrub simply can't reach that structural level.\n\nHowever, scrubs are fantastic for **temporarily** making skin look smoother, firmer, and more toned. Here’s how they actually work and what to look for.\n\n---\n\n### How Scrubs Help (The Science of \"The Glow\")\n\n* **Increased Circulation:** The mechanical action of scrubbing stimulates blood flow and lymphatic drainage, which can temporarily reduce fluid retention (puffiness) that makes cellulite look more prominent.\n* **Exfoliation:** Removing dead skin cells allows light to reflect off your skin more evenly, creating a smoother, \"blurred\" appearance.\n* **Plumping:** Certain ingredients cause mild, temporary inflammation or hydration that \"plumps\" the skin, making the dimples less noticeable for a few hours.\n\n### Key Ingredients to Look For\n\nIf you're shopping for a scrub or making one at home, these ingredients provide the best results:\n\n| Ingredient | Benefit |\n| :--- | :--- |\n| **Caffeine \/ Coffee** | Constricts blood vessels and dehydrates fat cells temporarily for a tighter look. |\n| **Sea Salt \/ Epsom Salt** | Draws out excess fluid and toxins through osmosis, reducing puffiness. |\n| **Birch \/ Juniper Oil** | Known for \"detoxifying\" properties that support lymphatic drainage. |\n| **Sugar** | A gentler humectant that hydrates while exfoliating (better for sensitive skin). |\n\n---\n\n### Best Practices for Application\n\nTo get the most out of your scrub, follow these steps:\n\n1.  **Dry Brushing First:** Many people swear by dry brushing *before* the shower to jumpstart lymphatic drainage.\n2.  **Circular Motion:** Apply the scrub in firm, circular motions, moving **upward toward the heart**. This follows the natural path of your lymph system.\n3.  **Consistency:** Use it 2–3 times a week. The results are cumulative in terms of skin texture, but the \"firming\" effect usually fades within a day.\n4.  **Moisturize:** Always follow up with a firming cream or oil (look for retinol or Q10) to lock in the smoothness.\n\n---\n\n### A Quick DIY Coffee Scrub\n\nIf you want to try it out without buying an expensive tub:\n\n* **1\/2 cup** Organic coffee grounds (caffeine is key!)\n* **1\/4 cup** Brown sugar\n* **2-3 tbsp** Coconut or Almond oil\n\n> **Note:** Be careful in the shower! Oil-based scrubs can make the floor incredibly slippery.\n\n---\n\n**Would you like me to recommend some specific highly-rated products, or perhaps find some exercises that help tone the muscle underneath those areas?**",
+                    "sources": null,
+                    "se_results_count": 0,
+                    "item_types": [
+                        "gemini_text",
+                        "gemini_table"
+                    ],
+                    "items_count": 15,
+                    "items": [
+                        {
+                            "type": "gemini_text",
+                            "rank_group": 1,
+                            "rank_absolute": 1,
+                            "markdown": "Let's get the reality check out of the way first: **No body scrub can permanently eliminate cellulite.** Cellulite is caused by fat cells pushing through connective tissue deep under the skin, and a surface-level scrub simply can't reach that structural level.",
+                            "original_text": "Let's get the reality check out of the way first: No body scrub can permanently eliminate cellulite. Cellulite is caused by fat cells pushing through connective tissue deep under the skin, and a surface-level scrub simply can't reach that structural level.",
+                            "sources": null
+                        },
+                        {
+                            "type": "gemini_text",
+                            "rank_group": 2,
+                            "rank_absolute": 2,
+                            "markdown": "However, scrubs are fantastic for **temporarily** making skin look smoother, firmer, and more toned. Here’s how they actually work and what to look for.",
+                            "original_text": "However, scrubs are fantastic for temporarily making skin look smoother, firmer, and more toned. Here’s how they actually work and what to look for.",
+                            "sources": null
+                        },
+                        {
+                            "type": "gemini_text",
+                            "rank_group": 3,
+                            "rank_absolute": 3,
+                            "markdown": "### How Scrubs Help (The Science of \"The Glow\")",
+                            "original_text": "How Scrubs Help (The Science of \"The Glow\")",
+                            "sources": null
+                        },
+                        {
+                            "type": "gemini_text",
+                            "rank_group": 4,
+                            "rank_absolute": 4,
+                            "markdown": "* **Increased Circulation:** The mechanical action of scrubbing stimulates blood flow and lymphatic drainage, which can temporarily reduce fluid retention (puffiness) that makes cellulite look more prominent.\n* **Exfoliation:** Removing dead skin cells allows light to reflect off your skin more evenly, creating a smoother, \"blurred\" appearance.\n* **Plumping:** Certain ingredients cause mild, temporary inflammation or hydration that \"plumps\" the skin, making the dimples less noticeable for a few hours.",
+                            "original_text": "Increased Circulation: The mechanical action of scrubbing stimulates blood flow and lymphatic drainage, which can temporarily reduce fluid retention (puffiness) that makes cellulite look more prominent.\nExfoliation: Removing dead skin cells allows light to reflect off your skin more evenly, creating a smoother, \"blurred\" appearance.\nPlumping: Certain ingredients cause mild, temporary inflammation or hydration that \"plumps\" the skin, making the dimples less noticeable for a few hours.",
+                            "sources": null
+                        },
+                        {
+                            "type": "gemini_text",
+                            "rank_group": 5,
+                            "rank_absolute": 5,
+                            "markdown": "### Key Ingredients to Look For",
+                            "original_text": "Key Ingredients to Look For",
+                            "sources": null
+                        },
+                        {
+                            "type": "gemini_text",
+                            "rank_group": 6,
+                            "rank_absolute": 6,
+                            "markdown": "If you're shopping for a scrub or making one at home, these ingredients provide the best results:",
+                            "original_text": "If you're shopping for a scrub or making one at home, these ingredients provide the best results:",
+                            "sources": null
+                        },
+                        {
+                            "type": "gemini_table",
+                            "rank_group": 1,
+                            "rank_absolute": 7,
+                            "markdown": "| Ingredient | Benefit |\n| :--- | :--- |\n| **Caffeine \/ Coffee** | Constricts blood vessels and dehydrates fat cells temporarily for a tighter look. |\n| **Sea Salt \/ Epsom Salt** | Draws out excess fluid and toxins through osmosis, reducing puffiness. |\n| **Birch \/ Juniper Oil** | Known for \"detoxifying\" properties that support lymphatic drainage. |\n| **Sugar** | A gentler humectant that hydrates while exfoliating (better for sensitive skin). |",
+                            "original_text": "Ingredient\tBenefit\nCaffeine \/ Coffee\tConstricts blood vessels and dehydrates fat cells temporarily for a tighter look.\nSea Salt \/ Epsom Salt\tDraws out excess fluid and toxins through osmosis, reducing puffiness.\nBirch \/ Juniper Oil\tKnown for \"detoxifying\" properties that support lymphatic drainage.\nSugar\tA gentler humectant that hydrates while exfoliating (better for sensitive skin).",
+                            "table": {
+                                "table_header": [
+                                    "Ingredient",
+                                    "Benefit"
+                                ],
+                                "table_content": [
+                                    [
+                                        "Caffeine \/ Coffee",
+                                        "Constricts blood vessels and dehydrates fat cells temporarily for a tighter look."
+                                    ],
+                                    [
+                                        "Sea Salt \/ Epsom Salt",
+                                        "Draws out excess fluid and toxins through osmosis, reducing puffiness."
+                                    ],
+                                    [
+                                        "Birch \/ Juniper Oil",
+                                        "Known for \"detoxifying\" properties that support lymphatic drainage."
+                                    ],
+                                    [
+                                        "Sugar",
+                                        "A gentler humectant that hydrates while exfoliating (better for sensitive skin)."
+                                    ]
+                                ]
+                            }
+                        },
+                        {
+                            "type": "gemini_text",
+                            "rank_group": 7,
+                            "rank_absolute": 8,
+                            "markdown": "### Best Practices for Application",
+                            "original_text": "Best Practices for Application",
+                            "sources": null
+                        },
+                        {
+                            "type": "gemini_text",
+                            "rank_group": 8,
+                            "rank_absolute": 9,
+                            "markdown": "To get the most out of your scrub, follow these steps:",
+                            "original_text": "To get the most out of your scrub, follow these steps:",
+                            "sources": null
+                        },
+                        {
+                            "type": "gemini_text",
+                            "rank_group": 9,
+                            "rank_absolute": 10,
+                            "markdown": "1.  **Dry Brushing First:** Many people swear by dry brushing *before* the shower to jumpstart lymphatic drainage.\n2.  **Circular Motion:** Apply the scrub in firm, circular motions, moving **upward toward the heart**. This follows the natural path of your lymph system.\n3.  **Consistency:** Use it 2–3 times a week. The results are cumulative in terms of skin texture, but the \"firming\" effect usually fades within a day.\n4.  **Moisturize:** Always follow up with a firming cream or oil (look for retinol or Q10) to lock in the smoothness.",
+                            "original_text": "Dry Brushing First: Many people swear by dry brushing before the shower to jumpstart lymphatic drainage.\nCircular Motion: Apply the scrub in firm, circular motions, moving upward toward the heart. This follows the natural path of your lymph system.\nConsistency: Use it 2–3 times a week. The results are cumulative in terms of skin texture, but the \"firming\" effect usually fades within a day.\nMoisturize: Always follow up with a firming cream or oil (look for retinol or Q10) to lock in the smoothness.",
+                            "sources": null
+                        },
+                        {
+                            "type": "gemini_text",
+                            "rank_group": 10,
+                            "rank_absolute": 11,
+                            "markdown": "### A Quick DIY Coffee Scrub",
+                            "original_text": "A Quick DIY Coffee Scrub",
+                            "sources": null
+                        },
+                        {
+                            "type": "gemini_text",
+                            "rank_group": 11,
+                            "rank_absolute": 12,
+                            "markdown": "If you want to try it out without buying an expensive tub:",
+                            "original_text": "If you want to try it out without buying an expensive tub:",
+                            "sources": null
+                        },
+                        {
+                            "type": "gemini_text",
+                            "rank_group": 12,
+                            "rank_absolute": 13,
+                            "markdown": "* **1\/2 cup** Organic coffee grounds (caffeine is key!)\n* **1\/4 cup** Brown sugar\n* **2-3 tbsp** Coconut or Almond oil",
+                            "original_text": "1\/2 cup Organic coffee grounds (caffeine is key!)\n1\/4 cup Brown sugar\n2-3 tbsp Coconut or Almond oil",
+                            "sources": null
+                        },
+                        {
+                            "type": "gemini_text",
+                            "rank_group": 13,
+                            "rank_absolute": 14,
+                            "markdown": "> **Note:** Be careful in the shower! Oil-based scrubs can make the floor incredibly slippery.",
+                            "original_text": "Note: Be careful in the shower! Oil-based scrubs can make the floor incredibly slippery.",
+                            "sources": null
+                        },
+                        {
+                            "type": "gemini_text",
+                            "rank_group": 14,
+                            "rank_absolute": 15,
+                            "markdown": "**Would you like me to recommend some specific highly-rated products, or perhaps find some exercises that help tone the muscle underneath those areas?**",
+                            "original_text": "Would you like me to recommend some specific highly-rated products, or perhaps find some exercises that help tone the muscle underneath those areas?",
+                            "sources": null
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}
