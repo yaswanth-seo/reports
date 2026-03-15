@@ -1,0 +1,183 @@
+{
+    "version": "0.1.20260311",
+    "status_code": 20000,
+    "status_message": "Ok.",
+    "time": "18.1126 sec.",
+    "cost": 0.004,
+    "tasks_count": 1,
+    "tasks_error": 0,
+    "tasks": [
+        {
+            "id": "03152210-4353-0629-0000-24b24f7b4e7d",
+            "status_code": 20000,
+            "status_message": "Ok.",
+            "time": "18.0397 sec.",
+            "cost": 0.004,
+            "result_count": 1,
+            "path": [
+                "v3",
+                "ai_optimization",
+                "gemini",
+                "llm_scraper",
+                "live",
+                "advanced"
+            ],
+            "data": {
+                "api": "ai_optimization",
+                "function": "llm_scraper",
+                "se": "gemini",
+                "keyword": "himalayan salt room",
+                "language_code": "en",
+                "location_name": "United States",
+                "device": "desktop",
+                "os": "windows"
+            },
+            "result": [
+                {
+                    "keyword": "himalayan salt room",
+                    "location_code": 2840,
+                    "language_code": "en",
+                    "model": "Fast",
+                    "datetime": "2026-03-15 20:10:38 +00:00",
+                    "markdown": "Himalayan salt rooms (also known as **halotherapy** or salt caves) are more than just a trendy aesthetic for your Instagram feed. These rooms are designed to mimic the microclimate of a natural salt mine, using dry salt aerosol to create a relaxing—and potentially therapeutic—environment.\n\nHere’s a breakdown of what happens in that pink-hued glow and why people swear by it.\n\n---\n\n## How It Works: The Science of Halotherapy\n\nWhile it looks like a spa treatment, there is a specific mechanism at play:\n\n* **The Halogenerator:** This is the heart of a modern salt room. It grinds medical-grade salt into microscopic particles and disperses them into the air.\n* **Inhalation:** As you breathe, these tiny particles travel deep into your lungs and sinuses.\n* **Absorption:** Salt is naturally **mucoadhesive** and **hydroscopic**, meaning it attracts moisture and helps thin out mucus, making it easier to clear.\n\n## Potential Benefits\n\nPeople typically visit salt rooms for three main reasons:\n\n1.  **Respiratory Relief:** Many find it helps with asthma, allergies, bronchitis, and \"smoker’s cough\" by reducing inflammation in the airways.\n2.  **Skin Conditions:** The antibacterial and anti-inflammatory properties of salt can soothe eczema, psoriasis, and acne.\n3.  **Stress Reduction:** The combination of soft orange lighting (chromotherapy), cool temperatures, and a tech-free environment makes it an excellent \"forced meditation\" session.\n\n---\n\n## What to Expect During a Session\n\nIf you’re planning your first visit, here’s the \"vibe check\":\n\n| Feature | Typical Experience |\n| :--- | :--- |\n| **Duration** | 45 to 60 minutes. |\n| **Attire** | Comfortable, loose clothing. You’ll usually wear \"booties\" or go barefoot. |\n| **Environment** | Dim lighting, zero-gravity chairs, and often a layer of salt on the floor like sand. |\n| **Sensation** | You might taste a hint of salt on your lips or feel a slight tingle in your throat. |\n\n> **A Quick Reality Check:** While halotherapy is a fantastic *complementary* treatment, it’s not a substitute for medical prescriptions. If you have high blood pressure or a fever, it’s best to check with a doctor first, as the high salt concentration can occasionally affect those conditions.\n\n---\n\n**Would you like me to help you find a highly-rated salt room in your current area?**",
+                    "sources": null,
+                    "se_results_count": 0,
+                    "item_types": [
+                        "gemini_text",
+                        "gemini_table"
+                    ],
+                    "items_count": 13,
+                    "items": [
+                        {
+                            "type": "gemini_text",
+                            "rank_group": 1,
+                            "rank_absolute": 1,
+                            "markdown": "Himalayan salt rooms (also known as **halotherapy** or salt caves) are more than just a trendy aesthetic for your Instagram feed. These rooms are designed to mimic the microclimate of a natural salt mine, using dry salt aerosol to create a relaxing—and potentially therapeutic—environment.",
+                            "original_text": "Himalayan salt rooms (also known as halotherapy or salt caves) are more than just a trendy aesthetic for your Instagram feed. These rooms are designed to mimic the microclimate of a natural salt mine, using dry salt aerosol to create a relaxing—and potentially therapeutic—environment.",
+                            "sources": null
+                        },
+                        {
+                            "type": "gemini_text",
+                            "rank_group": 2,
+                            "rank_absolute": 2,
+                            "markdown": "Here’s a breakdown of what happens in that pink-hued glow and why people swear by it.",
+                            "original_text": "Here’s a breakdown of what happens in that pink-hued glow and why people swear by it.",
+                            "sources": null
+                        },
+                        {
+                            "type": "gemini_text",
+                            "rank_group": 3,
+                            "rank_absolute": 3,
+                            "markdown": "## How It Works: The Science of Halotherapy",
+                            "original_text": "How It Works: The Science of Halotherapy",
+                            "sources": null
+                        },
+                        {
+                            "type": "gemini_text",
+                            "rank_group": 4,
+                            "rank_absolute": 4,
+                            "markdown": "While it looks like a spa treatment, there is a specific mechanism at play:",
+                            "original_text": "While it looks like a spa treatment, there is a specific mechanism at play:",
+                            "sources": null
+                        },
+                        {
+                            "type": "gemini_text",
+                            "rank_group": 5,
+                            "rank_absolute": 5,
+                            "markdown": "* **The Halogenerator:** This is the heart of a modern salt room. It grinds medical-grade salt into microscopic particles and disperses them into the air.\n* **Inhalation:** As you breathe, these tiny particles travel deep into your lungs and sinuses.\n* **Absorption:** Salt is naturally **mucoadhesive** and **hydroscopic**, meaning it attracts moisture and helps thin out mucus, making it easier to clear.",
+                            "original_text": "The Halogenerator: This is the heart of a modern salt room. It grinds medical-grade salt into microscopic particles and disperses them into the air.\nInhalation: As you breathe, these tiny particles travel deep into your lungs and sinuses.\nAbsorption: Salt is naturally mucoadhesive and hydroscopic, meaning it attracts moisture and helps thin out mucus, making it easier to clear.",
+                            "sources": null
+                        },
+                        {
+                            "type": "gemini_text",
+                            "rank_group": 6,
+                            "rank_absolute": 6,
+                            "markdown": "## Potential Benefits",
+                            "original_text": "Potential Benefits",
+                            "sources": null
+                        },
+                        {
+                            "type": "gemini_text",
+                            "rank_group": 7,
+                            "rank_absolute": 7,
+                            "markdown": "People typically visit salt rooms for three main reasons:",
+                            "original_text": "People typically visit salt rooms for three main reasons:",
+                            "sources": null
+                        },
+                        {
+                            "type": "gemini_text",
+                            "rank_group": 8,
+                            "rank_absolute": 8,
+                            "markdown": "1.  **Respiratory Relief:** Many find it helps with asthma, allergies, bronchitis, and \"smoker’s cough\" by reducing inflammation in the airways.\n2.  **Skin Conditions:** The antibacterial and anti-inflammatory properties of salt can soothe eczema, psoriasis, and acne.\n3.  **Stress Reduction:** The combination of soft orange lighting (chromotherapy), cool temperatures, and a tech-free environment makes it an excellent \"forced meditation\" session.",
+                            "original_text": "Respiratory Relief: Many find it helps with asthma, allergies, bronchitis, and \"smoker’s cough\" by reducing inflammation in the airways.\nSkin Conditions: The antibacterial and anti-inflammatory properties of salt can soothe eczema, psoriasis, and acne.\nStress Reduction: The combination of soft orange lighting (chromotherapy), cool temperatures, and a tech-free environment makes it an excellent \"forced meditation\" session.",
+                            "sources": null
+                        },
+                        {
+                            "type": "gemini_text",
+                            "rank_group": 9,
+                            "rank_absolute": 9,
+                            "markdown": "## What to Expect During a Session",
+                            "original_text": "What to Expect During a Session",
+                            "sources": null
+                        },
+                        {
+                            "type": "gemini_text",
+                            "rank_group": 10,
+                            "rank_absolute": 10,
+                            "markdown": "If you’re planning your first visit, here’s the \"vibe check\":",
+                            "original_text": "If you’re planning your first visit, here’s the \"vibe check\":",
+                            "sources": null
+                        },
+                        {
+                            "type": "gemini_table",
+                            "rank_group": 1,
+                            "rank_absolute": 11,
+                            "markdown": "| Feature | Typical Experience |\n| :--- | :--- |\n| **Duration** | 45 to 60 minutes. |\n| **Attire** | Comfortable, loose clothing. You’ll usually wear \"booties\" or go barefoot. |\n| **Environment** | Dim lighting, zero-gravity chairs, and often a layer of salt on the floor like sand. |\n| **Sensation** | You might taste a hint of salt on your lips or feel a slight tingle in your throat. |",
+                            "original_text": "Feature\tTypical Experience\nDuration\t45 to 60 minutes.\nAttire\tComfortable, loose clothing. You’ll usually wear \"booties\" or go barefoot.\nEnvironment\tDim lighting, zero-gravity chairs, and often a layer of salt on the floor like sand.\nSensation\tYou might taste a hint of salt on your lips or feel a slight tingle in your throat.",
+                            "table": {
+                                "table_header": [
+                                    "Feature",
+                                    "Typical Experience"
+                                ],
+                                "table_content": [
+                                    [
+                                        "Duration",
+                                        "45 to 60 minutes."
+                                    ],
+                                    [
+                                        "Attire",
+                                        "Comfortable, loose clothing. You’ll usually wear \"booties\" or go barefoot."
+                                    ],
+                                    [
+                                        "Environment",
+                                        "Dim lighting, zero-gravity chairs, and often a layer of salt on the floor like sand."
+                                    ],
+                                    [
+                                        "Sensation",
+                                        "You might taste a hint of salt on your lips or feel a slight tingle in your throat."
+                                    ]
+                                ]
+                            }
+                        },
+                        {
+                            "type": "gemini_text",
+                            "rank_group": 11,
+                            "rank_absolute": 12,
+                            "markdown": "> **A Quick Reality Check:** While halotherapy is a fantastic *complementary* treatment, it’s not a substitute for medical prescriptions. If you have high blood pressure or a fever, it’s best to check with a doctor first, as the high salt concentration can occasionally affect those conditions.",
+                            "original_text": "A Quick Reality Check: While halotherapy is a fantastic complementary treatment, it’s not a substitute for medical prescriptions. If you have high blood pressure or a fever, it’s best to check with a doctor first, as the high salt concentration can occasionally affect those conditions.",
+                            "sources": null
+                        },
+                        {
+                            "type": "gemini_text",
+                            "rank_group": 12,
+                            "rank_absolute": 13,
+                            "markdown": "**Would you like me to help you find a highly-rated salt room in your current area?**",
+                            "original_text": "Would you like me to help you find a highly-rated salt room in your current area?",
+                            "sources": null
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}
