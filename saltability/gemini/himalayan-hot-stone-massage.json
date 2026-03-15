@@ -1,0 +1,164 @@
+{
+    "version": "0.1.20260311",
+    "status_code": 20000,
+    "status_message": "Ok.",
+    "time": "107.1344 sec.",
+    "cost": 0.004,
+    "tasks_count": 1,
+    "tasks_error": 0,
+    "tasks": [
+        {
+            "id": "03152211-4353-0629-0000-3544d551ab02",
+            "status_code": 20000,
+            "status_message": "Ok.",
+            "time": "107.1076 sec.",
+            "cost": 0.004,
+            "result_count": 1,
+            "path": [
+                "v3",
+                "ai_optimization",
+                "gemini",
+                "llm_scraper",
+                "live",
+                "advanced"
+            ],
+            "data": {
+                "api": "ai_optimization",
+                "function": "llm_scraper",
+                "se": "gemini",
+                "keyword": "himalayan hot stone massage",
+                "language_code": "en",
+                "location_name": "United States",
+                "device": "desktop",
+                "os": "windows"
+            },
+            "result": [
+                {
+                    "keyword": "himalayan hot stone massage",
+                    "location_code": 2840,
+                    "language_code": "en",
+                    "model": "Fast",
+                    "datetime": "2026-03-15 20:13:32 +00:00",
+                    "markdown": "Himalayan hot stone massage is a specialized therapy that swaps traditional basalt (volcanic) stones for hand-carved stones made of **pink Himalayan salt**.\n\nIt’s often described as a \"three-in-one\" treatment because it combines the thermal benefits of a hot stone massage, the chemical benefits of salt minerals, and a light physical exfoliation.\n\n---\n\n### Key Benefits\n\n* **Mineral Infusion:** Himalayan salt contains 84 trace minerals (including magnesium, calcium, and potassium). As the stones heat up, these minerals are thought to be absorbed by the skin.\n* **Natural Exfoliation:** The texture of the salt stones gently sloughs off dead skin cells, leaving the skin smoother than standard smooth river stones.\n* **Deep Relaxation:** The heat helps penetrate muscle tissue, allowing the therapist to address tension without needing to apply heavy, painful pressure.\n* **Negative Ions:** Proponents suggest that heated salt stones release negative ions, which may help reduce the \"electro-smog\" caused by daily device use and boost your mood.\n\n### What to Expect During a Session\n\n1.  **Preparation:** The stones are warmed in a specialized heater (usually a dry heat, as water would dissolve the salt).\n2.  **Application:** The therapist uses the stones as an extension of their hands, gliding them over the body using Swedish massage techniques.\n3.  **Placement:** Stones may be left on specific \"trigger points\" or energy centers to allow heat to radiate deep into the muscle.\n\n### Comparison: Himalayan vs. Traditional Basalt\n\n| Feature | Himalayan Salt Stones | Traditional Basalt Stones |\n| :--- | :--- | :--- |\n| **Material** | Hand-carved Pink Salt | Volcanic Rock |\n| **Skin Effect** | Exfoliates and mineralizes | Primarily provides heat |\n| **Texture** | Slightly porous\/textured | Non-porous and very smooth |\n| **Heat Retention** | Holds heat well, but cools faster | Superior heat retention |\n\n> **Note:** Because salt is naturally antimicrobial, these stones are very hygienic. However, if you have very sensitive skin or recent abrasions, the salt may cause a slight tingling or stinging sensation.\n\n---\n\n**Would you like me to help you find local spas that offer this service, or perhaps provide tips on how to use salt stones for a DIY at-home treatment?**",
+                    "sources": null,
+                    "se_results_count": 0,
+                    "item_types": [
+                        "gemini_text",
+                        "gemini_table"
+                    ],
+                    "items_count": 10,
+                    "items": [
+                        {
+                            "type": "gemini_text",
+                            "rank_group": 1,
+                            "rank_absolute": 1,
+                            "markdown": "Himalayan hot stone massage is a specialized therapy that swaps traditional basalt (volcanic) stones for hand-carved stones made of **pink Himalayan salt**.",
+                            "original_text": "Himalayan hot stone massage is a specialized therapy that swaps traditional basalt (volcanic) stones for hand-carved stones made of pink Himalayan salt.",
+                            "sources": null
+                        },
+                        {
+                            "type": "gemini_text",
+                            "rank_group": 2,
+                            "rank_absolute": 2,
+                            "markdown": "It’s often described as a \"three-in-one\" treatment because it combines the thermal benefits of a hot stone massage, the chemical benefits of salt minerals, and a light physical exfoliation.",
+                            "original_text": "It’s often described as a \"three-in-one\" treatment because it combines the thermal benefits of a hot stone massage, the chemical benefits of salt minerals, and a light physical exfoliation.",
+                            "sources": null
+                        },
+                        {
+                            "type": "gemini_text",
+                            "rank_group": 3,
+                            "rank_absolute": 3,
+                            "markdown": "### Key Benefits",
+                            "original_text": "Key Benefits",
+                            "sources": null
+                        },
+                        {
+                            "type": "gemini_text",
+                            "rank_group": 4,
+                            "rank_absolute": 4,
+                            "markdown": "* **Mineral Infusion:** Himalayan salt contains 84 trace minerals (including magnesium, calcium, and potassium). As the stones heat up, these minerals are thought to be absorbed by the skin.\n* **Natural Exfoliation:** The texture of the salt stones gently sloughs off dead skin cells, leaving the skin smoother than standard smooth river stones.\n* **Deep Relaxation:** The heat helps penetrate muscle tissue, allowing the therapist to address tension without needing to apply heavy, painful pressure.\n* **Negative Ions:** Proponents suggest that heated salt stones release negative ions, which may help reduce the \"electro-smog\" caused by daily device use and boost your mood.",
+                            "original_text": "Mineral Infusion: Himalayan salt contains 84 trace minerals (including magnesium, calcium, and potassium). As the stones heat up, these minerals are thought to be absorbed by the skin.\nNatural Exfoliation: The texture of the salt stones gently sloughs off dead skin cells, leaving the skin smoother than standard smooth river stones.\nDeep Relaxation: The heat helps penetrate muscle tissue, allowing the therapist to address tension without needing to apply heavy, painful pressure.\nNegative Ions: Proponents suggest that heated salt stones release negative ions, which may help reduce the \"electro-smog\" caused by daily device use and boost your mood.",
+                            "sources": null
+                        },
+                        {
+                            "type": "gemini_text",
+                            "rank_group": 5,
+                            "rank_absolute": 5,
+                            "markdown": "### What to Expect During a Session",
+                            "original_text": "What to Expect During a Session",
+                            "sources": null
+                        },
+                        {
+                            "type": "gemini_text",
+                            "rank_group": 6,
+                            "rank_absolute": 6,
+                            "markdown": "1.  **Preparation:** The stones are warmed in a specialized heater (usually a dry heat, as water would dissolve the salt).\n2.  **Application:** The therapist uses the stones as an extension of their hands, gliding them over the body using Swedish massage techniques.\n3.  **Placement:** Stones may be left on specific \"trigger points\" or energy centers to allow heat to radiate deep into the muscle.",
+                            "original_text": "Preparation: The stones are warmed in a specialized heater (usually a dry heat, as water would dissolve the salt).\nApplication: The therapist uses the stones as an extension of their hands, gliding them over the body using Swedish massage techniques.\nPlacement: Stones may be left on specific \"trigger points\" or energy centers to allow heat to radiate deep into the muscle.",
+                            "sources": null
+                        },
+                        {
+                            "type": "gemini_text",
+                            "rank_group": 7,
+                            "rank_absolute": 7,
+                            "markdown": "### Comparison: Himalayan vs. Traditional Basalt",
+                            "original_text": "Comparison: Himalayan vs. Traditional Basalt",
+                            "sources": null
+                        },
+                        {
+                            "type": "gemini_table",
+                            "rank_group": 1,
+                            "rank_absolute": 8,
+                            "markdown": "| Feature | Himalayan Salt Stones | Traditional Basalt Stones |\n| :--- | :--- | :--- |\n| **Material** | Hand-carved Pink Salt | Volcanic Rock |\n| **Skin Effect** | Exfoliates and mineralizes | Primarily provides heat |\n| **Texture** | Slightly porous\/textured | Non-porous and very smooth |\n| **Heat Retention** | Holds heat well, but cools faster | Superior heat retention |",
+                            "original_text": "Feature\tHimalayan Salt Stones\tTraditional Basalt Stones\nMaterial\tHand-carved Pink Salt\tVolcanic Rock\nSkin Effect\tExfoliates and mineralizes\tPrimarily provides heat\nTexture\tSlightly porous\/textured\tNon-porous and very smooth\nHeat Retention\tHolds heat well, but cools faster\tSuperior heat retention",
+                            "table": {
+                                "table_header": [
+                                    "Feature",
+                                    "Himalayan Salt Stones",
+                                    "Traditional Basalt Stones"
+                                ],
+                                "table_content": [
+                                    [
+                                        "Material",
+                                        "Hand-carved Pink Salt",
+                                        "Volcanic Rock"
+                                    ],
+                                    [
+                                        "Skin Effect",
+                                        "Exfoliates and mineralizes",
+                                        "Primarily provides heat"
+                                    ],
+                                    [
+                                        "Texture",
+                                        "Slightly porous\/textured",
+                                        "Non-porous and very smooth"
+                                    ],
+                                    [
+                                        "Heat Retention",
+                                        "Holds heat well, but cools faster",
+                                        "Superior heat retention"
+                                    ]
+                                ]
+                            }
+                        },
+                        {
+                            "type": "gemini_text",
+                            "rank_group": 8,
+                            "rank_absolute": 9,
+                            "markdown": "> **Note:** Because salt is naturally antimicrobial, these stones are very hygienic. However, if you have very sensitive skin or recent abrasions, the salt may cause a slight tingling or stinging sensation.",
+                            "original_text": "Note: Because salt is naturally antimicrobial, these stones are very hygienic. However, if you have very sensitive skin or recent abrasions, the salt may cause a slight tingling or stinging sensation.",
+                            "sources": null
+                        },
+                        {
+                            "type": "gemini_text",
+                            "rank_group": 9,
+                            "rank_absolute": 10,
+                            "markdown": "**Would you like me to help you find local spas that offer this service, or perhaps provide tips on how to use salt stones for a DIY at-home treatment?**",
+                            "original_text": "Would you like me to help you find local spas that offer this service, or perhaps provide tips on how to use salt stones for a DIY at-home treatment?",
+                            "sources": null
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}
