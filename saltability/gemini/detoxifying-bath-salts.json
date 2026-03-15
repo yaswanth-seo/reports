@@ -1,0 +1,246 @@
+{
+    "version": "0.1.20260311",
+    "status_code": 20000,
+    "status_message": "Ok.",
+    "time": "24.0810 sec.",
+    "cost": 0.004,
+    "tasks_count": 1,
+    "tasks_error": 0,
+    "tasks": [
+        {
+            "id": "03152201-4353-0629-0000-57672ed4c948",
+            "status_code": 20000,
+            "status_message": "Ok.",
+            "time": "24.0472 sec.",
+            "cost": 0.004,
+            "result_count": 1,
+            "path": [
+                "v3",
+                "ai_optimization",
+                "gemini",
+                "llm_scraper",
+                "live",
+                "advanced"
+            ],
+            "data": {
+                "api": "ai_optimization",
+                "function": "llm_scraper",
+                "se": "gemini",
+                "keyword": "detoxifying bath salts",
+                "language_code": "en",
+                "location_name": "United States",
+                "device": "desktop",
+                "os": "windows"
+            },
+            "result": [
+                {
+                    "keyword": "detoxifying bath salts",
+                    "location_code": 2840,
+                    "language_code": "en",
+                    "model": "Fast",
+                    "datetime": "2026-03-15 20:02:06 +00:00",
+                    "markdown": "Taking a \"detoxifying\" bath is a great way to unwind, soothe sore muscles, and soften your skin. While the term \"detox\" is often used loosely—your liver and kidneys handle the actual heavy lifting of toxin removal—certain salts can certainly help draw out impurities from the skin's surface and provide a much-needed mineral boost.\n\nHere is a guide to the best ingredients for a restorative soak.\n\n---\n\n## Top Ingredients for Detox Baths\n\n| Ingredient | Primary Benefit | Why it Works |\n| :--- | :--- | :--- |\n| **Epsom Salt** | Muscle Recovery | High in magnesium, which helps relax tight muscles and reduce inflammation. |\n| **Dead Sea Salt** | Skin Health | Contains a high concentration of minerals like calcium and potassium to strengthen the skin barrier. |\n| **Himalayan Pink Salt** | Mineral Infusion | Known for its 80+ trace minerals; great for balancing skin pH and refreshing the body. |\n| **Bentonite Clay** | Deep Cleansing | Acts like a magnet for oils and surface impurities (best mixed with water first to avoid clumps). |\n| **Baking Soda** | Softening & Deodorizing | Neutralizes skin acidity and leaves the skin feeling incredibly silky. |\n\n---\n\n## Simple DIY \"Detox\" Soak Recipe\n\nIf you want to skip the store-bought versions (which often contain artificial fragrances and dyes), you can mix this up in about two minutes:\n\n* **2 cups** Epsom Salt or Dead Sea Salt\n* **1\/2 cup** Baking Soda\n* **5–10 drops** Essential Oil (Lavender for sleep, Eucalyptus for respiratory clarity, or Ginger for \"warming\" the body)\n* **Optional:** 1 tablespoon of carrier oil (like jojoba or coconut) to keep the essential oils from floating on top.[brendid.com](https:\/\/brendid.com\/how-to-make-bath-salts\/)\n\n### Instructions:\n\n1.  **Hydrate:** Drink a large glass of water before and during the bath.[www.healthline.com](https:\/\/www.healthline.com\/health\/cold-flu\/detox-bath-for-cold#:~:text=This%20bath%20can%20be%20extremely,to%20replenish%20your%20fluid%20intake.)\n2.  **Temperature:** Keep the water comfortably warm, but not scalding, to avoid lightheadedness.[www.norfolknaturalliving.com](https:\/\/www.norfolknaturalliving.com\/blogs\/how-to\/how-to-take-a-detox-bath#:~:text=Simple%20as%20that.,Warm%20water%2C%20not%20boiling.)\n3.  **Duration:** Soak for **20–30 minutes**.\n4.  **Rinse:** Briefly rinse off in a cool shower afterward to wash away any salt residue.\n\n> **Note:** If you have high blood pressure, heart conditions, or are pregnant, it is always a good idea to check with a doctor before taking hot salt baths, as they can affect circulation and heart rate.\n\n---\n\nWould you like me to suggest specific essential oil blends based on how you’re feeling, such as for stress relief or boosting energy?",
+                    "sources": [
+                        {
+                            "type": "gemini_source",
+                            "title": "Homemade Bath Salt Recipe: Customizable Ingredients & Tips - Bren Did",
+                            "snippet": "Rosemary Chamomile Detox Bath Salts; \"Fresh Snow\" Moisturizing Bath Soak · \nMagnesium Rose Bath Salts. How To Use Bath Salts. Fill your bathtub with \nhot water. ...",
+                            "domain": "brendid.com",
+                            "url": "https:\/\/brendid.com\/how-to-make-bath-salts\/",
+                            "thumbnail": "https:\/\/encrypted-tbn2.gstatic.com\/favicon-tbn?q=tbn:ANd9GcQs9QeD771vnxQ32X7KwanYfeGNADYubxMpE9Mh6adA5Nd-ZBR1l4PWXzpX1p1wkI950gbbs7ZJJvOZfeBpUdbTEd5A7YA",
+                            "source_name": "Bren Did",
+                            "publication_date": null,
+                            "markdown": "* **Optional:** 1 tablespoon of carrier oil (like jojoba or coconut) to keep the essential oils from floating on top."
+                        },
+                        {
+                            "type": "gemini_source",
+                            "title": "Detox Bath for Cold: Does It Work? - Healthline",
+                            "snippet": "This bath can be extremely dehydrating. It's important to drink water \nbefore, during, and after the bath to replenish your fluid intake.",
+                            "domain": "www.healthline.com",
+                            "url": "https:\/\/www.healthline.com\/health\/cold-flu\/detox-bath-for-cold#:~:text=This%20bath%20can%20be%20extremely,to%20replenish%20your%20fluid%20intake.",
+                            "thumbnail": "https:\/\/encrypted-tbn2.gstatic.com\/favicon-tbn?q=tbn:ANd9GcSXzFtqooMZZBnJl5R0YmzsUAWywOQ84zC9q3pgC2wIW0983zPkKpy0sYCDjgk3iJ3rX9GeE40B5Xo9w1FpGrEwHFXjEFoLQp1pvRfP",
+                            "source_name": "Healthline",
+                            "publication_date": null,
+                            "markdown": "1.  **Hydrate:** Drink a large glass of water before and during the bath."
+                        },
+                        {
+                            "type": "gemini_source",
+                            "title": "The Art of a Proper Detox Bath - Norfolk Natural Living",
+                            "snippet": "Simple as that. Here's my step by step guide to the perfect long weekend \ndetox bath: Run the bath. Warm water, not boiling.",
+                            "domain": "www.norfolknaturalliving.com",
+                            "url": "https:\/\/www.norfolknaturalliving.com\/blogs\/how-to\/how-to-take-a-detox-bath#:~:text=Simple%20as%20that.,Warm%20water%2C%20not%20boiling.",
+                            "thumbnail": "https:\/\/encrypted-tbn3.gstatic.com\/favicon-tbn?q=tbn:ANd9GcScwBmFXvm9Dlkc5KLzOeINSQRgbNM4k2YlI2PmknXPct7tLJll4YRH3l9mRgRqSWUri83anDx_Y6iSWBXsmaBMbLbFhuQSLhp_VZj_iZ-ltt1ZvkfH3Q",
+                            "source_name": "Norfolk Natural Living",
+                            "publication_date": null,
+                            "markdown": "2.  **Temperature:** Keep the water comfortably warm, but not scalding, to avoid lightheadedness."
+                        }
+                    ],
+                    "se_results_count": 0,
+                    "item_types": [
+                        "gemini_text",
+                        "gemini_table"
+                    ],
+                    "items_count": 11,
+                    "items": [
+                        {
+                            "type": "gemini_text",
+                            "rank_group": 1,
+                            "rank_absolute": 1,
+                            "markdown": "Taking a \"detoxifying\" bath is a great way to unwind, soothe sore muscles, and soften your skin. While the term \"detox\" is often used loosely—your liver and kidneys handle the actual heavy lifting of toxin removal—certain salts can certainly help draw out impurities from the skin's surface and provide a much-needed mineral boost.",
+                            "original_text": "Taking a \"detoxifying\" bath is a great way to unwind, soothe sore muscles, and soften your skin. While the term \"detox\" is often used loosely—your liver and kidneys handle the actual heavy lifting of toxin removal—certain salts can certainly help draw out impurities from the skin's surface and provide a much-needed mineral boost.",
+                            "sources": null
+                        },
+                        {
+                            "type": "gemini_text",
+                            "rank_group": 2,
+                            "rank_absolute": 2,
+                            "markdown": "Here is a guide to the best ingredients for a restorative soak.",
+                            "original_text": "Here is a guide to the best ingredients for a restorative soak.",
+                            "sources": null
+                        },
+                        {
+                            "type": "gemini_text",
+                            "rank_group": 3,
+                            "rank_absolute": 3,
+                            "markdown": "## Top Ingredients for Detox Baths",
+                            "original_text": "Top Ingredients for Detox Baths",
+                            "sources": null
+                        },
+                        {
+                            "type": "gemini_table",
+                            "rank_group": 1,
+                            "rank_absolute": 4,
+                            "markdown": "| Ingredient | Primary Benefit | Why it Works |\n| :--- | :--- | :--- |\n| **Epsom Salt** | Muscle Recovery | High in magnesium, which helps relax tight muscles and reduce inflammation. |\n| **Dead Sea Salt** | Skin Health | Contains a high concentration of minerals like calcium and potassium to strengthen the skin barrier. |\n| **Himalayan Pink Salt** | Mineral Infusion | Known for its 80+ trace minerals; great for balancing skin pH and refreshing the body. |\n| **Bentonite Clay** | Deep Cleansing | Acts like a magnet for oils and surface impurities (best mixed with water first to avoid clumps). |\n| **Baking Soda** | Softening & Deodorizing | Neutralizes skin acidity and leaves the skin feeling incredibly silky. |",
+                            "original_text": "Ingredient\tPrimary Benefit\tWhy it Works\nEpsom Salt\tMuscle Recovery\tHigh in magnesium, which helps relax tight muscles and reduce inflammation.\nDead Sea Salt\tSkin Health\tContains a high concentration of minerals like calcium and potassium to strengthen the skin barrier.\nHimalayan Pink Salt\tMineral Infusion\tKnown for its 80+ trace minerals; great for balancing skin pH and refreshing the body.\nBentonite Clay\tDeep Cleansing\tActs like a magnet for oils and surface impurities (best mixed with water first to avoid clumps).\nBaking Soda\tSoftening & Deodorizing\tNeutralizes skin acidity and leaves the skin feeling incredibly silky.",
+                            "table": {
+                                "table_header": [
+                                    "Ingredient",
+                                    "Primary Benefit",
+                                    "Why it Works"
+                                ],
+                                "table_content": [
+                                    [
+                                        "Epsom Salt",
+                                        "Muscle Recovery",
+                                        "High in magnesium, which helps relax tight muscles and reduce inflammation."
+                                    ],
+                                    [
+                                        "Dead Sea Salt",
+                                        "Skin Health",
+                                        "Contains a high concentration of minerals like calcium and potassium to strengthen the skin barrier."
+                                    ],
+                                    [
+                                        "Himalayan Pink Salt",
+                                        "Mineral Infusion",
+                                        "Known for its 80+ trace minerals; great for balancing skin pH and refreshing the body."
+                                    ],
+                                    [
+                                        "Bentonite Clay",
+                                        "Deep Cleansing",
+                                        "Acts like a magnet for oils and surface impurities (best mixed with water first to avoid clumps)."
+                                    ],
+                                    [
+                                        "Baking Soda",
+                                        "Softening & Deodorizing",
+                                        "Neutralizes skin acidity and leaves the skin feeling incredibly silky."
+                                    ]
+                                ]
+                            }
+                        },
+                        {
+                            "type": "gemini_text",
+                            "rank_group": 4,
+                            "rank_absolute": 5,
+                            "markdown": "## Simple DIY \"Detox\" Soak Recipe",
+                            "original_text": "Simple DIY \"Detox\" Soak Recipe",
+                            "sources": null
+                        },
+                        {
+                            "type": "gemini_text",
+                            "rank_group": 5,
+                            "rank_absolute": 6,
+                            "markdown": "If you want to skip the store-bought versions (which often contain artificial fragrances and dyes), you can mix this up in about two minutes:",
+                            "original_text": "If you want to skip the store-bought versions (which often contain artificial fragrances and dyes), you can mix this up in about two minutes:",
+                            "sources": null
+                        },
+                        {
+                            "type": "gemini_text",
+                            "rank_group": 6,
+                            "rank_absolute": 7,
+                            "markdown": "* **2 cups** Epsom Salt or Dead Sea Salt\n* **1\/2 cup** Baking Soda\n* **5–10 drops** Essential Oil (Lavender for sleep, Eucalyptus for respiratory clarity, or Ginger for \"warming\" the body)\n* **Optional:** 1 tablespoon of carrier oil (like jojoba or coconut) to keep the essential oils from floating on top.[brendid.com](https:\/\/brendid.com\/how-to-make-bath-salts\/)",
+                            "original_text": "2 cups Epsom Salt or Dead Sea Salt\n1\/2 cup Baking Soda\n5–10 drops Essential Oil (Lavender for sleep, Eucalyptus for respiratory clarity, or Ginger for \"warming\" the body)\nOptional: 1 tablespoon of carrier oil (like jojoba or coconut) to keep the essential oils from floating on top.",
+                            "sources": [
+                                {
+                                    "type": "gemini_source",
+                                    "title": "Homemade Bath Salt Recipe: Customizable Ingredients & Tips - Bren Did",
+                                    "snippet": "Rosemary Chamomile Detox Bath Salts; \"Fresh Snow\" Moisturizing Bath Soak · \nMagnesium Rose Bath Salts. How To Use Bath Salts. Fill your bathtub with \nhot water. ...",
+                                    "domain": "brendid.com",
+                                    "url": "https:\/\/brendid.com\/how-to-make-bath-salts\/",
+                                    "thumbnail": "https:\/\/encrypted-tbn2.gstatic.com\/favicon-tbn?q=tbn:ANd9GcQs9QeD771vnxQ32X7KwanYfeGNADYubxMpE9Mh6adA5Nd-ZBR1l4PWXzpX1p1wkI950gbbs7ZJJvOZfeBpUdbTEd5A7YA",
+                                    "source_name": "Bren Did",
+                                    "publication_date": null,
+                                    "markdown": "* **Optional:** 1 tablespoon of carrier oil (like jojoba or coconut) to keep the essential oils from floating on top."
+                                }
+                            ]
+                        },
+                        {
+                            "type": "gemini_text",
+                            "rank_group": 7,
+                            "rank_absolute": 8,
+                            "markdown": "### Instructions:",
+                            "original_text": "Instructions:",
+                            "sources": null
+                        },
+                        {
+                            "type": "gemini_text",
+                            "rank_group": 8,
+                            "rank_absolute": 9,
+                            "markdown": "1.  **Hydrate:** Drink a large glass of water before and during the bath.[www.healthline.com](https:\/\/www.healthline.com\/health\/cold-flu\/detox-bath-for-cold#:~:text=This%20bath%20can%20be%20extremely,to%20replenish%20your%20fluid%20intake.)\n2.  **Temperature:** Keep the water comfortably warm, but not scalding, to avoid lightheadedness.[www.norfolknaturalliving.com](https:\/\/www.norfolknaturalliving.com\/blogs\/how-to\/how-to-take-a-detox-bath#:~:text=Simple%20as%20that.,Warm%20water%2C%20not%20boiling.)\n3.  **Duration:** Soak for **20–30 minutes**.\n4.  **Rinse:** Briefly rinse off in a cool shower afterward to wash away any salt residue.",
+                            "original_text": "Hydrate: Drink a large glass of water before and during the bath.\nTemperature: Keep the water comfortably warm, but not scalding, to avoid lightheadedness.\nDuration: Soak for 20–30 minutes.\nRinse: Briefly rinse off in a cool shower afterward to wash away any salt residue.",
+                            "sources": [
+                                {
+                                    "type": "gemini_source",
+                                    "title": "Detox Bath for Cold: Does It Work? - Healthline",
+                                    "snippet": "This bath can be extremely dehydrating. It's important to drink water \nbefore, during, and after the bath to replenish your fluid intake.",
+                                    "domain": "www.healthline.com",
+                                    "url": "https:\/\/www.healthline.com\/health\/cold-flu\/detox-bath-for-cold#:~:text=This%20bath%20can%20be%20extremely,to%20replenish%20your%20fluid%20intake.",
+                                    "thumbnail": "https:\/\/encrypted-tbn2.gstatic.com\/favicon-tbn?q=tbn:ANd9GcSXzFtqooMZZBnJl5R0YmzsUAWywOQ84zC9q3pgC2wIW0983zPkKpy0sYCDjgk3iJ3rX9GeE40B5Xo9w1FpGrEwHFXjEFoLQp1pvRfP",
+                                    "source_name": "Healthline",
+                                    "publication_date": null,
+                                    "markdown": "1.  **Hydrate:** Drink a large glass of water before and during the bath."
+                                },
+                                {
+                                    "type": "gemini_source",
+                                    "title": "The Art of a Proper Detox Bath - Norfolk Natural Living",
+                                    "snippet": "Simple as that. Here's my step by step guide to the perfect long weekend \ndetox bath: Run the bath. Warm water, not boiling.",
+                                    "domain": "www.norfolknaturalliving.com",
+                                    "url": "https:\/\/www.norfolknaturalliving.com\/blogs\/how-to\/how-to-take-a-detox-bath#:~:text=Simple%20as%20that.,Warm%20water%2C%20not%20boiling.",
+                                    "thumbnail": "https:\/\/encrypted-tbn3.gstatic.com\/favicon-tbn?q=tbn:ANd9GcScwBmFXvm9Dlkc5KLzOeINSQRgbNM4k2YlI2PmknXPct7tLJll4YRH3l9mRgRqSWUri83anDx_Y6iSWBXsmaBMbLbFhuQSLhp_VZj_iZ-ltt1ZvkfH3Q",
+                                    "source_name": "Norfolk Natural Living",
+                                    "publication_date": null,
+                                    "markdown": "2.  **Temperature:** Keep the water comfortably warm, but not scalding, to avoid lightheadedness."
+                                }
+                            ]
+                        },
+                        {
+                            "type": "gemini_text",
+                            "rank_group": 9,
+                            "rank_absolute": 10,
+                            "markdown": "> **Note:** If you have high blood pressure, heart conditions, or are pregnant, it is always a good idea to check with a doctor before taking hot salt baths, as they can affect circulation and heart rate.",
+                            "original_text": "Note: If you have high blood pressure, heart conditions, or are pregnant, it is always a good idea to check with a doctor before taking hot salt baths, as they can affect circulation and heart rate.",
+                            "sources": null
+                        },
+                        {
+                            "type": "gemini_text",
+                            "rank_group": 10,
+                            "rank_absolute": 11,
+                            "markdown": "Would you like me to suggest specific essential oil blends based on how you’re feeling, such as for stress relief or boosting energy?",
+                            "original_text": "Would you like me to suggest specific essential oil blends based on how you’re feeling, such as for stress relief or boosting energy?",
+                            "sources": null
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}
