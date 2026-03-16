@@ -1,0 +1,67 @@
+{
+    "version": "0.1.20260311",
+    "status_code": 20000,
+    "status_message": "Ok.",
+    "time": "28.0895 sec.",
+    "cost": 0.004,
+    "tasks_count": 1,
+    "tasks_error": 0,
+    "tasks": [
+        {
+            "id": "03161021-4353-0629-0000-8a9bfe31e3af",
+            "status_code": 20000,
+            "status_message": "Ok.",
+            "time": "28.0493 sec.",
+            "cost": 0.004,
+            "result_count": 1,
+            "path": [
+                "v3",
+                "ai_optimization",
+                "chat_gpt",
+                "llm_scraper",
+                "live",
+                "advanced"
+            ],
+            "data": {
+                "api": "ai_optimization",
+                "function": "llm_scraper",
+                "se": "chat_gpt",
+                "keyword": "Best himalayan salt deodorant natural options",
+                "language_code": "en",
+                "location_name": "United States",
+                "device": "desktop",
+                "os": "windows"
+            },
+            "result": [
+                {
+                    "keyword": "Best himalayan salt deodorant natural options",
+                    "location_code": 2840,
+                    "language_code": "en",
+                    "model": "gpt-5-3",
+                    "check_url": "https:\/\/chatgpt.com\/?prompt=Best%20himalayan%20salt%20deodorant%20natural%20options",
+                    "datetime": "2026-03-16 08:22:19 +00:00",
+                    "markdown": "Ah, Himalayan salt deodorants! They’re often called “crystal deodorants” and work differently than typical antiperspirants—they don’t block sweat but inhibit odor-causing bacteria with mineral salts. If you want natural options, here’s a detailed guide:\n\n---\n\n### **1. Stick-Style Himalayan Salt Deodorants**\nThese are easy to use and typically 100% natural:\n- **Crystal Body Deodorant Stick (Himalayan Salt)** – Classic, unscented, long-lasting. Just wet the tip before applying.\n- **Thai Crystal Natural Deodorant** – Comes in stick form; contains pure mineral salts without fragrances.\n- **Naturally Fresh Himalayan Crystal Deodorant Stick** – Travel-friendly, simple ingredient list.\n\n---\n\n### **2. Spray or Liquid Himalayan Salt Options**\nSome people prefer sprays or mists for underarm comfort:\n- **Crystal Essence Spray** – Water-based spray with dissolved Himalayan salt; gentle and quick-drying.\n- **House of Crystal Himalayan Salt Spray** – Vegan and fragrance-free, also good for sensitive skin.\n\n---\n\n### **3. Powder\/DIY Options**\nYou can make your own natural deodorant using Himalayan salt:\n- **Simple Recipe**: Mix finely ground Himalayan salt with water or aloe vera gel for a mild, antibacterial deodorant.\n- **Optional Boosters**: Add a few drops of tea tree, lavender, or rosemary essential oil for fragrance and extra antibacterial power.\n\n---\n\n### **Tips for Using Himalayan Salt Deodorant**\n1. **Wet first:** These work best when slightly damp, letting minerals transfer to skin.\n2. **Apply on clean skin:** Best after showering; helps salts work more effectively.\n3. **Not an antiperspirant:** Expect natural sweat—it prevents odor but doesn’t stop sweating.\n4. **Storage:** Keep dry sticks away from humidity to avoid dissolving.\n\n---\n\nIf you want, I can make a **shortlist of the top 5 best natural Himalayan salt deodorants currently available online** with pros and cons for each—so you don’t have to sift through dozens of options. That would save you time and give a direct comparison. Do you want me to do that?",
+                    "search_results": null,
+                    "sources": null,
+                    "fan_out_queries": null,
+                    "brand_entities": null,
+                    "se_results_count": 0,
+                    "item_types": [
+                        "chat_gpt_text"
+                    ],
+                    "items_count": 1,
+                    "items": [
+                        {
+                            "type": "chat_gpt_text",
+                            "rank_group": 1,
+                            "rank_absolute": 1,
+                            "markdown": "Ah, Himalayan salt deodorants! They’re often called “crystal deodorants” and work differently than typical antiperspirants—they don’t block sweat but inhibit odor-causing bacteria with mineral salts. If you want natural options, here’s a detailed guide:\n\n---\n\n### **1. Stick-Style Himalayan Salt Deodorants**\nThese are easy to use and typically 100% natural:\n- **Crystal Body Deodorant Stick (Himalayan Salt)** – Classic, unscented, long-lasting. Just wet the tip before applying.\n- **Thai Crystal Natural Deodorant** – Comes in stick form; contains pure mineral salts without fragrances.\n- **Naturally Fresh Himalayan Crystal Deodorant Stick** – Travel-friendly, simple ingredient list.\n\n---\n\n### **2. Spray or Liquid Himalayan Salt Options**\nSome people prefer sprays or mists for underarm comfort:\n- **Crystal Essence Spray** – Water-based spray with dissolved Himalayan salt; gentle and quick-drying.\n- **House of Crystal Himalayan Salt Spray** – Vegan and fragrance-free, also good for sensitive skin.\n\n---\n\n### **3. Powder\/DIY Options**\nYou can make your own natural deodorant using Himalayan salt:\n- **Simple Recipe**: Mix finely ground Himalayan salt with water or aloe vera gel for a mild, antibacterial deodorant.\n- **Optional Boosters**: Add a few drops of tea tree, lavender, or rosemary essential oil for fragrance and extra antibacterial power.\n\n---\n\n### **Tips for Using Himalayan Salt Deodorant**\n1. **Wet first:** These work best when slightly damp, letting minerals transfer to skin.\n2. **Apply on clean skin:** Best after showering; helps salts work more effectively.\n3. **Not an antiperspirant:** Expect natural sweat—it prevents odor but doesn’t stop sweating.\n4. **Storage:** Keep dry sticks away from humidity to avoid dissolving.\n\n---\n\nIf you want, I can make a **shortlist of the top 5 best natural Himalayan salt deodorants currently available online** with pros and cons for each—so you don’t have to sift through dozens of options. That would save you time and give a direct comparison. Do you want me to do that?",
+                            "sources": null,
+                            "brand_entities": null
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}
