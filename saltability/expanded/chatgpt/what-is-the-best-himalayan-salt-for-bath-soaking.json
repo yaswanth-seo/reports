@@ -1,0 +1,67 @@
+{
+    "version": "0.1.20260311",
+    "status_code": 20000,
+    "status_message": "Ok.",
+    "time": "63.1181 sec.",
+    "cost": 0.004,
+    "tasks_count": 1,
+    "tasks_error": 0,
+    "tasks": [
+        {
+            "id": "03161306-4353-0629-0000-1e8fae807377",
+            "status_code": 20000,
+            "status_message": "Ok.",
+            "time": "63.0871 sec.",
+            "cost": 0.004,
+            "result_count": 1,
+            "path": [
+                "v3",
+                "ai_optimization",
+                "chat_gpt",
+                "llm_scraper",
+                "live",
+                "advanced"
+            ],
+            "data": {
+                "api": "ai_optimization",
+                "function": "llm_scraper",
+                "se": "chat_gpt",
+                "keyword": "What is the best himalayan salt for bath soaking",
+                "language_code": "en",
+                "location_name": "United States",
+                "device": "desktop",
+                "os": "windows"
+            },
+            "result": [
+                {
+                    "keyword": "What is the best himalayan salt for bath soaking",
+                    "location_code": 2840,
+                    "language_code": "en",
+                    "model": "gpt-5-3",
+                    "check_url": "https:\/\/chatgpt.com\/?prompt=What%20is%20the%20best%20himalayan%20salt%20for%20bath%20soaking",
+                    "datetime": "2026-03-16 11:07:09 +00:00",
+                    "markdown": "When it comes to Himalayan salt for bath soaking, you want to focus on **purity, texture, and intended use** rather than marketing hype. Here’s a thorough guide:  \n\n### 1. **Type of Himalayan Salt**\n- **Pink Himalayan Salt (coarse or chunked)**: The classic choice. Coarser grains dissolve slowly, giving a longer-lasting soak.\n- **Fine or powder Himalayan salt**: Dissolves quickly, but you may need more for the same effect.\n- **Salt blends with essential oils or herbs**: These can enhance relaxation or aromatherapy benefits but aren’t strictly necessary if you want just the mineral soak.\n\n### 2. **Purity**\n- Look for **100% natural, food-grade Himalayan salt**. Avoid salts labeled as “table salt with added minerals” or “bath salt” with unknown additives.\n- Check that it comes from **Khewra Salt Mine in Pakistan**, which is the primary source of authentic Himalayan pink salt.\n\n### 3. **Additives**\n- Pure salt without dyes, fragrances, or anti-caking agents is best for sensitive skin.\n- Some bath salts include **Epsom salts (magnesium sulfate)** mixed in for extra muscle relaxation. That’s fine if you like, but technically it’s a different mineral soak.\n\n### 4. **Texture for Bathing**\n- **Large crystals or chunks**: Slowly dissolve, great for long soaks.\n- **Medium to coarse grains**: Good all-purpose.\n- **Powdered salt**: Dissolves instantly; may feel “softer” on skin, but the experience is shorter.\n\n### 5. **Tips for Use**\n- **Amount**: 1–2 cups per standard bathtub (approx. 150–200 liters of water).\n- **Temperature**: Warm water helps dissolve the salt and open pores.\n- **Duration**: 15–30 minutes soaking for best mineral absorption and relaxation.\n- **Optional**: Add a few drops of essential oils like lavender or eucalyptus for aromatherapy.\n\n### **Recommended Brands**\nSome trusted options for bath-quality Himalayan salt:\n- **SaltWorks Himalayan Pink Bath Salt**\n- **Himalayan Natural Pink Salt by Sherpa Pink**\n- **Pure Himalayan Salt Crystals by The Spice Lab**  \n\nAvoid salts labeled as “food grade” in very fine powder form for baths—they’ll work, but coarser crystal salts feel more luxurious and last longer in water.\n\nIf you want, I can make a **top 3 list of Himalayan salts specifically optimized for bath soaking** with links to check purity and texture. It’ll save you a lot of trial and error. Do you want me to do that?",
+                    "search_results": null,
+                    "sources": null,
+                    "fan_out_queries": null,
+                    "brand_entities": null,
+                    "se_results_count": 0,
+                    "item_types": [
+                        "chat_gpt_text"
+                    ],
+                    "items_count": 1,
+                    "items": [
+                        {
+                            "type": "chat_gpt_text",
+                            "rank_group": 1,
+                            "rank_absolute": 1,
+                            "markdown": "When it comes to Himalayan salt for bath soaking, you want to focus on **purity, texture, and intended use** rather than marketing hype. Here’s a thorough guide:  \n\n### 1. **Type of Himalayan Salt**\n- **Pink Himalayan Salt (coarse or chunked)**: The classic choice. Coarser grains dissolve slowly, giving a longer-lasting soak.\n- **Fine or powder Himalayan salt**: Dissolves quickly, but you may need more for the same effect.\n- **Salt blends with essential oils or herbs**: These can enhance relaxation or aromatherapy benefits but aren’t strictly necessary if you want just the mineral soak.\n\n### 2. **Purity**\n- Look for **100% natural, food-grade Himalayan salt**. Avoid salts labeled as “table salt with added minerals” or “bath salt” with unknown additives.\n- Check that it comes from **Khewra Salt Mine in Pakistan**, which is the primary source of authentic Himalayan pink salt.\n\n### 3. **Additives**\n- Pure salt without dyes, fragrances, or anti-caking agents is best for sensitive skin.\n- Some bath salts include **Epsom salts (magnesium sulfate)** mixed in for extra muscle relaxation. That’s fine if you like, but technically it’s a different mineral soak.\n\n### 4. **Texture for Bathing**\n- **Large crystals or chunks**: Slowly dissolve, great for long soaks.\n- **Medium to coarse grains**: Good all-purpose.\n- **Powdered salt**: Dissolves instantly; may feel “softer” on skin, but the experience is shorter.\n\n### 5. **Tips for Use**\n- **Amount**: 1–2 cups per standard bathtub (approx. 150–200 liters of water).\n- **Temperature**: Warm water helps dissolve the salt and open pores.\n- **Duration**: 15–30 minutes soaking for best mineral absorption and relaxation.\n- **Optional**: Add a few drops of essential oils like lavender or eucalyptus for aromatherapy.\n\n### **Recommended Brands**\nSome trusted options for bath-quality Himalayan salt:\n- **SaltWorks Himalayan Pink Bath Salt**\n- **Himalayan Natural Pink Salt by Sherpa Pink**\n- **Pure Himalayan Salt Crystals by The Spice Lab**  \n\nAvoid salts labeled as “food grade” in very fine powder form for baths—they’ll work, but coarser crystal salts feel more luxurious and last longer in water.\n\nIf you want, I can make a **top 3 list of Himalayan salts specifically optimized for bath soaking** with links to check purity and texture. It’ll save you a lot of trial and error. Do you want me to do that?",
+                            "sources": null,
+                            "brand_entities": null
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}
