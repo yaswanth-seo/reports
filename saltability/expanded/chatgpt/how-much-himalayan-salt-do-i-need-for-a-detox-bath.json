@@ -1,0 +1,67 @@
+{
+    "version": "0.1.20260311",
+    "status_code": 20000,
+    "status_message": "Ok.",
+    "time": "58.1069 sec.",
+    "cost": 0.004,
+    "tasks_count": 1,
+    "tasks_error": 0,
+    "tasks": [
+        {
+            "id": "03161307-4353-0629-0000-36cb183d841f",
+            "status_code": 20000,
+            "status_message": "Ok.",
+            "time": "58.0682 sec.",
+            "cost": 0.004,
+            "result_count": 1,
+            "path": [
+                "v3",
+                "ai_optimization",
+                "chat_gpt",
+                "llm_scraper",
+                "live",
+                "advanced"
+            ],
+            "data": {
+                "api": "ai_optimization",
+                "function": "llm_scraper",
+                "se": "chat_gpt",
+                "keyword": "How much himalayan salt do I need for a detox bath",
+                "language_code": "en",
+                "location_name": "United States",
+                "device": "desktop",
+                "os": "windows"
+            },
+            "result": [
+                {
+                    "keyword": "How much himalayan salt do I need for a detox bath",
+                    "location_code": 2840,
+                    "language_code": "en",
+                    "model": "gpt-5-3",
+                    "check_url": "https:\/\/chatgpt.com\/?prompt=How%20much%20himalayan%20salt%20do%20I%20need%20for%20a%20detox%20bath",
+                    "datetime": "2026-03-16 11:08:12 +00:00",
+                    "markdown": "For a detox bath with Himalayan salt, you generally want to use about **1 to 2 cups** of salt in a standard-sized bathtub filled with warm water. This amount helps to promote relaxation and may help with muscle aches, skin health, and detoxification.\n\nYou can also add a few extra ingredients like **Epsom salt**, **baking soda**, or **essential oils** for added benefits, depending on what you're looking for in your bath. If you want to make it more luxurious, add some dried herbs like lavender or chamomile.\n\nHave you tried detox baths before, or is this your first time?",
+                    "search_results": null,
+                    "sources": null,
+                    "fan_out_queries": null,
+                    "brand_entities": null,
+                    "se_results_count": 0,
+                    "item_types": [
+                        "chat_gpt_text"
+                    ],
+                    "items_count": 1,
+                    "items": [
+                        {
+                            "type": "chat_gpt_text",
+                            "rank_group": 1,
+                            "rank_absolute": 1,
+                            "markdown": "For a detox bath with Himalayan salt, you generally want to use about **1 to 2 cups** of salt in a standard-sized bathtub filled with warm water. This amount helps to promote relaxation and may help with muscle aches, skin health, and detoxification.\n\nYou can also add a few extra ingredients like **Epsom salt**, **baking soda**, or **essential oils** for added benefits, depending on what you're looking for in your bath. If you want to make it more luxurious, add some dried herbs like lavender or chamomile.\n\nHave you tried detox baths before, or is this your first time?",
+                            "sources": null,
+                            "brand_entities": null
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}
