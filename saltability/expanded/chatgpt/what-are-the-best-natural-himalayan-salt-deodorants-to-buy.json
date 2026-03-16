@@ -1,0 +1,67 @@
+{
+    "version": "0.1.20260311",
+    "status_code": 20000,
+    "status_message": "Ok.",
+    "time": "24.0869 sec.",
+    "cost": 0.004,
+    "tasks_count": 1,
+    "tasks_error": 0,
+    "tasks": [
+        {
+            "id": "03161308-4353-0629-0000-709abd93f0d0",
+            "status_code": 20000,
+            "status_message": "Ok.",
+            "time": "24.0466 sec.",
+            "cost": 0.004,
+            "result_count": 1,
+            "path": [
+                "v3",
+                "ai_optimization",
+                "chat_gpt",
+                "llm_scraper",
+                "live",
+                "advanced"
+            ],
+            "data": {
+                "api": "ai_optimization",
+                "function": "llm_scraper",
+                "se": "chat_gpt",
+                "keyword": "What are the best natural himalayan salt deodorants to buy",
+                "language_code": "en",
+                "location_name": "United States",
+                "device": "desktop",
+                "os": "windows"
+            },
+            "result": [
+                {
+                    "keyword": "What are the best natural himalayan salt deodorants to buy",
+                    "location_code": 2840,
+                    "language_code": "en",
+                    "model": "gpt-5-3",
+                    "check_url": "https:\/\/chatgpt.com\/?prompt=What%20are%20the%20best%20natural%20himalayan%20salt%20deodorants%20to%20buy",
+                    "datetime": "2026-03-16 11:08:42 +00:00",
+                    "markdown": "Himalayan salt deodorants are a great option if you're looking for a natural, minimal-ingredient product that can neutralize odors and keep you feeling fresh. They work by creating a thin, invisible layer on the skin that helps block bacteria (which cause body odor) without relying on chemicals or artificial fragrances.\n\nHere are some highly recommended options you can look for:\n\n### 1. **Crystal Body Deodorant Stick**\n   - **Ingredients**: Pure potassium alum (a natural mineral salt).\n   - **Pros**: Known for its simplicity and effectiveness, this deodorant works well to neutralize odor without chemicals or synthetic fragrances. It's also free of aluminum, parabens, and phthalates.\n   - **Cons**: Some people may not like the fact that it’s a solid stick that you need to wet before use.\n\n### 2. **The Natural Crystal Himalayan Salt Deodorant**\n   - **Ingredients**: 100% Himalayan crystal salt.\n   - **Pros**: This product is all-natural and contains no synthetic additives or fragrances. The salt helps balance the skin’s pH and prevents the growth of bacteria.\n   - **Cons**: As with other salt-based deodorants, you might need to apply it immediately after a shower while your skin is still damp.\n\n### 3. **Primal Pit Paste Natural Deodorant with Himalayan Salt**\n   - **Ingredients**: Organic ingredients with Himalayan salt, baking soda, and coconut oil.\n   - **Pros**: This deodorant has a creamy texture and is a good option for those who want the benefits of Himalayan salt plus additional moisturizing ingredients like coconut oil. It’s free of parabens, aluminum, and artificial fragrances.\n   - **Cons**: It may take a little time to adjust to the texture since it’s a paste rather than a stick.\n\n### 4. **Salt of the Earth Natural Deodorant Spray**\n   - **Ingredients**: Himalayan salt, water, and a few other natural preservatives.\n   - **Pros**: If you prefer a spray, this product might be a great option. It’s very simple and doesn’t contain any synthetic chemicals or fragrances. The spray form also makes it quick and easy to apply.\n   - **Cons**: The spray might leave a slight residue on clothing if you don’t give it time to dry.\n\n### 5. **Lavilin Natural Deodorant with Himalayan Salt**\n   - **Ingredients**: Himalayan salt, aloe vera, and a range of botanical extracts.\n   - **Pros**: This deodorant offers long-lasting odor protection and is formulated to be gentle on the skin. It’s suitable for sensitive skin and doesn't contain harsh chemicals.\n   - **Cons**: It might be a bit more expensive than some other options, but it's a high-quality product.\n\n### 6. **Himalayan Salt Crystal Deodorant by Body Crystal**\n   - **Ingredients**: 100% Himalayan salt.\n   - **Pros**: This is a very minimalistic deodorant with just Himalayan salt and water. It’s great for those who want a pure, unscented option that works without any added fragrances or chemicals.\n   - **Cons**: Like other salt-based deodorants, it may require wetting the crystal before applying.\n\n### 7. **Crystal Essence Mineral Deodorant Roll-On**\n   - **Ingredients**: Natural mineral salts (including Himalayan salt), water, and natural preservatives.\n   - **Pros**: This roll-on deodorant is easy to apply, dries quickly, and is free from parabens, aluminum, and artificial fragrances.\n   - **Cons**: Some people prefer stick or spray deodorants to the roll-on format.\n\n### 8. **Schmidt’s Natural Deodorant with Himalayan Salt**\n   - **Ingredients**: Sodium bicarbonate, arrowroot powder, coconut oil, and Himalayan salt.\n   - **Pros**: Schmidt’s is a popular brand known for its natural deodorants. The Himalayan salt version is great for sensitive skin and provides strong odor protection while being free from aluminum and synthetic ingredients.\n   - **Cons**: The formula is a bit thicker and may leave a residue after application, but it works well for odor control.\n\n---\n\n### Things to Keep in Mind:\n- **Sensitivity**: Some people with sensitive skin may experience irritation with salt-based deodorants, so it's always good to patch test before regular use.\n- **Fragrance-Free**: Many Himalayan salt deodorants are fragrance-free, so if you prefer scented options, you may want to check the label or look for brands that add natural essential oils.\n- **Application**: Most of these deodorants require you to wet the crystal or apply them to damp skin for best results.\n\n### Where to Buy:\n- Online retailers like Amazon, iHerb, or Vitacost often carry a wide selection of Himalayan salt deodorants.\n- Health food stores or natural beauty shops may also carry these products.\n\nLet me know if you'd like more details about any of these or if you're curious about other options!",
+                    "search_results": null,
+                    "sources": null,
+                    "fan_out_queries": null,
+                    "brand_entities": null,
+                    "se_results_count": 0,
+                    "item_types": [
+                        "chat_gpt_text"
+                    ],
+                    "items_count": 1,
+                    "items": [
+                        {
+                            "type": "chat_gpt_text",
+                            "rank_group": 1,
+                            "rank_absolute": 1,
+                            "markdown": "Himalayan salt deodorants are a great option if you're looking for a natural, minimal-ingredient product that can neutralize odors and keep you feeling fresh. They work by creating a thin, invisible layer on the skin that helps block bacteria (which cause body odor) without relying on chemicals or artificial fragrances.\n\nHere are some highly recommended options you can look for:\n\n### 1. **Crystal Body Deodorant Stick**\n   - **Ingredients**: Pure potassium alum (a natural mineral salt).\n   - **Pros**: Known for its simplicity and effectiveness, this deodorant works well to neutralize odor without chemicals or synthetic fragrances. It's also free of aluminum, parabens, and phthalates.\n   - **Cons**: Some people may not like the fact that it’s a solid stick that you need to wet before use.\n\n### 2. **The Natural Crystal Himalayan Salt Deodorant**\n   - **Ingredients**: 100% Himalayan crystal salt.\n   - **Pros**: This product is all-natural and contains no synthetic additives or fragrances. The salt helps balance the skin’s pH and prevents the growth of bacteria.\n   - **Cons**: As with other salt-based deodorants, you might need to apply it immediately after a shower while your skin is still damp.\n\n### 3. **Primal Pit Paste Natural Deodorant with Himalayan Salt**\n   - **Ingredients**: Organic ingredients with Himalayan salt, baking soda, and coconut oil.\n   - **Pros**: This deodorant has a creamy texture and is a good option for those who want the benefits of Himalayan salt plus additional moisturizing ingredients like coconut oil. It’s free of parabens, aluminum, and artificial fragrances.\n   - **Cons**: It may take a little time to adjust to the texture since it’s a paste rather than a stick.\n\n### 4. **Salt of the Earth Natural Deodorant Spray**\n   - **Ingredients**: Himalayan salt, water, and a few other natural preservatives.\n   - **Pros**: If you prefer a spray, this product might be a great option. It’s very simple and doesn’t contain any synthetic chemicals or fragrances. The spray form also makes it quick and easy to apply.\n   - **Cons**: The spray might leave a slight residue on clothing if you don’t give it time to dry.\n\n### 5. **Lavilin Natural Deodorant with Himalayan Salt**\n   - **Ingredients**: Himalayan salt, aloe vera, and a range of botanical extracts.\n   - **Pros**: This deodorant offers long-lasting odor protection and is formulated to be gentle on the skin. It’s suitable for sensitive skin and doesn't contain harsh chemicals.\n   - **Cons**: It might be a bit more expensive than some other options, but it's a high-quality product.\n\n### 6. **Himalayan Salt Crystal Deodorant by Body Crystal**\n   - **Ingredients**: 100% Himalayan salt.\n   - **Pros**: This is a very minimalistic deodorant with just Himalayan salt and water. It’s great for those who want a pure, unscented option that works without any added fragrances or chemicals.\n   - **Cons**: Like other salt-based deodorants, it may require wetting the crystal before applying.\n\n### 7. **Crystal Essence Mineral Deodorant Roll-On**\n   - **Ingredients**: Natural mineral salts (including Himalayan salt), water, and natural preservatives.\n   - **Pros**: This roll-on deodorant is easy to apply, dries quickly, and is free from parabens, aluminum, and artificial fragrances.\n   - **Cons**: Some people prefer stick or spray deodorants to the roll-on format.\n\n### 8. **Schmidt’s Natural Deodorant with Himalayan Salt**\n   - **Ingredients**: Sodium bicarbonate, arrowroot powder, coconut oil, and Himalayan salt.\n   - **Pros**: Schmidt’s is a popular brand known for its natural deodorants. The Himalayan salt version is great for sensitive skin and provides strong odor protection while being free from aluminum and synthetic ingredients.\n   - **Cons**: The formula is a bit thicker and may leave a residue after application, but it works well for odor control.\n\n---\n\n### Things to Keep in Mind:\n- **Sensitivity**: Some people with sensitive skin may experience irritation with salt-based deodorants, so it's always good to patch test before regular use.\n- **Fragrance-Free**: Many Himalayan salt deodorants are fragrance-free, so if you prefer scented options, you may want to check the label or look for brands that add natural essential oils.\n- **Application**: Most of these deodorants require you to wet the crystal or apply them to damp skin for best results.\n\n### Where to Buy:\n- Online retailers like Amazon, iHerb, or Vitacost often carry a wide selection of Himalayan salt deodorants.\n- Health food stores or natural beauty shops may also carry these products.\n\nLet me know if you'd like more details about any of these or if you're curious about other options!",
+                            "sources": null,
+                            "brand_entities": null
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}
