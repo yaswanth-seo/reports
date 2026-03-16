@@ -1,0 +1,67 @@
+{
+    "version": "0.1.20260311",
+    "status_code": 20000,
+    "status_message": "Ok.",
+    "time": "32.1264 sec.",
+    "cost": 0.004,
+    "tasks_count": 1,
+    "tasks_error": 0,
+    "tasks": [
+        {
+            "id": "03161020-4353-0629-0000-c9926f6e1ddf",
+            "status_code": 20000,
+            "status_message": "Ok.",
+            "time": "32.0684 sec.",
+            "cost": 0.004,
+            "result_count": 1,
+            "path": [
+                "v3",
+                "ai_optimization",
+                "chat_gpt",
+                "llm_scraper",
+                "live",
+                "advanced"
+            ],
+            "data": {
+                "api": "ai_optimization",
+                "function": "llm_scraper",
+                "se": "chat_gpt",
+                "keyword": "Best himalayan salt scrub for body exfoliation",
+                "language_code": "en",
+                "location_name": "United States",
+                "device": "desktop",
+                "os": "windows"
+            },
+            "result": [
+                {
+                    "keyword": "Best himalayan salt scrub for body exfoliation",
+                    "location_code": 2840,
+                    "language_code": "en",
+                    "model": "gpt-5-3",
+                    "check_url": "https:\/\/chatgpt.com\/?prompt=Best%20himalayan%20salt%20scrub%20for%20body%20exfoliation",
+                    "datetime": "2026-03-16 08:20:32 +00:00",
+                    "markdown": "When it comes to Himalayan salt scrubs for body exfoliation, you want a product that balances effective exfoliation with skin nourishment. Here’s a breakdown of key things to look for and some top options:  \n\n---\n\n### **What to Look for in a Himalayan Salt Scrub**\n1. **Grain Size:**  \n   - Fine or medium grains are gentler and less likely to cause micro-tears in your skin.  \n   - Coarse grains give a stronger exfoliation, ideal for rough areas like elbows, knees, or feet.  \n\n2. **Added Oils:**  \n   - Look for natural oils like **jojoba, coconut, almond, or grapeseed oil**.  \n   - Oils help moisturize the skin and prevent over-drying after exfoliation.  \n\n3. **Natural Ingredients:**  \n   - Avoid scrubs with harsh chemicals, synthetic fragrances, or microplastics.  \n   - Some scrubs include **essential oils** for added benefits (e.g., lavender for calming, peppermint for invigorating).  \n\n4. **pH Balance:**  \n   - Salt is naturally alkaline, so scrubs with moisturizing oils help balance the skin’s pH and avoid irritation.  \n\n---\n\n### **Top Himalayan Salt Scrubs**\n1. **The Body Shop Himalayan Salt Scrub**  \n   - Medium salt grains with sweet almond oil.  \n   - Good for a luxurious spa-like feel.  \n\n2. **Frank Body Himalayan Salt Scrub**  \n   - Includes oils like macadamia and vitamin E.  \n   - Smooth texture that exfoliates without being too harsh.  \n\n3. **Herbivore Botanicals Calm Bath + Body Scrub**  \n   - Fine pink salt with coconut oil and soothing essential oils.  \n   - Excellent for sensitive skin.  \n\n4. **Pure Fiji Exotic Coconut Body Scrub** (Himalayan Pink Salt version)  \n   - Combines salt with coconut oil and tropical extracts.  \n   - Hydrating and leaves skin soft and radiant.  \n\n5. **DIY Option:**  \n   - Mix **½ cup fine Himalayan pink salt + ¼ cup coconut or almond oil**.  \n   - Optional: 5–10 drops of essential oil.  \n   - Gentle, customizable, and free of preservatives.  \n\n---\n\n💡 **Usage Tips:**  \n- Use **2–3 times a week** on damp skin.  \n- Massage gently in circular motions—don’t scrub too hard.  \n- Rinse with warm water and pat dry.  \n- Always follow with a moisturizer or body oil to lock in hydration.  \n\n---\n\nIf you want, I can make a **ranked list of the top 5 Himalayan salt scrubs currently available online**, including where to buy them and their price ranges. That way you can pick the best one for your skin type. Do you want me to do that?",
+                    "search_results": null,
+                    "sources": null,
+                    "fan_out_queries": null,
+                    "brand_entities": null,
+                    "se_results_count": 0,
+                    "item_types": [
+                        "chat_gpt_text"
+                    ],
+                    "items_count": 1,
+                    "items": [
+                        {
+                            "type": "chat_gpt_text",
+                            "rank_group": 1,
+                            "rank_absolute": 1,
+                            "markdown": "When it comes to Himalayan salt scrubs for body exfoliation, you want a product that balances effective exfoliation with skin nourishment. Here’s a breakdown of key things to look for and some top options:  \n\n---\n\n### **What to Look for in a Himalayan Salt Scrub**\n1. **Grain Size:**  \n   - Fine or medium grains are gentler and less likely to cause micro-tears in your skin.  \n   - Coarse grains give a stronger exfoliation, ideal for rough areas like elbows, knees, or feet.  \n\n2. **Added Oils:**  \n   - Look for natural oils like **jojoba, coconut, almond, or grapeseed oil**.  \n   - Oils help moisturize the skin and prevent over-drying after exfoliation.  \n\n3. **Natural Ingredients:**  \n   - Avoid scrubs with harsh chemicals, synthetic fragrances, or microplastics.  \n   - Some scrubs include **essential oils** for added benefits (e.g., lavender for calming, peppermint for invigorating).  \n\n4. **pH Balance:**  \n   - Salt is naturally alkaline, so scrubs with moisturizing oils help balance the skin’s pH and avoid irritation.  \n\n---\n\n### **Top Himalayan Salt Scrubs**\n1. **The Body Shop Himalayan Salt Scrub**  \n   - Medium salt grains with sweet almond oil.  \n   - Good for a luxurious spa-like feel.  \n\n2. **Frank Body Himalayan Salt Scrub**  \n   - Includes oils like macadamia and vitamin E.  \n   - Smooth texture that exfoliates without being too harsh.  \n\n3. **Herbivore Botanicals Calm Bath + Body Scrub**  \n   - Fine pink salt with coconut oil and soothing essential oils.  \n   - Excellent for sensitive skin.  \n\n4. **Pure Fiji Exotic Coconut Body Scrub** (Himalayan Pink Salt version)  \n   - Combines salt with coconut oil and tropical extracts.  \n   - Hydrating and leaves skin soft and radiant.  \n\n5. **DIY Option:**  \n   - Mix **½ cup fine Himalayan pink salt + ¼ cup coconut or almond oil**.  \n   - Optional: 5–10 drops of essential oil.  \n   - Gentle, customizable, and free of preservatives.  \n\n---\n\n💡 **Usage Tips:**  \n- Use **2–3 times a week** on damp skin.  \n- Massage gently in circular motions—don’t scrub too hard.  \n- Rinse with warm water and pat dry.  \n- Always follow with a moisturizer or body oil to lock in hydration.  \n\n---\n\nIf you want, I can make a **ranked list of the top 5 Himalayan salt scrubs currently available online**, including where to buy them and their price ranges. That way you can pick the best one for your skin type. Do you want me to do that?",
+                            "sources": null,
+                            "brand_entities": null
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}
