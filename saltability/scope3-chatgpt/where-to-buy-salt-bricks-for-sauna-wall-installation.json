@@ -1,0 +1,67 @@
+{
+    "version": "0.1.20260311",
+    "status_code": 20000,
+    "status_message": "Ok.",
+    "time": "62.1436 sec.",
+    "cost": 0.004,
+    "tasks_count": 1,
+    "tasks_error": 0,
+    "tasks": [
+        {
+            "id": "03161018-4353-0629-0000-01683d544243",
+            "status_code": 20000,
+            "status_message": "Ok.",
+            "time": "62.0817 sec.",
+            "cost": 0.004,
+            "result_count": 1,
+            "path": [
+                "v3",
+                "ai_optimization",
+                "chat_gpt",
+                "llm_scraper",
+                "live",
+                "advanced"
+            ],
+            "data": {
+                "api": "ai_optimization",
+                "function": "llm_scraper",
+                "se": "chat_gpt",
+                "keyword": "Where to buy salt bricks for sauna wall installation",
+                "language_code": "en",
+                "location_name": "United States",
+                "device": "desktop",
+                "os": "windows"
+            },
+            "result": [
+                {
+                    "keyword": "Where to buy salt bricks for sauna wall installation",
+                    "location_code": 2840,
+                    "language_code": "en",
+                    "model": "gpt-5-3",
+                    "check_url": "https:\/\/chatgpt.com\/?prompt=Where%20to%20buy%20salt%20bricks%20for%20sauna%20wall%20installation",
+                    "datetime": "2026-03-16 08:19:14 +00:00",
+                    "markdown": "If you’re looking to buy **salt bricks for sauna wall installation**, these are usually Himalayan salt blocks, often pink or reddish, designed specifically for decorative and therapeutic sauna walls. Here are several avenues to explore:  \n\n### 1. **Specialized Sauna or Spa Suppliers**\n- **SaunaFinland, Finland Sauna, or Harvia** (international sauna brands) often sell salt bricks or complete salt wall kits.\n- Check their websites for **Himalayan salt bricks** or **salt wall panels**.\n\n### 2. **Health & Wellness Retailers**\n- Some wellness stores that sell Himalayan salt lamps also sell larger salt blocks suitable for sauna walls.\n- Examples: **Himalayan Salt Shop**, **SaltDecor**, or local spa supply stores.\n\n### 3. **Online Marketplaces**\n- **Amazon** and **eBay** often carry bulk Himalayan salt bricks for wall installation.\n- **Etsy** can be a source for handcrafted or specific-sized bricks.\n\n### 4. **Building & Stone Supply Stores**\n- Some stone or natural building material suppliers carry large Himalayan salt bricks.\n- Search for “**Himalayan salt bricks bulk**” in your region.\n\n### 5. **Custom or Wholesale Suppliers**\n- Companies that specialize in salt walls and spas can supply bricks in bulk and may ship internationally.\n- Examples: **Salzprofi**, **Salt Bricks Direct**, **Sauna Salt Walls**.\n\n💡 **Tips:**\n- Make sure the bricks are **intended for sauna use**, as some decorative salt blocks can crumble with heat and moisture.\n- Check the **dimensions** and **weight**—salt is heavy, so your sauna structure must support it.\n- Consider **pre-cut panels** if you want an easier installation.\n\nIf you want, I can make a **shortlist of stores where you can order salt bricks online right now**, with links to international shipping options. Do you want me to do that?",
+                    "search_results": null,
+                    "sources": null,
+                    "fan_out_queries": null,
+                    "brand_entities": null,
+                    "se_results_count": 0,
+                    "item_types": [
+                        "chat_gpt_text"
+                    ],
+                    "items_count": 1,
+                    "items": [
+                        {
+                            "type": "chat_gpt_text",
+                            "rank_group": 1,
+                            "rank_absolute": 1,
+                            "markdown": "If you’re looking to buy **salt bricks for sauna wall installation**, these are usually Himalayan salt blocks, often pink or reddish, designed specifically for decorative and therapeutic sauna walls. Here are several avenues to explore:  \n\n### 1. **Specialized Sauna or Spa Suppliers**\n- **SaunaFinland, Finland Sauna, or Harvia** (international sauna brands) often sell salt bricks or complete salt wall kits.\n- Check their websites for **Himalayan salt bricks** or **salt wall panels**.\n\n### 2. **Health & Wellness Retailers**\n- Some wellness stores that sell Himalayan salt lamps also sell larger salt blocks suitable for sauna walls.\n- Examples: **Himalayan Salt Shop**, **SaltDecor**, or local spa supply stores.\n\n### 3. **Online Marketplaces**\n- **Amazon** and **eBay** often carry bulk Himalayan salt bricks for wall installation.\n- **Etsy** can be a source for handcrafted or specific-sized bricks.\n\n### 4. **Building & Stone Supply Stores**\n- Some stone or natural building material suppliers carry large Himalayan salt bricks.\n- Search for “**Himalayan salt bricks bulk**” in your region.\n\n### 5. **Custom or Wholesale Suppliers**\n- Companies that specialize in salt walls and spas can supply bricks in bulk and may ship internationally.\n- Examples: **Salzprofi**, **Salt Bricks Direct**, **Sauna Salt Walls**.\n\n💡 **Tips:**\n- Make sure the bricks are **intended for sauna use**, as some decorative salt blocks can crumble with heat and moisture.\n- Check the **dimensions** and **weight**—salt is heavy, so your sauna structure must support it.\n- Consider **pre-cut panels** if you want an easier installation.\n\nIf you want, I can make a **shortlist of stores where you can order salt bricks online right now**, with links to international shipping options. Do you want me to do that?",
+                            "sources": null,
+                            "brand_entities": null
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}
