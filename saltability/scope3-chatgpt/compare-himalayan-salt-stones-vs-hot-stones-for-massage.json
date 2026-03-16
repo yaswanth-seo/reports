@@ -1,0 +1,259 @@
+{
+    "version": "0.1.20260311",
+    "status_code": 20000,
+    "status_message": "Ok.",
+    "time": "63.2162 sec.",
+    "cost": 0.004,
+    "tasks_count": 1,
+    "tasks_error": 0,
+    "tasks": [
+        {
+            "id": "03161020-4353-0629-0000-669e4731e79b",
+            "status_code": 20000,
+            "status_message": "Ok.",
+            "time": "63.1637 sec.",
+            "cost": 0.004,
+            "result_count": 1,
+            "path": [
+                "v3",
+                "ai_optimization",
+                "chat_gpt",
+                "llm_scraper",
+                "live",
+                "advanced"
+            ],
+            "data": {
+                "api": "ai_optimization",
+                "function": "llm_scraper",
+                "se": "chat_gpt",
+                "keyword": "Compare himalayan salt stones vs hot stones for massage",
+                "language_code": "en",
+                "location_name": "United States",
+                "device": "desktop",
+                "os": "windows"
+            },
+            "result": [
+                {
+                    "keyword": "Compare himalayan salt stones vs hot stones for massage",
+                    "location_code": 2840,
+                    "language_code": "en",
+                    "model": "gpt-5-3",
+                    "check_url": "https:\/\/chatgpt.com\/?prompt=Compare%20himalayan%20salt%20stones%20vs%20hot%20stones%20for%20massage",
+                    "datetime": "2026-03-16 08:21:43 +00:00",
+                    "markdown": "Here’s a clear comparison between **Himalayan salt stone massage** and **traditional hot stone massage**. Both use heated stones to relax muscles, but they feel different and have slightly different goals.\n\n---\n\n## 1. The Stones Themselves\n| Feature | Himalayan Salt Stones | Hot Stones |\n|---|---|---|\n| Material | Pink Himalayan salt crystals | Basalt (volcanic rock) |\n| Texture | Slightly textured | Very smooth |\n| Mineral content | ~84 trace minerals | No meaningful minerals |\n| Heat level | Warm–moderate | Usually hotter |\n| Heat feel | Soft, diffuse warmth | Deep penetrating heat |\n\n\nBasalt stones are used in most hot stone massages because they **retain and transfer heat very efficiently**, which helps loosen tight muscles. [www.massageforwell-being.com](https:\/\/www.massageforwell-being.com\/massage-articles\/salt-stone-massage-vs-hot-stone-therapy-key-diff?utm_source=chatgpt.com)  \nSalt stones warm the body too but generally feel **softer and less intense**. [feverycs.com](https:\/\/feverycs.com\/himalayan-salt-vs-basalt-stone-massage\/?utm_source=chatgpt.com)\n\n---\n\n## 2. Main Benefits\n\n### Himalayan Salt Stone Massage\n- Gentle muscle relaxation  \n- Light **skin exfoliation** from the crystal texture  \n- Skin contact with **trace minerals**  \n- Naturally **antimicrobial surface**  \n- Often described as calming and grounding [www.massageforwell-being.com](https:\/\/www.massageforwell-being.com\/massage-articles\/salt-stone-massage-vs-hot-stone-therapy-key-diff?utm_source=chatgpt.com)\n\nBest for:\n- Relaxation-focused massages  \n- People who like **moderate heat**\n- Clients who want **skin benefits + massage**\n\n---\n\n### Traditional Hot Stone Massage\n- **Deeper muscle relaxation**\n- Helps relieve **chronic muscle tension**\n- Improves **circulation and flexibility**\n- Stronger heat penetration into muscles [www.massageforwell-being.com](https:\/\/www.massageforwell-being.com\/massage-articles\/salt-stone-massage-vs-hot-stone-therapy-key-diff?utm_source=chatgpt.com)\n\nBest for:\n- Tight shoulders, back, or neck\n- Chronic muscle pain\n- Deep relaxation with strong heat\n\n---\n\n## 3. How the Experience Feels\n**Salt stones**\n- Softer heat\n- Slightly textured glide\n- Often feels nurturing or soothing\n\n**Hot stones**\n- Heavier stones\n- Intense heat\n- More like **deep muscle therapy**\n\nSome people say hot stones can feel almost **too hot at times**, while salt stones stay at a more comfortable temperature. [goodhandsmassagetherapy.com](https:\/\/goodhandsmassagetherapy.com\/himalayan-salt-stone-massage\/?utm_source=chatgpt.com)\n\n---\n\n✅ **Quick rule of thumb**\n\n- **Choose hot stone massage** → if you want **deep muscle relief and strong heat**.  \n- **Choose Himalayan salt stone massage** → if you want **gentler relaxation with skin benefits**.\n\n---\n\n💡 **Interesting note:**  \nMany therapists say the **actual muscle-relaxing effect mostly comes from heat**, so the difference is mainly **heat intensity and skin feel**, not dramatically different therapeutic outcomes.\n\n---\n\n✅ If you want, I can also explain:\n- **Which one is better for sore muscles or athletes**\n- **Which lasts longer or costs more**\n- **Why many spas are switching to salt stones now** (there are some practical reasons).",
+                    "search_results": [
+                        {
+                            "type": "chatgpt_search_result",
+                            "url": "https:\/\/naturalnutmeg.com\/the-benefits-of-himalayan-salt-stone-massage\/?utm_source=chatgpt.com",
+                            "domain": "naturalnutmeg.com",
+                            "title": "The Benefits of Himalayan Salt Stone Massage | Natural Nutmeg Magazine",
+                            "description": "THE BENEFITS OF HIMALAYAN SALT STONE MASSAGE  February 26, 2021 (February 26, 2021 11:36 am) 1556  Image: The Benefits of Himalayan Salt Stone Massage  You may have heard of Hot Stone Massage but a no...",
+                            "breadcrumb": "naturalnutmeg.com"
+                        },
+                        {
+                            "type": "chatgpt_search_result",
+                            "url": "https:\/\/www.naturedayspaok.com\/news\/the-5-benefits-of-himalayan-salt-stone-massage?utm_source=chatgpt.com",
+                            "domain": "www.naturedayspaok.com",
+                            "title": "The 5 Benefits of Himalayan Salt Stone Massage — Nature Day Spa",
+                            "description": "THE 5 BENEFITS OF HIMALAYAN SALT STONE MASSAGE  Massage TherapyTips & Advice  Nov 15  Written By Emily Strickler  There’s nothing quite like a good massage — but a massage with Himalayan Salt Stones...",
+                            "breadcrumb": "naturedayspaok.com"
+                        },
+                        {
+                            "type": "chatgpt_search_result",
+                            "url": "https:\/\/riaskincareandspa.com\/himalayan-salt-stone-massage\/?utm_source=chatgpt.com",
+                            "domain": "riaskincareandspa.com",
+                            "title": "Himalayan Salt Stone Massage in Bourbonnais | Ria Skin Care and Spa",
+                            "description": "HIMALAYAN SALT STONE MASSAGE IN BOURBONNAIS, IL  Starting from $115.00 or $155.00 : 60 or 90 Minutes Looking for a massage that soothes muscles while promoting skin health and detoxification? A Himal...",
+                            "breadcrumb": "riaskincareandspa.com"
+                        },
+                        {
+                            "type": "chatgpt_search_result",
+                            "url": "https:\/\/www.massageforwell-being.com\/massage-articles\/comparing-himalayan-salt-stone-massage-with-hot-st?utm_source=chatgpt.com",
+                            "domain": "www.massageforwell-being.com",
+                            "title": "Comparing Himalayan Salt Stone Massage With Hot Stone Therapy: What’s Best for You? | Ripon WI Massage Therapy",
+                            "description": "COMPARING HIMALAYAN SALT STONE MASSAGE WITH HOT STONE THERAPY: WHAT’S BEST FOR YOU?  * Aug 15, 2025 * 9 min read  When considering a massage therapy session, you might find yourself weighing the bene...",
+                            "breadcrumb": "massageforwell-being.com"
+                        },
+                        {
+                            "type": "chatgpt_search_result",
+                            "url": "https:\/\/saltstonemassage.com\/faq\/?utm_source=chatgpt.com",
+                            "domain": "saltstonemassage.com",
+                            "title": "Frequently Asked Questions – Salt Stone Massage",
+                            "description": "FREQUENTLY ASKED QUESTIONS  1. What makes salt stone massage different from regular hot stone massage?Salt stones provide not only heat but also a transfer of 84 trace minerals that are compatible wi...",
+                            "breadcrumb": "saltstonemassage.com"
+                        },
+                        {
+                            "type": "chatgpt_search_result",
+                            "url": "https:\/\/spasafehaven.com\/difference-between-himalayan-salt-stone-massage-and-hot-stone-massage\/?utm_source=chatgpt.com",
+                            "domain": "spasafehaven.com",
+                            "title": "Himalayan Salt Stone vs Hot Stone Massage | Safe Haven Blog",
+                            "description": "DIFFERENCE BETWEEN HIMALAYAN SALT STONE MASSAGE AND HOT STONE MASSAGES  Published November 30, 2022 · Updated February 5, 2026  Image: Pink Himalayan salt stones arranged for massage  We all know how...",
+                            "breadcrumb": "spasafehaven.com"
+                        },
+                        {
+                            "type": "chatgpt_search_result",
+                            "url": "https:\/\/lakenormanwoman.com\/five-reasons-to-schedule-a-stone-massage\/?utm_source=chatgpt.com",
+                            "domain": "lakenormanwoman.com",
+                            "title": "Five Reasons To Schedule a Stone Massage - Lake Norman Woman Magazine",
+                            "description": "FIVE REASONS TO SCHEDULE A STONE MASSAGE  Lake Norman Woman2022-02-10T17:01:37+00:00 February 10th, 2022|  Article contributed by Conrad & Janet Hunter, Hand & Stone Massage & Facial Spa of Mooresvil...",
+                            "breadcrumb": "lakenormanwoman.com"
+                        },
+                        {
+                            "type": "chatgpt_search_result",
+                            "url": "https:\/\/superbsalt.com\/best-himalayan-salt-massage-stones\/?utm_source=chatgpt.com",
+                            "domain": "superbsalt.com",
+                            "title": "Himalayan Salt Massage Stones: Relax & Rejuvenate - Superb Salt",
+                            "description": "HOW ARE HIMALAYAN SALT MASSAGE STONES MADE?  Himalayan pink salt is found deep within the Himalayan mountains.  Once the salt blocks are mined they are hand-carved into massage stones which ensures th...",
+                            "breadcrumb": "superbsalt.com"
+                        },
+                        {
+                            "type": "chatgpt_search_result",
+                            "url": "https:\/\/www.lakeviewmassageandtherapy.com\/massages-and-therapies\/himalayan-salt-stone-massage?utm_source=chatgpt.com",
+                            "domain": "www.lakeviewmassageandtherapy.com",
+                            "title": "Himalayan Hot Stone Massage | Lakeview Massage and Therapy",
+                            "description": "HIMALAYAN SALT STONE MASSAGE    Himalayan salt come from the mountain region of Pakistan. The salt stones contain 84 natural minerals that when heated allow their essential minerals to penetrate the...",
+                            "breadcrumb": "lakeviewmassageandtherapy.com"
+                        }
+                    ],
+                    "sources": [
+                        {
+                            "type": "chat_gpt_source",
+                            "title": "Salt Stone Massage vs. Hot Stone Therapy: Key Differences Explained | Ripon WI Massage Therapy",
+                            "snippet": null,
+                            "domain": "www.massageforwell-being.com",
+                            "url": "https:\/\/www.massageforwell-being.com\/massage-articles\/salt-stone-massage-vs-hot-stone-therapy-key-diff?utm_source=chatgpt.com",
+                            "thumbnail": null,
+                            "source_name": "Massage for Well-Being",
+                            "publication_date": "2025-06-22 00:00:00 +00:00",
+                            "markdown": null
+                        },
+                        {
+                            "type": "chat_gpt_source",
+                            "title": "Himalayan Salt Stone Massage vs. Hot Basalt Stone Massage: What’s the Difference? - Fever | Yoga Cycle Strength",
+                            "snippet": null,
+                            "domain": "feverycs.com",
+                            "url": "https:\/\/feverycs.com\/himalayan-salt-vs-basalt-stone-massage\/?utm_source=chatgpt.com",
+                            "thumbnail": null,
+                            "source_name": "Fever | Yoga Cycle Strength",
+                            "publication_date": "2025-12-07 00:00:00 +00:00",
+                            "markdown": null
+                        },
+                        {
+                            "type": "chat_gpt_source",
+                            "title": "Himalayan Salt Stone Massage: My Personal Journey Into Pink Crystal Healing",
+                            "snippet": null,
+                            "domain": "goodhandsmassagetherapy.com",
+                            "url": "https:\/\/goodhandsmassagetherapy.com\/himalayan-salt-stone-massage\/?utm_source=chatgpt.com",
+                            "thumbnail": null,
+                            "source_name": "Good Hands Massage Therapy",
+                            "publication_date": "2025-03-21 00:00:00 +00:00",
+                            "markdown": null
+                        }
+                    ],
+                    "fan_out_queries": null,
+                    "brand_entities": null,
+                    "se_results_count": 0,
+                    "item_types": [
+                        "chat_gpt_text",
+                        "chat_gpt_table"
+                    ],
+                    "items_count": 3,
+                    "items": [
+                        {
+                            "type": "chat_gpt_text",
+                            "rank_group": 1,
+                            "rank_absolute": 1,
+                            "markdown": "Here’s a clear comparison between **Himalayan salt stone massage** and **traditional hot stone massage**. Both use heated stones to relax muscles, but they feel different and have slightly different goals.\n\n---\n\n## 1. The Stones Themselves\n",
+                            "sources": null,
+                            "brand_entities": null
+                        },
+                        {
+                            "type": "chat_gpt_table",
+                            "rank_group": 1,
+                            "rank_absolute": 2,
+                            "text": null,
+                            "markdown": "| Feature | Himalayan Salt Stones | Hot Stones |\n|---|---|---|\n| Material | Pink Himalayan salt crystals | Basalt (volcanic rock) |\n| Texture | Slightly textured | Very smooth |\n| Mineral content | ~84 trace minerals | No meaningful minerals |\n| Heat level | Warm–moderate | Usually hotter |\n| Heat feel | Soft, diffuse warmth | Deep penetrating heat |\n\n",
+                            "table": {
+                                "table_header": [
+                                    "Feature",
+                                    "Himalayan Salt Stones",
+                                    "Hot Stones"
+                                ],
+                                "table_content": [
+                                    [
+                                        "Material",
+                                        "Pink Himalayan salt crystals",
+                                        "Basalt (volcanic rock)"
+                                    ],
+                                    [
+                                        "Texture",
+                                        "Slightly textured",
+                                        "Very smooth"
+                                    ],
+                                    [
+                                        "Mineral content",
+                                        "~84 trace minerals",
+                                        "No meaningful minerals"
+                                    ],
+                                    [
+                                        "Heat level",
+                                        "Warm–moderate",
+                                        "Usually hotter"
+                                    ],
+                                    [
+                                        "Heat feel",
+                                        "Soft, diffuse warmth",
+                                        "Deep penetrating heat"
+                                    ]
+                                ]
+                            },
+                            "brand_entities": null
+                        },
+                        {
+                            "type": "chat_gpt_text",
+                            "rank_group": 2,
+                            "rank_absolute": 3,
+                            "markdown": "\nBasalt stones are used in most hot stone massages because they **retain and transfer heat very efficiently**, which helps loosen tight muscles. [www.massageforwell-being.com](https:\/\/www.massageforwell-being.com\/massage-articles\/salt-stone-massage-vs-hot-stone-therapy-key-diff?utm_source=chatgpt.com)  \nSalt stones warm the body too but generally feel **softer and less intense**. [feverycs.com](https:\/\/feverycs.com\/himalayan-salt-vs-basalt-stone-massage\/?utm_source=chatgpt.com)\n\n---\n\n## 2. Main Benefits\n\n### Himalayan Salt Stone Massage\n- Gentle muscle relaxation  \n- Light **skin exfoliation** from the crystal texture  \n- Skin contact with **trace minerals**  \n- Naturally **antimicrobial surface**  \n- Often described as calming and grounding [www.massageforwell-being.com](https:\/\/www.massageforwell-being.com\/massage-articles\/salt-stone-massage-vs-hot-stone-therapy-key-diff?utm_source=chatgpt.com)\n\nBest for:\n- Relaxation-focused massages  \n- People who like **moderate heat**\n- Clients who want **skin benefits + massage**\n\n---\n\n### Traditional Hot Stone Massage\n- **Deeper muscle relaxation**\n- Helps relieve **chronic muscle tension**\n- Improves **circulation and flexibility**\n- Stronger heat penetration into muscles [www.massageforwell-being.com](https:\/\/www.massageforwell-being.com\/massage-articles\/salt-stone-massage-vs-hot-stone-therapy-key-diff?utm_source=chatgpt.com)\n\nBest for:\n- Tight shoulders, back, or neck\n- Chronic muscle pain\n- Deep relaxation with strong heat\n\n---\n\n## 3. How the Experience Feels\n**Salt stones**\n- Softer heat\n- Slightly textured glide\n- Often feels nurturing or soothing\n\n**Hot stones**\n- Heavier stones\n- Intense heat\n- More like **deep muscle therapy**\n\nSome people say hot stones can feel almost **too hot at times**, while salt stones stay at a more comfortable temperature. [goodhandsmassagetherapy.com](https:\/\/goodhandsmassagetherapy.com\/himalayan-salt-stone-massage\/?utm_source=chatgpt.com)\n\n---\n\n✅ **Quick rule of thumb**\n\n- **Choose hot stone massage** → if you want **deep muscle relief and strong heat**.  \n- **Choose Himalayan salt stone massage** → if you want **gentler relaxation with skin benefits**.\n\n---\n\n💡 **Interesting note:**  \nMany therapists say the **actual muscle-relaxing effect mostly comes from heat**, so the difference is mainly **heat intensity and skin feel**, not dramatically different therapeutic outcomes.\n\n---\n\n✅ If you want, I can also explain:\n- **Which one is better for sore muscles or athletes**\n- **Which lasts longer or costs more**\n- **Why many spas are switching to salt stones now** (there are some practical reasons).",
+                            "sources": [
+                                {
+                                    "type": "chat_gpt_source",
+                                    "title": "Salt Stone Massage vs. Hot Stone Therapy: Key Differences Explained | Ripon WI Massage Therapy",
+                                    "snippet": null,
+                                    "domain": "www.massageforwell-being.com",
+                                    "url": "https:\/\/www.massageforwell-being.com\/massage-articles\/salt-stone-massage-vs-hot-stone-therapy-key-diff?utm_source=chatgpt.com",
+                                    "thumbnail": null,
+                                    "source_name": "Massage for Well-Being",
+                                    "publication_date": "2025-06-22 00:00:00 +00:00",
+                                    "markdown": null
+                                },
+                                {
+                                    "type": "chat_gpt_source",
+                                    "title": "Himalayan Salt Stone Massage vs. Hot Basalt Stone Massage: What’s the Difference? - Fever | Yoga Cycle Strength",
+                                    "snippet": null,
+                                    "domain": "feverycs.com",
+                                    "url": "https:\/\/feverycs.com\/himalayan-salt-vs-basalt-stone-massage\/?utm_source=chatgpt.com",
+                                    "thumbnail": null,
+                                    "source_name": "Fever | Yoga Cycle Strength",
+                                    "publication_date": "2025-12-07 00:00:00 +00:00",
+                                    "markdown": null
+                                },
+                                {
+                                    "type": "chat_gpt_source",
+                                    "title": "Himalayan Salt Stone Massage: My Personal Journey Into Pink Crystal Healing",
+                                    "snippet": null,
+                                    "domain": "goodhandsmassagetherapy.com",
+                                    "url": "https:\/\/goodhandsmassagetherapy.com\/himalayan-salt-stone-massage\/?utm_source=chatgpt.com",
+                                    "thumbnail": null,
+                                    "source_name": "Good Hands Massage Therapy",
+                                    "publication_date": "2025-03-21 00:00:00 +00:00",
+                                    "markdown": null
+                                }
+                            ],
+                            "brand_entities": null
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}
