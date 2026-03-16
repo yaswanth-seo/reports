@@ -1,0 +1,870 @@
+{
+    "version": "0.1.20260311",
+    "status_code": 20000,
+    "status_message": "Ok.",
+    "time": "43.1405 sec.",
+    "cost": 0.004,
+    "tasks_count": 1,
+    "tasks_error": 0,
+    "tasks": [
+        {
+            "id": "03161023-4353-0629-0000-e828b3869c80",
+            "status_code": 20000,
+            "status_message": "Ok.",
+            "time": "43.0789 sec.",
+            "cost": 0.004,
+            "result_count": 1,
+            "path": [
+                "v3",
+                "ai_optimization",
+                "chat_gpt",
+                "llm_scraper",
+                "live",
+                "advanced"
+            ],
+            "data": {
+                "api": "ai_optimization",
+                "function": "llm_scraper",
+                "se": "chat_gpt",
+                "keyword": "Top himalayan salt products for home spa",
+                "language_code": "en",
+                "location_name": "United States",
+                "device": "desktop",
+                "os": "windows"
+            },
+            "result": [
+                {
+                    "keyword": "Top himalayan salt products for home spa",
+                    "location_code": 2840,
+                    "language_code": "en",
+                    "model": "gpt-5-3",
+                    "check_url": "https:\/\/chatgpt.com\/?prompt=Top%20himalayan%20salt%20products%20for%20home%20spa",
+                    "datetime": "2026-03-16 08:23:47 +00:00",
+                    "markdown": "Here are **some of the best Himalayan salt products for creating a home spa**—covering bath soaks, scrubs, massage tools, and ambiance items. These are popular because Himalayan salt contains **trace minerals like magnesium, potassium, and calcium**, often used for relaxation, skin exfoliation, and soothing muscles. [www.rock-salt-lamp.com](https:\/\/www.rock-salt-lamp.com\/collections\/bath-and-body?utm_source=chatgpt.com)  \n\n---\n\n# 🧖‍♀️ Top Himalayan Salt Products for a Home Spa\n\n## 1. Relaxing Himalayan Salt Bath Soaks\n### [Dr. Teal's Mineral Soak Pink Himalayan Salt](https:\/\/www.walgreens.com\/store\/c\/dr.-teals-mineral-soak-pink-himalayan-salt\/ID=prod6349591-product?utm_source=chatgpt.com)\n*$5.99*\n\n### [World Market Pink Himalayan Lavender and Chamomile Bath Salts](https:\/\/www.worldmarket.com\/p\/pink-himalayan--lavender-and-chamomile-bath-salts-553350.html?utm_source=chatgpt.com)\n*$16.99*\n\n### [Spinster Sisters Lavender Himalayan Salt Soak](https:\/\/spinstersistersco.com\/products\/himalayan-salt-soak-lavender-and-rose?variant=50268834496743&country=US&currency=USD&utm_source=chatgpt.com)\n*$24.00*\n\n### [Himalayan Sea Salt Bath Soak]()\n*$22.99*\n\n**Why they’re great**\n- Help relax muscles and reduce stress  \n- Mineral-rich salts help soften skin  \n- Aromatherapy oils (lavender, chamomile, citrus) enhance relaxation  \n\n💡 Tip: Add **1–2 cups to warm bath water** and soak 20 minutes.\n\n---\n\n## 2. Himalayan Salt Body Scrubs (Skin Exfoliation)\n### [Dove Himalayan Salt & Rose Oil Body Scrub](https:\/\/www.walmart.com\/ip\/Dove-Body-Scrub-Himalayan-15oz\/10761407878?wl13=5193&selectedSellerId=0&wmlspartner=wlpa&utm_source=chatgpt.com)\n*$7.97*\n\n### [Dr Teal's Pink Himalayan Salt Body Scrub](https:\/\/www.fragrancenet.com\/dr.-teal's-skin-care\/anti-aging\/dr.-teal's\/facial\/sc\/en_US\/47504\/466095?mv_pc=gawus_surf_466095&utm_source=chatgpt.com)\n*$10.79*\n\n### [ArtNaturals Himalayan Salt Body Scrub](https:\/\/www.walmart.com\/ip\/Artnaturals-Himalayan-Salt-Scrub-20-oz-567-g\/127490206?wmlspartner=wlpa&selectedSellerId=128447&selectedOfferId=CB126599981145F9A102FF8608F40864&conditionGroupCode=1&utm_source=chatgpt.com)\n*$11.07*\n\n### [Pure Body Naturals Himalayan Pink Salt Scrub](https:\/\/www.iherb.com\/pr\/pure-body-naturals-himalayan-pink-salt-scrub-12-oz-340-g\/88916?ccode=us&currcode=USD&langcode=en-US&fld=1&utm_source=chatgpt.com)\n*$11.86*\n\n**Benefits**\n- Gently removes dead skin cells  \n- Improves circulation  \n- Leaves skin smoother and glowing  \n\nMany scrubs mix Himalayan salt with **natural oils like jojoba, almond, or shea butter** for hydration.   \n\n---\n\n## 3. Himalayan Salt Massage Stones\n### [SereneLife Heart Shaped Salt Massage Stones Set](https:\/\/serenelifehome.com\/products\/accpslmsgst100?variant=47447737336098&country=US&currency=USD&utm_source=chatgpt.com)\n*$25.59*\n\n### [Himalayan Salt Massage Stones Pack](https:\/\/himalayansalterz.com\/products\/salt-scrub?utm_source=chatgpt.com)\n*$19.99*\n\n### [Pure Himalayan Salt Works Heart Massage Stone](https:\/\/tngworldwide.com\/massage-stone-heart?utm_source=chatgpt.com)\n*$2.99*\n\n### [Himalayan Salt Massage Stone Warmer with Stones](https:\/\/himalayansaltusa.com\/spa-bath-and-massage-sb-400.html?utm_source=chatgpt.com)\n*$73.95*\n\n**Why spa lovers use them**\n- Heated stones relax tight muscles  \n- Salt naturally exfoliates skin during massage  \n- Often used in professional spa therapy  \n\nSome can also be cooled to reduce inflammation.   \n\n---\n\n## 4. Himalayan Salt Lamps (Spa Atmosphere)\n### [Himalayan Shop Natural Pink Salt Lamp](https:\/\/www.walmart.com\/ip\/Himalayan-Shop-Natural-Pink-Salt-Lamp-Small-4-5-5-lbs\/649623138?wl13=5193&selectedSellerId=0&wmlspartner=wlpa&utm_source=chatgpt.com)\n*$19.94*\n\n### [Himalayan Glow Himalayan Salt Lamp](https:\/\/www.homedepot.com\/p\/Himalayan-Glow-Himalayan-Salt-Lamp-10-in-Tall-Night-Light-Table-Lamp-with-Dimmer-Switch-4-lbs-to-6-lbs-HD-1001A\/322327152?g_store=1087&source=shoppingads&locale=en-US&fp=ggl&utm_source=chatgpt.com)\n*$22.86*\n\n### [ArtNaturals Himalayan Rock Salt Lamp](https:\/\/artnaturals.com\/products\/lamp-himalayan-salt?variant=45070476345563&country=US&currency=USD&utm_source=chatgpt.com)\n*$19.95*\n\n### [Himalayan Glow Ionic Natural Salt Lamp]()\n*$29.97*\n\n**Why they’re popular**\n- Warm ambient glow for relaxation  \n- Often used in yoga or meditation rooms  \n- Creates calming spa-like lighting  \n\nSome people believe salt lamps may improve air quality and mood, though the main benefit is the **calming atmosphere** they create.   \n\n---\n\n✅ **Simple Home Spa Setup (3 items):**\n- Himalayan **bath soak**  \n- Himalayan **body scrub**  \n- Himalayan **salt lamp + candle**\n\nThis combination gives you **full spa vibes at home for under $40–$60**.\n\n---\n\n💡 If you want, I can also show you:  \n- **The best luxury Himalayan spa kits (complete sets)**  \n- **DIY Himalayan salt spa recipes** (bath soak, foot soak, scrub)  \n- **Top Himalayan salt decor items for a spa bathroom**.",
+                    "search_results": [
+                        {
+                            "type": "chatgpt_search_result",
+                            "url": "https:\/\/www.yahoo.com\/lifestyle\/12-best-bath-salts-truly-220000834.html?utm_source=chatgpt.com",
+                            "domain": "www.yahoo.com",
+                            "title": "The 12 Best Bath Salts for a Truly Relaxing Evening",
+                            "description": "1. DR TEAL'S PINK HIMALAYAN MINERAL SOAK  Best Overall Bath Salt  Pros:  * Inexpensive  * Pure Epsom and Himalayan salt  Cons:  * Scent can be overwhelming  Advertisement  Dr Teal’s is a big name in t...",
+                            "breadcrumb": "yahoo.com"
+                        },
+                        {
+                            "type": "chatgpt_search_result",
+                            "url": "https:\/\/himalayansaltboutique.com\/bath-beauty-therapy-salts\/?utm_source=chatgpt.com",
+                            "domain": "himalayansaltboutique.com",
+                            "title": "Bath Beauty Therapy Salts - Himalayan Salt Boutique",
+                            "description": "BATH BEAUTY THERAPY SALTS  Bath Beauty Therapy Salts made from 100% pure, organic Himalayan Salt, are a rejuvenating, natural alternative to commercially produced salt spa products. Entirely organic...",
+                            "breadcrumb": "himalayansaltboutique.com"
+                        },
+                        {
+                            "type": "chatgpt_search_result",
+                            "url": "https:\/\/www.pinksalt.com\/himalayan-pink-salt-products\/health-and-wellness\/himalayan-salt-scrub\/?utm_source=chatgpt.com",
+                            "domain": "www.pinksalt.com",
+                            "title": "Himalayan Salt Scrub | PinkSalt.com",
+                            "description": "Bulk Pink Salt Bath Wholesale Supplier  HIMALAYAN SALT SCRUB  Image: Image  - Know About Us  HIMALAYAN SALT SCRUB  Himalayan Pink Salt is nature's gift to the world of wellness and spa products. Our...",
+                            "breadcrumb": "pinksalt.com"
+                        },
+                        {
+                            "type": "chatgpt_search_result",
+                            "url": "https:\/\/www.pinksalt.com\/himalayan-pink-salt-products\/health-and-wellness\/himalayan-salt-bath\/?utm_source=chatgpt.com",
+                            "domain": "www.pinksalt.com",
+                            "title": "Himalayan Salt Bath | PinkSalt.com",
+                            "description": "Bulk Pink Salt Bath Wholesale Supplier  HIMALAYAN SALT BATH  Image: Image  - Know About Us  HIMALAYAN SALT BATH  Introducing the ultimate relaxation solution for your customers - Himalayan Pink Salt...",
+                            "breadcrumb": "pinksalt.com"
+                        },
+                        {
+                            "type": "chatgpt_search_result",
+                            "url": "https:\/\/www.pacifichimalayansalt.com\/products\/himalayan-salt-spa-products\/?utm_source=chatgpt.com",
+                            "domain": "www.pacifichimalayansalt.com",
+                            "title": "Himalayan Salt Spa Products | Wholesale Himalayan Pink Salt",
+                            "description": "HIMALAYAN SALT SPA PRODUCTS  HIMALAYAN SALT MASSAGE STONES  Himalayan Salt Stone Massage is an innovative healing technique using warm salt crystal stones to ground and balance the body’s electromagne...",
+                            "breadcrumb": "pacifichimalayansalt.com"
+                        },
+                        {
+                            "type": "chatgpt_search_result",
+                            "url": "https:\/\/www.buddha-beauty.com\/collections\/bath-body-products\/products\/hypoallergenic-sea-salt-body-polish?utm_source=chatgpt.com",
+                            "domain": "www.buddha-beauty.com",
+                            "title": "Hypoallergenic Himalayan & Sea Salt Body Scrub - Buddha Beauty Skincare",
+                            "description": "CUSTOMER REVIEWS  HYPOALLERGENIC HIMALAYAN & SEA SALT BODY SCRUB  WHAT ARE THE BENEFITS OF USING A SEA SALT BODY SCRUB?  Using our sea salt body scrub offers numerous benefits for the skin, making it...",
+                            "breadcrumb": "buddha-beauty.com"
+                        },
+                        {
+                            "type": "chatgpt_search_result",
+                            "url": "https:\/\/comfortalife.com\/vetted\/best-detox-bath-salts\/?utm_source=chatgpt.com",
+                            "domain": "comfortalife.com",
+                            "title": "15 Best Detox Bath Salts to Refresh Your Skin and Relax Your Mind - Comfort a Life",
+                            "description": "DR TEALS EPSOM SALT MAGNESIUM SOAK  Image: epsom salt magnesium soak  Looking for a relaxing bath soak that combines muscle relief with skin nourishment? Dr Teals Epsom Salt Magnesium Soak is perfect....",
+                            "breadcrumb": "comfortalife.com"
+                        },
+                        {
+                            "type": "chatgpt_search_result",
+                            "url": "https:\/\/grassapothecary.com\/best-himalayan-salt-soak\/?utm_source=chatgpt.com",
+                            "domain": "grassapothecary.com",
+                            "title": "9 Best Himalayan Salt Soaks for 2026 That Relax You Instantly - Grass Apothecary",
+                            "description": "9 BEST HIMALAYAN SALT SOAKS FOR 2026 THAT RELAX YOU INSTANTLY  January 15, 2026 \/  Here are nine Himalayan salt soaks to consider for 2026: Himalayan Chef Pink Coarse Salt in a 5 lb jar for grinders...",
+                            "breadcrumb": "grassapothecary.com"
+                        },
+                        {
+                            "type": "chatgpt_search_result",
+                            "url": "https:\/\/jennifermaker.com\/diy-pink-himalayan-salt-spa-scrub-soak-spray-candle\/?utm_source=chatgpt.com",
+                            "domain": "jennifermaker.com",
+                            "title": "DIY Pink Himalayan Salt Spa: Scrub, Soak, Spray + Candle - Jennifer Maker",
+                            "description": "DIY PINK HIMALAYAN SALT SPA: SCRUB, SOAK, SPRAY + CANDLE  By Jennifer Last updated: January 21, 2017August 25, 2020  Image: DIY Pink Himalayan Salt Spa | Bath Salts | Foot Scrub | Body Spray | Aromat...",
+                            "breadcrumb": "jennifermaker.com"
+                        },
+                        {
+                            "type": "chatgpt_search_result",
+                            "url": "https:\/\/radiantcarepicks.com\/10-essential-himalayan-bath-salts-skin-softening\/?utm_source=chatgpt.com",
+                            "domain": "radiantcarepicks.com",
+                            "title": "10 Essential Himalayan Bath Salts for Skin Softening Under $40 in 2026 - RadiantCarePicks",
+                            "description": "DETAILED PRODUCT REVIEWS  1. DR TEAL’S EPSOM SALT MAGNESIUM SOAK, RESTORE & REPLENISH WITH PINK HIMALAYAN SALT, 3 LBS  Image: Dr Teal's Epsom Salt Magnesium Soak, Restore & Replenish with Pink Himalay...",
+                            "breadcrumb": "radiantcarepicks.com"
+                        },
+                        {
+                            "type": "chatgpt_search_result",
+                            "url": "https:\/\/www.purewow.com\/wellness\/best-bath-salts?utm_source=chatgpt.com",
+                            "domain": "www.purewow.com",
+                            "title": "The 12 Best Bath Salts for a Relaxing Evening in 2023",
+                            "description": "THE BEST BATH SALTS AT A GLANCE  * Best Overall: Dr Teal's Lavender and Pink Himalayan Mineral Bath Salts * Best Himalayan Bath Salts: Royal Chef House Himalayan Pink Bath Salts * Best for Stress: Ave...",
+                            "breadcrumb": "purewow.com"
+                        }
+                    ],
+                    "sources": [
+                        {
+                            "type": "chat_gpt_source",
+                            "title": "Himalayan Salt Bath Salts & Natural Deodorant | Rock Salt Lamp",
+                            "snippet": null,
+                            "domain": "www.rock-salt-lamp.com",
+                            "url": "https:\/\/www.rock-salt-lamp.com\/collections\/bath-and-body?utm_source=chatgpt.com",
+                            "thumbnail": null,
+                            "source_name": "Rock Salt Lamp",
+                            "publication_date": null,
+                            "markdown": null
+                        }
+                    ],
+                    "fan_out_queries": null,
+                    "brand_entities": null,
+                    "se_results_count": 0,
+                    "item_types": [
+                        "chat_gpt_text",
+                        "chat_gpt_products"
+                    ],
+                    "items_count": 9,
+                    "items": [
+                        {
+                            "type": "chat_gpt_text",
+                            "rank_group": 1,
+                            "rank_absolute": 1,
+                            "markdown": "Here are **some of the best Himalayan salt products for creating a home spa**—covering bath soaks, scrubs, massage tools, and ambiance items. These are popular because Himalayan salt contains **trace minerals like magnesium, potassium, and calcium**, often used for relaxation, skin exfoliation, and soothing muscles. [www.rock-salt-lamp.com](https:\/\/www.rock-salt-lamp.com\/collections\/bath-and-body?utm_source=chatgpt.com)  \n\n---\n\n# 🧖‍♀️ Top Himalayan Salt Products for a Home Spa\n\n## 1. Relaxing Himalayan Salt Bath Soaks\n",
+                            "sources": [
+                                {
+                                    "type": "chat_gpt_source",
+                                    "title": "Himalayan Salt Bath Salts & Natural Deodorant | Rock Salt Lamp",
+                                    "snippet": null,
+                                    "domain": "www.rock-salt-lamp.com",
+                                    "url": "https:\/\/www.rock-salt-lamp.com\/collections\/bath-and-body?utm_source=chatgpt.com",
+                                    "thumbnail": null,
+                                    "source_name": "Rock Salt Lamp",
+                                    "publication_date": null,
+                                    "markdown": null
+                                }
+                            ],
+                            "brand_entities": null
+                        },
+                        {
+                            "type": "chat_gpt_products",
+                            "rank_group": 1,
+                            "rank_absolute": 2,
+                            "items": [
+                                {
+                                    "type": "chat_gpt_products_element",
+                                    "product_id": "6969403627552850979",
+                                    "merchants": "Walgreens.com + others",
+                                    "id_to_token_map": "eyJlaSI6IkE3NjNhZHE0Q09lbzVOb1AyWUM5b0FNIiwicHJvZHVjdGlkIjoiIiwiY2F0YWxvZ2lkIjoiNjk2OTQwMzYyNzU1Mjg1MDk3OSIsImhlYWRsaW5lT2ZmZXJEb2NpZCI6IjY2NzQ1OTc4NjQ4NzAzNzY4OTUiLCJpbWFnZURvY2lkIjoiNDY0MjU5MTM0MDQ4MTEwMzY1NSIsInJkcyI6IlBDXzYxNTk2Mjc3OTY3Nzk4ODcyNTB8UFJPRF9QQ182MTU5NjI3Nzk2Nzc5ODg3MjUwIiwicXVlcnkiOiJoaW1hbGF5YW4rc2FsdCtiYXRoK3NvYWsiLCJncGNpZCI6IjYxNTk2Mjc3OTY3Nzk4ODcyNTAiLCJtaWQiOiI1NzY0NjI4MjMzOTAwNzEwNTEiLCJwdnQiOiJoZyIsInV1bGUiOiJ3K0NBSVFJQ0ltVFc5eVpXNXZJRlpoYkd4bGVTeERZV3hwWm05eWJtbGhMRlZ1YVhSbFpDQlRkR0YwWlhNIiwiZ2wiOiJ1cyIsImhsIjoiZW4ifQ==",
+                                    "title": "Dr. Teal's Mineral Soak Pink Himalayan Salt",
+                                    "rating": {
+                                        "rating_type": "Max5",
+                                        "value": 4.7,
+                                        "votes_count": 732,
+                                        "rating_max": 5
+                                    },
+                                    "price": 5.99,
+                                    "currency": "USD",
+                                    "tag": null,
+                                    "url": "https:\/\/www.walgreens.com\/store\/c\/dr.-teals-mineral-soak-pink-himalayan-salt\/ID=prod6349591-product?utm_source=chatgpt.com",
+                                    "domain": "www.walgreens.com",
+                                    "images": [
+                                        "https:\/\/images.openai.com\/static-rsc-1\/9frnv6W_Qtg3uXUL9Ht7jDlv-bTPKhCRUiPvsLFMyfdNKPyAT47oIsAc_AhFdT6_lALiFwG0oUvXgPa5-YGpxqn1e1Xck7U7WqMG5Pg5euTl4jKOwXsUTE3k4Qhrk3_eA0QoAX3Wo7Opyk2GCqYaFv3T-6hYlvSjocMeZzktfGYZuTRrxjUbTuBXqOTBivytrYv9KBF2p7pkcv7bFYhlOc3nOP1uajVHLfq_q2SyzTI",
+                                        "https:\/\/images.openai.com\/static-rsc-1\/ye2WO-9dmDpN0YTLX326cup0GSAP3jDOGvurDYvvz7kTXXWaTGAA10lFUVbF9LjuDkIQm2EELqdhhyCyAynzKURSk3QEBeSz-Mmzw9Tcw4HsYRUVTc1u5UhcuNUax50XkZ_PwnKkuffzvVE9vlAWfPsuqHNtr6vdiy6rzAnAnYnVwRpvx0Pq_IngcqB52VpIauuGOGYeY-pKs4o_Q7Tv6qlMn-LCB_J-v-qHjx4DZC6xtxNuF9MwDnvJxtl4HqKeA5fqkQuuV9P0onSzRewgfQ",
+                                        "https:\/\/images.openai.com\/static-rsc-1\/VZDgT2A4VPLscAa4Y1tdysnzOsTNnxzqETRGBaY3dPrszJdj0hxnhlKnOwX2qzvAzMPInmVLrPrjoKGYhwquVwO0DFzkpUnwDRF-1Ewfaf3ugfowmSHS6BUAK5_OUXwpzk1Z_ALQY6Mo95lu9immZmxmvso52REadRYx-9EI5ahJ929oFgFv-iGBVfUTk7-evK22krQbOW0xDyA9suHhB-vRrFtU3Bt_lv-NQ1Zcsl0"
+                                    ],
+                                    "product_ids": [
+                                        {
+                                            "type": "chat_gpt_google_shopping_product",
+                                            "ei": "A763adq4COeo5NoP2YC9oAM",
+                                            "product_id": null,
+                                            "catalog_id": "6969403627552850979",
+                                            "gpcid": "6159627796779887250",
+                                            "headline_offer_docid": "6674597864870376895",
+                                            "image_docid": "4642591340481103655",
+                                            "rds": "PC_6159627796779887250|PROD_PC_6159627796779887250",
+                                            "query": "himalayan+salt+bath+soak",
+                                            "mid": "576462823390071051",
+                                            "pvt": "hg",
+                                            "uule": "w+CAIQICImTW9yZW5vIFZhbGxleSxDYWxpZm9ybmlhLFVuaXRlZCBTdGF0ZXM",
+                                            "gl": "us",
+                                            "hl": "en"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "type": "chat_gpt_products_element",
+                                    "product_id": "18122043685563784029",
+                                    "merchants": "World Market",
+                                    "id_to_token_map": "eyJlaSI6IkE3NjNhZHE0Q09lbzVOb1AyWUM5b0FNIiwicHJvZHVjdGlkIjoiIiwiY2F0YWxvZ2lkIjoiMTgxMjIwNDM2ODU1NjM3ODQwMjkiLCJoZWFkbGluZU9mZmVyRG9jaWQiOiI1ODQ2ODU4NzkwNjY1NDgwOTUiLCJpbWFnZURvY2lkIjoiMzcwMTAzOTIyNDYzNzk0MjczMCIsInJkcyI6IlBDXzgxNzYyNzg1NzA0MTI3ODY5NDh8UFJPRF9QQ184MTc2Mjc4NTcwNDEyNzg2OTQ4IiwicXVlcnkiOiJoaW1hbGF5YW4rc2FsdCtiYXRoK3NvYWsiLCJncGNpZCI6IjgxNzYyNzg1NzA0MTI3ODY5NDgiLCJtaWQiOiIiLCJwdnQiOiJoZyIsInV1bGUiOiJ3K0NBSVFJQ0ltVFc5eVpXNXZJRlpoYkd4bGVTeERZV3hwWm05eWJtbGhMRlZ1YVhSbFpDQlRkR0YwWlhNIiwiZ2wiOiJ1cyIsImhsIjoiZW4ifQ==",
+                                    "title": "World Market Pink Himalayan Lavender and Chamomile Bath Salts",
+                                    "rating": {
+                                        "rating_type": "Max5",
+                                        "value": 4.3,
+                                        "votes_count": 15,
+                                        "rating_max": 5
+                                    },
+                                    "price": 16.99,
+                                    "currency": "USD",
+                                    "tag": null,
+                                    "url": "https:\/\/www.worldmarket.com\/p\/pink-himalayan--lavender-and-chamomile-bath-salts-553350.html?utm_source=chatgpt.com",
+                                    "domain": "www.worldmarket.com",
+                                    "images": [
+                                        "https:\/\/images.openai.com\/static-rsc-1\/Xo4q7CZJmG9guzUYn6iiOr-zg3h5CxpCpGDCtog_w9aiaoMTzfnRjpxUPamP6rPPpRW6yxu7FLja4hJY1Wri6sN_ZBPuXkAfHqUKBo047BpXioat1XtZ6agUpdCTH77yqss-kaxrFQsGLq3dDRvcrsE_R4Qv88P3u2jg3QNODUZaFjHug8UHcxLr2W0o2IYDJA2VSTqxjyzMmM3wNXs_ZiLc05QzW5UEFdeq6Ik3cwsEqedY0ZavFwkIb6FzBGmk"
+                                    ],
+                                    "product_ids": [
+                                        {
+                                            "type": "chat_gpt_google_shopping_product",
+                                            "ei": "A763adq4COeo5NoP2YC9oAM",
+                                            "product_id": null,
+                                            "catalog_id": "18122043685563784029",
+                                            "gpcid": "8176278570412786948",
+                                            "headline_offer_docid": "584685879066548095",
+                                            "image_docid": "3701039224637942730",
+                                            "rds": "PC_8176278570412786948|PROD_PC_8176278570412786948",
+                                            "query": "himalayan+salt+bath+soak",
+                                            "mid": null,
+                                            "pvt": "hg",
+                                            "uule": "w+CAIQICImTW9yZW5vIFZhbGxleSxDYWxpZm9ybmlhLFVuaXRlZCBTdGF0ZXM",
+                                            "gl": "us",
+                                            "hl": "en"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "type": "chat_gpt_products_element",
+                                    "product_id": "17256588454715469220",
+                                    "merchants": "Spinster Sisters Co.",
+                                    "id_to_token_map": "eyJlaSI6IkE3NjNhZHE0Q09lbzVOb1AyWUM5b0FNIiwicHJvZHVjdGlkIjoiIiwiY2F0YWxvZ2lkIjoiMTcyNTY1ODg0NTQ3MTU0NjkyMjAiLCJoZWFkbGluZU9mZmVyRG9jaWQiOiIyNzI1OTI4OTYyNjg1NzE1OTg0IiwiaW1hZ2VEb2NpZCI6IjE1MDE1Mjk4NTQwNTkwODY5MzYyIiwicmRzIjoiIiwicXVlcnkiOiJoaW1hbGF5YW4rc2FsdCtiYXRoK3NvYWsiLCJncGNpZCI6IjI3MDkxMzQ1MzYwMjE1NDE4NSIsIm1pZCI6IjU3NjQ2Mjc1NzA3MzY4MzE4NyIsInB2dCI6ImhnIiwidXVsZSI6IncrQ0FJUUlDSW1UVzl5Wlc1dklGWmhiR3hsZVN4RFlXeHBabTl5Ym1saExGVnVhWFJsWkNCVGRHRjBaWE0iLCJnbCI6InVzIiwiaGwiOiJlbiJ9",
+                                    "title": "Spinster Sisters Lavender Himalayan Salt Soak",
+                                    "rating": null,
+                                    "price": 24,
+                                    "currency": "USD",
+                                    "tag": null,
+                                    "url": "https:\/\/spinstersistersco.com\/products\/himalayan-salt-soak-lavender-and-rose?variant=50268834496743&country=US&currency=USD&utm_source=chatgpt.com",
+                                    "domain": "spinstersistersco.com",
+                                    "images": [
+                                        "https:\/\/images.openai.com\/static-rsc-1\/VhaUTOYcp37ejcyCk800fFkjoVX9I1oKqK7X-V4CWU9IjxLaw7dIDWhaQotIHTj93UfrCVZqVu_Q9jJwIw8vCmoLQQNxyM5naEQJQEbK-c3NbZYeokDIT8wkaoHMszdg-VTo7h_TF5kprgC9VLoMpqS3dzOkbRE-kd67Y7Z9O_5w8CeG-F8wjxoCtlFTLy1XB9RcV8sEyfwttSd9ES4rD3kDUz37OIkwFfU1t8U9jdEzxbb3mMcycnVD-gRUcOwV",
+                                        "https:\/\/images.openai.com\/static-rsc-1\/ZMze2uf9J6Cnni_gy0Bx5fDtoB1HYJeTqREqiwa4JwvZQ4XANM9jXd_iQa1JNpogOMFl-KHH-gPLNqhbogYASc9bgJHOLo4jCS-2Kxq-KHXLYcRt0HeD5M4RmA8vKh0j70CpS2HZT2pIGM9-tHO0B6E3V2nDWd-Mn_M1swKfWfb5bmHcDpHWWcYgKSyfM1Kr_5q3KQvx5eSsl06Kj2I3sMyQfjKzKA0n5I8www-ehlY",
+                                        "https:\/\/images.openai.com\/static-rsc-1\/9iMVvBauQ6iZMzM5PiTUeNERkfu1qMq1YuZKiy9dtEyjbxpmbu89mxeOBusrMxg8oUn5TYhcG5ArvKtVdc2U05NldaW8DtSvBcnlK1t2SFlAf7bxrSNivc6Yr21rp0xrnTSJZmz58HCsuTWV9w32P7omWCSxw0Hpp-Oq6PK0R3Uqoyb83yODyRlMiXDJwBgqkWIP2Cozj0slDG_7qZsX4e7Wd6_mzWCsi42B1eGxqwU"
+                                    ],
+                                    "product_ids": [
+                                        {
+                                            "type": "chat_gpt_google_shopping_product",
+                                            "ei": "A763adq4COeo5NoP2YC9oAM",
+                                            "product_id": null,
+                                            "catalog_id": "17256588454715469220",
+                                            "gpcid": "270913453602154185",
+                                            "headline_offer_docid": "2725928962685715984",
+                                            "image_docid": "15015298540590869362",
+                                            "rds": null,
+                                            "query": "himalayan+salt+bath+soak",
+                                            "mid": "576462757073683187",
+                                            "pvt": "hg",
+                                            "uule": "w+CAIQICImTW9yZW5vIFZhbGxleSxDYWxpZm9ybmlhLFVuaXRlZCBTdGF0ZXM",
+                                            "gl": "us",
+                                            "hl": "en"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "type": "chat_gpt_products_element",
+                                    "product_id": "3922349017979216664",
+                                    "merchants": "Lizzie's All-natural Products",
+                                    "id_to_token_map": "eyJlaSI6IkE3NjNhZHE0Q09lbzVOb1AyWUM5b0FNIiwicHJvZHVjdGlkIjoiIiwiY2F0YWxvZ2lkIjoiMzkyMjM0OTAxNzk3OTIxNjY2NCIsImhlYWRsaW5lT2ZmZXJEb2NpZCI6IjE3Mjk0MTgwMjk4ODMxNTU2MzkiLCJpbWFnZURvY2lkIjoiMTgzNTcxNjk2NDI0OTA4OTczOTAiLCJyZHMiOiJQQ18zMzcwMTc2NTE5OTc5NDAwMjM0fFBST0RfUENfMzM3MDE3NjUxOTk3OTQwMDIzNCIsInF1ZXJ5IjoiaGltYWxheWFuK3NhbHQrYmF0aCtzb2FrIiwiZ3BjaWQiOiIzMzcwMTc2NTE5OTc5NDAwMjM0IiwibWlkIjoiIiwicHZ0IjoiaGciLCJ1dWxlIjoidytDQUlRSUNJbVRXOXlaVzV2SUZaaGJHeGxlU3hEWVd4cFptOXlibWxoTEZWdWFYUmxaQ0JUZEdGMFpYTSIsImdsIjoidXMiLCJobCI6ImVuIn0=",
+                                    "title": "Himalayan Sea Salt Bath Soak",
+                                    "rating": {
+                                        "rating_type": "Max5",
+                                        "value": 5,
+                                        "votes_count": 2,
+                                        "rating_max": 5
+                                    },
+                                    "price": 22.99,
+                                    "currency": "USD",
+                                    "tag": null,
+                                    "url": null,
+                                    "domain": null,
+                                    "images": [
+                                        "https:\/\/images.openai.com\/thumbnails\/url\/b4Ik1HicDcndEoFAGADQJ0pkKpoxBiVlKhmEG7N2V7Gz29Z--nktb-NtOLfn-ykApHJ0nQpc9xIo0eAujEGuAMETD3DJdVWUUj5FPq9m_3MWMZn6-LBZZ0HDsoTuvCq2zg0N3Vdnp1Q1ZgD4DYlGLE488Icrfj2iEfjINgB1t5TTiU0eSbFl8SHMs-jcvlr_NFoGLGwCo75EptAYi7z2iE7ThdurrgrNvexX4w0XmfYDSRU_vg"
+                                    ],
+                                    "product_ids": [
+                                        {
+                                            "type": "chat_gpt_google_shopping_product",
+                                            "ei": "A763adq4COeo5NoP2YC9oAM",
+                                            "product_id": null,
+                                            "catalog_id": "3922349017979216664",
+                                            "gpcid": "3370176519979400234",
+                                            "headline_offer_docid": "1729418029883155639",
+                                            "image_docid": "18357169642490897390",
+                                            "rds": "PC_3370176519979400234|PROD_PC_3370176519979400234",
+                                            "query": "himalayan+salt+bath+soak",
+                                            "mid": null,
+                                            "pvt": "hg",
+                                            "uule": "w+CAIQICImTW9yZW5vIFZhbGxleSxDYWxpZm9ybmlhLFVuaXRlZCBTdGF0ZXM",
+                                            "gl": "us",
+                                            "hl": "en"
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "type": "chat_gpt_text",
+                            "rank_group": 2,
+                            "rank_absolute": 3,
+                            "markdown": "\n\n**Why they’re great**\n- Help relax muscles and reduce stress  \n- Mineral-rich salts help soften skin  \n- Aromatherapy oils (lavender, chamomile, citrus) enhance relaxation  \n\n💡 Tip: Add **1–2 cups to warm bath water** and soak 20 minutes.\n\n---\n\n## 2. Himalayan Salt Body Scrubs (Skin Exfoliation)\n",
+                            "sources": null,
+                            "brand_entities": null
+                        },
+                        {
+                            "type": "chat_gpt_products",
+                            "rank_group": 2,
+                            "rank_absolute": 4,
+                            "items": [
+                                {
+                                    "type": "chat_gpt_products_element",
+                                    "product_id": "9469151835771868295",
+                                    "merchants": "Walmart + others",
+                                    "id_to_token_map": "eyJlaSI6IkE3NjNhYTZOSEs2cjFzUVA5by01OEFJIiwicHJvZHVjdGlkIjoiIiwiY2F0YWxvZ2lkIjoiOTQ2OTE1MTgzNTc3MTg2ODI5NSIsImhlYWRsaW5lT2ZmZXJEb2NpZCI6IjE2NDYzMTIzMTkyODAwODE4MzkwIiwiaW1hZ2VEb2NpZCI6Ijc2MDcwNjkyOTUyODYzNDMxMDQiLCJyZHMiOiJQQ18xNTI4OTUxMjk2NDQ5ODU1NjQ1N3xQUk9EX1BDXzE1Mjg5NTEyOTY0NDk4NTU2NDU3IiwicXVlcnkiOiJoaW1hbGF5YW4rc2FsdCtib2R5K3NjcnViIiwiZ3BjaWQiOiIxNTI4OTUxMjk2NDQ5ODU1NjQ1NyIsIm1pZCI6IiIsInB2dCI6ImhnIiwidXVsZSI6IncrQ0FJUUlDSW1UVzl5Wlc1dklGWmhiR3hsZVN4RFlXeHBabTl5Ym1saExGVnVhWFJsWkNCVGRHRjBaWE0iLCJnbCI6InVzIiwiaGwiOiJlbiJ9",
+                                    "title": "Dove Himalayan Salt & Rose Oil Body Scrub",
+                                    "rating": {
+                                        "rating_type": "Max5",
+                                        "value": 4.7,
+                                        "votes_count": 1985,
+                                        "rating_max": 5
+                                    },
+                                    "price": 7.97,
+                                    "currency": "USD",
+                                    "tag": null,
+                                    "url": "https:\/\/www.walmart.com\/ip\/Dove-Body-Scrub-Himalayan-15oz\/10761407878?wl13=5193&selectedSellerId=0&wmlspartner=wlpa&utm_source=chatgpt.com",
+                                    "domain": "www.walmart.com",
+                                    "images": [
+                                        "https:\/\/images.openai.com\/static-rsc-1\/e7u5DLv2x_DPY5DpBawdR4ZfRbgeslpR49HK_kqbv5HeVcvbJlEHGUQceXjxqnY0xV8jUC8uvYJk51S0wYA8qzzpy2CadYUWUntdAA05IXudqMV2RVHpgIstJWqNWPmlJLhRWZvr6o6h4Vm82wSAspBGHlXngelDxdkMHtwKM0W6OFff0_a3Ock3Sy5MR267S7Zn0nftw8eRf6gelslnebAljBbl-YfOXEoOC3xIJz7U8tqMpQpsHSwUZvEX7NoiF5ritHL8DgmllPPmxkAzzA",
+                                        "https:\/\/images.openai.com\/static-rsc-1\/kEGownjuWubJmcxA2Jr0g_Z7i9B0INU4FSgnPBdGLqQ_nG0tSTTpzkNFaWaFRZut1Q6InPq1bFq64R43il73GgBfmUGC5w_iDFaj97FrCRVCgRclEx6SVftVGWnseTA38g9FLyv7PkdstGGC_b_iED2h9LXUiFv7wYt--8sI4njjTGN2cH3ZihpIBiUcfy-tD1glznIv_Ct1MKtHCrrrFE87RlNwOopHwHmLGRppKqLBhJGfK4Bt-FSDKfMm9HrN6bOleuVP6KTnyS0qGAZejQ",
+                                        "https:\/\/images.openai.com\/static-rsc-1\/nEjB2pcTt2D3dCTcZMYhS9LdIq7n5Wdyrtc173GrJ9yU3u8ajlIWUCHmYm-gw0A7CVBAVOS7HmS8CNvXKsv70EUdxbjeMgTiIRuAUk-foP8XpEEiaHJKhl_ig5GGY93Yyq69PYyGfTp5zxYTiwT6vBDa_0mVFEEjcXiivZnGY7Cix8ZP55Z3-NBWV2_ecsBz_d40oGW3QaelTAc_ifTZQXdRxrNNUtaMjgZvoLVoUQchkGpY_iNTJYsZjUqx5FuMnlpU3htOFG8E5anxfdhJQw"
+                                    ],
+                                    "product_ids": [
+                                        {
+                                            "type": "chat_gpt_google_shopping_product",
+                                            "ei": "A763aa6NHK6r1sQP9o-58AI",
+                                            "product_id": null,
+                                            "catalog_id": "9469151835771868295",
+                                            "gpcid": "15289512964498556457",
+                                            "headline_offer_docid": "16463123192800818390",
+                                            "image_docid": "7607069295286343104",
+                                            "rds": "PC_15289512964498556457|PROD_PC_15289512964498556457",
+                                            "query": "himalayan+salt+body+scrub",
+                                            "mid": null,
+                                            "pvt": "hg",
+                                            "uule": "w+CAIQICImTW9yZW5vIFZhbGxleSxDYWxpZm9ybmlhLFVuaXRlZCBTdGF0ZXM",
+                                            "gl": "us",
+                                            "hl": "en"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "type": "chat_gpt_products_element",
+                                    "product_id": "3657222356192169522",
+                                    "merchants": "FragranceNet.com + others",
+                                    "id_to_token_map": "eyJlaSI6IkE3NjNhYTZOSEs2cjFzUVA5by01OEFJIiwicHJvZHVjdGlkIjoiIiwiY2F0YWxvZ2lkIjoiMzY1NzIyMjM1NjE5MjE2OTUyMiIsImhlYWRsaW5lT2ZmZXJEb2NpZCI6IjEwMjQwNDQ1MzI4NDc3MDAxMjE0IiwiaW1hZ2VEb2NpZCI6IjE2MDI0ODY1NDc4MDAyNDkwNTc5IiwicmRzIjoiUENfMTAxMjQxMTgzODIxMTI5OTIzODl8UFJPRF9QQ18xMDEyNDExODM4MjExMjk5MjM4OSIsInF1ZXJ5IjoiaGltYWxheWFuK3NhbHQrYm9keStzY3J1YiIsImdwY2lkIjoiMTAxMjQxMTgzODIxMTI5OTIzODkiLCJtaWQiOiI1NzY0NjI1ODY0OTU1OTUwODEiLCJwdnQiOiJoZyIsInV1bGUiOiJ3K0NBSVFJQ0ltVFc5eVpXNXZJRlpoYkd4bGVTeERZV3hwWm05eWJtbGhMRlZ1YVhSbFpDQlRkR0YwWlhNIiwiZ2wiOiJ1cyIsImhsIjoiZW4ifQ==",
+                                    "title": "Dr Teal's Pink Himalayan Salt Body Scrub",
+                                    "rating": {
+                                        "rating_type": "Max5",
+                                        "value": 4.5,
+                                        "votes_count": 384,
+                                        "rating_max": 5
+                                    },
+                                    "price": 10.79,
+                                    "currency": "USD",
+                                    "tag": null,
+                                    "url": "https:\/\/www.fragrancenet.com\/dr.-teal's-skin-care\/anti-aging\/dr.-teal's\/facial\/sc\/en_US\/47504\/466095?mv_pc=gawus_surf_466095&utm_source=chatgpt.com",
+                                    "domain": "www.fragrancenet.com",
+                                    "images": [
+                                        "https:\/\/images.openai.com\/static-rsc-1\/f2vx-PJ8BC1H9_dpc_1qrRwaksS2m_VlGodbjnjAJUobvFz81nM7NGSLtLIyWkZ2IwiKFwqWc2mdR-mOJWqepZbzpj2UgCQqgCER_dCnfZjcKpB-sbC2uKYLyAa8EuSV4OOS-pzW6Cb6gKMucUw61Z7qjSULnCij3Fdb7RF2gliMYROswgldJCsjOPzsHDMwE0x-lEzYHVVkwZ-ywdJSvJtLTAL45jDOzaizjOh6vCFtFZDnfCxSXP52PdaKb3t6",
+                                        "https:\/\/images.openai.com\/static-rsc-1\/n2byW9dqYr2_dHV5uQk1wjNn0XKjw5UH8LorRYy4UB8IwK34dFow3Lhv4P6pnnjG628sBjfV05HsCnsiaLE4dF4Gvgcn8HKqps9blXbxaGdjhhOBFgUUymoNLGCAnugi1NpiZKrCDXaGH8gpWEQJtZBdVPwANnasmB1xLB2B94RculzqqI7y2DvZyCV5XSn8jNx75mUmbp-3VDFX_LZyIONU3coZF73hHxe9XytgPj3PZaAJjNSSpEfYdJG_h4n7RtAXZOyCw9Qnbxu6qq4Y5A",
+                                        "https:\/\/images.openai.com\/static-rsc-1\/Mid8FhCY101z-F7JM5ZPqMgU-UMPEpb1exCzqPSY7vPAZ4BhvFv08Oz5pBfms2dTdO8hsU0CC_Jor5N2XsIBPldhHLxTlu8b3jr5eQquQO54VA1oeUXwPsd95H27ufKtejuDRUAuqJXkQGmAP7bJBA3yJySsXlF7_zeK5S3uKgn6Bwai9u4WH1_8QXYc1fJ45KDYEWdeorI6MI5PI2ythXj27v5P-oAjP51N6ii1Fpa4hUNwTt29O7Qn2Njj6FD6"
+                                    ],
+                                    "product_ids": [
+                                        {
+                                            "type": "chat_gpt_google_shopping_product",
+                                            "ei": "A763aa6NHK6r1sQP9o-58AI",
+                                            "product_id": null,
+                                            "catalog_id": "3657222356192169522",
+                                            "gpcid": "10124118382112992389",
+                                            "headline_offer_docid": "10240445328477001214",
+                                            "image_docid": "16024865478002490579",
+                                            "rds": "PC_10124118382112992389|PROD_PC_10124118382112992389",
+                                            "query": "himalayan+salt+body+scrub",
+                                            "mid": "576462586495595081",
+                                            "pvt": "hg",
+                                            "uule": "w+CAIQICImTW9yZW5vIFZhbGxleSxDYWxpZm9ybmlhLFVuaXRlZCBTdGF0ZXM",
+                                            "gl": "us",
+                                            "hl": "en"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "type": "chat_gpt_products_element",
+                                    "product_id": "5791882499915113851",
+                                    "merchants": "Walmart - iHerb + others",
+                                    "id_to_token_map": "eyJlaSI6IkE3NjNhYTZOSEs2cjFzUVA5by01OEFJIiwicHJvZHVjdGlkIjoiIiwiY2F0YWxvZ2lkIjoiNTc5MTg4MjQ5OTkxNTExMzg1MSIsImhlYWRsaW5lT2ZmZXJEb2NpZCI6IjE1MzIwOTIwNTkzNDEyNTIwNzA2IiwiaW1hZ2VEb2NpZCI6IjYxMzUxMTg2NzE1NDcyMDk5NzMiLCJyZHMiOiJQQ18xMzY2MjI4NTY1NjgyNzY3MjA2MHxQUk9EX1BDXzEzNjYyMjg1NjU2ODI3NjcyMDYwIiwicXVlcnkiOiJoaW1hbGF5YW4rc2FsdCtib2R5K3NjcnViIiwiZ3BjaWQiOiIxMzY2MjI4NTY1NjgyNzY3MjA2MCIsIm1pZCI6IjU3NjQ2MjM3MTExMzc3MTk2NyIsInB2dCI6ImhnIiwidXVsZSI6IncrQ0FJUUlDSW1UVzl5Wlc1dklGWmhiR3hsZVN4RFlXeHBabTl5Ym1saExGVnVhWFJsWkNCVGRHRjBaWE0iLCJnbCI6InVzIiwiaGwiOiJlbiJ9",
+                                    "title": "ArtNaturals Himalayan Salt Body Scrub",
+                                    "rating": {
+                                        "rating_type": "Max5",
+                                        "value": 4.1,
+                                        "votes_count": 859,
+                                        "rating_max": 5
+                                    },
+                                    "price": 11.07,
+                                    "currency": "USD",
+                                    "tag": null,
+                                    "url": "https:\/\/www.walmart.com\/ip\/Artnaturals-Himalayan-Salt-Scrub-20-oz-567-g\/127490206?wmlspartner=wlpa&selectedSellerId=128447&selectedOfferId=CB126599981145F9A102FF8608F40864&conditionGroupCode=1&utm_source=chatgpt.com",
+                                    "domain": "www.walmart.com",
+                                    "images": [
+                                        "https:\/\/images.openai.com\/static-rsc-1\/94PbCy7I_BJ9UT750RPXqU8JRDmcQT4eg6vG16j_DQ33lU2gHOz-JDrMbwuG6FKwiG40eX69qXcVSEXrYmWsFDmagggeXqI3kdNYrxWNGfziwoXTtxNoc8qKydHl3q5iEfEMOGb16bbvedic32aJIE5ixTd6s8Em2tD10Mmj_JbLjh2OxRK_tboQmUT8JxSAqknZpyTOq6gOQKv0rP_FWmyXPuNXV47RvIuNQywxXq0",
+                                        "https:\/\/images.openai.com\/static-rsc-1\/x2XF2ofa3q6K1Xcp4LVRETKx3bPKMLNVKE5BIrnH__wAV65HbRgk8Lb7VGvkrwaDnY8NciLUqmT9CVSC5XVuTonhHxQ-76YL1ZKzjwIUnKbpiiwZQ4t-jy2EFLBW21X6EWUedFAE_XxWpoiztcjDEfB2CCPllK0DMCewg_EQyKnPekuwVBS0kpZjuAfHbKyKOXjQ6Ykq1a_8Gd_BnoDZyln834uw6EIEYJzBaUzUWBM",
+                                        "https:\/\/images.openai.com\/static-rsc-1\/TD-o30djUbQqIKwXuZOVbnRgGwAChOQCM8GCaZJmeNUFh58b8spkZKn9rc6XMjUaSfdMXtgWrfIQCDokY_UGlK9dfhoDwFYZphzBekGFN7gnuhlMb6hfy6H5hegIq2zaRUBXDqmJnUATjsBH1h4m2SC9W_yCqROTdxMas0muPD0dH4Dtutv_PzB142stom-AvdA6M6PXelQoIPwb2LlutL3JOChSSSf2glrMLw3sx8M"
+                                    ],
+                                    "product_ids": [
+                                        {
+                                            "type": "chat_gpt_google_shopping_product",
+                                            "ei": "A763aa6NHK6r1sQP9o-58AI",
+                                            "product_id": null,
+                                            "catalog_id": "5791882499915113851",
+                                            "gpcid": "13662285656827672060",
+                                            "headline_offer_docid": "15320920593412520706",
+                                            "image_docid": "6135118671547209973",
+                                            "rds": "PC_13662285656827672060|PROD_PC_13662285656827672060",
+                                            "query": "himalayan+salt+body+scrub",
+                                            "mid": "576462371113771967",
+                                            "pvt": "hg",
+                                            "uule": "w+CAIQICImTW9yZW5vIFZhbGxleSxDYWxpZm9ybmlhLFVuaXRlZCBTdGF0ZXM",
+                                            "gl": "us",
+                                            "hl": "en"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "type": "chat_gpt_products_element",
+                                    "product_id": "4784952254151156034",
+                                    "merchants": "iHerb + others",
+                                    "id_to_token_map": "eyJlaSI6IkE3NjNhYTZOSEs2cjFzUVA5by01OEFJIiwicHJvZHVjdGlkIjoiIiwiY2F0YWxvZ2lkIjoiNDc4NDk1MjI1NDE1MTE1NjAzNCIsImhlYWRsaW5lT2ZmZXJEb2NpZCI6Ijc1NjM0Mzg1MjU0MTYwMzYzMzAiLCJpbWFnZURvY2lkIjoiMzk4NzEyMDc5NDkxNzgyMTE0OCIsInJkcyI6IlBDXzE4MTc5MzkwODA5MTAyNDE4MjUxfFBST0RfUENfMTgxNzkzOTA4MDkxMDI0MTgyNTEiLCJxdWVyeSI6ImhpbWFsYXlhbitzYWx0K2JvZHkrc2NydWIiLCJncGNpZCI6IjE4MTc5MzkwODA5MTAyNDE4MjUxIiwibWlkIjoiNTc2NDYyMzc1MDU3OTE4MzQ0IiwicHZ0IjoiaGciLCJ1dWxlIjoidytDQUlRSUNJbVRXOXlaVzV2SUZaaGJHeGxlU3hEWVd4cFptOXlibWxoTEZWdWFYUmxaQ0JUZEdGMFpYTSIsImdsIjoidXMiLCJobCI6ImVuIn0=",
+                                    "title": "Pure Body Naturals Himalayan Pink Salt Scrub",
+                                    "rating": {
+                                        "rating_type": "Max5",
+                                        "value": 4.6,
+                                        "votes_count": 470,
+                                        "rating_max": 5
+                                    },
+                                    "price": 11.86,
+                                    "currency": "USD",
+                                    "tag": null,
+                                    "url": "https:\/\/www.iherb.com\/pr\/pure-body-naturals-himalayan-pink-salt-scrub-12-oz-340-g\/88916?ccode=us&currcode=USD&langcode=en-US&fld=1&utm_source=chatgpt.com",
+                                    "domain": "www.iherb.com",
+                                    "images": [
+                                        "https:\/\/images.openai.com\/static-rsc-1\/aQ7NdC9BUYjq4_ZzIDqcSEnhx2YbNWgzKpk3FO70zrqhWvPAczrEJKQup91QRZS4O93wVkyh00jNba2JtgvAKyKWpye95EvRrb1pcPOJ4vtMihpnVxyQnDXb8c64I3MbaclCrPGa1IqKCCgC5jBEUEQNU9hl2h9N_Tx2dK1JidbgJ6QakqdTlb4r3EjwT-ybI6Qh96ex5JB-sdgqXktoygVL0MSt_pVa6F4bqPGzN-s",
+                                        "https:\/\/images.openai.com\/static-rsc-1\/udQP1QF2JpBc4ujhj4HGsLHemp7089e0JrMrIBTmWvfJ7z107OsVO9W2Eg8n-w3BYi08LeB0m4O6yu-b6pz2QJ0oVrdEajq1DlOLk1mClQmce21YU63--282iK0j2B8J8VFaAacWTsy_r0fj_AO3RATZUIuPBaedWg54RbGv-TFvZQQbnhH_KkAx_D3YQrxr9qXrW5Rrl1zpEI7yg1bkIE3399c7o0xIrGFUvAnbfN9mzR3xuH9SfNpmQ47poSI7",
+                                        "https:\/\/images.openai.com\/static-rsc-1\/7sxQOqfJZNZYPXbkxLLQqd8Z0aP5zfp3ZJ-yRfbv1Lj4PEeSfrVDJQdCM0BZ394Yk1OZgdldvRs7N3SNc5-QXIqdCFWLkkRGC7WguF5BPw4CTCJhOOrwac471peXSUMKGluXPzB-O4sU_4nLswN2u4JWktMy-l1sitpWgrfBwfTMuSBvM9qhXeKcDKNCFHWv2WQVsNjPFVhqusfw9g42L14uKYq7gUjwXgAiboC5G285EohJYtJVekD208W10fqn"
+                                    ],
+                                    "product_ids": [
+                                        {
+                                            "type": "chat_gpt_google_shopping_product",
+                                            "ei": "A763aa6NHK6r1sQP9o-58AI",
+                                            "product_id": null,
+                                            "catalog_id": "4784952254151156034",
+                                            "gpcid": "18179390809102418251",
+                                            "headline_offer_docid": "7563438525416036330",
+                                            "image_docid": "3987120794917821148",
+                                            "rds": "PC_18179390809102418251|PROD_PC_18179390809102418251",
+                                            "query": "himalayan+salt+body+scrub",
+                                            "mid": "576462375057918344",
+                                            "pvt": "hg",
+                                            "uule": "w+CAIQICImTW9yZW5vIFZhbGxleSxDYWxpZm9ybmlhLFVuaXRlZCBTdGF0ZXM",
+                                            "gl": "us",
+                                            "hl": "en"
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "type": "chat_gpt_text",
+                            "rank_group": 3,
+                            "rank_absolute": 5,
+                            "markdown": "\n\n**Benefits**\n- Gently removes dead skin cells  \n- Improves circulation  \n- Leaves skin smoother and glowing  \n\nMany scrubs mix Himalayan salt with **natural oils like jojoba, almond, or shea butter** for hydration.   \n\n---\n\n## 3. Himalayan Salt Massage Stones\n",
+                            "sources": null,
+                            "brand_entities": null
+                        },
+                        {
+                            "type": "chat_gpt_products",
+                            "rank_group": 3,
+                            "rank_absolute": 6,
+                            "items": [
+                                {
+                                    "type": "chat_gpt_products_element",
+                                    "product_id": "8763895406175738857",
+                                    "merchants": "SereneLife Home + others",
+                                    "id_to_token_map": "eyJlaSI6IkE3NjNhYzIzR0s2ZWtkVVB1cmJfOEEwIiwicHJvZHVjdGlkIjoiIiwiY2F0YWxvZ2lkIjoiODc2Mzg5NTQwNjE3NTczODg1NyIsImhlYWRsaW5lT2ZmZXJEb2NpZCI6IjYxMjY2MjA3ODQ0NzcwNDk1NDUiLCJpbWFnZURvY2lkIjoiMTU4ODY5NjA1NDQ5MDU5NzM5NzEiLCJyZHMiOiIiLCJxdWVyeSI6ImhpbWFsYXlhbitzYWx0K21hc3NhZ2Urc3RvbmVzIiwiZ3BjaWQiOiIxODM4MTk3MzIxMTQ4NTI2MzA3OSIsIm1pZCI6IjU3NjQ2Mjg1MDk5NzIxNjcwMiIsInB2dCI6ImhnIiwidXVsZSI6IncrQ0FJUUlDSW1UVzl5Wlc1dklGWmhiR3hsZVN4RFlXeHBabTl5Ym1saExGVnVhWFJsWkNCVGRHRjBaWE0iLCJnbCI6InVzIiwiaGwiOiJlbiJ9",
+                                    "title": "SereneLife Heart Shaped Salt Massage Stones Set",
+                                    "rating": null,
+                                    "price": 25.59,
+                                    "currency": "USD",
+                                    "tag": null,
+                                    "url": "https:\/\/serenelifehome.com\/products\/accpslmsgst100?variant=47447737336098&country=US&currency=USD&utm_source=chatgpt.com",
+                                    "domain": "serenelifehome.com",
+                                    "images": [
+                                        "https:\/\/images.openai.com\/static-rsc-1\/vK-TOZciiuRH-hw0BrfNObkRgA-frDSfstFweaT4rlj7U3ujU_OJK59QCEzduEwISJ3-WHa7Ch9uzaktIP5MpN4Pnm7kijHmIkx3FJI9wiTVZoXTw7j0lHqGBdkEwiAFPVJDXjG6De__RXDGkSMHg3M6f2sB8RfxHSa9l-6n8d8h3Uw19GpfVOPK-aETkVXTGJVy_TQWe5fk-I9Ejw2loa2HN8goIY3gOZwqPK_mvuw",
+                                        "https:\/\/images.openai.com\/static-rsc-1\/ffdK7xQxEiGJoOMk3Ehvch046JgV2lecr6wm5MWyAOyHA6QNL0UZ8E75UmHIkx02xrdFjwOT8Jo6wG3HPKbNUp53Afk9YxTo01d2z4yrk9px_EnWnVZv5LQwDmxfUA0sgaxOy5xa99cG_YkTWoSzNVfTlm655plqGfOvZlSCGjAigQFykEaOhsnetyD9p9GhwwPwjxpfTvZYWC47VcBRR5Bj2w6ho8InBLvEll8fqpi0AmmMFth_cCuSqYuFQgHY",
+                                        "https:\/\/images.openai.com\/static-rsc-1\/OW1KtGyTPM7Ry4SJODgaFWTtDnh2ucGXlWRBEdjxFqWLz7ljyJMdxrBBaXmU0a573geCM-xdbLZEow5QZRFG4bl1LFEOW3SYBWYHbzv-ZqDfQv4XN-IljS85X9OZIutXNTqn_7zC8_ltZKXVg0AtswURyf6LwPeYKV1Y7l1D7LiJG-GKbS4CAy6UmbPUTGtrMePoIA92cmRcaprBPIzR70M8diZzITFHiiOzrDe79sBPiMzwsj0JqF8cd1CZy1Yl"
+                                    ],
+                                    "product_ids": [
+                                        {
+                                            "type": "chat_gpt_google_shopping_product",
+                                            "ei": "A763ac23GK6ekdUPurb_8A0",
+                                            "product_id": null,
+                                            "catalog_id": "8763895406175738857",
+                                            "gpcid": "18381973211485263079",
+                                            "headline_offer_docid": "6126620784477049545",
+                                            "image_docid": "15886960544905973971",
+                                            "rds": null,
+                                            "query": "himalayan+salt+massage+stones",
+                                            "mid": "576462850997216702",
+                                            "pvt": "hg",
+                                            "uule": "w+CAIQICImTW9yZW5vIFZhbGxleSxDYWxpZm9ybmlhLFVuaXRlZCBTdGF0ZXM",
+                                            "gl": "us",
+                                            "hl": "en"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "type": "chat_gpt_products_element",
+                                    "product_id": "3067164498327108848",
+                                    "merchants": "Himalayan Salterz",
+                                    "id_to_token_map": "eyJlaSI6IkE3NjNhYzIzR0s2ZWtkVVB1cmJfOEEwIiwicHJvZHVjdGlkIjoiIiwiY2F0YWxvZ2lkIjoiMzA2NzE2NDQ5ODMyNzEwODg0OCIsImhlYWRsaW5lT2ZmZXJEb2NpZCI6IjY2NzE1MDQwNzkyNzI1MjY5ODEiLCJpbWFnZURvY2lkIjoiMzIzOTIyNjk3Njc0OTU4NjExNSIsInJkcyI6IiIsInF1ZXJ5IjoiaGltYWxheWFuK3NhbHQrbWFzc2FnZStzdG9uZXMiLCJncGNpZCI6IjM0Nzk5OTA4ODA2MDEyODk4NzMiLCJtaWQiOiIiLCJwdnQiOiJoZyIsInV1bGUiOiJ3K0NBSVFJQ0ltVFc5eVpXNXZJRlpoYkd4bGVTeERZV3hwWm05eWJtbGhMRlZ1YVhSbFpDQlRkR0YwWlhNIiwiZ2wiOiJ1cyIsImhsIjoiZW4ifQ==",
+                                    "title": "Himalayan Salt Massage Stones Pack",
+                                    "rating": null,
+                                    "price": 19.99,
+                                    "currency": "USD",
+                                    "tag": null,
+                                    "url": "https:\/\/himalayansalterz.com\/products\/salt-scrub?utm_source=chatgpt.com",
+                                    "domain": "himalayansalterz.com",
+                                    "images": [
+                                        "https:\/\/images.openai.com\/static-rsc-1\/WqF9LMQAD-6KrPCD0KCWZ8H0Pt2IluE3qbKplH-W8_RKLj3LOqJ5fx5BGaxMewGQ1KTqN13apLkvfCMDtDpi7UFCVxCQ9OapaJiyJ7GFD9EyHjJirZSXbGM3JyJkSDjpZvpHXmT1wNNHOrgPZbeud9TkWDXJQD4TVrPeRUJMjB3aaIIX4N5uExuIzAGIFLD-1vDF0rUE2drmPLhhV_ObmGTJS4JvYcBaw_IClljsABE",
+                                        "https:\/\/images.openai.com\/static-rsc-1\/OJurnNTCmT9e6X4QwHmIi36qz1rkL918-LesB75kPltPDnTUVY7uYQEmajV7ggHWBq_sVA_Ovq30NXFPbN1j6M9D6DoVIi7M5-Ge-XGReXmi5J5wwH7yRG_yuZJzwUX3CL8ODyUimDEV1du1MOCBdQQkM4oDpHtFPBdHgxXeI_6Xrsp_uXwVtPyRCrMHiq7KNOF3YIeGni1g3bmsITSnEkuesT4zfSvcc9Kt0aMYifg"
+                                    ],
+                                    "product_ids": [
+                                        {
+                                            "type": "chat_gpt_google_shopping_product",
+                                            "ei": "A763ac23GK6ekdUPurb_8A0",
+                                            "product_id": null,
+                                            "catalog_id": "3067164498327108848",
+                                            "gpcid": "3479990880601289873",
+                                            "headline_offer_docid": "6671504079272526981",
+                                            "image_docid": "3239226976749586115",
+                                            "rds": null,
+                                            "query": "himalayan+salt+massage+stones",
+                                            "mid": null,
+                                            "pvt": "hg",
+                                            "uule": "w+CAIQICImTW9yZW5vIFZhbGxleSxDYWxpZm9ybmlhLFVuaXRlZCBTdGF0ZXM",
+                                            "gl": "us",
+                                            "hl": "en"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "type": "chat_gpt_products_element",
+                                    "product_id": "11245814031762349516",
+                                    "merchants": "TNG Worldwide.com + others",
+                                    "id_to_token_map": "eyJlaSI6IkE3NjNhYzIzR0s2ZWtkVVB1cmJfOEEwIiwicHJvZHVjdGlkIjoiIiwiY2F0YWxvZ2lkIjoiMTEyNDU4MTQwMzE3NjIzNDk1MTYiLCJoZWFkbGluZU9mZmVyRG9jaWQiOiIxNzc1ODc0Mzk2NDQ0MDc5MTk0MyIsImltYWdlRG9jaWQiOiIxMTQzNTg2MjUxMTg5Njk0MzY5NiIsInJkcyI6IlBDXzE3MTk0OTgwNTAwODM2MTIxMzc4fFBST0RfUENfMTcxOTQ5ODA1MDA4MzYxMjEzNzgiLCJxdWVyeSI6ImhpbWFsYXlhbitzYWx0K21hc3NhZ2Urc3RvbmVzIiwiZ3BjaWQiOiIxNzE5NDk4MDUwMDgzNjEyMTM3OCIsIm1pZCI6IjU3NjQ2MjUxMTM2MDYzMDg1NSIsInB2dCI6ImhnIiwidXVsZSI6IncrQ0FJUUlDSW1UVzl5Wlc1dklGWmhiR3hsZVN4RFlXeHBabTl5Ym1saExGVnVhWFJsWkNCVGRHRjBaWE0iLCJnbCI6InVzIiwiaGwiOiJlbiJ9",
+                                    "title": "Pure Himalayan Salt Works Heart Massage Stone",
+                                    "rating": {
+                                        "rating_type": "Max5",
+                                        "value": 5,
+                                        "votes_count": 10,
+                                        "rating_max": 5
+                                    },
+                                    "price": 2.99,
+                                    "currency": "USD",
+                                    "tag": null,
+                                    "url": "https:\/\/tngworldwide.com\/massage-stone-heart?utm_source=chatgpt.com",
+                                    "domain": "tngworldwide.com",
+                                    "images": [
+                                        "https:\/\/images.openai.com\/static-rsc-1\/Eq7iw0T86C-PtA3UEQVqI87cvoiSreVskWqo_VJn3cy7qr7y-ynKhT_xQ1xAW6aMy0BrUcG-zNET19MmF2yqxX5jzzuN4_PmS7t2aACucrhhiSLh7iD16HciI0JMTCkAio2dsal5wfkZNDbsWfboN9WtB2FDxBPz-8sLdswsUU7w1V-6ZqfLzjQZzivykEZ6YSnIknH2iIBfTwmIpzIjeau6hLUdjsJwzPAjSW24PlZuxOik1scnlAGnOpzihJmEf4skNxATviAmBQMjmYennw",
+                                        "https:\/\/images.openai.com\/static-rsc-1\/2gtK5jHDyG3rEICrAL31105qoW3kELvIZtf28ztmBWwsUJotyQixjXN_c-InyLVUvIFp9L3l9c896xugHnvZmyxUvGmbiqC-UpiA58xYfVor3GNgbVdaChTa5Zo2-QSYV-djkvdB96oEIATq7tlcFydsN-RaDSgmxoxfJUYhqCHItz7u2VqHn2MbKYisYgiGAmn52ufRVCQyMwzSofLQQQQgKx5Qh0u7P8-_fxOWvxv6sC2kVt4ZtaL5bxAjfDjU",
+                                        "https:\/\/images.openai.com\/static-rsc-1\/C6rRcXmR0CZymG4UaNJqSp05J5XY0cdsd0-595vOZlIkxb5xsMW7yBBogn5LNDTA1m6UENhhHwFGgy4gXGEF3WZ_scRyhHIDosYtjNbvl28h8VIUv_zxefYfoMGTCDTFlM8gYy128SSJT5Xxkse6gXNwt-vsfd6JTDFwXlC74nPD-sKZbgrZlYOkFK0aebiepvkRgh_d0GaPc4LtQkbfb1Y-ZXGVbDTsBt8iIFBgP7g"
+                                    ],
+                                    "product_ids": [
+                                        {
+                                            "type": "chat_gpt_google_shopping_product",
+                                            "ei": "A763ac23GK6ekdUPurb_8A0",
+                                            "product_id": null,
+                                            "catalog_id": "11245814031762349516",
+                                            "gpcid": "17194980500836121378",
+                                            "headline_offer_docid": "17758743964440791943",
+                                            "image_docid": "11435862511896943696",
+                                            "rds": "PC_17194980500836121378|PROD_PC_17194980500836121378",
+                                            "query": "himalayan+salt+massage+stones",
+                                            "mid": "576462511360630855",
+                                            "pvt": "hg",
+                                            "uule": "w+CAIQICImTW9yZW5vIFZhbGxleSxDYWxpZm9ybmlhLFVuaXRlZCBTdGF0ZXM",
+                                            "gl": "us",
+                                            "hl": "en"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "type": "chat_gpt_products_element",
+                                    "product_id": "1117440636017166524",
+                                    "merchants": "Himalayan Salt Company",
+                                    "id_to_token_map": "eyJlaSI6IkE3NjNhYzIzR0s2ZWtkVVB1cmJfOEEwIiwicHJvZHVjdGlkIjoiMTExNzQ0MDYzNjAxNzE2NjUyNCIsImNhdGFsb2dpZCI6IiIsImhlYWRsaW5lT2ZmZXJEb2NpZCI6IjExMTc0NDA2MzYwMTcxNjY1MjQiLCJpbWFnZURvY2lkIjoiMTczNTQ5NTY2MjI5NzU2MTI1NiIsInJkcyI6IiIsInF1ZXJ5IjoiaGltYWxheWFuK3NhbHQrbWFzc2FnZStzdG9uZXMiLCJncGNpZCI6IiIsIm1pZCI6IiIsInB2dCI6ImhnIiwidXVsZSI6IncrQ0FJUUlDSW1UVzl5Wlc1dklGWmhiR3hsZVN4RFlXeHBabTl5Ym1saExGVnVhWFJsWkNCVGRHRjBaWE0iLCJnbCI6InVzIiwiaGwiOiJlbiJ9",
+                                    "title": "Himalayan Salt Massage Stone Warmer with Stones",
+                                    "rating": null,
+                                    "price": 73.95,
+                                    "currency": "USD",
+                                    "tag": null,
+                                    "url": "https:\/\/himalayansaltusa.com\/spa-bath-and-massage-sb-400.html?utm_source=chatgpt.com",
+                                    "domain": "himalayansaltusa.com",
+                                    "images": [
+                                        "https:\/\/himalayansaltusa.com\/image\/data\/product\/14%20Spa,%20bath%20and%20massage\/SB-400.jpg",
+                                        "https:\/\/himalayansaltusa.com\/image\/cache\/data\/2018\/Himalayan%20Salt%20Heart%20Stone%202-600x600.jpg",
+                                        "https:\/\/himalayansaltusa.com\/image\/cache\/data\/2018\/Himalayan%20Salt%20Heart%20Stone-600x600.jpg"
+                                    ],
+                                    "product_ids": [
+                                        {
+                                            "type": "chat_gpt_google_shopping_product",
+                                            "ei": "A763ac23GK6ekdUPurb_8A0",
+                                            "product_id": "1117440636017166524",
+                                            "catalog_id": null,
+                                            "gpcid": null,
+                                            "headline_offer_docid": "1117440636017166524",
+                                            "image_docid": "1735495662297561256",
+                                            "rds": null,
+                                            "query": "himalayan+salt+massage+stones",
+                                            "mid": null,
+                                            "pvt": "hg",
+                                            "uule": "w+CAIQICImTW9yZW5vIFZhbGxleSxDYWxpZm9ybmlhLFVuaXRlZCBTdGF0ZXM",
+                                            "gl": "us",
+                                            "hl": "en"
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "type": "chat_gpt_text",
+                            "rank_group": 4,
+                            "rank_absolute": 7,
+                            "markdown": "\n\n**Why spa lovers use them**\n- Heated stones relax tight muscles  \n- Salt naturally exfoliates skin during massage  \n- Often used in professional spa therapy  \n\nSome can also be cooled to reduce inflammation.   \n\n---\n\n## 4. Himalayan Salt Lamps (Spa Atmosphere)\n",
+                            "sources": null,
+                            "brand_entities": null
+                        },
+                        {
+                            "type": "chat_gpt_products",
+                            "rank_group": 4,
+                            "rank_absolute": 8,
+                            "items": [
+                                {
+                                    "type": "chat_gpt_products_element",
+                                    "product_id": "1250234686361039412",
+                                    "merchants": "Walmart + others",
+                                    "id_to_token_map": "eyJlaSI6IkE3NjNhZGlhQllQX3B0UVBxS2lkZ0F3IiwicHJvZHVjdGlkIjoiIiwiY2F0YWxvZ2lkIjoiMTI1MDIzNDY4NjM2MTAzOTQxMiIsImhlYWRsaW5lT2ZmZXJEb2NpZCI6IjE0MzYxNDU3NDAzMjI5NTQxOTM0IiwiaW1hZ2VEb2NpZCI6IjE1MDg4NzQ0OTEwMTkzOTA5MDY2IiwicmRzIjoiUENfODU1Mjk3Mjg4MjQ3MDQ1OTU3NHxQUk9EX1BDXzg1NTI5NzI4ODI0NzA0NTk1NzQiLCJxdWVyeSI6ImhpbWFsYXlhbitzYWx0K2xhbXAiLCJncGNpZCI6Ijg1NTI5NzI4ODI0NzA0NTk1NzQiLCJtaWQiOiI1NzY0NjI3MDE1MjQyMTg1NTAiLCJwdnQiOiJoZyIsInV1bGUiOiJ3K0NBSVFJQ0ltVFc5eVpXNXZJRlpoYkd4bGVTeERZV3hwWm05eWJtbGhMRlZ1YVhSbFpDQlRkR0YwWlhNIiwiZ2wiOiJ1cyIsImhsIjoiZW4ifQ==",
+                                    "title": "Himalayan Shop Natural Pink Salt Lamp",
+                                    "rating": {
+                                        "rating_type": "Max5",
+                                        "value": 4.3,
+                                        "votes_count": 163,
+                                        "rating_max": 5
+                                    },
+                                    "price": 19.94,
+                                    "currency": "USD",
+                                    "tag": null,
+                                    "url": "https:\/\/www.walmart.com\/ip\/Himalayan-Shop-Natural-Pink-Salt-Lamp-Small-4-5-5-lbs\/649623138?wl13=5193&selectedSellerId=0&wmlspartner=wlpa&utm_source=chatgpt.com",
+                                    "domain": "www.walmart.com",
+                                    "images": [
+                                        "https:\/\/images.openai.com\/static-rsc-1\/NaZuRETTq-K4Eew8cz4VZAVnEsFMWnF-SeZsYiJiSemRQbqF-gLB8TOM2HFBzW0nzEEnbM0wvB59ycXOabZTDYmWGyDgIlm3OfWS-yr3ZVb17_WldrrfMRGKHMU_ZrjGeTHwPDK8Tbgmb1FL4o1j-acSA8h404gpkhl3Z6Az7-I9u0cM6pVt5WY7n48_T76IhQudhmEq-yC0g_eRzBfHj6ozrEwESRIfrhDC1VehwqtBc9YwwcpzVRfA5Cj3g6wbzJjBNPR5XHgqsqrooCHOYA",
+                                        "https:\/\/images.openai.com\/static-rsc-1\/11rEeRgEcDrED9twNulwuZ2SRRmBq8fssMoFtIJUJAKyviB_b7qVL1-P-s_to3rrXgNwxfsnkeAXaaUfOjz-cX8__T3FIt7H1gngvizY1xWAnzbLAaEz4MW522b5-aeS_aD6pLsWwMPGpyFLyvhBl0d4Dldxy3wGc7jUAKC9UWL3KQEX8zGuQd4p5ylOQsmTrGgFfYGO_JjeeOBkRogEKz4En6GxYehn1WgD5Y2-xFNx-_D1HVq1KW8gCIo8LuDbmniUVulrMvfXrb8TDai3lA",
+                                        "https:\/\/images.openai.com\/static-rsc-1\/OdbyIlbSlBaw5SfcuZbSoBzmhbdP3G6Ix28J-joGohnHKWFPkB8RgPooMIOQ5XH47AR6FFn49ddqe6s4PJwZNgjlJUw5vhzqY3_PtkPaCwJwzwnpr_w759EPJ5ZOYe_KxYUBObpxUiSaVB8KQO4fVnQQKMu5A8MShyyIp1TIf2KVs77yVUNPHsEjfqO6Yz4YgsmRv1hZGgDKswboKgtJhP65hbdozKVl95obyns0q-qY_coBWhhpJfVeTVY5LIE7"
+                                    ],
+                                    "product_ids": [
+                                        {
+                                            "type": "chat_gpt_google_shopping_product",
+                                            "ei": "A763adiaBYP_ptQPqKidgAw",
+                                            "product_id": null,
+                                            "catalog_id": "1250234686361039412",
+                                            "gpcid": "8552972882470459574",
+                                            "headline_offer_docid": "14361457403229541934",
+                                            "image_docid": "15088744910193909066",
+                                            "rds": "PC_8552972882470459574|PROD_PC_8552972882470459574",
+                                            "query": "himalayan+salt+lamp",
+                                            "mid": "576462701524218550",
+                                            "pvt": "hg",
+                                            "uule": "w+CAIQICImTW9yZW5vIFZhbGxleSxDYWxpZm9ybmlhLFVuaXRlZCBTdGF0ZXM",
+                                            "gl": "us",
+                                            "hl": "en"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "type": "chat_gpt_products_element",
+                                    "product_id": "17591897950785810982",
+                                    "merchants": "Home Depot + others",
+                                    "id_to_token_map": "eyJlaSI6IkE3NjNhZGlhQllQX3B0UVBxS2lkZ0F3IiwicHJvZHVjdGlkIjoiIiwiY2F0YWxvZ2lkIjoiMTc1OTE4OTc5NTA3ODU4MTA5ODIiLCJoZWFkbGluZU9mZmVyRG9jaWQiOiIxNjIyMDU3NjgxNzc2NjgxMzExNCIsImltYWdlRG9jaWQiOiIxNTY5OTg5MjU5OTY2OTc5NTg1OSIsInJkcyI6IlBDXzc4NDA0Mjg2MDQ3NjUzMDAyODh8UFJPRF9QQ183ODQwNDI4NjA0NzY1MzAwMjg4IiwicXVlcnkiOiJoaW1hbGF5YW4rc2FsdCtsYW1wIiwiZ3BjaWQiOiI3ODQwNDI4NjA0NzY1MzAwMjg4IiwibWlkIjoiNTc2NDYyODUwMTYzNzk0NzUyIiwicHZ0IjoiaGciLCJ1dWxlIjoidytDQUlRSUNJbVRXOXlaVzV2SUZaaGJHeGxlU3hEWVd4cFptOXlibWxoTEZWdWFYUmxaQ0JUZEdGMFpYTSIsImdsIjoidXMiLCJobCI6ImVuIn0=",
+                                    "title": "Himalayan Glow Himalayan Salt Lamp",
+                                    "rating": {
+                                        "rating_type": "Max5",
+                                        "value": 3.2,
+                                        "votes_count": 17,
+                                        "rating_max": 5
+                                    },
+                                    "price": 22.86,
+                                    "currency": "USD",
+                                    "tag": null,
+                                    "url": "https:\/\/www.homedepot.com\/p\/Himalayan-Glow-Himalayan-Salt-Lamp-10-in-Tall-Night-Light-Table-Lamp-with-Dimmer-Switch-4-lbs-to-6-lbs-HD-1001A\/322327152?g_store=1087&source=shoppingads&locale=en-US&fp=ggl&utm_source=chatgpt.com",
+                                    "domain": "www.homedepot.com",
+                                    "images": [
+                                        "https:\/\/images.openai.com\/static-rsc-1\/wrLimL9abnKJ4xYRTcD39EKqObN6dq_rJKpcR-uaOwBavP9gKjzrRZDHwti8ZG2lOehstVmgKbHyJwbie4D4nMvcsf2XzyJ4xwX-g94sGUyYcb4F2H21HaxoPG3RrcKiLa8tG8gji-yFLHxOgzhUdmK52HWPnYAeZdofSPK_U1zustgfQrUZB6tXifp7C8HS5MoxmCk_P4Yl4tMjm_qBtUY_FebFCCZuKDPv8sX1RDooL6Cd6Qha4p4GeMnVQYiF",
+                                        "https:\/\/images.openai.com\/static-rsc-1\/CQn_gzLzqJlM1ivExlLmkA98_SuTxKldW5JoXlBXLOQwnC7F80VSbzSvmr8felnilZbiffnVctMKxQbqrBsPXved0JKz3gyNy2QDMlN26EziJq2mpO_JRyK6Ctaoc_-h9mKWi8XGHm8DIvQyySgXKXompfqLuPbEj-o7QCsMcIx8LkJmmnobH_58H25pVS0IhSplJqOK1yisB7muNc4pGD7V7SMDYffbXYHTxo46aQT6ltbBkHSqID-9mSUdV0lRbLEkKSnoMtKkEWPzaBXw4A",
+                                        "https:\/\/images.openai.com\/static-rsc-1\/A48eEE_j-sh4v7791_2uovRLoc0qOoGFDaJPYyZgAp_Ms6pQGBHSFWYIjSxh5w4e-kXiwz7Had6fc1iTbU0AHRzty3IIQQDFCDch1MD3RAnn7-lYUSXmvbPi-VKb0OzVgV51JI4NO4_A0X5SSJlwfuiGxY-rz-KaFcT8pydZy4pRQmq-4xmZIa7fH5ExiirRXv-Gl8SLkdaTj8BGzvDwfj84Mto0MWz-N5LHhN-XBDin2c1MMS3xaKKH6MjuEqle"
+                                    ],
+                                    "product_ids": [
+                                        {
+                                            "type": "chat_gpt_google_shopping_product",
+                                            "ei": "A763adiaBYP_ptQPqKidgAw",
+                                            "product_id": null,
+                                            "catalog_id": "17591897950785810982",
+                                            "gpcid": "7840428604765300288",
+                                            "headline_offer_docid": "16220576817766813114",
+                                            "image_docid": "15699892599669795859",
+                                            "rds": "PC_7840428604765300288|PROD_PC_7840428604765300288",
+                                            "query": "himalayan+salt+lamp",
+                                            "mid": "576462850163794752",
+                                            "pvt": "hg",
+                                            "uule": "w+CAIQICImTW9yZW5vIFZhbGxleSxDYWxpZm9ybmlhLFVuaXRlZCBTdGF0ZXM",
+                                            "gl": "us",
+                                            "hl": "en"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "type": "chat_gpt_products_element",
+                                    "product_id": "12476061972744098581",
+                                    "merchants": "Artnaturals-store + others",
+                                    "id_to_token_map": "eyJlaSI6IkE3NjNhZGlhQllQX3B0UVBxS2lkZ0F3IiwicHJvZHVjdGlkIjoiIiwiY2F0YWxvZ2lkIjoiMTI0NzYwNjE5NzI3NDQwOTg1ODEiLCJoZWFkbGluZU9mZmVyRG9jaWQiOiIxNDk3NzI1NTk3NDczODgxMzc2NCIsImltYWdlRG9jaWQiOiIxMzkxNTI1MDMwMTg0NzAxNjkwIiwicmRzIjoiUENfNTM4NDIwODU4MjMwMzU0MjQwOXxQUk9EX1BDXzUzODQyMDg1ODIzMDM1NDI0MDkiLCJxdWVyeSI6ImhpbWFsYXlhbitzYWx0K2xhbXAiLCJncGNpZCI6IjUzODQyMDg1ODIzMDM1NDI0MDkiLCJtaWQiOiI1NzY0NjIzNjk3ODc0ODc1NTgiLCJwdnQiOiJoZyIsInV1bGUiOiJ3K0NBSVFJQ0ltVFc5eVpXNXZJRlpoYkd4bGVTeERZV3hwWm05eWJtbGhMRlZ1YVhSbFpDQlRkR0YwWlhNIiwiZ2wiOiJ1cyIsImhsIjoiZW4ifQ==",
+                                    "title": "ArtNaturals Himalayan Rock Salt Lamp",
+                                    "rating": {
+                                        "rating_type": "Max5",
+                                        "value": 4.5,
+                                        "votes_count": 24,
+                                        "rating_max": 5
+                                    },
+                                    "price": 19.95,
+                                    "currency": "USD",
+                                    "tag": null,
+                                    "url": "https:\/\/artnaturals.com\/products\/lamp-himalayan-salt?variant=45070476345563&country=US&currency=USD&utm_source=chatgpt.com",
+                                    "domain": "artnaturals.com",
+                                    "images": [
+                                        "https:\/\/images.openai.com\/static-rsc-1\/cnUUHpvX7OwJwJAf-b3wm4outpWJ8Ka23GTeq7CLrJ0Bd18_cIPXHNF0MxXiqvzU-lAMCYYr3qUIuCQoHE7YWu0lzed4g0FbtJqxBurnW-NNspoYSPrbUQ2WLSeW1JHPPh0DSSqvYM0yJXObiZMi83RZXShkpX_z6l1ApGaMzcQNwOeAoX0tLEkTZfG2VC64PNvkWEMselB1Q5C0xhOUZT3w1DGNcmutV3hmLXOSC3M",
+                                        "https:\/\/images.openai.com\/static-rsc-1\/Hwr-REYblfQdfnniKYQuXo20W_LBGCX6Pi3zaieqVD7bIdu81ZeRCR82spiBHpmEZ6z5mx9qLJMsnvUjP_1ywSrNBCr2JNf-Dn3N3exzCZfKMu1P9HZSJgnCo3YLFwCXugf42Ow9l5IS-DwNbzlUJg-EMLcpbu3E8xd2cFrLq3NX6YQGn9n0RSbgmG0Ime7k4bzVF4JhEF_kLhbUaGuWLRAMgVyL2kPYlA-qVDsLpM-Rpt8QaAupAgkxq6tEfW6yoQUAkQkIzBEBGNuOz1gpFw",
+                                        "https:\/\/images.openai.com\/static-rsc-1\/JWmzReOIxGLb84M5OZy22mVEMguabTftor_7H3ZjdpxD64BWjUpyps4gJzEkQPxm5S8cr44RK7IbCuSjmFCiVX3D9fnkirTmP6J7_kPlqXf5HfwQW-S8ox1PYdEZyKj6eiO3ZhVmkzndeT7uIL4xuxRxYgtNlWc-eFpUk5VuCaTttFLfM2rphoFdFz8WXWGD_6te_FhUKNzOrFHRNiF_nlO9NE98NIEAtE9-PT5fn6Q"
+                                    ],
+                                    "product_ids": [
+                                        {
+                                            "type": "chat_gpt_google_shopping_product",
+                                            "ei": "A763adiaBYP_ptQPqKidgAw",
+                                            "product_id": null,
+                                            "catalog_id": "12476061972744098581",
+                                            "gpcid": "5384208582303542409",
+                                            "headline_offer_docid": "14977255974738813764",
+                                            "image_docid": "1391525030184701690",
+                                            "rds": "PC_5384208582303542409|PROD_PC_5384208582303542409",
+                                            "query": "himalayan+salt+lamp",
+                                            "mid": "576462369787487558",
+                                            "pvt": "hg",
+                                            "uule": "w+CAIQICImTW9yZW5vIFZhbGxleSxDYWxpZm9ybmlhLFVuaXRlZCBTdGF0ZXM",
+                                            "gl": "us",
+                                            "hl": "en"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "type": "chat_gpt_products_element",
+                                    "product_id": "3341022782510304866",
+                                    "merchants": "Home Depot + others",
+                                    "id_to_token_map": "eyJlaSI6IkE3NjNhZGlhQllQX3B0UVBxS2lkZ0F3IiwicHJvZHVjdGlkIjoiIiwiY2F0YWxvZ2lkIjoiMzM0MTAyMjc4MjUxMDMwNDg2NiIsImhlYWRsaW5lT2ZmZXJEb2NpZCI6IjEzNDY4NjA5MTkyODA0NDUzMzgxIiwiaW1hZ2VEb2NpZCI6IjE1MDk2NDI4ODE2NDk2NjYxNDE1IiwicmRzIjoiUENfMTgxMDEyMjU2MzgwMTUxMzk0NDN8UFJPRF9QQ18xODEwMTIyNTYzODAxNTEzOTQ0MyIsInF1ZXJ5IjoiaGltYWxheWFuK3NhbHQrbGFtcCIsImdwY2lkIjoiMTgxMDEyMjU2MzgwMTUxMzk0NDMiLCJtaWQiOiI1NzY0NjI0NjAwMDQ1NDE5NDUiLCJwdnQiOiJoZyIsInV1bGUiOiJ3K0NBSVFJQ0ltVFc5eVpXNXZJRlpoYkd4bGVTeERZV3hwWm05eWJtbGhMRlZ1YVhSbFpDQlRkR0YwWlhNIiwiZ2wiOiJ1cyIsImhsIjoiZW4ifQ==",
+                                    "title": "Himalayan Glow Ionic Natural Salt Lamp",
+                                    "rating": {
+                                        "rating_type": "Max5",
+                                        "value": 4.5,
+                                        "votes_count": 1100,
+                                        "rating_max": 5
+                                    },
+                                    "price": 29.97,
+                                    "currency": "USD",
+                                    "tag": null,
+                                    "url": null,
+                                    "domain": null,
+                                    "images": [
+                                        "https:\/\/images.openai.com\/thumbnails\/url\/lKY6aHicDcltDoIgAADQE5mGc4VbazrNCufXKu1XKyG0IaBgyw7VfbpNvb_v-2m0lso1TcLrYZKaYEPfuD2jSl91W89q0ZmqEVK2nK771f9cL8Ewqgvw7EB-YcZ-Km0RnpyyOeNgI8fUGwCELwkq1KbOQFh3XCzvMSbl9l16h43FkmYXvwV4-IHepQOvPB-FUzLP9UgMEGFuBFaPtghmlBRRscwstrhRdbgkAv0A8UE85A"
+                                    ],
+                                    "product_ids": [
+                                        {
+                                            "type": "chat_gpt_google_shopping_product",
+                                            "ei": "A763adiaBYP_ptQPqKidgAw",
+                                            "product_id": null,
+                                            "catalog_id": "3341022782510304866",
+                                            "gpcid": "18101225638015139443",
+                                            "headline_offer_docid": "13468609192804453381",
+                                            "image_docid": "15096428816496661415",
+                                            "rds": "PC_18101225638015139443|PROD_PC_18101225638015139443",
+                                            "query": "himalayan+salt+lamp",
+                                            "mid": "576462460004541945",
+                                            "pvt": "hg",
+                                            "uule": "w+CAIQICImTW9yZW5vIFZhbGxleSxDYWxpZm9ybmlhLFVuaXRlZCBTdGF0ZXM",
+                                            "gl": "us",
+                                            "hl": "en"
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "type": "chat_gpt_text",
+                            "rank_group": 5,
+                            "rank_absolute": 9,
+                            "markdown": "\n\n**Why they’re popular**\n- Warm ambient glow for relaxation  \n- Often used in yoga or meditation rooms  \n- Creates calming spa-like lighting  \n\nSome people believe salt lamps may improve air quality and mood, though the main benefit is the **calming atmosphere** they create.   \n\n---\n\n✅ **Simple Home Spa Setup (3 items):**\n- Himalayan **bath soak**  \n- Himalayan **body scrub**  \n- Himalayan **salt lamp + candle**\n\nThis combination gives you **full spa vibes at home for under $40–$60**.\n\n---\n\n💡 If you want, I can also show you:  \n- **The best luxury Himalayan spa kits (complete sets)**  \n- **DIY Himalayan salt spa recipes** (bath soak, foot soak, scrub)  \n- **Top Himalayan salt decor items for a spa bathroom**.",
+                            "sources": null,
+                            "brand_entities": null
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}
