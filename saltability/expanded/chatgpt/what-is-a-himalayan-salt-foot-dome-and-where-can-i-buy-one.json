@@ -1,0 +1,67 @@
+{
+    "version": "0.1.20260311",
+    "status_code": 20000,
+    "status_message": "Ok.",
+    "time": "76.1366 sec.",
+    "cost": 0.004,
+    "tasks_count": 1,
+    "tasks_error": 0,
+    "tasks": [
+        {
+            "id": "03161311-4353-0629-0000-59ecd6e434ba",
+            "status_code": 20000,
+            "status_message": "Ok.",
+            "time": "76.0840 sec.",
+            "cost": 0.004,
+            "result_count": 1,
+            "path": [
+                "v3",
+                "ai_optimization",
+                "chat_gpt",
+                "llm_scraper",
+                "live",
+                "advanced"
+            ],
+            "data": {
+                "api": "ai_optimization",
+                "function": "llm_scraper",
+                "se": "chat_gpt",
+                "keyword": "What is a himalayan salt foot dome and where can I buy one",
+                "language_code": "en",
+                "location_name": "United States",
+                "device": "desktop",
+                "os": "windows"
+            },
+            "result": [
+                {
+                    "keyword": "What is a himalayan salt foot dome and where can I buy one",
+                    "location_code": 2840,
+                    "language_code": "en",
+                    "model": "gpt-5-3",
+                    "check_url": "https:\/\/chatgpt.com\/?prompt=What%20is%20a%20himalayan%20salt%20foot%20dome%20and%20where%20can%20I%20buy%20one",
+                    "datetime": "2026-03-16 11:12:41 +00:00",
+                    "markdown": "A **Himalayan salt foot dome** is a wellness device made primarily from Himalayan salt crystals, shaped into a dome or semi-sphere. It is designed to be used as a **foot massager or relaxation tool**, and it often claims to offer **health benefits** such as:  \n\n- **Relaxation and stress relief**: The dome’s texture can gently massage the feet, stimulating pressure points.  \n- **Negative ions**: Some believe Himalayan salt releases negative ions when warmed, which can improve mood and air quality, though scientific evidence is limited.  \n- **Detoxification**: Some claims suggest it can help draw toxins out through the feet, but these claims are largely anecdotal.  \n- **Aesthetic and ambiance**: The salt often glows when a light is inside or behind it, adding a calming visual effect.  \n\n### How it’s used:\n- Simply **stand, press, or roll your feet** over the dome for a few minutes daily.  \n- Some versions can be gently **warmed** to enhance the experience.  \n\n### Where to buy one:\n1. **Online marketplaces** – Amazon, Etsy, and eBay often have Himalayan salt foot domes or foot massagers made with salt crystals.  \n2. **Wellness stores** – Shops specializing in holistic wellness, yoga accessories, or Himalayan salt lamps may carry them.  \n3. **Specialty stores** – Certain stores selling spa or massage products may stock them.  \n\nWhen buying, make sure it’s **authentic Himalayan salt** (usually pink\/orange crystals) and check **weight and size**—too small may not be effective, too rough may hurt sensitive feet.  \n\nIf you want, I can **find some current options online with links** for purchase. Do you want me to do that?",
+                    "search_results": null,
+                    "sources": null,
+                    "fan_out_queries": null,
+                    "brand_entities": null,
+                    "se_results_count": 0,
+                    "item_types": [
+                        "chat_gpt_text"
+                    ],
+                    "items_count": 1,
+                    "items": [
+                        {
+                            "type": "chat_gpt_text",
+                            "rank_group": 1,
+                            "rank_absolute": 1,
+                            "markdown": "A **Himalayan salt foot dome** is a wellness device made primarily from Himalayan salt crystals, shaped into a dome or semi-sphere. It is designed to be used as a **foot massager or relaxation tool**, and it often claims to offer **health benefits** such as:  \n\n- **Relaxation and stress relief**: The dome’s texture can gently massage the feet, stimulating pressure points.  \n- **Negative ions**: Some believe Himalayan salt releases negative ions when warmed, which can improve mood and air quality, though scientific evidence is limited.  \n- **Detoxification**: Some claims suggest it can help draw toxins out through the feet, but these claims are largely anecdotal.  \n- **Aesthetic and ambiance**: The salt often glows when a light is inside or behind it, adding a calming visual effect.  \n\n### How it’s used:\n- Simply **stand, press, or roll your feet** over the dome for a few minutes daily.  \n- Some versions can be gently **warmed** to enhance the experience.  \n\n### Where to buy one:\n1. **Online marketplaces** – Amazon, Etsy, and eBay often have Himalayan salt foot domes or foot massagers made with salt crystals.  \n2. **Wellness stores** – Shops specializing in holistic wellness, yoga accessories, or Himalayan salt lamps may carry them.  \n3. **Specialty stores** – Certain stores selling spa or massage products may stock them.  \n\nWhen buying, make sure it’s **authentic Himalayan salt** (usually pink\/orange crystals) and check **weight and size**—too small may not be effective, too rough may hurt sensitive feet.  \n\nIf you want, I can **find some current options online with links** for purchase. Do you want me to do that?",
+                            "sources": null,
+                            "brand_entities": null
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}
