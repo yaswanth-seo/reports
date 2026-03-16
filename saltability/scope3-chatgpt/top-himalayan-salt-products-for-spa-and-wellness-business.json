@@ -1,0 +1,67 @@
+{
+    "version": "0.1.20260311",
+    "status_code": 20000,
+    "status_message": "Ok.",
+    "time": "102.1618 sec.",
+    "cost": 0.004,
+    "tasks_count": 1,
+    "tasks_error": 0,
+    "tasks": [
+        {
+            "id": "03161015-4353-0629-0000-f931a4ae2800",
+            "status_code": 20000,
+            "status_message": "Ok.",
+            "time": "102.1036 sec.",
+            "cost": 0.004,
+            "result_count": 1,
+            "path": [
+                "v3",
+                "ai_optimization",
+                "chat_gpt",
+                "llm_scraper",
+                "live",
+                "advanced"
+            ],
+            "data": {
+                "api": "ai_optimization",
+                "function": "llm_scraper",
+                "se": "chat_gpt",
+                "keyword": "Top himalayan salt products for spa and wellness business",
+                "language_code": "en",
+                "location_name": "United States",
+                "device": "desktop",
+                "os": "windows"
+            },
+            "result": [
+                {
+                    "keyword": "Top himalayan salt products for spa and wellness business",
+                    "location_code": 2840,
+                    "language_code": "en",
+                    "model": "gpt-5-3",
+                    "check_url": "https:\/\/chatgpt.com\/?prompt=Top%20himalayan%20salt%20products%20for%20spa%20and%20wellness%20business",
+                    "datetime": "2026-03-16 08:17:21 +00:00",
+                    "markdown": "Absolutely! Himalayan salt is widely valued in the spa and wellness industry for its therapeutic, aesthetic, and aromatherapy benefits. Here’s a detailed breakdown of top Himalayan salt products you can consider for a spa or wellness business, organized by category:  \n\n---\n\n### **1. Himalayan Salt Lamps**\n- **Uses:** Air purification, mood enhancement, relaxation, ambient lighting.\n- **Popular Types:**\n  - Raw, natural crystal lamps.\n  - Sculpted shapes (e.g., spheres, pyramids, animals).\n  - LED salt lamps (for safer, longer-lasting use in spa environments).  \n- **Tip:** Use in massage rooms, meditation areas, or reception to create a calming atmosphere.\n\n---\n\n### **2. Himalayan Salt Blocks & Plates**\n- **Uses:** Heat or cold therapy, massage, or culinary presentations in wellness cafés.\n- **Popular Types:**\n  - Heated salt blocks for hot stone massages.\n  - Chilled salt blocks for cold therapy massages or facial treatments.  \n- **Benefits:** Helps relax muscles, promotes circulation, may reduce inflammation.\n\n---\n\n### **3. Himalayan Salt Scrubs**\n- **Uses:** Exfoliation, skin detox, and revitalization.\n- **Popular Variants:**\n  - Mixed with essential oils (lavender, eucalyptus, rosemary).\n  - Blended with carrier oils like coconut, jojoba, or almond oil.\n- **Tip:** Offer as a body scrub treatment or retail product for at-home spa experiences.\n\n---\n\n### **4. Himalayan Salt Bath Products**\n- **Uses:** Detox baths, stress relief, skin softening.\n- **Popular Forms:**\n  - Fine-grain bath salts for soaking.\n  - Bath salts with added essential oils (calming or energizing blends).  \n- **Tip:** Offer customizable bath blends as a premium wellness experience.\n\n---\n\n### **5. Himalayan Salt Stones & Massage Tools**\n- **Uses:** Massage therapy, relaxation, facial treatments.\n- **Popular Types:**\n  - Massage stones (heated or at room temperature).\n  - Salt wands or rollers for facial rejuvenation.\n- **Benefits:** Promotes relaxation, may improve circulation and skin tone.\n\n---\n\n### **6. Himalayan Salt Inhalers & Salt Therapy Products**\n- **Uses:** Respiratory wellness, sinus relief, air purification.\n- **Popular Options:**\n  - Personal salt inhalers.\n  - Mini salt caves or wall installations in spa rooms for halotherapy.\n- **Tip:** Salt rooms are a premium spa offering that can attract wellness-focused clients.\n\n---\n\n### **7. Himalayan Salt Candles & Decor**\n- **Uses:** Mood lighting, aromatherapy, aesthetic enhancement.\n- **Popular Options:**\n  - Candle holders made of Himalayan salt.\n  - Tealight or votive sets for treatment rooms.\n- **Tip:** Perfect for creating a calming, luxurious spa ambiance.\n\n---\n\n### **8. Himalayan Salt Blocks for Food & Wellness Cafés**\n- **Uses:** Serving mineral-rich foods, detox drinks, and healthy snacks.\n- **Tip:** Combine wellness experiences with nutrition; hot stone plates can double as facial or massage therapy tools if properly sanitized.\n\n---\n\n### **Top Selling Product Qualities to Look For**\n- Authentic, food-grade Himalayan salt (pink or reddish hues).\n- Ethically sourced from Pakistan’s Khewra salt mines.\n- Free from artificial colors or additives.\n- Well-packaged for hygiene and presentation.\n\n---\n\n💡 **Business Tip:** Many spas combine multiple Himalayan salt products—like lamps, scrubs, and bath salts—to create a branded “Himalayan Wellness” treatment package. This approach increases perceived value and boosts retail sales.  \n\n---\n\nIf you want, I can make a **ready-to-use list of top 15 Himalayan salt products specifically tailored for a spa menu**, including price ranges and potential retail markup. That would save you a ton of research. Do you want me to do that?",
+                    "search_results": null,
+                    "sources": null,
+                    "fan_out_queries": null,
+                    "brand_entities": null,
+                    "se_results_count": 0,
+                    "item_types": [
+                        "chat_gpt_text"
+                    ],
+                    "items_count": 1,
+                    "items": [
+                        {
+                            "type": "chat_gpt_text",
+                            "rank_group": 1,
+                            "rank_absolute": 1,
+                            "markdown": "Absolutely! Himalayan salt is widely valued in the spa and wellness industry for its therapeutic, aesthetic, and aromatherapy benefits. Here’s a detailed breakdown of top Himalayan salt products you can consider for a spa or wellness business, organized by category:  \n\n---\n\n### **1. Himalayan Salt Lamps**\n- **Uses:** Air purification, mood enhancement, relaxation, ambient lighting.\n- **Popular Types:**\n  - Raw, natural crystal lamps.\n  - Sculpted shapes (e.g., spheres, pyramids, animals).\n  - LED salt lamps (for safer, longer-lasting use in spa environments).  \n- **Tip:** Use in massage rooms, meditation areas, or reception to create a calming atmosphere.\n\n---\n\n### **2. Himalayan Salt Blocks & Plates**\n- **Uses:** Heat or cold therapy, massage, or culinary presentations in wellness cafés.\n- **Popular Types:**\n  - Heated salt blocks for hot stone massages.\n  - Chilled salt blocks for cold therapy massages or facial treatments.  \n- **Benefits:** Helps relax muscles, promotes circulation, may reduce inflammation.\n\n---\n\n### **3. Himalayan Salt Scrubs**\n- **Uses:** Exfoliation, skin detox, and revitalization.\n- **Popular Variants:**\n  - Mixed with essential oils (lavender, eucalyptus, rosemary).\n  - Blended with carrier oils like coconut, jojoba, or almond oil.\n- **Tip:** Offer as a body scrub treatment or retail product for at-home spa experiences.\n\n---\n\n### **4. Himalayan Salt Bath Products**\n- **Uses:** Detox baths, stress relief, skin softening.\n- **Popular Forms:**\n  - Fine-grain bath salts for soaking.\n  - Bath salts with added essential oils (calming or energizing blends).  \n- **Tip:** Offer customizable bath blends as a premium wellness experience.\n\n---\n\n### **5. Himalayan Salt Stones & Massage Tools**\n- **Uses:** Massage therapy, relaxation, facial treatments.\n- **Popular Types:**\n  - Massage stones (heated or at room temperature).\n  - Salt wands or rollers for facial rejuvenation.\n- **Benefits:** Promotes relaxation, may improve circulation and skin tone.\n\n---\n\n### **6. Himalayan Salt Inhalers & Salt Therapy Products**\n- **Uses:** Respiratory wellness, sinus relief, air purification.\n- **Popular Options:**\n  - Personal salt inhalers.\n  - Mini salt caves or wall installations in spa rooms for halotherapy.\n- **Tip:** Salt rooms are a premium spa offering that can attract wellness-focused clients.\n\n---\n\n### **7. Himalayan Salt Candles & Decor**\n- **Uses:** Mood lighting, aromatherapy, aesthetic enhancement.\n- **Popular Options:**\n  - Candle holders made of Himalayan salt.\n  - Tealight or votive sets for treatment rooms.\n- **Tip:** Perfect for creating a calming, luxurious spa ambiance.\n\n---\n\n### **8. Himalayan Salt Blocks for Food & Wellness Cafés**\n- **Uses:** Serving mineral-rich foods, detox drinks, and healthy snacks.\n- **Tip:** Combine wellness experiences with nutrition; hot stone plates can double as facial or massage therapy tools if properly sanitized.\n\n---\n\n### **Top Selling Product Qualities to Look For**\n- Authentic, food-grade Himalayan salt (pink or reddish hues).\n- Ethically sourced from Pakistan’s Khewra salt mines.\n- Free from artificial colors or additives.\n- Well-packaged for hygiene and presentation.\n\n---\n\n💡 **Business Tip:** Many spas combine multiple Himalayan salt products—like lamps, scrubs, and bath salts—to create a branded “Himalayan Wellness” treatment package. This approach increases perceived value and boosts retail sales.  \n\n---\n\nIf you want, I can make a **ready-to-use list of top 15 Himalayan salt products specifically tailored for a spa menu**, including price ranges and potential retail markup. That would save you a ton of research. Do you want me to do that?",
+                            "sources": null,
+                            "brand_entities": null
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}
