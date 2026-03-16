@@ -1,0 +1,743 @@
+{
+    "version": "0.1.20260311",
+    "status_code": 20000,
+    "status_message": "Ok.",
+    "time": "23.0943 sec.",
+    "cost": 0.004,
+    "tasks_count": 1,
+    "tasks_error": 0,
+    "tasks": [
+        {
+            "id": "03161013-4353-0629-0000-7a1e93bdee92",
+            "status_code": 20000,
+            "status_message": "Ok.",
+            "time": "23.0423 sec.",
+            "cost": 0.004,
+            "result_count": 1,
+            "path": [
+                "v3",
+                "ai_optimization",
+                "chat_gpt",
+                "llm_scraper",
+                "live",
+                "advanced"
+            ],
+            "data": {
+                "api": "ai_optimization",
+                "function": "llm_scraper",
+                "se": "chat_gpt",
+                "keyword": "What are the best himalayan salt massage stones I can buy online",
+                "language_code": "en",
+                "location_name": "United States",
+                "device": "desktop",
+                "os": "windows"
+            },
+            "result": [
+                {
+                    "keyword": "What are the best himalayan salt massage stones I can buy online",
+                    "location_code": 2840,
+                    "language_code": "en",
+                    "model": "gpt-5-3",
+                    "check_url": "https:\/\/chatgpt.com\/?prompt=What%20are%20the%20best%20himalayan%20salt%20massage%20stones%20I%20can%20buy%20online",
+                    "datetime": "2026-03-16 08:13:22 +00:00",
+                    "markdown": "Here are some of the **best Himalayan salt massage stones you can buy online**, ranging from affordable home-use stones to professional spa-quality kits.\n\n---\n\n# Best Himalayan Salt Massage Stones (Online)\n\n## Budget \/ Personal Use\n### [SereneLife Heart‑Shaped Salt Massage Stones Set](https:\/\/serenelifehome.com\/products\/accpslmsgst100?variant=47447737336098&country=US&currency=USD&utm_source=chatgpt.com)\n*$25.59*\n\n### [Himalayan Secrets Tear Drop Salt Stones (Set of 3)](https:\/\/himalayansecrets.com\/products\/tear-drop-shaped-stone-jar?variant=28001790328925&country=US&currency=USD&utm_source=chatgpt.com)\n*$17.95*\n\n### [Saltability Himalayan Salt Stone Starter Kit](https:\/\/www.saltability.com\/products\/himalayan-salt-stone-starter-kit-for-massage?variant=31744576651362&country=US&currency=USD&utm_source=chatgpt.com)\n*$28.95*\n\n### [Himalayan Salt Massage Hearts (Set of 4)](https:\/\/qnahimalayansalt.com\/products\/himalayan-salt-massage-hearts-set-of-4?pr_prod_strat=e5_desc&pr_rec_id=81fed650a&pr_rec_pid=5317830049951&pr_ref_pid=5317824741535&pr_seq=uniform&utm_source=chatgpt.com)\n*$24.99*\n\n**Why these are good**\n- Affordable ($18–$40 range)\n- Great for **neck, shoulders, feet, or self-massage**\n- Easy to heat in warm water or a towel warmer\n\n**Top pick:**  \n- **SereneLife Heart-Shaped Set** – ergonomic shape for palm grip and targeted pressure.\n\n---\n\n## Best Mid-Range Sets (Spa-Quality Stones)\n### [Himalayan Salt Massage Stones Set of 6](https:\/\/www.massagestore.com\/products\/himalayan-salt-massage-stones-set-of-5?variant=40277611806743&utm_source=chatgpt.com)\n*$42.00*\n\n### [Saltability Himalayan Salt Stone Set (6 pieces)]()\n*$59.95*\n\n### [Saltability Himalayan Salt Stone Set (12 pieces)]()\n*$92.40*\n\n### [Himalayan Secrets Tear Drop Himalayan Salt Stones Set of 12](https:\/\/himalayansecrets.com\/products\/tear-drop-stone-pack-of-12?variant=36861977591976&country=US&currency=USD&utm_source=chatgpt.com)\n*$59.95*\n\n**Why these are better**\n- Multiple shapes (oval, round, teardrop)\n- **More stones for full-body massage**\n- Better polishing and durability\n\n**Top pick:**  \n- **Saltability 12-Piece Set** — widely used by massage therapists.\n\n---\n\n## Professional Spa \/ Full Kits\n### [VULSINI Hot Himalayan Salt Stone Massage Bundle](https:\/\/vulsini.com\/products\/vulsini-hot-himalayan-salt-stone-massage-bundle?variant=55101259153781&utm_source=chatgpt.com)\n*$254.17*\n\n### [Saltability Mobile Himalayan Salt Stone Massage Set (15 stones)](https:\/\/www.universalcompanies.com\/products\/himalayan-salt-stone-mobile-massage-set-15-stones-by-saltability?variant=33053745709113&utm_source=chatgpt.com)\n*$328.89*\n\n### [Saltability Stone Warmer with 18 Massage Stones](https:\/\/www.massagewarehouse.com\/products\/saltability-himalayan-salt-massage-stone-warmer\/?utm_source=chatgpt.com)\n*$665.00*\n\n### [Himalayan Salt Stone Warming Bowl with 6 Stones](https:\/\/himalayansecrets.com\/products\/himalayan-spa-6-massage-stone-warming-bowl?variant=27944594735197&country=US&currency=USD&utm_source=chatgpt.com)\n*$39.95*\n\n**Best for**\n- Massage therapists  \n- Home spa setups  \n- Heated stone treatments\n\nThese kits include:\n- multiple stones\n- heating bags or warmers\n- cold stones or accessories\n\n---\n\n✅ **Why people use Himalayan salt massage stones**\n\n- Contain **84 trace minerals** naturally found in Himalayan pink salt. [www.lakeviewmassageandtherapy.com](https:\/\/www.lakeviewmassageandtherapy.com\/massages-and-therapies\/himalayan-salt-stone-massage?utm_source=chatgpt.com)  \n- Heated stones help **relax muscles, improve circulation, and exfoliate skin** during massage. [www.lakeviewmassageandtherapy.com](https:\/\/www.lakeviewmassageandtherapy.com\/massages-and-therapies\/himalayan-salt-stone-massage?utm_source=chatgpt.com)  \n- Many therapists say they hold heat longer than traditional basalt stones.\n\n---\n\n💡 **Quick buying tips**\n- **For self-massage:** get **2–4 heart or oval stones**\n- **For couples massage:** get **6–12 stone sets**\n- **For professional use:** get **15+ stones + warmer**\n- Choose **hand-carved stones** (smoother and less likely to scratch skin)\n\n---\n\n✅ **My top 3 recommendations overall**\n1. **Saltability 12-Piece Himalayan Salt Stone Set** – best overall  \n2. **SereneLife Heart-Shaped Stones** – best budget option  \n3. **VULSINI Hot Salt Stone Bundle** – best full spa kit\n\n---\n\n💬 If you want, I can also show you:  \n- **The 5 highest-rated Himalayan salt stone sets on Amazon** (best reviews).  \n- **Which stones professional massage therapists usually buy** (they use different shapes).",
+                    "search_results": [
+                        {
+                            "type": "chatgpt_search_result",
+                            "url": "https:\/\/www.massagewarehouse.com\/products\/himalayan-massage-salt-stones\/?utm_source=chatgpt.com",
+                            "domain": "www.massagewarehouse.com",
+                            "title": "Harmony Salt Himalayan Massage Salt Stones Massage stones",
+                            "description": "HARMONY SALT HIMALAYAN MASSAGE SALT STONES - MASSAGE STONES *VARIOUS SIZES AND SHAPES  Rating: 89 % of 100  8 Reviews  Item  281 0201  $81.97 - $250.00  [Input] [Input] [Input] [Input]  Qty  Minus  [...",
+                            "breadcrumb": "massagewarehouse.com"
+                        },
+                        {
+                            "type": "chatgpt_search_result",
+                            "url": "https:\/\/www.massagewarehouse.com\/products\/himalayan-salt-massage-stones-hearts-set\/6\/?utm_source=chatgpt.com",
+                            "domain": "www.massagewarehouse.com",
+                            "title": "Harmony Salt Himalayan Massage Salt Stones - Heart Shape",
+                            "description": "HARMONY SALT HIMALAYAN MASSAGE SALT STONE HEARTS SET OF 6  Brand Name: Harmony Salt  Rating: 100 % of 100  3 Reviews  Item  281 0202  $79.97  In stock  [Input] [Input] [Input] [Input]  Qty  Minus  [I...",
+                            "breadcrumb": "massagewarehouse.com"
+                        },
+                        {
+                            "type": "chatgpt_search_result",
+                            "url": "https:\/\/www.massagewarehouse.com\/products\/saltability-himalayan-salt-massage-stones\/?utm_source=chatgpt.com",
+                            "domain": "www.massagewarehouse.com",
+                            "title": "Saltability Himalayan Salt Massage Stones for Sale | Salt Stones",
+                            "description": "How to Use the Himalayan Salt Stones at Home  Saltability Deep Tissue Himalayan Salt Stone Massage  How to clean Himalayan Salt Massage Stones  Skip to the beginning of the images gallery   SALTABILI...",
+                            "breadcrumb": "massagewarehouse.com"
+                        },
+                        {
+                            "type": "chatgpt_search_result",
+                            "url": "https:\/\/elementsmassage.com\/himalayan-salt-stones?utm_source=chatgpt.com",
+                            "domain": "elementsmassage.com",
+                            "title": "Himalayan Salt Stone Massage | Elements Massage",
+                            "description": "HIMALAYAN SALT STONE MASSAGE  Each session at Elements Massage is designed to relax the body and provide therapeutic benefits. Did you know — we also offer add-on treatments to supercharge your massa...",
+                            "breadcrumb": "elementsmassage.com"
+                        },
+                        {
+                            "type": "chatgpt_search_result",
+                            "url": "https:\/\/www.massagestore.com\/products\/himalayan-salt-massage-stones-set-of-5?utm_source=chatgpt.com",
+                            "domain": "www.massagestore.com",
+                            "title": "Himalayan Salt Massage Stones - Set of 6",
+                            "description": "Image: Himalayan Salt Massage Stones - Set of 5 - Spa & Bodywork Market  Image: Himalayan Salt Massage Stones - Set of 6  Roll over image to zoom in Click on image to zoom  \/  [Input][Input]  HIMALAY...",
+                            "breadcrumb": "massagestore.com"
+                        },
+                        {
+                            "type": "chatgpt_search_result",
+                            "url": "https:\/\/himalayansaltusa.com\/spa-bath-and-massage-sb-401.html?utm_source=chatgpt.com",
+                            "domain": "himalayansaltusa.com",
+                            "title": "Himalayan Salt Massage stone Oval 5 units",
+                            "description": "Image: Himalayan Salt Massage stone Oval 5 units  HIMALAYAN SALT MASSAGE STONE OVAL 5 UNITS  Price: $25.95  A cross between a hot stone massage, a salt glow, and a mineral infusion! Just heat these a...",
+                            "breadcrumb": "himalayansaltusa.com"
+                        },
+                        {
+                            "type": "chatgpt_search_result",
+                            "url": "https:\/\/www.massagecouncil.com\/benefits-of-himalayan-salt-stone-massage\/?utm_source=chatgpt.com",
+                            "domain": "www.massagecouncil.com",
+                            "title": "Benefits Of Himalayan Salt Stone Massage - American Massage Council",
+                            "description": "BENEFITS OF HIMALAYAN SALT STONE MASSAGE  BENEFITS OF HIMALAYAN SALT STONE MASSAGE  Image: Benefits Of Himalayan Salt Stone Massage  * February 26, 2022 * Massage Council  What is Himalayan salt mass...",
+                            "breadcrumb": "massagecouncil.com"
+                        },
+                        {
+                            "type": "chatgpt_search_result",
+                            "url": "https:\/\/www.massageforwell-being.com\/massage-articles\/exploring-the-top-benefits-of-a-salt-stone-massage?utm_source=chatgpt.com",
+                            "domain": "www.massageforwell-being.com",
+                            "title": "Exploring the Top Benefits of a Salt Stone Massage in 2025 | Ripon WI Massage Therapy",
+                            "description": "EXPLORING THE TOP BENEFITS OF A SALT STONE MASSAGE IN 2025  * Silvio Bonomi * Jun 2 * 11 min read  Updated: Jul 12  TABLE OF CONTENTS  * What Is Salt Stone Massage and How It Works * 1. Deep Muscle R...",
+                            "breadcrumb": "massageforwell-being.com"
+                        },
+                        {
+                            "type": "chatgpt_search_result",
+                            "url": "https:\/\/www.massageforwell-being.com\/massage-articles\/himalayan-salt-stone-massage-stones-benefits-and?utm_source=chatgpt.com",
+                            "domain": "www.massageforwell-being.com",
+                            "title": "Himalayan Salt Stone Massage Stones: Benefits and What to Expect | Ripon WI Massage Therapy",
+                            "description": "HIMALAYAN SALT STONE MASSAGE STONES: BENEFITS AND WHAT TO EXPECT  * Silvio Bonomi * Jun 6, 2025 * 10 min read  Updated: Jun 22, 2025  TABLE OF CONTENTS  * What Is Himalayan Salt Stone Massage * How H...",
+                            "breadcrumb": "massageforwell-being.com"
+                        },
+                        {
+                            "type": "chatgpt_search_result",
+                            "url": "https:\/\/www.massageforwell-being.com\/massage-articles\/5-essential-benefits-of-himalayan-salt-stone-massa?utm_source=chatgpt.com",
+                            "domain": "www.massageforwell-being.com",
+                            "title": "5 Essential Benefits of Himalayan Salt Stone Massage You Should Know | Ripon WI Massage Therapy",
+                            "description": "5 ESSENTIAL BENEFITS OF HIMALAYAN SALT STONE MASSAGE YOU SHOULD KNOW  * Silvio Bonomi * May 28 * 6 min read  Updated: Jul 12  TABLE OF CONTENTS  * Detoxification and Skin Rejuvenation with Himalayan...",
+                            "breadcrumb": "massageforwell-being.com"
+                        },
+                        {
+                            "type": "chatgpt_search_result",
+                            "url": "https:\/\/www.naturedayspaok.com\/news\/the-5-benefits-of-himalayan-salt-stone-massage?utm_source=chatgpt.com",
+                            "domain": "www.naturedayspaok.com",
+                            "title": "The 5 Benefits of Himalayan Salt Stone Massage — Nature Day Spa",
+                            "description": "THE 5 BENEFITS OF HIMALAYAN SALT STONE MASSAGE  Massage TherapyTips & Advice  Nov 15  Written By Emily Strickler  There’s nothing quite like a good massage — but a massage with Himalayan Salt Stones...",
+                            "breadcrumb": "naturedayspaok.com"
+                        },
+                        {
+                            "type": "chatgpt_search_result",
+                            "url": "https:\/\/www.thewinchesterinstitute.com\/chiropractor-dublin-ohio\/wellness-blog\/top-10-benefits-of-a-himalayan-salt-stone-massage?utm_source=chatgpt.com",
+                            "domain": "www.thewinchesterinstitute.com",
+                            "title": "Top 10 Benefits of a Himalayan Salt Stone Massage — The Winchester Institute | Dublin Ohio",
+                            "description": "TOP 10 BENEFITS OF A HIMALAYAN SALT STONE MASSAGE  Sep 6  Written By Dana Winchester  Author: Dr. Mike Suplicki  TOP 10 BENEFITS OF A HIMALAYAN SALT STONE MASSAGE  Himalayan salt stone massages are b...",
+                            "breadcrumb": "thewinchesterinstitute.com"
+                        },
+                        {
+                            "type": "chatgpt_search_result",
+                            "url": "https:\/\/massagemercantile.com\/products\/himalayan-salt-stones-set-of-6?utm_source=chatgpt.com",
+                            "domain": "massagemercantile.com",
+                            "title": "Himalayan Salt Massage Stones - Soap Bar – Massage Mercantile",
+                            "description": "HIMALAYAN SALT MASSAGE STONES - SOAP BAR  $12.00  [Select]  Quantity [Input] [Input]  [Input][Input]  [Input]  Pure Himalayan Salt Stones for an enhanced Massage Therapy experience.  Thanks to the ex...",
+                            "breadcrumb": "massagemercantile.com"
+                        },
+                        {
+                            "type": "chatgpt_search_result",
+                            "url": "https:\/\/qnahimalayansalt.com\/products\/himalayan-salt-massage-stone-set-of-4?utm_source=chatgpt.com",
+                            "domain": "qnahimalayansalt.com",
+                            "title": "Himalayan Salt Massage Stone (Set of 4) – Q & A Himalayan Salt",
+                            "description": "* Image: Himalayan Salt Massage Stone  Image: Himalayan Salt Massage Stone  * Image: Q&A Himalayan Salt Massage Stones - Q & A Himalayan Salt - 2  Image: Q&A Himalayan Salt Massage Stones - Q & A Him...",
+                            "breadcrumb": "qnahimalayansalt.com"
+                        },
+                        {
+                            "type": "chatgpt_search_result",
+                            "url": "https:\/\/superbsalt.com\/best-himalayan-salt-massage-stones\/?utm_source=chatgpt.com",
+                            "domain": "superbsalt.com",
+                            "title": "Himalayan Salt Massage Stones: Relax & Rejuvenate - Superb Salt",
+                            "description": "HIMALAYAN SALT MASSAGE STONES: RELAX & REJUVENATE  by Chris Davenport  Image: Himalayan salt massage stones  BEST HIMALAYAN SALT MASSAGE STONES  What are the best Himalayan salt massage stones on the...",
+                            "breadcrumb": "superbsalt.com"
+                        },
+                        {
+                            "type": "chatgpt_search_result",
+                            "url": "https:\/\/www.scriphessco.com\/shop-by-brand\/harmony-salt\/?utm_source=chatgpt.com",
+                            "domain": "www.scriphessco.com",
+                            "title": "Harmony Salt - Himalayan Salt Massage Stones & Lamps",
+                            "description": "HARMONY SALT HIMALAYAN SALT MASSAGE STONES & LAMPS  Himalayan Salt Stone Massage™ is an innovative healing technique using warm salt crystal stones to ground and balance the body's electromagnetic fi...",
+                            "breadcrumb": "scriphessco.com"
+                        },
+                        {
+                            "type": "chatgpt_search_result",
+                            "url": "https:\/\/www.bodyworkmall.com\/shop-by-brand\/harmony-salt\/?utm_source=chatgpt.com",
+                            "domain": "www.bodyworkmall.com",
+                            "title": "Harmony Salt - Himalayan Salt Massage Stones & Lamps",
+                            "description": "HARMONY SALT HIMALAYAN SALT MASSAGE STONES & LAMPS  Himalayan Salt Stone Massage™ is an innovative healing technique using warm salt crystal stones to ground and balance the body's electromagnetic fi...",
+                            "breadcrumb": "bodyworkmall.com"
+                        },
+                        {
+                            "type": "chatgpt_search_result",
+                            "url": "https:\/\/simplejane.co\/product\/himalayan-salt-stone\/?utm_source=chatgpt.com",
+                            "domain": "simplejane.co",
+                            "title": "Himalayan Salt Massage Stone - Simple Jane Co.",
+                            "description": "HIMALAYAN SALT MASSAGE STONE  Simple Jane’s signature Himalayan Salt Stone for use with CBD Oil products.  100% Pure Himalayan Salt  Average Stone Measures 2.5 inches in diameter and weighs 3- 4 ounc...",
+                            "breadcrumb": "simplejane.co"
+                        },
+                        {
+                            "type": "chatgpt_search_result",
+                            "url": "https:\/\/naturalnutmeg.com\/the-benefits-of-himalayan-salt-stone-massage\/?utm_source=chatgpt.com",
+                            "domain": "naturalnutmeg.com",
+                            "title": "The Benefits of Himalayan Salt Stone Massage | Natural Nutmeg Magazine",
+                            "description": "THE BENEFITS OF HIMALAYAN SALT STONE MASSAGE  February 26, 2021 (February 26, 2021 11:36 am) 1556  Image: The Benefits of Himalayan Salt Stone Massage  You may have heard of Hot Stone Massage but a no...",
+                            "breadcrumb": "naturalnutmeg.com"
+                        },
+                        {
+                            "type": "chatgpt_search_result",
+                            "url": "https:\/\/www.dragonspirithealth.com\/products\/himalayan-body-salt-stones?utm_source=chatgpt.com",
+                            "domain": "www.dragonspirithealth.com",
+                            "title": "Himalayan Salt Body Stone – Natural Hot Stone for Massage & Bath – Han – Dragon Spirit Health",
+                            "description": "* Image: Heart-shaped Himalayan Salt Body Stones with a pinkish-orange hue on a white background  * Image: A collection of Himalayan salt body stones in various sizes, some placed on a glass dish and...",
+                            "breadcrumb": "dragonspirithealth.com"
+                        },
+                        {
+                            "type": "chatgpt_search_result",
+                            "url": "https:\/\/www.longpondmassage.com\/hot-stone-masage?utm_source=chatgpt.com",
+                            "domain": "www.longpondmassage.com",
+                            "title": "Stone Massage Therapy — Long Pond Tranquil Massage",
+                            "description": "STONE MASSAGE THERAPY  Image: +CC-141335.jpg    HIMALAYAN SALT STONE\/COLD STONE MASSAGE THERAPY  Core Stones (Soapstone), Himalayan Salt Stones, Cold Stones (marble or ceramic) may be used during you...",
+                            "breadcrumb": "longpondmassage.com"
+                        },
+                        {
+                            "type": "chatgpt_search_result",
+                            "url": "https:\/\/www.inspiretherapytraining.com\/himalayan-salt-stone-massage\/?utm_source=chatgpt.com",
+                            "domain": "www.inspiretherapytraining.com",
+                            "title": "Himalayan Salt Stone Massage | Inspire Therapy Training",
+                            "description": "HIMALAYAN SALT STONE MASSAGE  HIMALAYAN SALT STONE MASSAGE  Himalayan Salt comes from the salt mines at the foothills of the Himalayan Mountains in the Punjab region of Pakistan.  It is known to be t...",
+                            "breadcrumb": "inspiretherapytraining.com"
+                        },
+                        {
+                            "type": "chatgpt_search_result",
+                            "url": "https:\/\/aquariuswellness.com\/himalayan-salt-stone-massage\/?utm_source=chatgpt.com",
+                            "domain": "aquariuswellness.com",
+                            "title": "St. Louis Massage | Aquariuswellness Therapeutic Massage center",
+                            "description": "HIMALAYAN SALT STONE MASSAGE  Experience “Next Level” Soothing, Healing, and Relaxing Massage Therapy!  Himalayan Salt Stone Massage is used to soothe your stress and tension using warm salt crystal s...",
+                            "breadcrumb": "aquariuswellness.com"
+                        }
+                    ],
+                    "sources": [
+                        {
+                            "type": "chat_gpt_source",
+                            "title": "Himalayan Hot Stone Massage | Lakeview Massage and Therapy",
+                            "snippet": null,
+                            "domain": "www.lakeviewmassageandtherapy.com",
+                            "url": "https:\/\/www.lakeviewmassageandtherapy.com\/massages-and-therapies\/himalayan-salt-stone-massage?utm_source=chatgpt.com",
+                            "thumbnail": null,
+                            "source_name": "lakeviewmassageandtherapy.com",
+                            "publication_date": null,
+                            "markdown": null
+                        }
+                    ],
+                    "fan_out_queries": null,
+                    "brand_entities": null,
+                    "se_results_count": 0,
+                    "item_types": [
+                        "chat_gpt_text",
+                        "chat_gpt_products"
+                    ],
+                    "items_count": 7,
+                    "items": [
+                        {
+                            "type": "chat_gpt_text",
+                            "rank_group": 1,
+                            "rank_absolute": 1,
+                            "markdown": "Here are some of the **best Himalayan salt massage stones you can buy online**, ranging from affordable home-use stones to professional spa-quality kits.\n\n---\n\n# Best Himalayan Salt Massage Stones (Online)\n\n## Budget \/ Personal Use\n",
+                            "sources": null,
+                            "brand_entities": null
+                        },
+                        {
+                            "type": "chat_gpt_products",
+                            "rank_group": 1,
+                            "rank_absolute": 2,
+                            "items": [
+                                {
+                                    "type": "chat_gpt_products_element",
+                                    "product_id": "8763895406175738857",
+                                    "merchants": "SereneLife Home + others",
+                                    "id_to_token_map": "eyJlaSI6ImxMdTNhZnlFRHMyT3dia1BrOEhlNFFNIiwicHJvZHVjdGlkIjoiIiwiY2F0YWxvZ2lkIjoiODc2Mzg5NTQwNjE3NTczODg1NyIsImhlYWRsaW5lT2ZmZXJEb2NpZCI6IjYxMjY2MjA3ODQ0NzcwNDk1NDUiLCJpbWFnZURvY2lkIjoiMTU4ODY5NjA1NDQ5MDU5NzM5NzEiLCJyZHMiOiIiLCJxdWVyeSI6ImhpbWFsYXlhbitzYWx0K21hc3NhZ2Urc3RvbmVzK3NldCIsImdwY2lkIjoiMTgzODE5NzMyMTE0ODUyNjMwNzkiLCJtaWQiOiI1NzY0NjI4NTA5OTcyMTY3MDIiLCJwdnQiOiJoZyIsInV1bGUiOiJ3K0NBSVFJQ0lhUkdGc2JHRnpMRlJsZUdGekxGVnVhWFJsWkNCVGRHRjBaWE0iLCJnbCI6InVzIiwiaGwiOiJlbiJ9",
+                                    "title": "SereneLife Heart‑Shaped Salt Massage Stones Set",
+                                    "rating": null,
+                                    "price": 25.59,
+                                    "currency": "USD",
+                                    "tag": null,
+                                    "url": "https:\/\/serenelifehome.com\/products\/accpslmsgst100?variant=47447737336098&country=US&currency=USD&utm_source=chatgpt.com",
+                                    "domain": "serenelifehome.com",
+                                    "images": [
+                                        "https:\/\/images.openai.com\/static-rsc-1\/nDyRWjdzXvtfs86BJhm90R9k-RIxYtBo0hV62Mr13xZV-KNXmkADK7JlQD3xAh3fLNw6q_Ls7TuyrETwgofqhsT4o5yToS6E-G6nj1vttgYamaFciuLcr4FrGtAgUgfNqL88eTOR9uHwR_dIxYZirV_UNx_qfsHT_E3RoK7GpJxonwEMYeAqH6sz065H4Z2c-Bxlm0qnHfPuOXQSwd2ZL_pMANuVU28-0ITWrLPSkQk",
+                                        "https:\/\/images.openai.com\/static-rsc-1\/Van2j06jK0pv54F8SQomCPhHSHiJ-BbW3yeQBNkSRPLbK6PcKwlKrUHya3m6WUVQbH5C6FM1DPsMaGw2yNjNm0Hn_UpiqxpRXYjdgpD8Eisr8fnBz_060tIZcgJBhdVFLkF50_-gBDS-xwDDMpjSvPK6-D6a0xxYm9SyhKxa4TNdHCABVtIXEhyh8LOmxbJhnvGUFC4KLKJA_0PdVS3OkXwqzSe2ZHNjTI17myi94FsKcdYpFGtq3RIOu8uQGXlv",
+                                        "https:\/\/images.openai.com\/static-rsc-1\/v2PfljCyWaxEiZwC3pqrswva-IHhr5ks4vD9F0GPrXIJA-B3OgRyB97vSsAJz3qoXJ3b2bW9Jm7wgjItGtrv57-34GjnI6XdOyV8udaODTWOjrOLSlX6Z7kIjaUhAhEtMAPCAC5a5GSLoiQpUCzUxJLFDDBm3tn7drVPfYAas4biUNpJXOeaVDln5W3MaT3qJfiJqGSmfcxH7-uh4JcqNjEb-P3-3jjJ3Zh56EwS-fNvGmYXkv24Plr56XH6eifO"
+                                    ],
+                                    "product_ids": [
+                                        {
+                                            "type": "chat_gpt_google_shopping_product",
+                                            "ei": "lLu3afyEDs2OwbkPk8He4QM",
+                                            "product_id": null,
+                                            "catalog_id": "8763895406175738857",
+                                            "gpcid": "18381973211485263079",
+                                            "headline_offer_docid": "6126620784477049545",
+                                            "image_docid": "15886960544905973971",
+                                            "rds": null,
+                                            "query": "himalayan+salt+massage+stones+set",
+                                            "mid": "576462850997216702",
+                                            "pvt": "hg",
+                                            "uule": "w+CAIQICIaRGFsbGFzLFRleGFzLFVuaXRlZCBTdGF0ZXM",
+                                            "gl": "us",
+                                            "hl": "en"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "type": "chat_gpt_products_element",
+                                    "product_id": "18005660192972608583",
+                                    "merchants": "Himalayan Secrets",
+                                    "id_to_token_map": "eyJlaSI6ImxMdTNhZnlFRHMyT3dia1BrOEhlNFFNIiwicHJvZHVjdGlkIjoiIiwiY2F0YWxvZ2lkIjoiMTgwMDU2NjAxOTI5NzI2MDg1ODMiLCJoZWFkbGluZU9mZmVyRG9jaWQiOiIxNjc1NzE5MzAwOTQ2NzI0OTYxMyIsImltYWdlRG9jaWQiOiI3Njg2NzM5ODk5NTg0MDYwOTg5IiwicmRzIjoiIiwicXVlcnkiOiJoaW1hbGF5YW4rc2FsdCttYXNzYWdlK3N0b25lcytzZXQiLCJncGNpZCI6Ijk3OTM3OTk3NTMzNzAzODEzMzAiLCJtaWQiOiIiLCJwdnQiOiJoZyIsInV1bGUiOiJ3K0NBSVFJQ0lhUkdGc2JHRnpMRlJsZUdGekxGVnVhWFJsWkNCVGRHRjBaWE0iLCJnbCI6InVzIiwiaGwiOiJlbiJ9",
+                                    "title": "Himalayan Secrets Tear Drop Salt Stones (Set of 3)",
+                                    "rating": null,
+                                    "price": 17.95,
+                                    "currency": "USD",
+                                    "tag": null,
+                                    "url": "https:\/\/himalayansecrets.com\/products\/tear-drop-shaped-stone-jar?variant=28001790328925&country=US&currency=USD&utm_source=chatgpt.com",
+                                    "domain": "himalayansecrets.com",
+                                    "images": [
+                                        "https:\/\/images.openai.com\/static-rsc-1\/rAVINMjKinFFca3qVRnCSDW2i57sGxJUT6B7x7EirSdO7kCv1MRSwvIaTlH48uusvWnrfZz9If3MwWyPc_Pui0abbn5We0fUMJQJfJjJP9jxMF5NU4Dna8R50FkPtyPtfZJOzx2k6OgBuem3nbPfbkiqNlam-7GRhPs7b0xcaVOtYgRSg1CPCmMsPVqqBfZ7PNhzELiY7rf79UjPYBMVWBOYv8hNZjv5SHv-DV8j6JHUZ5QtbD-NPrAuhV-8G0JATPVpFsWKSRqsR12zAyEXrA",
+                                        "https:\/\/images.openai.com\/static-rsc-1\/Ntuz1iA64oAfMIfHeyer2YxIP7t0ASBButXx2SKO4Hmr_4eobycuP6NSViOXrCdsfS7pMjrcBUWa_V0nPtXdzTZt1nd0yiot0bq8fL2xYIawbeGgn5vqLilgODDqZ6gfWQDMVD35Rw2eBDhjxxQym3zOfKjxLwuEBj_vCnNwhJ9bvDUnXJFFSAz-ibyrCu87YY2XITDmBKteCs-5a8nUyeuXxNHrmlmvDlft69fHpCGJ_QCV_fLHO9J0myAnQ70j4eeNQA8Gr22v5osQ4OaDrg",
+                                        "https:\/\/images.openai.com\/static-rsc-1\/3ogX8IF1abxsg_uH4G36R6ciTzc81UrJVbbuAUFgnm3AmzthTdLh0Nb-VrC6WQuLPLSHHjnyC83YSRHL-ds8tUX7wmuaqSTGFZnPO4oiieLhFi0qhRaaAITpkBRP4vcPw667mtF6x6ACkfbyAVsxP-wXSZguEx3xHW43HIPvgtQPr4Y4Do-K0-TQyXdgnGC-K_yzXeKDN-GAihiZDXSmlNojJhx2oueaXx_F3TtJqEE"
+                                    ],
+                                    "product_ids": [
+                                        {
+                                            "type": "chat_gpt_google_shopping_product",
+                                            "ei": "lLu3afyEDs2OwbkPk8He4QM",
+                                            "product_id": null,
+                                            "catalog_id": "18005660192972608583",
+                                            "gpcid": "9793799753370381330",
+                                            "headline_offer_docid": "16757193009467249613",
+                                            "image_docid": "7686739899584060989",
+                                            "rds": null,
+                                            "query": "himalayan+salt+massage+stones+set",
+                                            "mid": null,
+                                            "pvt": "hg",
+                                            "uule": "w+CAIQICIaRGFsbGFzLFRleGFzLFVuaXRlZCBTdGF0ZXM",
+                                            "gl": "us",
+                                            "hl": "en"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "type": "chat_gpt_products_element",
+                                    "product_id": "12250368600628725903",
+                                    "merchants": "Saltability",
+                                    "id_to_token_map": "eyJlaSI6ImxMdTNhZnlFRHMyT3dia1BrOEhlNFFNIiwicHJvZHVjdGlkIjoiIiwiY2F0YWxvZ2lkIjoiMTIyNTAzNjg2MDA2Mjg3MjU5MDMiLCJoZWFkbGluZU9mZmVyRG9jaWQiOiIyMjYyMTU5Njk2MDUwNDE4MzQiLCJpbWFnZURvY2lkIjoiMTU0NzMwMTQ2ODkxNjEzODQ5NiIsInJkcyI6IiIsInF1ZXJ5IjoiaGltYWxheWFuK3NhbHQrbWFzc2FnZStzdG9uZXMrc2V0IiwiZ3BjaWQiOiI0NzIwNDczMDE5NDU2NDU1MDc1IiwibWlkIjoiIiwicHZ0IjoiaGciLCJ1dWxlIjoidytDQUlRSUNJYVJHRnNiR0Z6TEZSbGVHRnpMRlZ1YVhSbFpDQlRkR0YwWlhNIiwiZ2wiOiJ1cyIsImhsIjoiZW4ifQ==",
+                                    "title": "Saltability Himalayan Salt Stone Starter Kit",
+                                    "rating": null,
+                                    "price": 28.95,
+                                    "currency": "USD",
+                                    "tag": null,
+                                    "url": "https:\/\/www.saltability.com\/products\/himalayan-salt-stone-starter-kit-for-massage?variant=31744576651362&country=US&currency=USD&utm_source=chatgpt.com",
+                                    "domain": "www.saltability.com",
+                                    "images": [
+                                        "https:\/\/images.openai.com\/static-rsc-1\/6mklKBkqJJQwC-PD0fLPhq6mw04pQZMoH5MBX1GgXkzADkkt-JGM8fzhV3mi5WGABmEsvGHoUylcHCZDbsjyjNh-WPWL3bW7430HEGK2J-ZPpPFGXJwrpDl5Le8az66eVZz3dpbtC1_dMSivFIG-Ql9zaqYTDUsYRxYZ4rVdKY55qIY2kAc47anhNAogBJyr55ZWxqmquUkkuRptJ9oqtMTZ2X_gp84sTrz66eRzFTzolbJua83gqizthFOuD_xquqJIM2Eu5LWJLPtEmKkGfA"
+                                    ],
+                                    "product_ids": [
+                                        {
+                                            "type": "chat_gpt_google_shopping_product",
+                                            "ei": "lLu3afyEDs2OwbkPk8He4QM",
+                                            "product_id": null,
+                                            "catalog_id": "12250368600628725903",
+                                            "gpcid": "4720473019456455075",
+                                            "headline_offer_docid": "226215969605041834",
+                                            "image_docid": "1547301468916138496",
+                                            "rds": null,
+                                            "query": "himalayan+salt+massage+stones+set",
+                                            "mid": null,
+                                            "pvt": "hg",
+                                            "uule": "w+CAIQICIaRGFsbGFzLFRleGFzLFVuaXRlZCBTdGF0ZXM",
+                                            "gl": "us",
+                                            "hl": "en"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "type": "chat_gpt_products_element",
+                                    "product_id": "17201213084579325071",
+                                    "merchants": "Q&A Himalayan Salt",
+                                    "id_to_token_map": "eyJlaSI6ImxMdTNhZnlFRHMyT3dia1BrOEhlNFFNIiwicHJvZHVjdGlkIjoiIiwiY2F0YWxvZ2lkIjoiMTcyMDEyMTMwODQ1NzkzMjUwNzEiLCJoZWFkbGluZU9mZmVyRG9jaWQiOiIxMTM1NzgwMzMzNjg0MjQxNzkzNCIsImltYWdlRG9jaWQiOiI5OTkyMzcxODI1Mzg1MDM4ODgiLCJyZHMiOiIiLCJxdWVyeSI6ImhpbWFsYXlhbitzYWx0K21hc3NhZ2Urc3RvbmVzK3NldCIsImdwY2lkIjoiNDA1MDM5NjQ1NDE2Nzk4NjU0OSIsIm1pZCI6IjU3NjQ2MjU0NDU5NTk2NzAwMiIsInB2dCI6ImhnIiwidXVsZSI6IncrQ0FJUUlDSWFSR0ZzYkdGekxGUmxlR0Z6TEZWdWFYUmxaQ0JUZEdGMFpYTSIsImdsIjoidXMiLCJobCI6ImVuIn0=",
+                                    "title": "Himalayan Salt Massage Hearts (Set of 4)",
+                                    "rating": null,
+                                    "price": 24.99,
+                                    "currency": "USD",
+                                    "tag": null,
+                                    "url": "https:\/\/qnahimalayansalt.com\/products\/himalayan-salt-massage-hearts-set-of-4?pr_prod_strat=e5_desc&pr_rec_id=81fed650a&pr_rec_pid=5317830049951&pr_ref_pid=5317824741535&pr_seq=uniform&utm_source=chatgpt.com",
+                                    "domain": "qnahimalayansalt.com",
+                                    "images": [
+                                        "https:\/\/images.openai.com\/static-rsc-1\/EQFjJQuCAUjTi4q5Bal75sL6n3AwrIhC6CDEISaneKZXjdEhcn3zsb1GcYgfZk05uCkjvsNKh3nDGLFaqmgJzFPU5vV3PQn5MIrZPOGGVAsyhkfdG-l5j5q44daFw50b4zranNhEAqFvG1p8danCPC51W_qpkRTxEniI-N9zCfU7QaX4lxuDmJ3vA2JhbQd-cP0vvYYMCkSEd9408KERU1jeAg2MXdbrsaurCB4NQos"
+                                    ],
+                                    "product_ids": [
+                                        {
+                                            "type": "chat_gpt_google_shopping_product",
+                                            "ei": "lLu3afyEDs2OwbkPk8He4QM",
+                                            "product_id": null,
+                                            "catalog_id": "17201213084579325071",
+                                            "gpcid": "4050396454167986549",
+                                            "headline_offer_docid": "11357803336842417934",
+                                            "image_docid": "999237182538503888",
+                                            "rds": null,
+                                            "query": "himalayan+salt+massage+stones+set",
+                                            "mid": "576462544595967002",
+                                            "pvt": "hg",
+                                            "uule": "w+CAIQICIaRGFsbGFzLFRleGFzLFVuaXRlZCBTdGF0ZXM",
+                                            "gl": "us",
+                                            "hl": "en"
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "type": "chat_gpt_text",
+                            "rank_group": 2,
+                            "rank_absolute": 3,
+                            "markdown": "\n\n**Why these are good**\n- Affordable ($18–$40 range)\n- Great for **neck, shoulders, feet, or self-massage**\n- Easy to heat in warm water or a towel warmer\n\n**Top pick:**  \n- **SereneLife Heart-Shaped Set** – ergonomic shape for palm grip and targeted pressure.\n\n---\n\n## Best Mid-Range Sets (Spa-Quality Stones)\n",
+                            "sources": null,
+                            "brand_entities": null
+                        },
+                        {
+                            "type": "chat_gpt_products",
+                            "rank_group": 2,
+                            "rank_absolute": 4,
+                            "items": [
+                                {
+                                    "type": "chat_gpt_products_element",
+                                    "product_id": "16413576881864968334",
+                                    "merchants": "MassageStore",
+                                    "id_to_token_map": "eyJlaSI6ImxMdTNhZnlFRHMyT3dia1BrOEhlNFFNIiwicHJvZHVjdGlkIjoiMTY0MTM1NzY4ODE4NjQ5NjgzMzQiLCJjYXRhbG9naWQiOiIiLCJoZWFkbGluZU9mZmVyRG9jaWQiOiIxNjQxMzU3Njg4MTg2NDk2ODMzNCIsImltYWdlRG9jaWQiOiI3MzA0NjczMDExMDk4MTgxMzQwIiwicmRzIjoiIiwicXVlcnkiOiJoaW1hbGF5YW4rc2FsdCttYXNzYWdlK3N0b25lcytzZXQiLCJncGNpZCI6IiIsIm1pZCI6IiIsInB2dCI6ImhnIiwidXVsZSI6IncrQ0FJUUlDSWFSR0ZzYkdGekxGUmxlR0Z6TEZWdWFYUmxaQ0JUZEdGMFpYTSIsImdsIjoidXMiLCJobCI6ImVuIn0=",
+                                    "title": "Himalayan Salt Massage Stones Set of 6",
+                                    "rating": null,
+                                    "price": 42,
+                                    "currency": "USD",
+                                    "tag": null,
+                                    "url": "https:\/\/www.massagestore.com\/products\/himalayan-salt-massage-stones-set-of-5?variant=40277611806743&utm_source=chatgpt.com",
+                                    "domain": "www.massagestore.com",
+                                    "images": [
+                                        "https:\/\/www.massagestore.com\/cdn\/shop\/products\/6841.jpg?v=1661969594&width=1920",
+                                        "https:\/\/www.massagestore.com\/cdn\/shop\/products\/03aefd06b0135e1593eb4371769978dd.jpg?v=1661969594&width=540"
+                                    ],
+                                    "product_ids": [
+                                        {
+                                            "type": "chat_gpt_google_shopping_product",
+                                            "ei": "lLu3afyEDs2OwbkPk8He4QM",
+                                            "product_id": "16413576881864968334",
+                                            "catalog_id": null,
+                                            "gpcid": null,
+                                            "headline_offer_docid": "16413576881864968334",
+                                            "image_docid": "7304673011098181340",
+                                            "rds": null,
+                                            "query": "himalayan+salt+massage+stones+set",
+                                            "mid": null,
+                                            "pvt": "hg",
+                                            "uule": "w+CAIQICIaRGFsbGFzLFRleGFzLFVuaXRlZCBTdGF0ZXM",
+                                            "gl": "us",
+                                            "hl": "en"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "type": "chat_gpt_products_element",
+                                    "product_id": "2544047339346391352",
+                                    "merchants": "MassageWarehouse.com",
+                                    "id_to_token_map": "eyJlaSI6ImxMdTNhZnlFRHMyT3dia1BrOEhlNFFNIiwicHJvZHVjdGlkIjoiMjU0NDA0NzMzOTM0NjM5MTM1MiIsImNhdGFsb2dpZCI6IiIsImhlYWRsaW5lT2ZmZXJEb2NpZCI6IjI1NDQwNDczMzkzNDYzOTEzNTIiLCJpbWFnZURvY2lkIjoiMTQ2NzU3MzMzMTEwNjIyOTk4NjAiLCJyZHMiOiIiLCJxdWVyeSI6ImhpbWFsYXlhbitzYWx0K21hc3NhZ2Urc3RvbmVzK3NldCIsImdwY2lkIjoiIiwibWlkIjoiIiwicHZ0IjoiaGciLCJ1dWxlIjoidytDQUlRSUNJYVJHRnNiR0Z6TEZSbGVHRnpMRlZ1YVhSbFpDQlRkR0YwWlhNIiwiZ2wiOiJ1cyIsImhsIjoiZW4ifQ==",
+                                    "title": "Saltability Himalayan Salt Stone Set (6 pieces)",
+                                    "rating": null,
+                                    "price": 59.95,
+                                    "currency": "USD",
+                                    "tag": null,
+                                    "url": null,
+                                    "domain": null,
+                                    "images": [
+                                        "https:\/\/images.openai.com\/thumbnails\/url\/CjzLO3icDclJDoIwAADAFwmoVJHEGAnK0gSiIgoXg60pUFsLVLZX-R1_o3Od7yeXUjSmqj44qgchH3gi71xTSCMzWSAFvZja5C8hCk421fp_5jbAKwed9hcmdZ3RXTtCDEIDdbAnsLV7wp9wDwKpjfep7bfnNuM0XlIMvDjtqrq6leMJJqCIHMth6DpEg2XP3m7kl2jKJkfakUUSXRcXPi4DjxtueljN6zAlbuq5efcD-d4_gw"
+                                    ],
+                                    "product_ids": [
+                                        {
+                                            "type": "chat_gpt_google_shopping_product",
+                                            "ei": "lLu3afyEDs2OwbkPk8He4QM",
+                                            "product_id": "2544047339346391352",
+                                            "catalog_id": null,
+                                            "gpcid": null,
+                                            "headline_offer_docid": "2544047339346391352",
+                                            "image_docid": "14675733311062299860",
+                                            "rds": null,
+                                            "query": "himalayan+salt+massage+stones+set",
+                                            "mid": null,
+                                            "pvt": "hg",
+                                            "uule": "w+CAIQICIaRGFsbGFzLFRleGFzLFVuaXRlZCBTdGF0ZXM",
+                                            "gl": "us",
+                                            "hl": "en"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "type": "chat_gpt_products_element",
+                                    "product_id": "13384111369677384453",
+                                    "merchants": "Universal Companies",
+                                    "id_to_token_map": "eyJlaSI6ImxMdTNhZnlFRHMyT3dia1BrOEhlNFFNIiwicHJvZHVjdGlkIjoiMTMzODQxMTEzNjk2NzczODQ0NTMiLCJjYXRhbG9naWQiOiIiLCJoZWFkbGluZU9mZmVyRG9jaWQiOiIxMzM4NDExMTM2OTY3NzM4NDQ1MyIsImltYWdlRG9jaWQiOiI1ODIxNTUxMDg0OTc3MDA0ODEwIiwicmRzIjoiTE9fMTMzODQxMTEzNjk2NzczODQ0NTN8UFJPRF9MT18xMzM4NDExMTM2OTY3NzM4NDQ1MyIsInF1ZXJ5IjoiaGltYWxheWFuK3NhbHQrbWFzc2FnZStzdG9uZXMrc2V0IiwiZ3BjaWQiOiIiLCJtaWQiOiIiLCJwdnQiOiJoZyIsInV1bGUiOiJ3K0NBSVFJQ0lhUkdGc2JHRnpMRlJsZUdGekxGVnVhWFJsWkNCVGRHRjBaWE0iLCJnbCI6InVzIiwiaGwiOiJlbiJ9",
+                                    "title": "Saltability Himalayan Salt Stone Set (12 pieces)",
+                                    "rating": {
+                                        "rating_type": "Max5",
+                                        "value": 5,
+                                        "votes_count": 3,
+                                        "rating_max": 5
+                                    },
+                                    "price": 92.4,
+                                    "currency": "USD",
+                                    "tag": null,
+                                    "url": null,
+                                    "domain": null,
+                                    "images": [
+                                        "https:\/\/images.openai.com\/thumbnails\/url\/SfJarHicDclZDkNAAADQExVRRkmaRm0hsZROqB-ZMkFsg7G0h-p9epv2_b7vp6KUzArL4j6fXoTi4kCfPc-UM0W0zpl86Ni5Ggip-_Iynv-nqF4hW3lYcCry4k3HLoymTgbQvzlETuAS6asIzAAIYRr6OLXB3pS7TcGIsAqXePASoxGQU7VHUgtxFkQZ5LTAMK8u3zeDr7n3NwL7od0k6WGba3ASLWltRY92tfMD6uw8-Q"
+                                    ],
+                                    "product_ids": [
+                                        {
+                                            "type": "chat_gpt_google_shopping_product",
+                                            "ei": "lLu3afyEDs2OwbkPk8He4QM",
+                                            "product_id": "13384111369677384453",
+                                            "catalog_id": null,
+                                            "gpcid": null,
+                                            "headline_offer_docid": "13384111369677384453",
+                                            "image_docid": "5821551084977004810",
+                                            "rds": "LO_13384111369677384453|PROD_LO_13384111369677384453",
+                                            "query": "himalayan+salt+massage+stones+set",
+                                            "mid": null,
+                                            "pvt": "hg",
+                                            "uule": "w+CAIQICIaRGFsbGFzLFRleGFzLFVuaXRlZCBTdGF0ZXM",
+                                            "gl": "us",
+                                            "hl": "en"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "type": "chat_gpt_products_element",
+                                    "product_id": "16983358453254417595",
+                                    "merchants": "Himalayan Secrets",
+                                    "id_to_token_map": "eyJlaSI6ImxMdTNhZXJPR05pazBQRVBsNDdwc0E4IiwicHJvZHVjdGlkIjoiIiwiY2F0YWxvZ2lkIjoiMTY5ODMzNTg0NTMyNTQ0MTc1OTUiLCJoZWFkbGluZU9mZmVyRG9jaWQiOiIxNjU3NTUwNzAxMDAyMzA4NDk2NyIsImltYWdlRG9jaWQiOiI1Mzk5NDcxMDc3OTEzMDMxNTgxIiwicmRzIjoiIiwicXVlcnkiOiJoaW1hbGF5YW4rc2FsdCttYXNzYWdlK3N0b25lcytzZXQrYnkraGltYWxheWFuK3NlY3JldHMiLCJncGNpZCI6IjEwNTk1OTA2NTc1NjUwODc1MTU5IiwibWlkIjoiIiwicHZ0IjoiaGciLCJ1dWxlIjoidytDQUlRSUNJYVJHRnNiR0Z6TEZSbGVHRnpMRlZ1YVhSbFpDQlRkR0YwWlhNIiwiZ2wiOiJ1cyIsImhsIjoiZW4ifQ==",
+                                    "title": "Himalayan Secrets Tear Drop Himalayan Salt Stones Set of 12",
+                                    "rating": null,
+                                    "price": 59.95,
+                                    "currency": "USD",
+                                    "tag": null,
+                                    "url": "https:\/\/himalayansecrets.com\/products\/tear-drop-stone-pack-of-12?variant=36861977591976&country=US&currency=USD&utm_source=chatgpt.com",
+                                    "domain": "himalayansecrets.com",
+                                    "images": [
+                                        "https:\/\/images.openai.com\/static-rsc-1\/N_iJPX1u58dcc9d0prV_5_RDht8433awwIM_oYDSp0IbKRJxVcL0560g8mzDh5w0Xww-FabqZeZctudKy-2-xfndBYyyWDJgrtv_IX0cx5u7Eru3t7taQqhIhDzR5i58rXdDI2QhB4ukO6blvO2LwPftM_-msxOOi1Kso_zjG8fUFGOpyzmPg94Qmkh7INncGM_rBHHjA6vnw43ANsCLXdQTnYaWsfSHZFWzRyJA7m7_UhyLQd0Z2ZR50M5J80SM",
+                                        "https:\/\/images.openai.com\/static-rsc-1\/6l8oAyyV0ZKp-huBlTjorzieoMpA3z88iTekz83TV07giqAiRjz14U1W5_AmN0L8yDQfzmfIxis1rO6TeBGPbx19gQcIYiJzCORm13iJldGbrueK7lfTsHILB-1m7Ptw1NpWkPfl-D4NmgcwNNCbA0HeVAs0nTzBC7yeWraP-hT_vYex5NbqM8PglFs_JU-ju5Plr9L8EkTeXp9CBrt3ClIOtyU3uxFvTLc2doX1e6KcocsSug1N3Ti6kuD9SX23",
+                                        "https:\/\/images.openai.com\/static-rsc-1\/oIbqJe6vbzORIV0oNGchDGYx9nHMotYPSbA3KfR6qqAvjclGjGQR6ZEGF_E9Wq44_oPzsmn-YoTlCWFG27radbEY5a1OQ8RPXyEeeXZOfIskbO_HEGKoW3UlQOxu5vOXEbGUlFhefkQHcuX-qLDKbMR_hLpeaENUh4uPDLhORdt3JzntzYSsRyZr-qysfRro3yS7jtMZGEVH5G-mUVHlku_NHyFbhWzqZMC67iBqppyczHhdnM-ycRZl2rqyFGP7"
+                                    ],
+                                    "product_ids": [
+                                        {
+                                            "type": "chat_gpt_google_shopping_product",
+                                            "ei": "lLu3aerOGNik0PEPl47psA8",
+                                            "product_id": null,
+                                            "catalog_id": "16983358453254417595",
+                                            "gpcid": "10595906575650875159",
+                                            "headline_offer_docid": "16575507010023084967",
+                                            "image_docid": "5399471077913031581",
+                                            "rds": null,
+                                            "query": "himalayan+salt+massage+stones+set+by+himalayan+secrets",
+                                            "mid": null,
+                                            "pvt": "hg",
+                                            "uule": "w+CAIQICIaRGFsbGFzLFRleGFzLFVuaXRlZCBTdGF0ZXM",
+                                            "gl": "us",
+                                            "hl": "en"
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "type": "chat_gpt_text",
+                            "rank_group": 3,
+                            "rank_absolute": 5,
+                            "markdown": "\n\n**Why these are better**\n- Multiple shapes (oval, round, teardrop)\n- **More stones for full-body massage**\n- Better polishing and durability\n\n**Top pick:**  \n- **Saltability 12-Piece Set** — widely used by massage therapists.\n\n---\n\n## Professional Spa \/ Full Kits\n",
+                            "sources": null,
+                            "brand_entities": null
+                        },
+                        {
+                            "type": "chat_gpt_products",
+                            "rank_group": 3,
+                            "rank_absolute": 6,
+                            "items": [
+                                {
+                                    "type": "chat_gpt_products_element",
+                                    "product_id": "gid:\/\/shopify\/Product\/8866390606136",
+                                    "merchants": "VULSINI",
+                                    "id_to_token_map": null,
+                                    "title": "VULSINI Hot Himalayan Salt Stone Massage Bundle",
+                                    "rating": null,
+                                    "price": 254.17,
+                                    "currency": "USD",
+                                    "tag": null,
+                                    "url": "https:\/\/vulsini.com\/products\/vulsini-hot-himalayan-salt-stone-massage-bundle?variant=55101259153781&utm_source=chatgpt.com",
+                                    "domain": "vulsini.com",
+                                    "images": [
+                                        "https:\/\/cdn.shopify.com\/s\/files\/1\/1947\/0559\/files\/VHBUN-SD.png",
+                                        "https:\/\/cdn.shopify.com\/s\/files\/1\/1947\/0559\/files\/Himalayan-in-bag-B-shopify.png",
+                                        "https:\/\/cdn.shopify.com\/s\/files\/1\/1947\/0559\/files\/VHSET20-LOGO-shopify.png"
+                                    ],
+                                    "product_ids": null
+                                },
+                                {
+                                    "type": "chat_gpt_products_element",
+                                    "product_id": "3552457488345300866",
+                                    "merchants": "Universal Companies",
+                                    "id_to_token_map": "eyJlaSI6ImxMdTNhZnlFRHMyT3dia1BrOEhlNFFNIiwicHJvZHVjdGlkIjoiMzU1MjQ1NzQ4ODM0NTMwMDg2NiIsImNhdGFsb2dpZCI6IiIsImhlYWRsaW5lT2ZmZXJEb2NpZCI6IjM1NTI0NTc0ODgzNDUzMDA4NjYiLCJpbWFnZURvY2lkIjoiMTY1MjEwOTg0NjEyODE4OTM0OTMiLCJyZHMiOiJMT18zNTUyNDU3NDg4MzQ1MzAwODY2fFBST0RfTE9fMzU1MjQ1NzQ4ODM0NTMwMDg2NiIsInF1ZXJ5IjoiaGltYWxheWFuK3NhbHQrbWFzc2FnZStzdG9uZXMrc2V0IiwiZ3BjaWQiOiIiLCJtaWQiOiIiLCJwdnQiOiJoZyIsInV1bGUiOiJ3K0NBSVFJQ0lhUkdGc2JHRnpMRlJsZUdGekxGVnVhWFJsWkNCVGRHRjBaWE0iLCJnbCI6InVzIiwiaGwiOiJlbiJ9",
+                                    "title": "Saltability Mobile Himalayan Salt Stone Massage Set (15 stones)",
+                                    "rating": {
+                                        "rating_type": "Max5",
+                                        "value": 4.8,
+                                        "votes_count": 6,
+                                        "rating_max": 5
+                                    },
+                                    "price": 328.89,
+                                    "currency": "USD",
+                                    "tag": null,
+                                    "url": "https:\/\/www.universalcompanies.com\/products\/himalayan-salt-stone-mobile-massage-set-15-stones-by-saltability?variant=33053745709113&utm_source=chatgpt.com",
+                                    "domain": "www.universalcompanies.com",
+                                    "images": [
+                                        "https:\/\/images.openai.com\/static-rsc-1\/1D-0gTRDHuoW3aoksBrE0dSvjqZn7l0p75hWsK6ur5ym3-YEfgjwEDu-Eog5iKWG19k57qibzEPkI1ADN_ZEjNfZpDI3Mnk96uGD3COCTaqpjXDWDk5tJ16zS4laL0Xlpnd1CIHbiesSVJKOHrAWk-Fukfqq242B1TZ_yG2UE_47B11tdONSlMH_mSrC1rrTDNFSep387k12zmshDQDtmeySo6cLQcczrOqWSd307PrP1qjiZ-6mCNyITR09timr0e_h44UZ2fMyi1rkj8NcZA",
+                                        "https:\/\/images.openai.com\/static-rsc-1\/Vo_ylLTFNZBeVqZN9g8TlY2jWFczp7xhoMZB_jXll6gLsrtS3URApgI2kL301ik3sn6SOSFvXicm2GHmDlx5nBE9SyxlrPPEJQGz_0IQPypZdl-prGzWUBJ8__yXFuf3WtLHUDbhTwl8ra4HwowJJEXwVD8KQGieqpPi50duZObM9hXFdR-FF4AbGnbtCtiMBibYdnVJ19hHZITNLN5x9UA3eXuV7SBRzz1m4d_orPSKGiJyYhgLJr13Q-Vtyitu",
+                                        "https:\/\/images.openai.com\/static-rsc-1\/9TnQBQa5dSDB99b6zUS71--WCpdqWAAsXHSKDctQQapcayv6Ux_2xJ58SMNPtBL0eazpMvIRJKRa6STWzj52jfCuKIdryf_4WYHuh_VdsenbwZvUOl5ivdolfZ-QhqOx1dMuiYVwHPrs0V_svjfJbkpHcQGHWOeqc-Wuo0n_A9lj55wA_BNLBRRYdb7jTk11Dhr5ll9oFzdXGfNOsFu5UUGhc5EHbu0WypF0vEp7Kr9N2bRrOXHQY48s93GU4X-7r32XSQ-yeCKMa5HhjCx1xQ"
+                                    ],
+                                    "product_ids": [
+                                        {
+                                            "type": "chat_gpt_google_shopping_product",
+                                            "ei": "lLu3afyEDs2OwbkPk8He4QM",
+                                            "product_id": "3552457488345300866",
+                                            "catalog_id": null,
+                                            "gpcid": null,
+                                            "headline_offer_docid": "3552457488345300866",
+                                            "image_docid": "16521098461281893493",
+                                            "rds": "LO_3552457488345300866|PROD_LO_3552457488345300866",
+                                            "query": "himalayan+salt+massage+stones+set",
+                                            "mid": null,
+                                            "pvt": "hg",
+                                            "uule": "w+CAIQICIaRGFsbGFzLFRleGFzLFVuaXRlZCBTdGF0ZXM",
+                                            "gl": "us",
+                                            "hl": "en"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "type": "chat_gpt_products_element",
+                                    "product_id": "13805379228972882300",
+                                    "merchants": "MassageWarehouse.com + others",
+                                    "id_to_token_map": "eyJlaSI6ImxMdTNhZnlFRHMyT3dia1BrOEhlNFFNIiwicHJvZHVjdGlkIjoiIiwiY2F0YWxvZ2lkIjoiMTM4MDUzNzkyMjg5NzI4ODIzMDAiLCJoZWFkbGluZU9mZmVyRG9jaWQiOiIzOTM2OTEyMTcxNzk5MDYyNjM3IiwiaW1hZ2VEb2NpZCI6IjM1ODkyNTkxOTEwMTM3NjgzMTUiLCJyZHMiOiJQQ180NTQ4MTU0NDg2NTUzMjMxNjkyfFBST0RfUENfNDU0ODE1NDQ4NjU1MzIzMTY5MiIsInF1ZXJ5IjoiaGltYWxheWFuK3NhbHQrbWFzc2FnZStzdG9uZXMrc2V0IiwiZ3BjaWQiOiI0NTQ4MTU0NDg2NTUzMjMxNjkyIiwibWlkIjoiIiwicHZ0IjoiaGciLCJ1dWxlIjoidytDQUlRSUNJYVJHRnNiR0Z6TEZSbGVHRnpMRlZ1YVhSbFpDQlRkR0YwWlhNIiwiZ2wiOiJ1cyIsImhsIjoiZW4ifQ==",
+                                    "title": "Saltability Stone Warmer with 18 Massage Stones",
+                                    "rating": {
+                                        "rating_type": "Max5",
+                                        "value": 4.8,
+                                        "votes_count": 5,
+                                        "rating_max": 5
+                                    },
+                                    "price": 665,
+                                    "currency": "USD",
+                                    "tag": null,
+                                    "url": "https:\/\/www.massagewarehouse.com\/products\/saltability-himalayan-salt-massage-stone-warmer\/?utm_source=chatgpt.com",
+                                    "domain": "www.massagewarehouse.com",
+                                    "images": [
+                                        "https:\/\/images.openai.com\/static-rsc-1\/Hkz-IYFcVzpXlaIEZmXkyiuInsLBthgw0LGPTc5UuTI7XWaaW3e1238N9AYMmwR_BVeMKFVIfX9xEkLz-nKrsm-Gb4hbaGTFQ7fUd6S_fuieJv3cS0SUZ2pcg_aOAhphwYLQvHctjMSlA72qgIzhiNncFVooBszvsqFe5EYGeoMBDZLVSCy-NWpJjphqTRogA7gBfbUFqo67xT7sgWUn5kCFNfO7vfU4nkA-kWqLDbDt0b14utu7dD0YtUaG5teBPxUpIub536-JDLdQp3mX8Q",
+                                        "https:\/\/images.openai.com\/static-rsc-1\/3g89tXN01LRFzGKxWDC8UKbemOa5eCQa5ndXItw1FxHkxJtFoIgmlMLOG-3_15nMAygR8sPnKlGoElF4RSweC8fkEZpMBnuE2ICRR06F7eCXkQqoMrkAzO4Pw-DoczZjviUYxozJyn98zL0-g3w8TdRd-n6u8oUQLrpqDdakRGrqN_PE-ZWfG5lihp7O2_R35TD1pGKMIH8CLg4ACj5Ic_xqsKOjCi7I7lclSgcfyDzSqt-hnFWxVtBC5LqwK-Yv",
+                                        "https:\/\/images.openai.com\/static-rsc-1\/xbnF1cto6NPjw-0zMSPSoccqGVJsky5BdaLLvdS2yNlvyzAGJlJM3C4BW6KyhcRX9_JUmO63lmpvlkli0m0kai-P9PM5wjMoD2izJ5RFw9Ulwi67umLgT11nkUj8eqV5UCU6HktRFMePlH4X4i9XMB_vPEY5whkr-aMBTiQGxWehUQxKY6T5OJfUnESUxCVhBQog0ZcESgPA9Cio4hWRA-OlhVF628q3_0cdQO7f4_uCu1Vgx5UB_yR9469Ry_i1NxY7H0cHZv1xy3O7gQ0j5g"
+                                    ],
+                                    "product_ids": [
+                                        {
+                                            "type": "chat_gpt_google_shopping_product",
+                                            "ei": "lLu3afyEDs2OwbkPk8He4QM",
+                                            "product_id": null,
+                                            "catalog_id": "13805379228972882300",
+                                            "gpcid": "4548154486553231692",
+                                            "headline_offer_docid": "3936912171799062637",
+                                            "image_docid": "3589259191013768315",
+                                            "rds": "PC_4548154486553231692|PROD_PC_4548154486553231692",
+                                            "query": "himalayan+salt+massage+stones+set",
+                                            "mid": null,
+                                            "pvt": "hg",
+                                            "uule": "w+CAIQICIaRGFsbGFzLFRleGFzLFVuaXRlZCBTdGF0ZXM",
+                                            "gl": "us",
+                                            "hl": "en"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "type": "chat_gpt_products_element",
+                                    "product_id": "6695514103317111880",
+                                    "merchants": "Himalayan Secrets + others",
+                                    "id_to_token_map": "eyJlaSI6ImxMdTNhYVBLQS1XTnA4NFAwcXZTa1FvIiwicHJvZHVjdGlkIjoiIiwiY2F0YWxvZ2lkIjoiNjY5NTUxNDEwMzMxNzExMTg4MCIsImhlYWRsaW5lT2ZmZXJEb2NpZCI6IjUyODYyNjg5NzE2NDk1MDYxMjUiLCJpbWFnZURvY2lkIjoiMTE1NTQzMzg0MDUxNjI0MjA0NTgiLCJyZHMiOiIiLCJxdWVyeSI6ImhpbWFsYXlhbitzYWx0K21hc3NhZ2Urc3RvbmUra2l0IiwiZ3BjaWQiOiI4ODgwOTUzOTYxODcxNjIzMzE5IiwibWlkIjoiIiwicHZ0IjoiaGciLCJ1dWxlIjoidytDQUlRSUNJYVJHRnNiR0Z6TEZSbGVHRnpMRlZ1YVhSbFpDQlRkR0YwWlhNIiwiZ2wiOiJ1cyIsImhsIjoiZW4ifQ==",
+                                    "title": "Himalayan Salt Stone Warming Bowl with 6 Stones",
+                                    "rating": null,
+                                    "price": 39.95,
+                                    "currency": "USD",
+                                    "tag": null,
+                                    "url": "https:\/\/himalayansecrets.com\/products\/himalayan-spa-6-massage-stone-warming-bowl?variant=27944594735197&country=US&currency=USD&utm_source=chatgpt.com",
+                                    "domain": "himalayansecrets.com",
+                                    "images": [
+                                        "https:\/\/images.openai.com\/static-rsc-1\/sxvewwgXCgdNe2kaKEMsjwK1sQCp4aXmQyut3e95S1yfvhw0Rcior3x7uSslMjsy64TVDjsXJnqTXjH2cFe1qf2gBe5NKosw9rxEWclc7Br5a4oXFxUQok0-EiAnTqgmT5R1vCUSYl5E6C__L8O0mcSGuudSzzRqU7L7VhNwJ5fUopgumkxJNBFsitqQ_214rx-8KyKEQW1SBji3kP2c539o0cD7hRaj8sa8nSx68gZY0n193JFAiYDtZxu0MzL7C31MZ6F_jTyzTIX8tO5rsg",
+                                        "https:\/\/images.openai.com\/static-rsc-1\/cryc-a0Bixsx7duqJjT2PXgZDQaY0ug8KBrh-3NEWL3bWxrHOUER7vI_AU-jPK_TF8mixCe3bsg4g-UJMAmQX1ruAE1zThoY1ceiYGatam7sqAVAZXSd5Vu6wLPontWwUTbiZu5RWkEhg9KSOwoX5KlrJocMSuyxofcWQWhM9xWUfsOV07MPsyDluw492EGFRR1cJQ1faDj1BxhHPvVgPdL52mJt97SaINFNyJEC6X9xJ9EHsyi9AsH2g3Vosewj",
+                                        "https:\/\/images.openai.com\/static-rsc-1\/tKBGDUQnIITOFC9DccBXdEACktmUrFNxahZLw_H_e3D3abAIVCzxNGSwwr7rU4KoZuu4eYEkakNFzl1tsDz38O4VTCbJ2ZwNd-04XQO2XI7k9aJXYl0Piu6mymsW3kQ1ziuHklWHYQbD2S8MU1gpCx_6cyxSxD0_tKr8X0k4-kv9xYcrCadBH4UuX_ZLQXRakKt8EObpkV-H2md-t8uoJCajlJ7jQh8pjWQoHSIkoJs4gBqKIOrfVaMGxQK8VkDl"
+                                    ],
+                                    "product_ids": [
+                                        {
+                                            "type": "chat_gpt_google_shopping_product",
+                                            "ei": "lLu3aaPKA-WNp84P0qvSkQo",
+                                            "product_id": null,
+                                            "catalog_id": "6695514103317111880",
+                                            "gpcid": "8880953961871623319",
+                                            "headline_offer_docid": "5286268971649506125",
+                                            "image_docid": "11554338405162420458",
+                                            "rds": null,
+                                            "query": "himalayan+salt+massage+stone+kit",
+                                            "mid": null,
+                                            "pvt": "hg",
+                                            "uule": "w+CAIQICIaRGFsbGFzLFRleGFzLFVuaXRlZCBTdGF0ZXM",
+                                            "gl": "us",
+                                            "hl": "en"
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "type": "chat_gpt_text",
+                            "rank_group": 4,
+                            "rank_absolute": 7,
+                            "markdown": "\n\n**Best for**\n- Massage therapists  \n- Home spa setups  \n- Heated stone treatments\n\nThese kits include:\n- multiple stones\n- heating bags or warmers\n- cold stones or accessories\n\n---\n\n✅ **Why people use Himalayan salt massage stones**\n\n- Contain **84 trace minerals** naturally found in Himalayan pink salt. [www.lakeviewmassageandtherapy.com](https:\/\/www.lakeviewmassageandtherapy.com\/massages-and-therapies\/himalayan-salt-stone-massage?utm_source=chatgpt.com)  \n- Heated stones help **relax muscles, improve circulation, and exfoliate skin** during massage. [www.lakeviewmassageandtherapy.com](https:\/\/www.lakeviewmassageandtherapy.com\/massages-and-therapies\/himalayan-salt-stone-massage?utm_source=chatgpt.com)  \n- Many therapists say they hold heat longer than traditional basalt stones.\n\n---\n\n💡 **Quick buying tips**\n- **For self-massage:** get **2–4 heart or oval stones**\n- **For couples massage:** get **6–12 stone sets**\n- **For professional use:** get **15+ stones + warmer**\n- Choose **hand-carved stones** (smoother and less likely to scratch skin)\n\n---\n\n✅ **My top 3 recommendations overall**\n1. **Saltability 12-Piece Himalayan Salt Stone Set** – best overall  \n2. **SereneLife Heart-Shaped Stones** – best budget option  \n3. **VULSINI Hot Salt Stone Bundle** – best full spa kit\n\n---\n\n💬 If you want, I can also show you:  \n- **The 5 highest-rated Himalayan salt stone sets on Amazon** (best reviews).  \n- **Which stones professional massage therapists usually buy** (they use different shapes).",
+                            "sources": [
+                                {
+                                    "type": "chat_gpt_source",
+                                    "title": "Himalayan Hot Stone Massage | Lakeview Massage and Therapy",
+                                    "snippet": null,
+                                    "domain": "www.lakeviewmassageandtherapy.com",
+                                    "url": "https:\/\/www.lakeviewmassageandtherapy.com\/massages-and-therapies\/himalayan-salt-stone-massage?utm_source=chatgpt.com",
+                                    "thumbnail": null,
+                                    "source_name": "lakeviewmassageandtherapy.com",
+                                    "publication_date": null,
+                                    "markdown": null
+                                }
+                            ],
+                            "brand_entities": null
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}
