@@ -1,0 +1,67 @@
+{
+    "version": "0.1.20260311",
+    "status_code": 20000,
+    "status_message": "Ok.",
+    "time": "12.1042 sec.",
+    "cost": 0.004,
+    "tasks_count": 1,
+    "tasks_error": 0,
+    "tasks": [
+        {
+            "id": "03161022-4353-0629-0000-607e4803c9f1",
+            "status_code": 20000,
+            "status_message": "Ok.",
+            "time": "12.0445 sec.",
+            "cost": 0.004,
+            "result_count": 1,
+            "path": [
+                "v3",
+                "ai_optimization",
+                "chat_gpt",
+                "llm_scraper",
+                "live",
+                "advanced"
+            ],
+            "data": {
+                "api": "ai_optimization",
+                "function": "llm_scraper",
+                "se": "chat_gpt",
+                "keyword": "Where can I buy himalayan salt panels with LED backlighting",
+                "language_code": "en",
+                "location_name": "United States",
+                "device": "desktop",
+                "os": "windows"
+            },
+            "result": [
+                {
+                    "keyword": "Where can I buy himalayan salt panels with LED backlighting",
+                    "location_code": 2840,
+                    "language_code": "en",
+                    "model": "gpt-5-3",
+                    "check_url": "https:\/\/chatgpt.com\/?prompt=Where%20can%20I%20buy%20himalayan%20salt%20panels%20with%20LED%20backlighting",
+                    "datetime": "2026-03-16 08:22:36 +00:00",
+                    "markdown": "You can find Himalayan salt panels with LED backlighting at several online retailers and marketplaces. Here are a few options:\n\n### 1. **Amazon**\n   - Amazon has a wide selection of Himalayan salt panels with built-in LED backlighting. You can search for \"Himalayan salt panels with LED\" to browse different options with varying sizes and styles.\n   - Some popular brands include **Salttopia** and **Himalayan Glow**.\n\n### 2. **eBay**\n   - eBay is another great option for both new and used salt panels. You might also find unique or custom-made panels from different sellers.\n\n### 3. **Wayfair**\n   - Wayfair offers a range of home décor items, including Himalayan salt panels. They have different designs that incorporate LED lighting for both aesthetic and therapeutic purposes.\n\n### 4. **Etsy**\n   - If you’re looking for something more unique or handmade, Etsy is a good place to check. Many sellers offer customized salt panels with LED backlighting, often using natural, high-quality Himalayan salt.\n\n### 5. **Walmart**\n   - Walmart carries various home and wellness products, including Himalayan salt lamps and panels with LED lighting. You can check their online store for a variety of styles and sizes.\n\n### 6. **Specialized Wellness Stores**\n   - Websites that focus on wellness products, like **The Salt Lamp Store** or **Himalayan Salt Shop**, often offer salt panels with LED lighting as well.\n\n### 7. **Home Goods Stores**\n   - Large home goods chains like **Bed Bath & Beyond**, **Target**, and **Home Depot** may carry Himalayan salt panels with LED lights both in-store and online.\n\nWould you like some help narrowing down a specific option or seeing customer reviews?",
+                    "search_results": null,
+                    "sources": null,
+                    "fan_out_queries": null,
+                    "brand_entities": null,
+                    "se_results_count": 0,
+                    "item_types": [
+                        "chat_gpt_text"
+                    ],
+                    "items_count": 1,
+                    "items": [
+                        {
+                            "type": "chat_gpt_text",
+                            "rank_group": 1,
+                            "rank_absolute": 1,
+                            "markdown": "You can find Himalayan salt panels with LED backlighting at several online retailers and marketplaces. Here are a few options:\n\n### 1. **Amazon**\n   - Amazon has a wide selection of Himalayan salt panels with built-in LED backlighting. You can search for \"Himalayan salt panels with LED\" to browse different options with varying sizes and styles.\n   - Some popular brands include **Salttopia** and **Himalayan Glow**.\n\n### 2. **eBay**\n   - eBay is another great option for both new and used salt panels. You might also find unique or custom-made panels from different sellers.\n\n### 3. **Wayfair**\n   - Wayfair offers a range of home décor items, including Himalayan salt panels. They have different designs that incorporate LED lighting for both aesthetic and therapeutic purposes.\n\n### 4. **Etsy**\n   - If you’re looking for something more unique or handmade, Etsy is a good place to check. Many sellers offer customized salt panels with LED backlighting, often using natural, high-quality Himalayan salt.\n\n### 5. **Walmart**\n   - Walmart carries various home and wellness products, including Himalayan salt lamps and panels with LED lighting. You can check their online store for a variety of styles and sizes.\n\n### 6. **Specialized Wellness Stores**\n   - Websites that focus on wellness products, like **The Salt Lamp Store** or **Himalayan Salt Shop**, often offer salt panels with LED lighting as well.\n\n### 7. **Home Goods Stores**\n   - Large home goods chains like **Bed Bath & Beyond**, **Target**, and **Home Depot** may carry Himalayan salt panels with LED lights both in-store and online.\n\nWould you like some help narrowing down a specific option or seeing customer reviews?",
+                            "sources": null,
+                            "brand_entities": null
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}
