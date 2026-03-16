@@ -1,0 +1,97 @@
+{
+    "version": "0.1.20260311",
+    "status_code": 20000,
+    "status_message": "Ok.",
+    "time": "100.1310 sec.",
+    "cost": 0.004,
+    "tasks_count": 1,
+    "tasks_error": 0,
+    "tasks": [
+        {
+            "id": "03161314-4353-0629-0000-e6fe7392e7f3",
+            "status_code": 20000,
+            "status_message": "Ok.",
+            "time": "100.0994 sec.",
+            "cost": 0.004,
+            "result_count": 1,
+            "path": [
+                "v3",
+                "ai_optimization",
+                "chat_gpt",
+                "llm_scraper",
+                "live",
+                "advanced"
+            ],
+            "data": {
+                "api": "ai_optimization",
+                "function": "llm_scraper",
+                "se": "chat_gpt",
+                "keyword": "How to make sole water and what jar do I need",
+                "language_code": "en",
+                "location_name": "United States",
+                "device": "desktop",
+                "os": "windows"
+            },
+            "result": [
+                {
+                    "keyword": "How to make sole water and what jar do I need",
+                    "location_code": 2840,
+                    "language_code": "en",
+                    "model": "gpt-5-3",
+                    "check_url": "https:\/\/chatgpt.com\/?prompt=How%20to%20make%20sole%20water%20and%20what%20jar%20do%20I%20need",
+                    "datetime": "2026-03-16 11:16:20 +00:00",
+                    "markdown": "**Sole water** is a saturated saltwater solution (usually made with natural salt like Himalayan or sea salt) that some people drink in small amounts for minerals and hydration. Here’s how to make it and what jar works best.\n\n---\n\n## 🫙 What Kind of Jar You Need\nUse a **glass jar with a non-metal lid**. Saltwater can corrode metal over time.\n\nGood options:\n- Mason jar (16–32 oz)\n- Any **glass jar with a plastic or glass lid**\n- Flip-top fermentation jar\n\nAvoid:\n- Metal containers  \n- Metal lids touching the water  \n- Plastic containers (can absorb salt and odors)\n\nA **16 oz (500 ml) mason jar** works perfectly.\n\n---\n\n## 🧂 Ingredients\n- **Unrefined salt** such as  \n  - Himalayan Pink Salt  \n  - Celtic Sea Salt  \n- **Filtered water**\n\nAvoid regular iodized table salt.\n\n---\n\n## 🧪 How to Make Sole Water\n1. **Fill the jar about ¼ full with salt.**  \n2. **Add filtered water** until the jar is almost full.  \n3. **Close the lid and shake gently.**  \n4. **Let it sit overnight (12–24 hours).**\n\n### Check if it’s ready\nIf there is **undissolved salt sitting at the bottom**, the solution is fully saturated. That means it’s **sole water**.\n\nIf all salt dissolves, add a little more salt and wait again.\n\n---\n\n## 🥄 How People Typically Use It\n- Add **1 teaspoon of sole water** to a **glass of regular water** in the morning.\n\nNever drink the concentrated solution directly.\n\n---\n\n✅ **Maintenance:**  \n- As you use some, just add more water.  \n- Keep a little salt at the bottom so it stays saturated.\n\n---\n\n💡 **Tip:** Many people keep their sole jar on the kitchen counter and it can last **months** as long as salt remains at the bottom.\n\n---\n\nIf you want, I can also show you:\n- **The best salts for making sole water (some are much better than others)**  \n- **The exact mason jar and salt most people buy on Amazon**.",
+                    "search_results": null,
+                    "sources": null,
+                    "fan_out_queries": null,
+                    "brand_entities": [
+                        {
+                            "type": "chat_gpt_brand_entity",
+                            "title": "Himalayan Pink Salt",
+                            "category": "food",
+                            "markdown": "Himalayan Pink Salt",
+                            "urls": null
+                        },
+                        {
+                            "type": "chat_gpt_brand_entity",
+                            "title": "Celtic Sea Salt",
+                            "category": "food",
+                            "markdown": "Celtic Sea Salt",
+                            "urls": null
+                        }
+                    ],
+                    "se_results_count": 0,
+                    "item_types": [
+                        "chat_gpt_text"
+                    ],
+                    "items_count": 1,
+                    "items": [
+                        {
+                            "type": "chat_gpt_text",
+                            "rank_group": 1,
+                            "rank_absolute": 1,
+                            "markdown": "**Sole water** is a saturated saltwater solution (usually made with natural salt like Himalayan or sea salt) that some people drink in small amounts for minerals and hydration. Here’s how to make it and what jar works best.\n\n---\n\n## 🫙 What Kind of Jar You Need\nUse a **glass jar with a non-metal lid**. Saltwater can corrode metal over time.\n\nGood options:\n- Mason jar (16–32 oz)\n- Any **glass jar with a plastic or glass lid**\n- Flip-top fermentation jar\n\nAvoid:\n- Metal containers  \n- Metal lids touching the water  \n- Plastic containers (can absorb salt and odors)\n\nA **16 oz (500 ml) mason jar** works perfectly.\n\n---\n\n## 🧂 Ingredients\n- **Unrefined salt** such as  \n  - Himalayan Pink Salt  \n  - Celtic Sea Salt  \n- **Filtered water**\n\nAvoid regular iodized table salt.\n\n---\n\n## 🧪 How to Make Sole Water\n1. **Fill the jar about ¼ full with salt.**  \n2. **Add filtered water** until the jar is almost full.  \n3. **Close the lid and shake gently.**  \n4. **Let it sit overnight (12–24 hours).**\n\n### Check if it’s ready\nIf there is **undissolved salt sitting at the bottom**, the solution is fully saturated. That means it’s **sole water**.\n\nIf all salt dissolves, add a little more salt and wait again.\n\n---\n\n## 🥄 How People Typically Use It\n- Add **1 teaspoon of sole water** to a **glass of regular water** in the morning.\n\nNever drink the concentrated solution directly.\n\n---\n\n✅ **Maintenance:**  \n- As you use some, just add more water.  \n- Keep a little salt at the bottom so it stays saturated.\n\n---\n\n💡 **Tip:** Many people keep their sole jar on the kitchen counter and it can last **months** as long as salt remains at the bottom.\n\n---\n\nIf you want, I can also show you:\n- **The best salts for making sole water (some are much better than others)**  \n- **The exact mason jar and salt most people buy on Amazon**.",
+                            "sources": null,
+                            "brand_entities": [
+                                {
+                                    "type": "chat_gpt_brand_entity",
+                                    "title": "Himalayan Pink Salt",
+                                    "category": "food",
+                                    "markdown": "Himalayan Pink Salt",
+                                    "urls": null
+                                },
+                                {
+                                    "type": "chat_gpt_brand_entity",
+                                    "title": "Celtic Sea Salt",
+                                    "category": "food",
+                                    "markdown": "Celtic Sea Salt",
+                                    "urls": null
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}
