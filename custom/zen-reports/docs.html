@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Zen Reports — Technical Documentation</title>
+<link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+<style>
+*{margin:0;padding:0;box-sizing:border-box}
+body{font-family:'DM Sans',system-ui,sans-serif;background:#f8f9fb;color:#1e293b;line-height:1.7}
+.wrap{max-width:800px;margin:0 auto;padding:32px 24px}
+h1{font-size:24px;font-weight:700;margin-bottom:8px;color:#111827}
+h2{font-size:18px;font-weight:600;margin:32px 0 12px;padding-top:24px;border-top:1px solid #e5e7eb;color:#111827}
+h3{font-size:15px;font-weight:600;margin:20px 0 8px;color:#374151}
+p{margin-bottom:12px;font-size:14px;color:#4b5563}
+.subtitle{font-size:14px;color:#6b7280;margin-bottom:24px}
+code{font-family:'JetBrains Mono',monospace;font-size:12px;background:#f1f5f9;padding:2px 6px;border-radius:4px;color:#be185d}
+pre{background:#1e293b;color:#e2e8f0;padding:16px;border-radius:10px;overflow-x:auto;margin:12px 0 16px;font-family:'JetBrains Mono',monospace;font-size:11.5px;line-height:1.6}
+table{width:100%;border-collapse:collapse;margin:12px 0 16px;font-size:13px}
+th{background:#f8fafc;padding:8px 12px;text-align:left;font-weight:600;font-size:11px;text-transform:uppercase;letter-spacing:.5px;color:#6b7280;border-bottom:2px solid #e5e7eb}
+td{padding:8px 12px;border-bottom:1px solid #f1f5f9}
+.formula{background:#fffbeb;border:1px solid #fde68a;border-radius:8px;padding:12px 16px;margin:12px 0;font-family:'JetBrains Mono',monospace;font-size:12px;color:#92400e}
+.note{background:#eff6ff;border:1px solid #bfdbfe;border-radius:8px;padding:12px 16px;margin:12px 0;font-size:13px;color:#1e40af}
+.badge{display:inline-block;padding:2px 8px;border-radius:4px;font-size:10px;font-weight:600;letter-spacing:.5px}
+.badge-ga4{background:#f0fdf4;color:#15803d;border:1px solid #bbf7d0}
+.badge-calc{background:#fef3c7;color:#92400e;border:1px solid #fde68a}
+.section-num{display:inline-flex;align-items:center;justify-content:center;width:24px;height:24px;border-radius:6px;background:#10A37F;color:#fff;font-size:11px;font-weight:700;margin-right:8px}
+a{color:#10A37F}
+.back-link{display:inline-flex;align-items:center;gap:6px;font-size:13px;color:#10A37F;font-weight:500;text-decoration:none;margin-bottom:20px}
+.back-link:hover{text-decoration:underline}
+</style>
+</head>
+<body>
+<div class="wrap">
+
+<a class="back-link" href="dashboard.html">← Back to Dashboard</a>
+
+<h1>Zen Reports — Technical Documentation</h1>
+<p class="subtitle">Every section's data source, GA4 API calls, and calculation math. No AI processing — everything is GA4 Data API + basic arithmetic.</p>
+
+<h2><span class="section-num">1</span>GA4 Data API — Base Setup</h2>
+<p><strong>Endpoint:</strong> <code>POST /v1beta/properties/{property_id}:runReport</code></p>
+<p><strong>Auth:</strong> OAuth 2.0 with <code>analytics.readonly</code> scope.</p>
+<p><strong>LLM Source Filter</strong> — used across all sections:</p>
+<pre>{
+  "dimensionFilter": {
+    "orGroup": {
+      "expressions": [
+        { "filter": { "fieldName": "sessionSource",
+          "stringFilter": { "matchType": "CONTAINS", "value": "chatgpt" } } },
+        { "filter": { "fieldName": "sessionSource",
+          "stringFilter": { "matchType": "CONTAINS", "value": "gemini.google" } } },
+        { "filter": { "fieldName": "sessionSource",
+          "stringFilter": { "matchType": "CONTAINS", "value": "claude.ai" } } },
+        { "filter": { "fieldName": "sessionSource",
+          "stringFilter": { "matchType": "CONTAINS", "value": "perplexity" } } },
+        { "filter": { "fieldName": "sessionSource",
+          "stringFilter": { "matchType": "CONTAINS", "value": "copilot.microsoft" } } }
+      ]
+    }
+  }
+}</pre>
+<div class="note">Source strings may vary (e.g., <code>chat.openai.com</code> vs <code>chatgpt.com</code>). Maintain a lookup table mapping known source strings to platform names.</div>
+
+<h2><span class="section-num">2</span>Time Range & Comparison</h2>
+<p>Monthly-only ranges: Last 1, 3, 6, or 12 months.</p>
+<div class="formula">
+current_end = today<br>
+current_start = today - (selected_months × 30)<br>
+previous_end = current_start - 1<br>
+previous_start = previous_end - (selected_months × 30)
+</div>
+<p>GA4 supports dual date ranges natively:</p>
+<pre>{
+  "dateRanges": [
+    { "startDate": "2024-09-16", "endDate": "2025-03-14", "name": "current" },
+    { "startDate": "2024-03-16", "endDate": "2024-09-15", "name": "previous" }
+  ]
+}</pre>
+<p><strong>For "Same period last year":</strong></p>
+<div class="formula">previous_start = current_start - 365 days<br>previous_end = current_end - 365 days</div>
+<p><strong>Percentage change:</strong></p>
+<div class="formula">change_pct = ((current - previous) / previous) × 100<br>If previous = 0, display "New" instead of percentage</div>
+
+<h2><span class="section-num">3</span>Total Sessions + Per-LLM Cards <span class="badge badge-ga4">GA4 API</span></h2>
+<pre>{
+  "dimensions": [{ "name": "sessionSource" }],
+  "metrics": [{ "name": "sessions" }],
+  "dateRanges": [ /* current + previous */ ],
+  "dimensionFilter": { /* LLM source filter */ }
+}</pre>
+<p><strong>Processing:</strong> Group rows by mapped platform name → sum sessions per platform for each period → compute change %.</p>
+<p><strong>Sparkline data</strong> — separate call with monthly granularity:</p>
+<pre>{
+  "dimensions": [
+    { "name": "yearMonth" },
+    { "name": "sessionSource" }
+  ],
+  "metrics": [{ "name": "sessions" }]
+}</pre>
+
+<h2><span class="section-num">4</span>LLM Traffic Trends Chart <span class="badge badge-ga4">GA4 API</span></h2>
+<p>Uses the same monthly breakdown from Section 3's sparkline call. Plot <code>yearMonth</code> on X, <code>sessions</code> on Y, one line per platform.</p>
+
+<h2><span class="section-num">5</span>LLM Share Donut <span class="badge badge-ga4">GA4 API</span></h2>
+<p>No extra API call — uses per-platform totals from Section 3.</p>
+<div class="formula">platform_share_pct = (platform_sessions / total_sessions) × 100</div>
+
+<h2><span class="section-num">6</span>AI Visibility Score <span class="badge badge-calc">Calculated</span></h2>
+<p>No extra API call. Calculated from existing data:</p>
+<div class="formula">
+volume_score &nbsp;&nbsp;&nbsp;&nbsp;= min(total_sessions / 15, 40) &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<em>// max 40 pts</em><br>
+diversity_score &nbsp;= active_platform_count × 4 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<em>// max 20 pts</em><br>
+growth_score &nbsp;&nbsp;&nbsp;&nbsp;= max(0, min(change_pct × 0.5, 20)) &nbsp;<em>// max 20 pts</em><br>
+engagement_score = min(avg_session_minutes × 2, 20) &nbsp;&nbsp;&nbsp;<em>// max 20 pts</em><br><br>
+<strong>ai_visibility_score = min(volume + diversity + growth + engagement, 100)</strong>
+</div>
+<div class="note"><strong>Scaling note:</strong> The volume divisor (15) is for small-to-mid sites. For high-traffic sites, use logarithmic: <code>volume = min(log10(sessions + 1) × 12, 40)</code></div>
+
+<h2><span class="section-num">7</span>Insight Cards <span class="badge badge-calc">Calculated</span></h2>
+<p>Pure conditional logic — no AI, no extra API calls.</p>
+<h3>Insight 1: Dominant platform</h3>
+<div class="formula">
+dominant = platform with max sessions<br>
+pct = (dominant.sessions / total) × 100<br>
+change = ((current - previous) / previous) × 100<br><br>
+→ "{name} drives {pct}% of all AI traffic with {sessions} sessions — up/down {change}% from {compare_period}."
+</div>
+<h3>Insight 2: Best engagement</h3>
+<div class="formula">
+best = platform with highest averageSessionDuration<br><br>
+→ "{name} users have the highest avg session time across your pages."
+</div>
+<h3>Insight 3: Biggest decline (or fastest grower)</h3>
+<div class="formula">
+declines = platforms where current &lt; previous<br>
+worst = decline with largest absolute change %<br><br>
+→ "{name} referral traffic is down {change}% this period ({prev} → {current} sessions)."<br><br>
+<em>If no declines → show fastest grower (excluding dominant)</em><br>
+<em>If only 1 platform has traffic → "Optimize for other LLMs to diversify."</em>
+</div>
+
+<h2><span class="section-num">8</span>LLM Engagement Quality <span class="badge badge-ga4">GA4 API</span></h2>
+<pre>{
+  "dimensions": [{ "name": "sessionSource" }],
+  "metrics": [
+    { "name": "averageSessionDuration" },
+    { "name": "screenPageViewsPerSession" },
+    { "name": "bounceRate" }
+  ],
+  "dimensionFilter": { /* LLM source filter */ }
+}</pre>
+<p>Format: <code>averageSessionDuration</code> in seconds → <code>Xm Ys</code>. <code>bounceRate</code> returned as decimal (0.32 → 32%).</p>
+<p><strong>Color coding:</strong> Green ≤20%, Amber 21–35%, Red &gt;35%.</p>
+
+<h2><span class="section-num">9</span>Top Performing Pages <span class="badge badge-ga4">GA4 API</span></h2>
+<pre>{
+  "dimensions": [
+    { "name": "sessionSource" },
+    { "name": "pagePath" }
+  ],
+  "metrics": [
+    { "name": "sessions" },
+    { "name": "averageSessionDuration" },
+    { "name": "bounceRate" }
+  ],
+  "orderBys": [{ "metric": { "metricName": "sessions" }, "desc": true }],
+  "limit": "100"
+}</pre>
+<p>When page filter active, add <code>pagePath</code> EXACT match to dimensionFilter's andGroup.</p>
+
+<h2><span class="section-num">10</span>Geographic Breakdown <span class="badge badge-ga4">GA4 API</span></h2>
+<pre>// Countries
+{ "dimensions": [{ "name": "country" }], "metrics": [{ "name": "sessions" }] }
+
+// Cities
+{ "dimensions": [{ "name": "city" }], "metrics": [{ "name": "sessions" }], "limit": "10" }</pre>
+<p>Map rendering: D3.js + <code>world-atlas@2/countries-110m.json</code>. Handle name aliases (e.g., "United States of America" → "United States").</p>
+
+<h2><span class="section-num">11</span>Browsers <span class="badge badge-ga4">GA4 API</span></h2>
+<pre>{ "dimensions": [{ "name": "browser" }], "metrics": [{ "name": "totalUsers" }] }</pre>
+<div class="formula">browser_pct = (browser_users / total_users) × 100<br>Group &lt;1% into "Others"</div>
+
+<h2><span class="section-num">12</span>Device Categories <span class="badge badge-ga4">GA4 API</span></h2>
+<pre>{ "dimensions": [{ "name": "deviceCategory" }], "metrics": [{ "name": "sessions" }] }</pre>
+
+<h2><span class="section-num">13</span>Page-Level Filter</h2>
+<p>When active, every API call adds this to the andGroup:</p>
+<pre>{ "filter": { "fieldName": "pagePath",
+  "stringFilter": { "matchType": "EXACT", "value": "/selected-page" } } }</pre>
+<p>Page list populated on init (1 call, limit 1000, sorted by sessions). Search is client-side string matching.</p>
+
+<h2><span class="section-num">14</span>Total API Calls</h2>
+<table>
+<tr><th>#</th><th>Purpose</th><th>Calls</th></tr>
+<tr><td>1</td><td>Sessions by source (current + prev)</td><td>1</td></tr>
+<tr><td>2</td><td>Sessions by source × month (sparklines + trend)</td><td>1</td></tr>
+<tr><td>3</td><td>Engagement metrics by source</td><td>1</td></tr>
+<tr><td>4</td><td>Sessions by source × pagePath (top pages)</td><td>1</td></tr>
+<tr><td>5</td><td>Sessions by country</td><td>1</td></tr>
+<tr><td>6</td><td>Sessions by city</td><td>1</td></tr>
+<tr><td>7</td><td>Users by browser</td><td>1</td></tr>
+<tr><td>8</td><td>Sessions by device</td><td>1</td></tr>
+<tr><td>9</td><td>Page path list (for filter dropdown)</td><td>1</td></tr>
+<tr><td colspan="2"><strong>Total</strong></td><td><strong>9 calls</strong></td></tr>
+</table>
+<p>All 9 calls fire in parallel. Re-fire when filter/time range changes.</p>
+<div class="note"><strong>Rate limits:</strong> GA4 allows 10,000 requests/day per project. At 9 calls per load = ~1,100 dashboard views/day. For higher traffic, cache responses for 15–60 minutes per property + time range combination.</div>
+
+</div>
+</body>
+</html>
