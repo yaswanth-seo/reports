@@ -1,0 +1,653 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Zen Reports — AI Chatbot Traffic Dashboard</title>
+<link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
+<script src="https://cdnjs.cloudflare.com/ajax/libs/d3/7.8.5/d3.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/topojson/3.0.2/topojson.min.js"></script>
+<style>
+*{margin:0;padding:0;box-sizing:border-box}
+body{font-family:'DM Sans','Segoe UI',system-ui,sans-serif;background:#f8f9fb;color:#111827;min-height:100vh}
+.header{background:#fff;border-bottom:1px solid rgba(0,0,0,.06);padding:10px 24px;display:flex;align-items:center;justify-content:space-between;position:sticky;top:0;z-index:20}
+.header-left{display:flex;align-items:center;gap:8px}
+.logo{color:#10A37F;font-size:20px}
+.logo-text{font-weight:700;font-size:17px}
+.header-right{display:flex;align-items:center;gap:8px;flex-wrap:wrap}
+.sel{padding:6px 12px;border-radius:8px;border:1px solid rgba(0,0,0,.08);font-size:13px;background:#fff;cursor:pointer;font-family:inherit}
+.sel-compare{color:#6b7280;font-size:12px}
+.avatar{width:30px;height:30px;border-radius:50%;background:#10A37F;display:flex;align-items:center;justify-content:center;color:#fff;font-size:12px;font-weight:600}
+.container{padding:20px 24px;max-width:1200px;margin:0 auto}
+.grid-6{display:grid;grid-template-columns:repeat(6,1fr);gap:12px;margin-bottom:20px}
+.grid-3-1-1{display:grid;grid-template-columns:3fr 1fr 1fr;gap:14px;margin-bottom:20px}
+.grid-3{display:grid;grid-template-columns:repeat(3,1fr);gap:10px;margin-bottom:20px}
+.grid-1_3-1-1{display:grid;grid-template-columns:1.3fr 1fr 1fr;gap:14px;margin-bottom:20px}
+.grid-2{display:grid;grid-template-columns:1fr 1fr;gap:14px;margin-bottom:20px}
+.card{background:#fff;border-radius:12px;border:1px solid rgba(0,0,0,.06);padding:16px}
+.card-title{font-size:12px;font-weight:600;margin-bottom:10px}
+.label-xs{font-size:10px;color:#6b7280;text-transform:uppercase;letter-spacing:.5px;margin-bottom:4px}
+.num-lg{font-size:32px;font-weight:700;line-height:1}
+.num-md{font-size:22px;font-weight:700}
+.muted{color:#6b7280}
+.muted-sm{font-size:10px;color:#9ca3af;margin-top:2px}
+.trend-up{color:#16a34a;font-size:12px;font-weight:500}
+.trend-down{color:#dc2626;font-size:12px;font-weight:500}
+.trend-flat{color:#6b7280;font-size:12px;font-weight:500}
+.llm-card{border-radius:12px;padding:14px;cursor:pointer;transition:all .15s;border:1px solid rgba(0,0,0,.06)}
+.llm-card.active{border-color:rgba(0,0,0,.15)}
+.llm-name{font-size:11px;font-weight:600}
+.filter-btn{padding:3px 10px;border-radius:6px;border:none;font-size:11px;font-weight:500;cursor:pointer;background:transparent;color:#6b7280;font-family:inherit}
+.filter-btn.active{font-weight:600}
+.insight{background:#fff;border-radius:10px;padding:12px 14px;border:1px solid rgba(0,0,0,.05);font-size:12.5px;line-height:1.55;color:#6b7280;display:flex;gap:8px;align-items:flex-start}
+.insight-icon{font-size:16px;line-height:1}
+table{width:100%;border-collapse:collapse;font-size:12.5px}
+th{padding:7px 10px;text-align:left;font-weight:500;color:#6b7280;font-size:10px;text-transform:uppercase;letter-spacing:.5px;border-bottom:1px solid rgba(0,0,0,.06)}
+td{padding:8px 10px}
+tr{border-bottom:1px solid rgba(0,0,0,.03)}
+.platform-badge{padding:2px 8px;border-radius:5px;font-size:10px;font-weight:600;display:inline-block}
+.mono{font-family:monospace;font-size:11.5px;font-weight:500}
+.engagement-card{border-radius:10px;padding:14px;text-align:center}
+.engagement-card .name{font-size:11px;font-weight:600;margin-bottom:10px}
+.engagement-card .stats{font-size:11px;color:#6b7280;line-height:2}
+.engagement-card .stats strong{color:#111}
+.country-row,.city-row{display:flex;align-items:center;gap:8px;padding:5px 0;border-bottom:1px solid rgba(0,0,0,.03);font-size:12px}
+.country-rank{color:#6b7280;width:14px;text-align:right;font-size:10px}
+.country-name{flex:1;font-weight:500}
+.bar-bg{width:60px;height:5px;border-radius:3px;background:rgba(0,0,0,.05);overflow:hidden}
+.bar-fill{height:100%;border-radius:3px;background:#4285F4}
+.country-val{font-weight:600;width:30px;text-align:right;font-size:11px}
+.donut-legend{display:flex;align-items:center;justify-content:space-between;padding:4px 0;font-size:11px}
+.legend-dot{width:7px;height:7px;border-radius:2px;display:inline-block}
+.browser-row{display:flex;align-items:center;gap:6px;padding:3px 0;font-size:12px}
+.browser-dot{width:8px;height:8px;border-radius:2px;display:inline-block}
+.device-total{display:flex;align-items:center;gap:6px;padding:6px 0;border-top:1px solid rgba(0,0,0,.05);font-size:12px;font-weight:600}
+.footer{text-align:center;padding:16px 0 8px;font-size:11px;color:#9ca3af;border-top:1px solid rgba(0,0,0,.04)}
+.footer a{color:#b5b5b5;margin-left:4px;text-decoration:underline}
+.score-card{background:linear-gradient(135deg,#1a1a2e 0%,#16213e 50%,#0f3460 100%);border-radius:12px;padding:16px;color:#fff;display:flex;flex-direction:column;align-items:center;justify-content:center;position:relative;overflow:hidden}
+/* Page filter */
+.pf-trigger{padding:6px 12px;border-radius:8px;border:1px solid #10A37F;font-size:13px;background:#f0fdf4;cursor:pointer;color:#0D8A5E;font-weight:500;display:flex;align-items:center;gap:6px;min-width:160px;user-select:none}
+.pf-dropdown{position:absolute;top:calc(100% + 4px);left:0;min-width:280px;background:#fff;border-radius:10px;border:1px solid #e5e7eb;box-shadow:0 8px 24px rgba(0,0,0,.1);z-index:50;overflow:hidden;display:none}
+.pf-dropdown.open{display:block}
+.pf-search{width:100%;padding:6px 10px;border-radius:6px;border:1px solid #e5e7eb;font-size:13px;outline:none;box-sizing:border-box}
+.pf-item{padding:8px 14px;cursor:pointer;font-size:12px}
+.pf-item:hover{background:#f0fdf4}
+.pf-item.active{font-weight:600;background:#f0fdf4}
+.pf-item.mono{font-family:monospace}
+@media(max-width:900px){
+  .grid-6{grid-template-columns:repeat(3,1fr)}
+  .grid-3-1-1{grid-template-columns:1fr}
+  .grid-1_3-1-1{grid-template-columns:1fr}
+  .grid-3{grid-template-columns:1fr}
+  .grid-2{grid-template-columns:1fr}
+}
+</style>
+</head>
+<body>
+
+<!-- HEADER -->
+<div class="header">
+  <div class="header-left">
+    <span class="logo">◎</span>
+    <span class="logo-text">Zen Reports</span>
+  </div>
+  <div class="header-right">
+    <select class="sel"><option>Example Site</option></select>
+    <select class="sel" id="timeRange">
+      <option value="1">Last 1 month</option>
+      <option value="3">Last 3 months</option>
+      <option value="6" selected>Last 6 months</option>
+      <option value="12">Last 12 months</option>
+    </select>
+    <select class="sel sel-compare" id="compareTo">
+      <option value="prev">vs previous period</option>
+      <option value="yoy">vs same period last year</option>
+    </select>
+    <!-- Page filter -->
+    <div style="position:relative" id="pageFilterWrap">
+      <div class="pf-trigger" id="pfTrigger" onclick="togglePageFilter()">
+        <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="#0D8A5E" stroke-width="2"><path d="M3 4h18M3 4l6 7v5l4 2v-7l6-7"/></svg>
+        <span id="pfLabel">All pages</span>
+        <span style="margin-left:auto;font-size:10px">▾</span>
+      </div>
+      <div class="pf-dropdown" id="pfDropdown">
+        <div style="padding:8px 10px;border-bottom:1px solid #f3f4f6">
+          <input class="pf-search" id="pfSearch" placeholder="Search pages…" oninput="filterPages()">
+        </div>
+        <div id="pfList" style="max-height:240px;overflow-y:auto"></div>
+      </div>
+    </div>
+    <div class="avatar">Y</div>
+  </div>
+</div>
+
+<div class="container">
+
+  <!-- ROW 1: Traffic Hero -->
+  <div class="grid-6" id="heroRow"></div>
+
+  <!-- ROW 2: Trend + Share + AI Score -->
+  <div class="grid-3-1-1">
+    <div class="card" style="padding:16px 18px">
+      <div style="display:flex;justify-content:space-between;align-items:center;margin-bottom:12px">
+        <span style="font-size:13px;font-weight:600">LLM traffic trends</span>
+        <div id="chartFilters"></div>
+      </div>
+      <div style="width:100%;position:relative"><canvas id="trendChart"></canvas></div>
+    </div>
+    <div class="card" style="display:flex;flex-direction:column;align-items:center">
+      <div style="font-size:12px;font-weight:600;margin-bottom:12px;align-self:flex-start">LLM share</div>
+      <canvas id="shareDonut" width="120" height="120"></canvas>
+      <div id="shareLegend" style="margin-top:10px;width:100%"></div>
+    </div>
+    <div class="score-card" id="aiScoreCard"></div>
+  </div>
+
+  <!-- ROW 3: Insights -->
+  <div class="grid-3" id="insightsRow"></div>
+
+  <!-- ROW 4: Top Pages -->
+  <div class="card" style="margin-bottom:20px;padding:16px 18px">
+    <div style="display:flex;justify-content:space-between;align-items:center;margin-bottom:12px">
+      <span style="font-size:13px;font-weight:600">Top performing pages</span>
+      <span style="font-size:11px;color:#6b7280">Sep 16, 2025 → Mar 14, 2026</span>
+    </div>
+    <table><thead><tr>
+      <th>Platform</th><th>Page path</th><th>Sessions</th><th>Avg session</th><th>Bounce rate</th>
+    </tr></thead><tbody id="pagesTable"></tbody></table>
+  </div>
+
+  <!-- ROW 5: Engagement -->
+  <div class="card" style="margin-bottom:20px;padding:16px 18px">
+    <div style="font-size:13px;font-weight:600;margin-bottom:14px">LLM engagement quality</div>
+    <div style="display:grid;grid-template-columns:repeat(5,1fr);gap:10px" id="engagementRow"></div>
+  </div>
+
+  <!-- ROW 6: Map + Countries + Cities -->
+  <div class="grid-1_3-1-1">
+    <div class="card">
+      <div class="card-title">Geographic breakdown</div>
+      <div id="worldMap" style="width:100%"></div>
+    </div>
+    <div class="card">
+      <div class="card-title">Countries</div>
+      <div id="countriesList"></div>
+    </div>
+    <div class="card">
+      <div class="card-title">Cities</div>
+      <div id="citiesList"></div>
+    </div>
+  </div>
+
+  <!-- ROW 7: Browsers + Devices -->
+  <div class="grid-2">
+    <div class="card">
+      <div class="card-title" style="margin-bottom:12px">Browsers</div>
+      <div style="display:flex;align-items:center;gap:20px">
+        <canvas id="browserDonut" width="100" height="100"></canvas>
+        <div id="browserList" style="flex:1"></div>
+      </div>
+    </div>
+    <div class="card">
+      <div class="card-title" style="margin-bottom:12px">Device categories</div>
+      <div style="display:flex;align-items:center;gap:20px">
+        <canvas id="deviceDonut" width="100" height="100"></canvas>
+        <div id="deviceList" style="flex:1"></div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Footer -->
+  <div class="footer">
+    <div>Zen Reports — AI chatbot traffic analytics</div>
+    <div style="margin-top:6px;font-size:10px;color:#b5b5b5">
+      Data sourced from Google Analytics. Numbers may be approximate due to GA4's privacy thresholds and data sampling.
+      <a href="https://support.google.com/analytics/answer/13331684" target="_blank" rel="noopener">Learn more</a>
+    </div>
+  </div>
+</div>
+
+<script>
+// ═══ DATA ═══
+const COLORS={chatgpt:{bg:'#E6F4ED',text:'#0D8A5E',accent:'#10A37F',chart:'#10A37F'},gemini:{bg:'#E8F0FE',text:'#1A73E8',accent:'#4285F4',chart:'#4285F4'},claude:{bg:'#FDF0E9',text:'#B8562A',accent:'#D97757',chart:'#D97757'},perplexity:{bg:'#E6F3F3',text:'#177B7B',accent:'#20808D',chart:'#20808D'},copilot:{bg:'#EEEAFD',text:'#5B3FC5',accent:'#7B61FF',chart:'#7B61FF'}};
+
+const LLM_DATA=[
+  {id:'chatgpt',name:'ChatGPT',sessions:958,prev:812},
+  {id:'gemini',name:'Gemini',sessions:41,prev:28},
+  {id:'claude',name:'Claude',sessions:39,prev:45},
+  {id:'perplexity',name:'Perplexity',sessions:31,prev:19},
+  {id:'copilot',name:'Copilot',sessions:8,prev:5}
+];
+
+const TREND=[
+  {month:'Oct',chatgpt:65,gemini:5,claude:8,perplexity:3,copilot:1},
+  {month:'Nov',chatgpt:143,gemini:8,claude:6,perplexity:5,copilot:2},
+  {month:'Dec',chatgpt:131,gemini:10,claude:5,perplexity:4,copilot:1},
+  {month:'Jan',chatgpt:61,gemini:6,claude:4,perplexity:3,copilot:1},
+  {month:'Feb',chatgpt:258,gemini:12,claude:10,perplexity:8,copilot:2},
+  {month:'Mar',chatgpt:235,gemini:15,claude:12,perplexity:9,copilot:3},
+  {month:'Mar*',chatgpt:182,gemini:11,claude:8,perplexity:7,copilot:2}
+];
+
+const PAGES=[
+  {platform:'chatgpt',path:'/',avgTime:'6m 45s',sessions:210,bounce:28},
+  {platform:'chatgpt',path:'/sign-up',avgTime:'10m 19s',sessions:87,bounce:15},
+  {platform:'chatgpt',path:'/sales-tracker',avgTime:'8m 19s',sessions:64,bounce:22},
+  {platform:'chatgpt',path:'/dashboard',avgTime:'18m 52s',sessions:52,bounce:10},
+  {platform:'gemini',path:'/',avgTime:'5m 49s',sessions:18,bounce:35},
+  {platform:'chatgpt',path:'/login',avgTime:'18m 42s',sessions:41,bounce:8},
+  {platform:'chatgpt',path:'/blog/free-ad-spy-tools',avgTime:'4m 51s',sessions:38,bounce:42},
+  {platform:'chatgpt',path:'/pricing',avgTime:'9m 32s',sessions:35,bounce:20},
+  {platform:'claude',path:'/pricing',avgTime:'11m 05s',sessions:12,bounce:16},
+  {platform:'perplexity',path:'/',avgTime:'3m 22s',sessions:14,bounce:48}
+];
+
+const COUNTRY_DATA={"United States":150,"Netherlands":96,"Pakistan":82,"Germany":58,"Turkey":55,"France":54,"Canada":52,"Morocco":47,"Brazil":31,"Denmark":31,"United Kingdom":27,"India":22,"Australia":15,"Spain":12,"Italy":10,"Japan":8,"Mexico":7,"South Korea":6,"Sweden":5,"Poland":4,"Argentina":3,"Colombia":3,"South Africa":2,"Nigeria":2,"Egypt":2,"China":1,"Russia":1,"Indonesia":1};
+
+const COUNTRIES_LIST=Object.entries(COUNTRY_DATA).map(([n,s])=>({name:n,sessions:s})).sort((a,b)=>b.sessions-a.sessions);
+
+const CITIES=[{name:'(not set)',sessions:71},{name:'Karachi',sessions:18},{name:'Amsterdam',sessions:12},{name:'Los Angeles',sessions:8},{name:'Paris',sessions:8},{name:'London',sessions:7},{name:'Casablanca',sessions:6},{name:'Istanbul',sessions:6}];
+
+const BROWSERS=[{name:'Chrome',users:418,pct:64},{name:'Safari',users:171,pct:26},{name:'Edge',users:35,pct:5},{name:'Opera',users:11,pct:2},{name:'Firefox',users:7,pct:1},{name:'Others',users:6,pct:1}];
+const BROWSER_COLORS=['#3266ad','#73726c','#cc7832','#8B5CF6','#059669','#94a3b8'];
+
+const DEVICES=[{name:'Desktop',sessions:857,pct:79},{name:'Mobile',sessions:222,pct:21},{name:'Tablet',sessions:1,pct:0}];
+const DEVICE_COLORS=['#3266ad','#cc7832','#73726c'];
+
+const ENGAGEMENT=[
+  {name:'ChatGPT',id:'chatgpt',avgTime:'8m 12s',pps:2.4,br:32},
+  {name:'Gemini',id:'gemini',avgTime:'12m 34s',pps:3.8,br:18},
+  {name:'Claude',id:'claude',avgTime:'9m 45s',pps:2.9,br:25},
+  {name:'Perplexity',id:'perplexity',avgTime:'6m 20s',pps:1.8,br:41},
+  {name:'Copilot',id:'copilot',avgTime:'4m 10s',pps:1.3,br:55}
+];
+
+// ═══ STATE ═══
+let activeFilter='all';
+let pageFilter='all';
+
+// ═══ HELPERS ═══
+const total=LLM_DATA.reduce((s,d)=>s+d.sessions,0);
+const prevTotal=LLM_DATA.reduce((s,d)=>s+d.prev,0);
+const totalChange=Math.round(((total-prevTotal)/prevTotal)*100);
+const allPagePaths=[...new Set(PAGES.map(p=>p.path))];
+
+function trendHTML(v){
+  if(v>0) return `<span class="trend-up">↑ ${v}%</span>`;
+  if(v<0) return `<span class="trend-down">↓ ${Math.abs(v)}%</span>`;
+  return `<span class="trend-flat">— 0%</span>`;
+}
+
+function bounceColor(b){return b>35?'#dc2626':b>20?'#d97706':'#16a34a'}
+
+function sparkSVG(data,color,w=48,h=18){
+  const max=Math.max(...data),min=Math.min(...data),range=max-min||1;
+  const pts=data.map((v,i)=>{
+    const x=(i/(data.length-1))*w;
+    const y=h-((v-min)/range)*(h-4)-2;
+    return `${x},${y}`;
+  }).join(' ');
+  return `<svg width="${w}" height="${h}" style="display:block"><polyline points="${pts}" fill="none" stroke="${color}" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>`;
+}
+
+function drawDonut(canvasId,items,colorArr,valueKey,size){
+  const canvas=document.getElementById(canvasId);
+  const ctx=canvas.getContext('2d');
+  const dpr=window.devicePixelRatio||1;
+  canvas.width=size*dpr;canvas.height=size*dpr;
+  canvas.style.width=size+'px';canvas.style.height=size+'px';
+  ctx.scale(dpr,dpr);
+  const total=items.reduce((s,d)=>s+(d[valueKey]||0),0);
+  let cum=0;const cx=size/2,cy=size/2,r=size/2-5,inner=r*.58;
+  items.forEach((d,i)=>{
+    const val=d[valueKey]||0;if(!val)return;
+    const start=(cum/total)*Math.PI*2-Math.PI/2;
+    cum+=val;
+    const end=(cum/total)*Math.PI*2-Math.PI/2;
+    ctx.beginPath();
+    ctx.arc(cx,cy,r,start,end);
+    ctx.arc(cx,cy,inner,end,start,true);
+    ctx.closePath();
+    ctx.fillStyle=colorArr[i%colorArr.length];
+    ctx.fill();
+  });
+}
+
+// ═══ RENDER FUNCTIONS ═══
+
+function renderHero(){
+  const compareLabel=document.getElementById('compareTo').value==='prev'?'previous period':'same period last year';
+  let html=`<div class="card" style="padding:18px;display:flex;flex-direction:column;justify-content:center">
+    <div class="label-xs">Total AI sessions</div>
+    <div class="num-lg">${total.toLocaleString()}</div>
+    <div style="margin-top:4px">${trendHTML(totalChange)}</div>
+    <div class="muted-sm">vs ${compareLabel}</div>
+  </div>`;
+  LLM_DATA.forEach(llm=>{
+    const c=COLORS[llm.id];
+    const change=Math.round(((llm.sessions-llm.prev)/llm.prev)*100);
+    const spark=TREND.map(d=>d[llm.id]||0);
+    const isActive=activeFilter===llm.id;
+    html+=`<div class="llm-card${isActive?' active':''}" style="background:${isActive?c.bg:'#fff'};border-color:${isActive?c.accent+'40':'rgba(0,0,0,.06)'}" onclick="setFilter('${llm.id}')">
+      <div style="display:flex;justify-content:space-between;align-items:center;margin-bottom:6px">
+        <span class="llm-name" style="color:${c.text}">${llm.name}</span>
+        ${sparkSVG(spark,c.accent)}
+      </div>
+      <div class="num-md" style="color:${c.text}">${llm.sessions}</div>
+      ${trendHTML(change)}
+    </div>`;
+  });
+  document.getElementById('heroRow').innerHTML=html;
+}
+
+function renderChartFilters(){
+  const filters=[{id:'all',label:'All'},...LLM_DATA.map(l=>({id:l.id,label:l.name}))];
+  let html='';
+  filters.forEach(f=>{
+    const isActive=activeFilter===f.id;
+    const c=COLORS[f.id]||{bg:'#E6F4ED',text:'#0D8A5E'};
+    html+=`<button class="filter-btn${isActive?' active':''}" style="background:${isActive?c.bg:'transparent'};color:${isActive?c.text:'#6b7280'}" onclick="setFilter('${f.id}')">${f.label}</button>`;
+  });
+  document.getElementById('chartFilters').innerHTML=html;
+}
+
+function renderTrendChart(){
+  const canvas=document.getElementById('trendChart');
+  const ctx=canvas.getContext('2d');
+  const dpr=window.devicePixelRatio||1;
+  const w=canvas.parentElement.offsetWidth;
+  const h=200;
+  canvas.width=w*dpr;canvas.height=h*dpr;
+  canvas.style.width=w+'px';canvas.style.height=h+'px';
+  ctx.scale(dpr,dpr);ctx.clearRect(0,0,w,h);
+  const pad={top:20,right:16,bottom:32,left:40};
+  const cw=w-pad.left-pad.right,ch=h-pad.top-pad.bottom;
+  const platforms=activeFilter==='all'?['chatgpt','gemini','claude','perplexity','copilot']:[activeFilter];
+  let maxVal=0;
+  TREND.forEach(d=>{platforms.forEach(p=>{if(d[p]>maxVal)maxVal=d[p]})});
+  maxVal=Math.ceil(maxVal*1.15);
+  ctx.strokeStyle='rgba(128,128,128,.1)';ctx.lineWidth=.5;
+  for(let i=0;i<=4;i++){const y=pad.top+(ch/4)*i;ctx.beginPath();ctx.moveTo(pad.left,y);ctx.lineTo(w-pad.right,y);ctx.stroke()}
+  ctx.fillStyle='rgba(128,128,128,.5)';ctx.font='11px system-ui';ctx.textAlign='right';
+  for(let i=0;i<=4;i++){const y=pad.top+(ch/4)*i;ctx.fillText(Math.round(maxVal-(maxVal/4)*i),pad.left-8,y+4)}
+  ctx.textAlign='center';
+  TREND.forEach((d,i)=>{ctx.fillText(d.month,pad.left+(cw/(TREND.length-1))*i,h-6)});
+  platforms.forEach(p=>{
+    const color=COLORS[p]?.chart||'#999';
+    const points=TREND.map((d,i)=>({x:pad.left+(cw/(TREND.length-1))*i,y:pad.top+ch-(d[p]/maxVal)*ch}));
+    ctx.beginPath();ctx.moveTo(points[0].x,pad.top+ch);
+    points.forEach(pt=>ctx.lineTo(pt.x,pt.y));
+    ctx.lineTo(points[points.length-1].x,pad.top+ch);ctx.closePath();
+    ctx.fillStyle=color+'15';ctx.fill();
+    ctx.beginPath();points.forEach((pt,i)=>i===0?ctx.moveTo(pt.x,pt.y):ctx.lineTo(pt.x,pt.y));
+    ctx.strokeStyle=color;ctx.lineWidth=2.5;ctx.lineJoin='round';ctx.stroke();
+    points.forEach(pt=>{ctx.beginPath();ctx.arc(pt.x,pt.y,3,0,Math.PI*2);ctx.fillStyle='#fff';ctx.fill();ctx.strokeStyle=color;ctx.lineWidth=2;ctx.stroke()});
+    if(platforms.length<=2){ctx.fillStyle=color;ctx.font='bold 10px system-ui';ctx.textAlign='center';points.forEach((pt,i)=>ctx.fillText(TREND[i][p],pt.x,pt.y-10))}
+  });
+}
+
+function renderShareDonut(){
+  const canvas=document.getElementById('shareDonut');
+  const ctx=canvas.getContext('2d');
+  const dpr=window.devicePixelRatio||1;
+  const size=120;
+  canvas.width=size*dpr;canvas.height=size*dpr;
+  canvas.style.width=size+'px';canvas.style.height=size+'px';
+  ctx.scale(dpr,dpr);
+  let cum=0;const cx=60,cy=60,r=52,inner=r*.6;
+  LLM_DATA.forEach(l=>{
+    const start=(cum/total)*Math.PI*2-Math.PI/2;
+    cum+=l.sessions;
+    const end=(cum/total)*Math.PI*2-Math.PI/2;
+    ctx.beginPath();ctx.arc(cx,cy,r,start,end);ctx.arc(cx,cy,inner,end,start,true);ctx.closePath();
+    ctx.fillStyle=COLORS[l.id].chart;ctx.fill();
+  });
+  ctx.fillStyle='#111827';ctx.font='700 18px DM Sans,system-ui';ctx.textAlign='center';
+  ctx.fillText(total.toLocaleString(),cx,cy+6);
+
+  let legend='';
+  LLM_DATA.forEach(l=>{
+    const pct=Math.round((l.sessions/total)*100);
+    legend+=`<div class="donut-legend"><div style="display:flex;align-items:center;gap:5px"><span class="legend-dot" style="background:${COLORS[l.id].chart}"></span>${l.name}</div><span style="font-weight:600">${pct}%</span></div>`;
+  });
+  document.getElementById('shareLegend').innerHTML=legend;
+}
+
+function renderAIScore(){
+  const volScore=Math.min(total/15,40);
+  const divScore=LLM_DATA.filter(l=>l.sessions>0).length*4;
+  const growScore=totalChange>0?Math.min(totalChange*.5,20):0;
+  const engBase=PAGES.reduce((s,p)=>s+parseInt(p.avgTime),0)/PAGES.length;
+  const engScore=Math.min(engBase*2,20);
+  const score=Math.round(Math.min(volScore+divScore+growScore+engScore,100));
+  const circ=2*Math.PI*42;
+  const off=circ-(score/100)*circ;
+  const prevScore=65;
+  const change=Math.round(((score-prevScore)/prevScore)*100);
+  document.getElementById('aiScoreCard').innerHTML=`
+    <div style="font-size:10px;opacity:.6;letter-spacing:.8px;text-transform:uppercase;margin-bottom:8px">AI visibility score</div>
+    <svg width="100" height="100" viewBox="0 0 100 100">
+      <circle cx="50" cy="50" r="42" fill="none" stroke="rgba(255,255,255,.08)" stroke-width="6"/>
+      <circle cx="50" cy="50" r="42" fill="none" stroke="#10A37F" stroke-width="6" stroke-dasharray="${circ}" stroke-dashoffset="${off}" stroke-linecap="round" transform="rotate(-90 50 50)"/>
+      <text x="50" y="47" text-anchor="middle" style="font-size:24px;font-weight:700;fill:#fff">${score}</text>
+      <text x="50" y="62" text-anchor="middle" style="font-size:9px;fill:rgba(255,255,255,.4)">/ 100</text>
+    </svg>
+    <div style="margin-top:6px">${change>0?`<span class="trend-up">↑ ${change}%</span>`:`<span class="trend-down">↓ ${Math.abs(change)}%</span>`}</div>
+    <div style="font-size:8px;opacity:.4;margin-top:6px;text-align:center;line-height:1.4">Volume 40% + Diversity 20%<br>Growth 20% + Engagement 20%</div>
+  `;
+}
+
+function renderInsights(){
+  const compareLabel=document.getElementById('compareTo').value==='prev'?'previous period':'same period last year';
+  const dom=LLM_DATA.reduce((a,b)=>a.sessions>b.sessions?a:b);
+  const domPct=Math.round((dom.sessions/total)*100);
+  const domChg=Math.round(((dom.sessions-dom.prev)/dom.prev)*100);
+
+  const avgByLLM={};
+  PAGES.forEach(p=>{if(!avgByLLM[p.platform])avgByLLM[p.platform]={t:0,c:0};avgByLLM[p.platform].t+=parseInt(p.avgTime);avgByLLM[p.platform].c++});
+  let bestEng=null,bv=0;
+  Object.entries(avgByLLM).forEach(([k,v])=>{const a=v.t/v.c;if(a>bv){bv=a;bestEng=k}});
+
+  const declines=LLM_DATA.filter(l=>l.sessions<l.prev).sort((a,b)=>((a.sessions-a.prev)/a.prev)-((b.sessions-b.prev)/b.prev));
+  const growers=LLM_DATA.filter(l=>l.id!==dom.id&&l.sessions>l.prev).sort((a,b)=>((b.sessions-b.prev)/b.prev)-((a.sessions-a.prev)/a.prev));
+
+  let html=`<div class="insight" style="border-left:3px solid ${COLORS.chatgpt.accent}">
+    <span class="insight-icon">📈</span>
+    <span>${dom.name} drives ${domPct}% of all AI traffic with ${dom.sessions} sessions — ${domChg>=0?'up':'down'} ${Math.abs(domChg)}% from ${compareLabel}.</span>
+  </div>`;
+
+  html+=`<div class="insight" style="border-left:3px solid ${COLORS.gemini.accent}">
+    <span class="insight-icon">⏱</span>
+    <span>${bestEng?bestEng.charAt(0).toUpperCase()+bestEng.slice(1):'N/A'} users have the highest avg session time across your pages.</span>
+  </div>`;
+
+  if(declines.length){
+    const w=declines[0];
+    const wChg=Math.abs(Math.round(((w.sessions-w.prev)/w.prev)*100));
+    html+=`<div class="insight" style="border-left:3px solid ${COLORS[w.id].accent}">
+      <span class="insight-icon">📉</span>
+      <span>${w.name} referral traffic is down ${wChg}% this period (${w.prev} → ${w.sessions} sessions).</span>
+    </div>`;
+  } else if(growers.length){
+    const g=growers[0];
+    const gChg=Math.round(((g.sessions-g.prev)/g.prev)*100);
+    html+=`<div class="insight" style="border-left:3px solid ${COLORS[g.id].accent}">
+      <span class="insight-icon">🚀</span>
+      <span>${g.name} is the fastest-growing LLM source, up ${gChg}% this period.</span>
+    </div>`;
+  } else {
+    html+=`<div class="insight" style="border-left:3px solid #16a34a">
+      <span class="insight-icon">✅</span>
+      <span>All LLM sources are growing or stable this period.</span>
+    </div>`;
+  }
+  document.getElementById('insightsRow').innerHTML=html;
+}
+
+function renderPages(){
+  const filtered=pageFilter==='all'?PAGES:PAGES.filter(p=>p.path===pageFilter);
+  let html='';
+  filtered.forEach(p=>{
+    const c=COLORS[p.platform];
+    html+=`<tr>
+      <td><span class="platform-badge" style="background:${c.bg};color:${c.text}">${p.platform.charAt(0).toUpperCase()+p.platform.slice(1)}</span></td>
+      <td class="mono">${p.path}</td>
+      <td style="font-weight:600">${p.sessions}</td>
+      <td>${p.avgTime}</td>
+      <td><span style="color:${bounceColor(p.bounce)};font-weight:500">${p.bounce}%</span></td>
+    </tr>`;
+  });
+  document.getElementById('pagesTable').innerHTML=html;
+}
+
+function renderEngagement(){
+  let html='';
+  ENGAGEMENT.forEach(l=>{
+    const c=COLORS[l.id];
+    html+=`<div class="engagement-card" style="background:${c.bg}66;border:1px solid ${c.accent}18">
+      <div class="name" style="color:${c.text}">${l.name}</div>
+      <div class="stats">
+        <div>Avg time: <strong>${l.avgTime}</strong></div>
+        <div>Pages/sess: <strong>${l.pps}</strong></div>
+        <div>Bounce: <strong style="color:${bounceColor(l.br)}">${l.br}%</strong></div>
+      </div>
+    </div>`;
+  });
+  document.getElementById('engagementRow').innerHTML=html;
+}
+
+function renderWorldMap(){
+  const svg=d3.select('#worldMap').append('svg').attr('viewBox','0 0 680 380').style('width','100%');
+  const maxVal=Math.max(...Object.values(COUNTRY_DATA));
+  const color=d3.scaleSequential().domain([0,maxVal]).interpolator(d3.interpolateBlues);
+  const projection=d3.geoNaturalEarth1().scale(120).translate([340,200]);
+  const path=d3.geoPath(projection);
+  const aliases={"United States of America":"United States","Türkiye":"Turkey","Turkiye":"Turkey","Republic of Korea":"South Korea","Russian Federation":"Russia"};
+
+  d3.json('https://cdn.jsdelivr.net/npm/world-atlas@2/countries-110m.json').then(world=>{
+    const countries=topojson.feature(world,world.objects.countries);
+    svg.append('g').selectAll('path').data(countries.features).join('path')
+      .attr('d',path)
+      .attr('fill',d=>{
+        const n=d.properties.name;
+        const val=COUNTRY_DATA[n]||COUNTRY_DATA[aliases[n]]||0;
+        return val>0?color(val):'#e8ecf0';
+      })
+      .attr('stroke','#fff').attr('stroke-width',.4);
+    const defs=svg.append('defs');
+    const grad=defs.append('linearGradient').attr('id','lg');
+    grad.append('stop').attr('offset','0%').attr('stop-color',color(0));
+    grad.append('stop').attr('offset','100%').attr('stop-color',color(maxVal));
+    svg.append('rect').attr('x',550).attr('y',356).attr('width',100).attr('height',7).attr('rx',3).attr('fill','url(#lg)');
+    svg.append('text').attr('x',548).attr('y',352).text('0').style('font-size','9px').style('fill','#9ca3af');
+    svg.append('text').attr('x',652).attr('y',352).text(maxVal).style('font-size','9px').style('fill','#9ca3af').attr('text-anchor','end');
+  }).catch(()=>{
+    svg.append('text').attr('x',340).attr('y',190).attr('text-anchor','middle').style('font-size','13px').style('fill','#9ca3af').text('Map requires network to load');
+  });
+}
+
+function renderCountries(){
+  const max=COUNTRIES_LIST[0].sessions;
+  let html='';
+  COUNTRIES_LIST.slice(0,10).forEach((c,i)=>{
+    const pct=Math.round((c.sessions/max)*100);
+    html+=`<div class="country-row">
+      <span class="country-rank">${i+1}</span>
+      <span class="country-name">${c.name}</span>
+      <div class="bar-bg"><div class="bar-fill" style="width:${pct}%"></div></div>
+      <span class="country-val">${c.sessions}</span>
+    </div>`;
+  });
+  document.getElementById('countriesList').innerHTML=html;
+}
+
+function renderCities(){
+  let html='';
+  CITIES.forEach((c,i)=>{
+    html+=`<div class="city-row">
+      <span class="country-rank">${i+1}</span>
+      <span class="country-name">${c.name}</span>
+      <span style="font-weight:600;font-size:11px">${c.sessions}</span>
+    </div>`;
+  });
+  document.getElementById('citiesList').innerHTML=html;
+}
+
+function renderBrowsers(){
+  drawDonut('browserDonut',BROWSERS.slice(0,5),BROWSER_COLORS,'users',100);
+  let html='';
+  BROWSERS.forEach((b,i)=>{
+    html+=`<div class="browser-row">
+      <span class="browser-dot" style="background:${BROWSER_COLORS[i%BROWSER_COLORS.length]}"></span>
+      <span style="flex:1">${b.name}</span>
+      <span style="font-weight:600;font-size:11px">${b.users}</span>
+      <span style="color:#6b7280;font-size:10px;width:30px;text-align:right">${b.pct}%</span>
+    </div>`;
+  });
+  document.getElementById('browserList').innerHTML=html;
+}
+
+function renderDevices(){
+  drawDonut('deviceDonut',DEVICES,DEVICE_COLORS,'sessions',100);
+  let html='';
+  DEVICES.forEach((d,i)=>{
+    html+=`<div class="browser-row">
+      <span class="browser-dot" style="background:${DEVICE_COLORS[i]}"></span>
+      <span style="flex:1">${d.name}</span>
+      <span style="font-weight:600;font-size:11px">${d.sessions}</span>
+      <span style="color:#6b7280;font-size:10px;width:30px;text-align:right">${d.pct}%</span>
+    </div>`;
+  });
+  html+=`<div class="device-total"><span style="flex:1">Grand total</span><span>${DEVICES.reduce((s,d)=>s+d.sessions,0).toLocaleString()}</span></div>`;
+  document.getElementById('deviceList').innerHTML=html;
+}
+
+// ═══ PAGE FILTER ═══
+function togglePageFilter(){
+  const dd=document.getElementById('pfDropdown');
+  dd.classList.toggle('open');
+  if(dd.classList.contains('open')){document.getElementById('pfSearch').focus();filterPages()}
+}
+function filterPages(){
+  const q=document.getElementById('pfSearch').value.toLowerCase();
+  const filtered=q?allPagePaths.filter(p=>p.toLowerCase().includes(q)).slice(0,20):allPagePaths.slice(0,20);
+  let html=`<div class="pf-item${pageFilter==='all'?' active':''}" onclick="selectPage('all')">All pages</div>`;
+  filtered.forEach(p=>{html+=`<div class="pf-item mono${pageFilter===p?' active':''}" onclick="selectPage('${p}')">${p}</div>`});
+  if(!filtered.length) html+=`<div style="padding:12px 14px;font-size:12px;color:#9ca3af">No pages found</div>`;
+  document.getElementById('pfList').innerHTML=html;
+}
+function selectPage(p){
+  pageFilter=p;
+  document.getElementById('pfLabel').textContent=p==='all'?'All pages':(p.length>22?p.slice(0,22)+'…':p);
+  document.getElementById('pfDropdown').classList.remove('open');
+  document.getElementById('pfSearch').value='';
+  renderPages();
+}
+document.addEventListener('mousedown',e=>{
+  if(!document.getElementById('pageFilterWrap').contains(e.target)){
+    document.getElementById('pfDropdown').classList.remove('open');
+  }
+});
+
+// ═══ FILTER ═══
+function setFilter(id){
+  activeFilter=activeFilter===id&&id!=='all'?'all':id;
+  renderHero();renderChartFilters();renderTrendChart();
+}
+
+// ═══ COMPARE CHANGE ═══
+document.getElementById('compareTo').addEventListener('change',()=>{renderHero();renderInsights()});
+
+// ═══ INIT ═══
+function init(){
+  renderHero();renderChartFilters();renderTrendChart();
+  renderShareDonut();renderAIScore();renderInsights();
+  renderPages();renderEngagement();
+  renderWorldMap();renderCountries();renderCities();
+  renderBrowsers();renderDevices();
+}
+window.addEventListener('resize',()=>{renderTrendChart()});
+init();
+</script>
+</body>
+</html>
