@@ -1,0 +1,672 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>WinningHunter — GA vs Stripe Comparison</title>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/4.4.1/chart.umd.min.js"></script>
+<link href="https://fonts.googleapis.com/css2?family=Instrument+Sans:wght@400;500;600;700&family=IBM+Plex+Mono:wght@400;500;600&display=swap" rel="stylesheet">
+<style>
+:root {
+  --bg: #06080d;
+  --s1: #0d1017;
+  --s2: #131720;
+  --s3: #1a1f2c;
+  --border: #1f2535;
+  --border-l: #2a3148;
+  --t1: #eaf0ff;
+  --t2: #a0aec8;
+  --t3: #5e6a84;
+  --ga-blue: #4285f4;
+  --ga-blue-dim: rgba(66,133,244,0.12);
+  --stripe-green: #00d67e;
+  --stripe-green-dim: rgba(0,214,126,0.10);
+  --fail-red: #ff5c5c;
+  --fail-red-dim: rgba(255,92,92,0.08);
+  --cpc-purple: #9b72f2;
+  --organic-orange: #ff9f43;
+  --ref-pink: #f472b6;
+  --direct-cyan: #22d3ee;
+  --other-gray: #64748b;
+}
+
+* { margin:0; padding:0; box-sizing:border-box; }
+
+body {
+  font-family: 'Instrument Sans', -apple-system, sans-serif;
+  background: var(--bg);
+  color: var(--t1);
+  min-height: 100vh;
+  padding: 28px 36px 48px;
+  -webkit-font-smoothing: antialiased;
+}
+
+/* Header */
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  margin-bottom: 32px;
+  padding-bottom: 24px;
+  border-bottom: 1px solid var(--border);
+}
+.header-left h1 {
+  font-size: 22px;
+  font-weight: 700;
+  letter-spacing: -0.3px;
+  line-height: 1.3;
+}
+.header-left h1 .accent { color: var(--ga-blue); }
+.header-left h1 .vs { color: var(--t3); font-weight: 400; margin: 0 4px; }
+.header-left h1 .accent2 { color: var(--stripe-green); }
+.header-sub {
+  font-size: 13px;
+  color: var(--t3);
+  margin-top: 4px;
+}
+.legend-row {
+  display: flex;
+  gap: 20px;
+  align-items: center;
+}
+.legend-item {
+  display: flex;
+  align-items: center;
+  gap: 7px;
+  font-size: 12px;
+  color: var(--t2);
+}
+.legend-dot {
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  flex-shrink: 0;
+}
+
+/* KPI Cards */
+.kpi-strip {
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+  gap: 14px;
+  margin-bottom: 24px;
+}
+.kpi {
+  background: var(--s1);
+  border: 1px solid var(--border);
+  border-radius: 10px;
+  padding: 16px 18px;
+  position: relative;
+}
+.kpi::after {
+  content: '';
+  position: absolute;
+  top: 0; left: 16px; right: 16px;
+  height: 1px;
+}
+.kpi.c-blue::after { background: var(--ga-blue); }
+.kpi.c-green::after { background: var(--stripe-green); }
+.kpi.c-red::after { background: var(--fail-red); }
+.kpi.c-purple::after { background: var(--cpc-purple); }
+.kpi.c-orange::after { background: var(--organic-orange); }
+.kpi.c-cyan::after { background: var(--direct-cyan); }
+
+.kpi-label {
+  font-size: 10px;
+  text-transform: uppercase;
+  letter-spacing: 0.8px;
+  color: var(--t3);
+  font-weight: 600;
+  margin-bottom: 8px;
+}
+.kpi-val {
+  font-family: 'IBM Plex Mono', monospace;
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 1;
+}
+.kpi.c-blue .kpi-val { color: var(--ga-blue); }
+.kpi.c-green .kpi-val { color: var(--stripe-green); }
+.kpi.c-red .kpi-val { color: var(--fail-red); }
+.kpi.c-purple .kpi-val { color: var(--cpc-purple); }
+.kpi.c-orange .kpi-val { color: var(--organic-orange); }
+.kpi.c-cyan .kpi-val { color: var(--direct-cyan); }
+
+.kpi-note {
+  font-size: 11px;
+  color: var(--t3);
+  margin-top: 5px;
+}
+
+/* Section label */
+.section-label {
+  font-size: 10px;
+  text-transform: uppercase;
+  letter-spacing: 1.5px;
+  color: var(--t3);
+  font-weight: 600;
+  margin: 28px 0 14px;
+  padding-left: 2px;
+}
+
+/* Charts */
+.grid-2 {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 16px;
+  margin-bottom: 16px;
+}
+.card {
+  background: var(--s1);
+  border: 1px solid var(--border);
+  border-radius: 12px;
+  padding: 22px 24px;
+}
+.card.full { grid-column: 1 / -1; }
+.card-title {
+  font-size: 14px;
+  font-weight: 600;
+  color: var(--t1);
+  margin-bottom: 2px;
+}
+.card-sub {
+  font-size: 11px;
+  color: var(--t3);
+  margin-bottom: 16px;
+}
+.chart-box { position: relative; width: 100%; }
+.chart-box.h360 { height: 340px; }
+.chart-box.h280 { height: 260px; }
+.chart-box.h240 { height: 230px; }
+
+/* Data gap indicator */
+.gap-tag {
+  display: inline-flex;
+  align-items: center;
+  gap: 5px;
+  font-size: 10px;
+  color: var(--t3);
+  background: var(--s2);
+  border: 1px solid var(--border);
+  padding: 3px 10px;
+  border-radius: 4px;
+  margin-left: 12px;
+  vertical-align: middle;
+}
+.gap-tag .dot {
+  width: 6px; height: 6px;
+  border-radius: 50%;
+  background: var(--organic-orange);
+}
+
+/* Source bars */
+.source-bars { margin-top: 4px; }
+.src-row {
+  display: grid;
+  grid-template-columns: 200px 1fr 60px;
+  align-items: center;
+  gap: 14px;
+  padding: 8px 0;
+  border-bottom: 1px solid rgba(255,255,255,0.025);
+}
+.src-row:last-child { border-bottom: none; }
+.src-label {
+  font-family: 'IBM Plex Mono', monospace;
+  font-size: 11.5px;
+  color: var(--t2);
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+.src-bar-track {
+  height: 8px;
+  background: var(--s3);
+  border-radius: 4px;
+  overflow: hidden;
+}
+.src-bar-fill {
+  height: 100%;
+  border-radius: 4px;
+  transition: width 0.6s ease;
+}
+.src-val {
+  font-family: 'IBM Plex Mono', monospace;
+  font-size: 12px;
+  color: var(--t1);
+  text-align: right;
+  font-weight: 500;
+}
+
+/* Channel group cards */
+.channel-cards {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 14px;
+  margin-bottom: 24px;
+}
+.ch-card {
+  background: var(--s2);
+  border: 1px solid var(--border);
+  border-radius: 10px;
+  padding: 16px 18px;
+  text-align: center;
+}
+.ch-card-label {
+  font-size: 11px;
+  color: var(--t3);
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+  font-weight: 600;
+  margin-bottom: 8px;
+}
+.ch-card-val {
+  font-family: 'IBM Plex Mono', monospace;
+  font-size: 22px;
+  font-weight: 600;
+}
+.ch-card-pct {
+  font-size: 12px;
+  color: var(--t3);
+  margin-top: 3px;
+}
+.ch-card.direct .ch-card-val { color: var(--direct-cyan); }
+.ch-card.cpc .ch-card-val { color: var(--cpc-purple); }
+.ch-card.organic .ch-card-val { color: var(--organic-orange); }
+.ch-card.referral .ch-card-val { color: var(--ref-pink); }
+
+/* Insight callout */
+.insight-strip {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 14px;
+  margin-top: 24px;
+}
+.insight {
+  background: var(--s2);
+  border-left: 3px solid var(--ga-blue);
+  border-radius: 0 8px 8px 0;
+  padding: 14px 18px;
+}
+.insight.g { border-color: var(--stripe-green); }
+.insight.r { border-color: var(--fail-red); }
+.insight-title {
+  font-size: 11px;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+  color: var(--t2);
+  margin-bottom: 5px;
+}
+.insight-body {
+  font-size: 13px;
+  color: var(--t3);
+  line-height: 1.5;
+}
+
+@media (max-width: 1100px) {
+  .kpi-strip { grid-template-columns: repeat(3, 1fr); }
+  .grid-2 { grid-template-columns: 1fr; }
+  .channel-cards { grid-template-columns: repeat(2, 1fr); }
+  .insight-strip { grid-template-columns: 1fr; }
+}
+</style>
+</head>
+<body>
+
+<div class="header">
+  <div class="header-left">
+    <h1><span class="accent">Google Analytics</span><span class="vs">vs</span><span class="accent2">Stripe Payments</span></h1>
+    <div class="header-sub">Thank-you page active users compared with actual new subscription payments · WinningHunter</div>
+  </div>
+  <div class="legend-row">
+    <div class="legend-item"><div class="legend-dot" style="background:var(--ga-blue)"></div>GA Active Users</div>
+    <div class="legend-item"><div class="legend-dot" style="background:var(--stripe-green)"></div>Stripe Paid</div>
+    <div class="legend-item"><div class="legend-dot" style="background:var(--fail-red)"></div>Stripe Failed</div>
+  </div>
+</div>
+
+<!-- KPIs — overlapping period Jan 14-31 -->
+<div class="kpi-strip">
+  <div class="kpi c-blue">
+    <div class="kpi-label">GA Thank-You Users</div>
+    <div class="kpi-val">643</div>
+    <div class="kpi-note">28 days total</div>
+  </div>
+  <div class="kpi c-green">
+    <div class="kpi-label">Stripe Paid Subs</div>
+    <div class="kpi-val">447</div>
+    <div class="kpi-note">Jan 14–31 overlap</div>
+  </div>
+  <div class="kpi c-red">
+    <div class="kpi-label">Stripe Failures</div>
+    <div class="kpi-val">155</div>
+    <div class="kpi-note">Jan 14–31 overlap</div>
+  </div>
+  <div class="kpi c-cyan">
+    <div class="kpi-label">Direct / None</div>
+    <div class="kpi-val">44.9%</div>
+    <div class="kpi-note">315 of 701 views</div>
+  </div>
+  <div class="kpi c-purple">
+    <div class="kpi-label">Google CPC</div>
+    <div class="kpi-val">26.1%</div>
+    <div class="kpi-note">183 views</div>
+  </div>
+  <div class="kpi c-orange">
+    <div class="kpi-label">Google Organic</div>
+    <div class="kpi-val">20.0%</div>
+    <div class="kpi-note">140 views</div>
+  </div>
+</div>
+
+<!-- Main comparison chart -->
+<div class="section-label">Daily Comparison</div>
+<div class="grid-2">
+  <div class="card full">
+    <div class="card-title">GA Thank-You Page Users vs Stripe New Subscriptions
+      <span class="gap-tag"><span class="dot"></span>Stripe data ends Jan 31</span>
+    </div>
+    <div class="card-sub">Blue line = GA active users on thank-you page · Green bars = successful Stripe payments · Red bars = failed payments</div>
+    <div class="chart-box h360"><canvas id="mainChart"></canvas></div>
+  </div>
+
+  <!-- Correlation scatter for overlapping period -->
+  <div class="card">
+    <div class="card-title">GA Users → Stripe Paid Correlation</div>
+    <div class="card-sub">Jan 14–31 only · Each dot = 1 day</div>
+    <div class="chart-box h280"><canvas id="scatterChart"></canvas></div>
+  </div>
+
+  <!-- Daily delta -->
+  <div class="card">
+    <div class="card-title">Daily Gap: GA Users − Stripe Paid</div>
+    <div class="card-sub">Negative = Stripe captured more than GA tracked</div>
+    <div class="chart-box h280"><canvas id="deltaChart"></canvas></div>
+  </div>
+</div>
+
+<!-- Source / Medium Section -->
+<div class="section-label">Acquisition Source / Medium — Thank-You Page</div>
+
+<div class="channel-cards">
+  <div class="ch-card direct">
+    <div class="ch-card-label">Direct</div>
+    <div class="ch-card-val">315</div>
+    <div class="ch-card-pct">44.9% of views</div>
+  </div>
+  <div class="ch-card cpc">
+    <div class="ch-card-label">Google CPC</div>
+    <div class="ch-card-val">183</div>
+    <div class="ch-card-pct">26.1% of views</div>
+  </div>
+  <div class="ch-card organic">
+    <div class="ch-card-label">Organic Search</div>
+    <div class="ch-card-val">156</div>
+    <div class="ch-card-pct">22.3% — Google+Bing+Yahoo+DDG</div>
+  </div>
+  <div class="ch-card referral">
+    <div class="ch-card-label">Referral</div>
+    <div class="ch-card-val">38</div>
+    <div class="ch-card-pct">5.4% — YouTube, Kajabi, etc.</div>
+  </div>
+</div>
+
+<div class="grid-2">
+  <!-- Donut -->
+  <div class="card">
+    <div class="card-title">Source / Medium Split</div>
+    <div class="card-sub">First user attribution on thank-you page views</div>
+    <div class="chart-box h280"><canvas id="sourceDonut"></canvas></div>
+  </div>
+
+  <!-- Horizontal bars -->
+  <div class="card">
+    <div class="card-title">All Sources Ranked</div>
+    <div class="card-sub">21 unique source / medium combinations</div>
+    <div id="sourceBars" class="source-bars"></div>
+  </div>
+</div>
+
+<!-- Insights -->
+<div class="insight-strip">
+  <div class="insight">
+    <div class="insight-title">GA vs Stripe Gap</div>
+    <div class="insight-body">Stripe consistently shows more paid subs than GA tracks on the thank-you page. Over the overlap period, Stripe recorded 447 paid vs 387 GA users — a ~15% tracking gap. Could be ad blockers, GA script delays, or redirect timing.</div>
+  </div>
+  <div class="insight g">
+    <div class="insight-title">Paid Ads Driving 26%</div>
+    <div class="insight-body">Google CPC is the second biggest channel at 26.1% of thank-you views. Combined with organic (20%), Google overall accounts for ~46% of converting traffic — nearly matching direct.</div>
+  </div>
+  <div class="insight r">
+    <div class="insight-title">Failure Spikes</div>
+    <div class="insight-body">Jan 16 and Jan 27 had the highest failure counts during this period (22 and 18 respectively). These spikes correlate with high GA activity days, suggesting real demand that wasn't captured.</div>
+  </div>
+</div>
+
+<script>
+const DATA = [{"date":"2026-01-14","ga":26,"paid":31,"failed":10,"rev":2343.7},{"date":"2026-01-15","ga":21,"paid":22,"failed":5,"rev":1666.82},{"date":"2026-01-16","ga":26,"paid":31,"failed":22,"rev":2313.3},{"date":"2026-01-17","ga":23,"paid":28,"failed":5,"rev":2546.57},{"date":"2026-01-18","ga":13,"paid":15,"failed":4,"rev":843.56},{"date":"2026-01-19","ga":23,"paid":30,"failed":5,"rev":2459.43},{"date":"2026-01-20","ga":25,"paid":32,"failed":4,"rev":2817.01},{"date":"2026-01-21","ga":17,"paid":20,"failed":10,"rev":1179.7},{"date":"2026-01-22","ga":27,"paid":29,"failed":4,"rev":1775.42},{"date":"2026-01-23","ga":21,"paid":23,"failed":10,"rev":2342.8},{"date":"2026-01-24","ga":13,"paid":15,"failed":3,"rev":1109.26},{"date":"2026-01-25","ga":24,"paid":29,"failed":10,"rev":2124.15},{"date":"2026-01-26","ga":19,"paid":26,"failed":9,"rev":2371.54},{"date":"2026-01-27","ga":21,"paid":26,"failed":18,"rev":1976.67},{"date":"2026-01-28","ga":27,"paid":28,"failed":4,"rev":2193.87},{"date":"2026-01-29","ga":24,"paid":27,"failed":17,"rev":1857.41},{"date":"2026-01-30","ga":16,"paid":18,"failed":7,"rev":1082.75},{"date":"2026-01-31","ga":16,"paid":17,"failed":8,"rev":1239.7},{"date":"2026-02-01","ga":26,"paid":0,"failed":0,"rev":0},{"date":"2026-02-02","ga":31,"paid":0,"failed":0,"rev":0},{"date":"2026-02-03","ga":21,"paid":0,"failed":0,"rev":0},{"date":"2026-02-04","ga":23,"paid":0,"failed":0,"rev":0},{"date":"2026-02-05","ga":22,"paid":0,"failed":0,"rev":0},{"date":"2026-02-06","ga":23,"paid":0,"failed":0,"rev":0},{"date":"2026-02-07","ga":28,"paid":0,"failed":0,"rev":0},{"date":"2026-02-08","ga":28,"paid":0,"failed":0,"rev":0},{"date":"2026-02-09","ga":33,"paid":0,"failed":0,"rev":0},{"date":"2026-02-10","ga":26,"paid":0,"failed":0,"rev":0}];
+
+const SOURCES = [{"s":"(direct) / (none)","v":315},{"s":"google / cpc","v":183},{"s":"google / organic","v":140},{"s":"youtube.com / referral","v":17},{"s":"bing / organic","v":10},{"s":"accounts.google.com / referral","v":7},{"s":"vilius.mykajabi.com / referral","v":6},{"s":"yahoo / organic","v":5},{"s":"malaysia.search.yahoo.com / referral","v":3},{"s":"nl.search.yahoo.com / referral","v":3},{"s":"ca.search.yahoo.com / referral","v":2},{"s":"(data not available)","v":1},{"s":"billing.stripe.com / referral","v":1},{"s":"checkout.stripe.com / referral","v":1},{"s":"duckduckgo / organic","v":1},{"s":"ig / paid","v":1},{"s":"kinson-la.mykajabi.com / referral","v":1},{"s":"railway.app / referral","v":1},{"s":"search.brave.com / referral","v":1},{"s":"shecurve.com / referral","v":1},{"s":"uk.search.yahoo.com / referral","v":1}];
+
+const labels = DATA.map(d => {
+  const dt = new Date(d.date);
+  return dt.toLocaleDateString('en-GB',{day:'numeric',month:'short'});
+});
+const overlapEnd = 18; // index where Stripe data ends (Jan 31)
+
+Chart.defaults.color = '#5e6a84';
+Chart.defaults.borderColor = 'rgba(255,255,255,0.04)';
+Chart.defaults.font.family = "'Instrument Sans', sans-serif";
+Chart.defaults.font.size = 11;
+
+// ====== 1. MAIN CHART ======
+const mainCtx = document.getElementById('mainChart');
+new Chart(mainCtx, {
+  type: 'bar',
+  data: {
+    labels,
+    datasets: [
+      {
+        type: 'line',
+        label: 'GA Active Users',
+        data: DATA.map(d => d.ga),
+        borderColor: '#4285f4',
+        backgroundColor: 'rgba(66,133,244,0.06)',
+        fill: true,
+        tension: 0.35,
+        pointRadius: 4,
+        pointBackgroundColor: '#4285f4',
+        pointBorderColor: '#06080d',
+        pointBorderWidth: 2,
+        borderWidth: 2.5,
+        order: 0,
+        yAxisID: 'y',
+      },
+      {
+        label: 'Stripe Paid',
+        data: DATA.map(d => d.paid || null),
+        backgroundColor: '#00d67e',
+        borderRadius: 3,
+        borderSkipped: false,
+        order: 1,
+        yAxisID: 'y',
+      },
+      {
+        label: 'Stripe Failed',
+        data: DATA.map(d => d.failed || null),
+        backgroundColor: '#ff5c5c',
+        borderRadius: 3,
+        borderSkipped: false,
+        order: 2,
+        yAxisID: 'y',
+      }
+    ]
+  },
+  options: {
+    responsive: true,
+    maintainAspectRatio: false,
+    interaction: { mode: 'index', intersect: false },
+    plugins: {
+      legend: {
+        position: 'top', align: 'end',
+        labels: { boxWidth: 10, padding: 16, usePointStyle: true, pointStyle: 'rectRounded' }
+      },
+      annotation: {}
+    },
+    scales: {
+      y: {
+        beginAtZero: true,
+        grid: { color: 'rgba(255,255,255,0.035)' },
+      },
+      x: {
+        grid: { display: false },
+      }
+    }
+  }
+});
+
+// ====== 2. SCATTER CORRELATION ======
+const overlapData = DATA.slice(0, overlapEnd);
+new Chart(document.getElementById('scatterChart'), {
+  type: 'scatter',
+  data: {
+    datasets: [{
+      data: overlapData.map(d => ({x: d.ga, y: d.paid})),
+      backgroundColor: 'rgba(0,214,126,0.6)',
+      borderColor: '#00d67e',
+      borderWidth: 1.5,
+      pointRadius: 6,
+      pointHoverRadius: 8,
+    }]
+  },
+  options: {
+    responsive: true,
+    maintainAspectRatio: false,
+    plugins: {
+      legend: { display: false },
+      tooltip: {
+        callbacks: {
+          label: ctx => `GA: ${ctx.raw.x} → Stripe: ${ctx.raw.y}`
+        }
+      }
+    },
+    scales: {
+      x: {
+        title: { display: true, text: 'GA Thank-You Users', color: '#5e6a84' },
+        grid: { color: 'rgba(255,255,255,0.035)' },
+        min: 10, max: 35
+      },
+      y: {
+        title: { display: true, text: 'Stripe Paid Subs', color: '#5e6a84' },
+        grid: { color: 'rgba(255,255,255,0.035)' },
+        min: 10, max: 40
+      }
+    }
+  }
+});
+
+// ====== 3. DELTA CHART ======
+const deltaData = overlapData.map(d => d.ga - d.paid);
+const deltaLabels = labels.slice(0, overlapEnd);
+new Chart(document.getElementById('deltaChart'), {
+  type: 'bar',
+  data: {
+    labels: deltaLabels,
+    datasets: [{
+      data: deltaData,
+      backgroundColor: deltaData.map(v => v >= 0 ? 'rgba(66,133,244,0.5)' : 'rgba(0,214,126,0.5)'),
+      borderColor: deltaData.map(v => v >= 0 ? '#4285f4' : '#00d67e'),
+      borderWidth: 1,
+      borderRadius: 3,
+      borderSkipped: false,
+    }]
+  },
+  options: {
+    responsive: true,
+    maintainAspectRatio: false,
+    plugins: {
+      legend: { display: false },
+      tooltip: {
+        callbacks: {
+          label: ctx => {
+            const v = ctx.raw;
+            return v >= 0 ? `GA +${v} above Stripe` : `Stripe +${Math.abs(v)} above GA`;
+          }
+        }
+      }
+    },
+    scales: {
+      y: {
+        grid: { color: 'rgba(255,255,255,0.035)' },
+      },
+      x: { grid: { display: false }, ticks: { maxTicksLimit: 10 } }
+    }
+  }
+});
+
+// ====== 4. SOURCE DONUT ======
+const top6 = SOURCES.slice(0, 6);
+const othersV = SOURCES.slice(6).reduce((s,d) => s+d.v, 0);
+const donutLabels = top6.map(d=>d.s).concat(['Others']);
+const donutVals = top6.map(d=>d.v).concat([othersV]);
+const donutColors = ['#22d3ee','#9b72f2','#ff9f43','#f472b6','#38bdf8','#818cf8','#475569'];
+
+new Chart(document.getElementById('sourceDonut'), {
+  type: 'doughnut',
+  data: {
+    labels: donutLabels,
+    datasets: [{
+      data: donutVals,
+      backgroundColor: donutColors,
+      borderColor: '#0d1017',
+      borderWidth: 3,
+    }]
+  },
+  options: {
+    responsive: true,
+    maintainAspectRatio: false,
+    cutout: '60%',
+    plugins: {
+      legend: {
+        position: 'right',
+        labels: { boxWidth: 10, padding: 10, font: { size: 11 }, usePointStyle: true, color: '#a0aec8' }
+      },
+      tooltip: {
+        callbacks: {
+          label: ctx => {
+            const total = donutVals.reduce((a,b)=>a+b,0);
+            const pct = (ctx.raw/total*100).toFixed(1);
+            return ` ${ctx.raw} views (${pct}%)`;
+          }
+        }
+      }
+    }
+  }
+});
+
+// ====== 5. SOURCE BARS ======
+const maxViews = SOURCES[0].v;
+const sourceColors = {
+  'direct':'#22d3ee','cpc':'#9b72f2','organic':'#ff9f43','referral':'#f472b6','paid':'#e879f9','(data':'#475569'
+};
+function getBarColor(s) {
+  for (const [k,c] of Object.entries(sourceColors)) {
+    if (s.toLowerCase().includes(k)) return c;
+  }
+  return '#64748b';
+}
+
+let barsHTML = '';
+SOURCES.forEach(d => {
+  const pct = (d.v / maxViews * 100).toFixed(0);
+  const color = getBarColor(d.s);
+  barsHTML += `
+    <div class="src-row">
+      <div class="src-label" title="${d.s}">${d.s}</div>
+      <div class="src-bar-track"><div class="src-bar-fill" style="width:${pct}%;background:${color}"></div></div>
+      <div class="src-val">${d.v}</div>
+    </div>`;
+});
+document.getElementById('sourceBars').innerHTML = barsHTML;
+</script>
+</body>
+</html>
