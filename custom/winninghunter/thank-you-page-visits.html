@@ -1,0 +1,248 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>WinningHunter — Thank-You Page Analytics</title>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/4.4.1/chart.umd.min.js"></script>
+<link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700&family=Space+Mono:wght@400;700&display=swap" rel="stylesheet">
+<style>
+:root{--bg:#08090d;--s1:#0e1018;--s2:#141722;--s3:#1c2030;--bdr:#1e2236;--t1:#e8ecf8;--t2:#94a0c0;--t3:#586280;--blue:#5b8def;--teal:#2dd4bf;--orange:#f59e0b;--purple:#a78bfa;--pink:#f472b6;--red:#ef4444;--green:#22c55e;--cyan:#22d3ee}
+*{margin:0;padding:0;box-sizing:border-box}
+body{font-family:'Outfit',sans-serif;background:var(--bg);color:var(--t1);padding:28px 36px 56px;-webkit-font-smoothing:antialiased}
+.hdr{display:flex;justify-content:space-between;align-items:flex-start;padding-bottom:22px;border-bottom:1px solid var(--bdr);margin-bottom:12px}
+.hdr h1{font-size:22px;font-weight:700;letter-spacing:-0.4px}.hdr h1 .dim{color:var(--t3);font-weight:400}
+.hdr-sub{font-size:12px;color:var(--t3);margin-top:3px}
+.date-bar{display:flex;align-items:center;gap:10px;flex-wrap:wrap;padding:16px 0 20px;border-bottom:1px solid var(--bdr);margin-bottom:24px}
+.date-bar label{font-size:11px;text-transform:uppercase;letter-spacing:0.7px;color:var(--t3);font-weight:600}
+.date-bar input[type="date"]{font-family:'Space Mono',monospace;font-size:12px;background:var(--s1);color:var(--t1);border:1px solid var(--bdr);border-radius:6px;padding:7px 12px;outline:none;cursor:pointer;transition:border-color 0.2s}
+.date-bar input[type="date"]:focus{border-color:var(--blue)}
+.date-bar input[type="date"]::-webkit-calendar-picker-indicator{filter:invert(0.7);cursor:pointer}
+.date-sep{color:var(--t3);font-size:13px;margin:0 2px}
+.preset-group{display:flex;gap:6px;margin-left:12px;padding-left:16px;border-left:1px solid var(--bdr)}
+.preset-btn{font-family:'Outfit',sans-serif;font-size:11px;font-weight:500;background:var(--s2);color:var(--t2);border:1px solid var(--bdr);border-radius:6px;padding:6px 14px;cursor:pointer;transition:all 0.15s;white-space:nowrap}
+.preset-btn:hover{border-color:var(--blue);color:var(--t1)}
+.preset-btn.active{background:var(--blue);color:#fff;border-color:var(--blue)}
+.apply-btn{font-family:'Outfit',sans-serif;font-size:12px;font-weight:600;background:var(--blue);color:#fff;border:none;border-radius:6px;padding:8px 20px;cursor:pointer;transition:opacity 0.15s;margin-left:8px}
+.apply-btn:hover{opacity:0.85}
+.range-summary{font-family:'Space Mono',monospace;font-size:11px;color:var(--t3);background:var(--s1);border:1px solid var(--bdr);padding:5px 14px;border-radius:6px;margin-left:auto}
+.kpi-row{display:grid;grid-template-columns:repeat(6,1fr);gap:12px;margin-bottom:24px}
+.k{background:var(--s1);border:1px solid var(--bdr);border-radius:10px;padding:16px 18px;position:relative;overflow:hidden}
+.k::before{content:'';position:absolute;bottom:0;left:14px;right:14px;height:2px;border-radius:2px}
+.k.kb::before{background:var(--blue)}.k.kt::before{background:var(--teal)}.k.ko::before{background:var(--orange)}.k.kp::before{background:var(--purple)}.k.kpk::before{background:var(--pink)}.k.kr::before{background:var(--red)}
+.k-lbl{font-size:10px;text-transform:uppercase;letter-spacing:0.7px;color:var(--t3);font-weight:600;margin-bottom:8px}
+.k-val{font-family:'Space Mono',monospace;font-size:22px;font-weight:700;line-height:1}
+.k.kb .k-val{color:var(--blue)}.k.kt .k-val{color:var(--teal)}.k.ko .k-val{color:var(--orange)}.k.kp .k-val{color:var(--purple)}.k.kpk .k-val{color:var(--pink)}.k.kr .k-val{color:var(--red)}
+.k-note{font-size:11px;color:var(--t3);margin-top:4px}
+.g2{display:grid;grid-template-columns:1fr 1fr;gap:14px;margin-bottom:14px}
+.g3{display:grid;grid-template-columns:2fr 1fr;gap:14px;margin-bottom:14px}
+.c{background:var(--s1);border:1px solid var(--bdr);border-radius:12px;padding:22px 24px}
+.c.full{grid-column:1/-1}
+.c-t{font-size:14px;font-weight:600;margin-bottom:2px}.c-s{font-size:11px;color:var(--t3);margin-bottom:16px}
+.ch{position:relative;width:100%}.ch.h380{height:360px}.ch.h300{height:280px}.ch.h260{height:240px}
+.sec{font-size:10px;text-transform:uppercase;letter-spacing:1.5px;color:var(--t3);font-weight:600;margin:28px 0 14px 2px}
+.phase-legend{display:flex;gap:16px;margin:8px 0 0;flex-wrap:wrap}
+.ph-item{display:flex;align-items:center;gap:6px;font-size:11px;color:var(--t2)}
+.ph-dot{width:8px;height:8px;border-radius:2px}
+.src-row{display:grid;grid-template-columns:210px 1fr 55px;align-items:center;gap:12px;padding:7px 0;border-bottom:1px solid rgba(255,255,255,0.02)}
+.src-lbl{font-family:'Space Mono',monospace;font-size:11px;color:var(--t2);white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+.src-track{height:7px;background:var(--s3);border-radius:4px;overflow:hidden}
+.src-fill{height:100%;border-radius:4px}
+.src-v{font-family:'Space Mono',monospace;font-size:11px;color:var(--t1);text-align:right;font-weight:700}
+.ch-grid{display:grid;grid-template-columns:repeat(5,1fr);gap:12px;margin-bottom:20px}
+.chc{background:var(--s2);border:1px solid var(--bdr);border-radius:10px;padding:14px 16px;text-align:center}
+.chc-lbl{font-size:10px;color:var(--t3);text-transform:uppercase;letter-spacing:0.5px;font-weight:600;margin-bottom:6px}
+.chc-val{font-family:'Space Mono',monospace;font-size:20px;font-weight:700}
+.chc-pct{font-size:11px;color:var(--t3);margin-top:2px}
+.ins-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:14px;margin-top:24px}
+.ins{background:var(--s2);border-radius:0 8px 8px 0;padding:14px 18px;border-left:3px solid var(--blue)}
+.ins.g{border-color:var(--teal)}.ins.o{border-color:var(--orange)}
+.ins-t{font-size:11px;font-weight:600;text-transform:uppercase;letter-spacing:0.5px;color:var(--t2);margin-bottom:5px}
+.ins-b{font-size:12.5px;color:var(--t3);line-height:1.55}
+@media(max-width:1100px){.kpi-row,.ch-grid{grid-template-columns:repeat(3,1fr)}.g2,.g3{grid-template-columns:1fr}.ins-grid{grid-template-columns:1fr}.date-bar{gap:8px}.preset-group{margin-left:0;padding-left:0;border-left:none}}
+</style>
+</head>
+<body>
+<div class="hdr"><div><h1>WinningHunter <span class="dim">— Thank-You Page Active Users</span></h1><div class="hdr-sub">Google Analytics · New subscription conversions by source/medium</div></div></div>
+
+<div class="date-bar">
+  <label>From</label><input type="date" id="dateFrom"/><span class="date-sep">→</span><label>To</label><input type="date" id="dateTo"/>
+  <button class="apply-btn" onclick="applyRange()">Apply</button>
+  <div class="preset-group">
+    <button class="preset-btn" data-preset="30d">Last 30d</button>
+    <button class="preset-btn" data-preset="90d">Last 90d</button>
+    <button class="preset-btn" data-preset="6m">Last 6m</button>
+    <button class="preset-btn" data-preset="ytd">YTD 2026</button>
+    <button class="preset-btn" data-preset="2025">Full 2025</button>
+    <button class="preset-btn active" data-preset="all">All Time</button>
+  </div>
+  <div class="range-summary" id="rangeSummary"></div>
+</div>
+
+<div class="kpi-row" id="kpiRow"></div>
+<div class="sec">Daily Trend</div>
+<div class="g2"><div class="c full"><div class="c-t">Daily Active Users on Thank-You Page</div><div class="c-s" id="dailySub"></div><div class="ch h380"><canvas id="dailyChart"></canvas></div>
+<div class="phase-legend"><div class="ph-item"><div class="ph-dot" style="background:var(--green)"></div>Growth (Nov '24 → Feb '25)</div><div class="ph-item"><div class="ph-dot" style="background:var(--orange)"></div>Plateau (Mar → Jun '25)</div><div class="ph-item"><div class="ph-dot" style="background:var(--red)"></div>Decline (Jul '25 → Present)</div></div></div></div>
+
+<div class="sec">Monthly Breakdown</div>
+<div class="g2"><div class="c"><div class="c-t">Monthly Total Active Users</div><div class="c-s">Total thank-you page users per month</div><div class="ch h300"><canvas id="monthlyBar"></canvas></div></div>
+<div class="c"><div class="c-t">Monthly Average Users / Day</div><div class="c-s">Normalized for days in month</div><div class="ch h300"><canvas id="monthlyAvg"></canvas></div></div></div>
+<div class="g2"><div class="c full"><div class="c-t">Month-over-Month Change %</div><div class="c-s">Percentage change in daily average from previous month</div><div class="ch h260"><canvas id="momChart"></canvas></div></div></div>
+
+<div class="sec">Acquisition Source / Medium</div>
+<div class="ch-grid" id="channelCards"></div>
+<div class="g3"><div class="c"><div class="c-t">Source / Medium Donut</div><div class="c-s">First user attribution across full period</div><div class="ch h300"><canvas id="srcDonut"></canvas></div></div>
+<div class="c"><div class="c-t">Top 15 Sources Ranked</div><div class="c-s">By total views on thank-you page</div><div id="srcBars"></div></div></div>
+
+<div class="sec">Day-of-Week Pattern</div>
+<div class="g2"><div class="c"><div class="c-t">Average Users by Day of Week</div><div class="c-s">Which days convert best in this range?</div><div class="ch h260"><canvas id="dowChart"></canvas></div></div>
+<div class="c"><div class="c-t">Distribution of Daily Users</div><div class="c-s">How often do days hit certain user thresholds?</div><div class="ch h260"><canvas id="histChart"></canvas></div></div></div>
+
+<div class="ins-grid" id="insightsGrid"></div>
+
+<script>
+const ALL_DAILY=[{"date": "2024-11-05", "users": 1}, {"date": "2024-11-06", "users": 25}, {"date": "2024-11-07", "users": 30}, {"date": "2024-11-08", "users": 33}, {"date": "2024-11-09", "users": 19}, {"date": "2024-11-10", "users": 25}, {"date": "2024-11-11", "users": 35}, {"date": "2024-11-12", "users": 37}, {"date": "2024-11-13", "users": 31}, {"date": "2024-11-14", "users": 27}, {"date": "2024-11-15", "users": 33}, {"date": "2024-11-16", "users": 25}, {"date": "2024-11-17", "users": 28}, {"date": "2024-11-18", "users": 29}, {"date": "2024-11-19", "users": 32}, {"date": "2024-11-20", "users": 20}, {"date": "2024-11-21", "users": 20}, {"date": "2024-11-22", "users": 24}, {"date": "2024-11-23", "users": 23}, {"date": "2024-11-24", "users": 30}, {"date": "2024-11-25", "users": 30}, {"date": "2024-11-26", "users": 27}, {"date": "2024-11-27", "users": 28}, {"date": "2024-11-28", "users": 21}, {"date": "2024-11-29", "users": 26}, {"date": "2024-11-30", "users": 35}, {"date": "2024-12-01", "users": 20}, {"date": "2024-12-02", "users": 17}, {"date": "2024-12-03", "users": 29}, {"date": "2024-12-04", "users": 30}, {"date": "2024-12-05", "users": 27}, {"date": "2024-12-06", "users": 22}, {"date": "2024-12-07", "users": 17}, {"date": "2024-12-08", "users": 25}, {"date": "2024-12-09", "users": 28}, {"date": "2024-12-10", "users": 19}, {"date": "2024-12-11", "users": 22}, {"date": "2024-12-12", "users": 16}, {"date": "2024-12-13", "users": 25}, {"date": "2024-12-14", "users": 14}, {"date": "2024-12-15", "users": 13}, {"date": "2024-12-16", "users": 14}, {"date": "2024-12-17", "users": 26}, {"date": "2024-12-18", "users": 17}, {"date": "2024-12-19", "users": 20}, {"date": "2024-12-20", "users": 16}, {"date": "2024-12-21", "users": 16}, {"date": "2024-12-22", "users": 9}, {"date": "2024-12-23", "users": 11}, {"date": "2024-12-24", "users": 8}, {"date": "2024-12-25", "users": 11}, {"date": "2024-12-26", "users": 11}, {"date": "2024-12-27", "users": 20}, {"date": "2024-12-28", "users": 10}, {"date": "2024-12-29", "users": 17}, {"date": "2024-12-30", "users": 9}, {"date": "2024-12-31", "users": 14}, {"date": "2025-01-01", "users": 17}, {"date": "2025-01-02", "users": 14}, {"date": "2025-01-03", "users": 25}, {"date": "2025-01-04", "users": 27}, {"date": "2025-01-05", "users": 21}, {"date": "2025-01-06", "users": 26}, {"date": "2025-01-07", "users": 24}, {"date": "2025-01-08", "users": 17}, {"date": "2025-01-09", "users": 15}, {"date": "2025-01-10", "users": 33}, {"date": "2025-01-11", "users": 20}, {"date": "2025-01-12", "users": 26}, {"date": "2025-01-13", "users": 26}, {"date": "2025-01-14", "users": 23}, {"date": "2025-01-15", "users": 22}, {"date": "2025-01-16", "users": 23}, {"date": "2025-01-17", "users": 19}, {"date": "2025-01-18", "users": 18}, {"date": "2025-01-19", "users": 15}, {"date": "2025-01-20", "users": 34}, {"date": "2025-01-21", "users": 20}, {"date": "2025-01-22", "users": 23}, {"date": "2025-01-23", "users": 19}, {"date": "2025-01-24", "users": 21}, {"date": "2025-01-25", "users": 22}, {"date": "2025-01-26", "users": 25}, {"date": "2025-01-27", "users": 36}, {"date": "2025-01-28", "users": 34}, {"date": "2025-01-29", "users": 29}, {"date": "2025-01-30", "users": 30}, {"date": "2025-01-31", "users": 28}, {"date": "2025-02-01", "users": 22}, {"date": "2025-02-02", "users": 30}, {"date": "2025-02-03", "users": 36}, {"date": "2025-02-04", "users": 34}, {"date": "2025-02-05", "users": 44}, {"date": "2025-02-06", "users": 32}, {"date": "2025-02-07", "users": 53}, {"date": "2025-02-08", "users": 33}, {"date": "2025-02-09", "users": 37}, {"date": "2025-02-10", "users": 47}, {"date": "2025-02-11", "users": 63}, {"date": "2025-02-12", "users": 59}, {"date": "2025-02-13", "users": 60}, {"date": "2025-02-14", "users": 59}, {"date": "2025-02-15", "users": 40}, {"date": "2025-02-16", "users": 43}, {"date": "2025-02-17", "users": 56}, {"date": "2025-02-18", "users": 57}, {"date": "2025-02-19", "users": 38}, {"date": "2025-02-20", "users": 54}, {"date": "2025-02-21", "users": 37}, {"date": "2025-02-22", "users": 44}, {"date": "2025-02-23", "users": 46}, {"date": "2025-02-24", "users": 56}, {"date": "2025-02-25", "users": 45}, {"date": "2025-02-26", "users": 38}, {"date": "2025-02-27", "users": 44}, {"date": "2025-02-28", "users": 38}, {"date": "2025-03-01", "users": 42}, {"date": "2025-03-02", "users": 40}, {"date": "2025-03-03", "users": 51}, {"date": "2025-03-04", "users": 42}, {"date": "2025-03-05", "users": 34}, {"date": "2025-03-06", "users": 48}, {"date": "2025-03-07", "users": 39}, {"date": "2025-03-08", "users": 42}, {"date": "2025-03-09", "users": 25}, {"date": "2025-03-10", "users": 27}, {"date": "2025-03-11", "users": 34}, {"date": "2025-03-12", "users": 37}, {"date": "2025-03-13", "users": 32}, {"date": "2025-03-14", "users": 36}, {"date": "2025-03-15", "users": 36}, {"date": "2025-03-16", "users": 27}, {"date": "2025-03-17", "users": 40}, {"date": "2025-03-18", "users": 42}, {"date": "2025-03-19", "users": 37}, {"date": "2025-03-20", "users": 38}, {"date": "2025-03-21", "users": 34}, {"date": "2025-03-22", "users": 29}, {"date": "2025-03-23", "users": 39}, {"date": "2025-03-24", "users": 57}, {"date": "2025-03-25", "users": 44}, {"date": "2025-03-26", "users": 49}, {"date": "2025-03-27", "users": 38}, {"date": "2025-03-28", "users": 33}, {"date": "2025-03-29", "users": 28}, {"date": "2025-03-30", "users": 29}, {"date": "2025-03-31", "users": 45}, {"date": "2025-04-01", "users": 42}, {"date": "2025-04-02", "users": 36}, {"date": "2025-04-03", "users": 43}, {"date": "2025-04-04", "users": 35}, {"date": "2025-04-05", "users": 35}, {"date": "2025-04-06", "users": 33}, {"date": "2025-04-07", "users": 45}, {"date": "2025-04-08", "users": 31}, {"date": "2025-04-09", "users": 45}, {"date": "2025-04-10", "users": 38}, {"date": "2025-04-11", "users": 34}, {"date": "2025-04-12", "users": 25}, {"date": "2025-04-13", "users": 50}, {"date": "2025-04-14", "users": 40}, {"date": "2025-04-15", "users": 40}, {"date": "2025-04-16", "users": 38}, {"date": "2025-04-17", "users": 36}, {"date": "2025-04-18", "users": 19}, {"date": "2025-04-19", "users": 38}, {"date": "2025-04-20", "users": 25}, {"date": "2025-04-21", "users": 41}, {"date": "2025-04-22", "users": 33}, {"date": "2025-04-23", "users": 42}, {"date": "2025-04-24", "users": 37}, {"date": "2025-04-25", "users": 53}, {"date": "2025-04-26", "users": 36}, {"date": "2025-04-27", "users": 29}, {"date": "2025-04-28", "users": 52}, {"date": "2025-04-29", "users": 48}, {"date": "2025-04-30", "users": 48}, {"date": "2025-05-01", "users": 43}, {"date": "2025-05-02", "users": 33}, {"date": "2025-05-03", "users": 37}, {"date": "2025-05-04", "users": 50}, {"date": "2025-05-05", "users": 28}, {"date": "2025-05-06", "users": 31}, {"date": "2025-05-07", "users": 45}, {"date": "2025-05-08", "users": 39}, {"date": "2025-05-09", "users": 33}, {"date": "2025-05-10", "users": 35}, {"date": "2025-05-11", "users": 23}, {"date": "2025-05-12", "users": 25}, {"date": "2025-05-13", "users": 51}, {"date": "2025-05-14", "users": 25}, {"date": "2025-05-15", "users": 24}, {"date": "2025-05-16", "users": 27}, {"date": "2025-05-17", "users": 27}, {"date": "2025-05-18", "users": 33}, {"date": "2025-05-19", "users": 39}, {"date": "2025-05-20", "users": 43}, {"date": "2025-05-21", "users": 37}, {"date": "2025-05-22", "users": 40}, {"date": "2025-05-23", "users": 33}, {"date": "2025-05-24", "users": 35}, {"date": "2025-05-25", "users": 41}, {"date": "2025-05-26", "users": 34}, {"date": "2025-05-27", "users": 41}, {"date": "2025-05-28", "users": 37}, {"date": "2025-05-29", "users": 42}, {"date": "2025-05-30", "users": 32}, {"date": "2025-05-31", "users": 20}, {"date": "2025-06-01", "users": 38}, {"date": "2025-06-02", "users": 37}, {"date": "2025-06-03", "users": 41}, {"date": "2025-06-04", "users": 31}, {"date": "2025-06-05", "users": 24}, {"date": "2025-06-06", "users": 32}, {"date": "2025-06-07", "users": 28}, {"date": "2025-06-08", "users": 30}, {"date": "2025-06-09", "users": 34}, {"date": "2025-06-10", "users": 44}, {"date": "2025-06-11", "users": 31}, {"date": "2025-06-12", "users": 31}, {"date": "2025-06-13", "users": 31}, {"date": "2025-06-14", "users": 26}, {"date": "2025-06-15", "users": 28}, {"date": "2025-06-16", "users": 40}, {"date": "2025-06-17", "users": 38}, {"date": "2025-06-18", "users": 37}, {"date": "2025-06-19", "users": 41}, {"date": "2025-06-20", "users": 32}, {"date": "2025-06-21", "users": 23}, {"date": "2025-06-22", "users": 28}, {"date": "2025-06-23", "users": 27}, {"date": "2025-06-24", "users": 32}, {"date": "2025-06-25", "users": 37}, {"date": "2025-06-26", "users": 33}, {"date": "2025-06-27", "users": 31}, {"date": "2025-06-28", "users": 21}, {"date": "2025-06-29", "users": 32}, {"date": "2025-06-30", "users": 28}, {"date": "2025-07-01", "users": 29}, {"date": "2025-07-02", "users": 40}, {"date": "2025-07-03", "users": 32}, {"date": "2025-07-04", "users": 34}, {"date": "2025-07-05", "users": 21}, {"date": "2025-07-06", "users": 28}, {"date": "2025-07-07", "users": 32}, {"date": "2025-07-08", "users": 42}, {"date": "2025-07-09", "users": 33}, {"date": "2025-07-10", "users": 38}, {"date": "2025-07-11", "users": 26}, {"date": "2025-07-12", "users": 23}, {"date": "2025-07-13", "users": 33}, {"date": "2025-07-14", "users": 30}, {"date": "2025-07-15", "users": 45}, {"date": "2025-07-16", "users": 26}, {"date": "2025-07-17", "users": 34}, {"date": "2025-07-18", "users": 28}, {"date": "2025-07-19", "users": 26}, {"date": "2025-07-20", "users": 24}, {"date": "2025-07-21", "users": 28}, {"date": "2025-07-22", "users": 29}, {"date": "2025-07-23", "users": 38}, {"date": "2025-07-24", "users": 29}, {"date": "2025-07-25", "users": 35}, {"date": "2025-07-26", "users": 28}, {"date": "2025-07-27", "users": 29}, {"date": "2025-07-28", "users": 30}, {"date": "2025-07-29", "users": 20}, {"date": "2025-07-30", "users": 30}, {"date": "2025-07-31", "users": 30}, {"date": "2025-08-01", "users": 22}, {"date": "2025-08-02", "users": 22}, {"date": "2025-08-03", "users": 27}, {"date": "2025-08-04", "users": 29}, {"date": "2025-08-05", "users": 27}, {"date": "2025-08-06", "users": 25}, {"date": "2025-08-07", "users": 32}, {"date": "2025-08-08", "users": 27}, {"date": "2025-08-09", "users": 37}, {"date": "2025-08-10", "users": 27}, {"date": "2025-08-11", "users": 24}, {"date": "2025-08-12", "users": 38}, {"date": "2025-08-13", "users": 22}, {"date": "2025-08-14", "users": 27}, {"date": "2025-08-15", "users": 21}, {"date": "2025-08-16", "users": 35}, {"date": "2025-08-17", "users": 29}, {"date": "2025-08-18", "users": 32}, {"date": "2025-08-19", "users": 24}, {"date": "2025-08-20", "users": 23}, {"date": "2025-08-21", "users": 28}, {"date": "2025-08-22", "users": 21}, {"date": "2025-08-23", "users": 17}, {"date": "2025-08-24", "users": 17}, {"date": "2025-08-25", "users": 33}, {"date": "2025-08-26", "users": 25}, {"date": "2025-08-27", "users": 15}, {"date": "2025-08-28", "users": 26}, {"date": "2025-08-29", "users": 23}, {"date": "2025-08-30", "users": 17}, {"date": "2025-08-31", "users": 22}, {"date": "2025-09-01", "users": 31}, {"date": "2025-09-02", "users": 22}, {"date": "2025-09-03", "users": 41}, {"date": "2025-09-04", "users": 38}, {"date": "2025-09-05", "users": 23}, {"date": "2025-09-06", "users": 18}, {"date": "2025-09-07", "users": 30}, {"date": "2025-09-08", "users": 38}, {"date": "2025-09-09", "users": 22}, {"date": "2025-09-10", "users": 33}, {"date": "2025-09-11", "users": 24}, {"date": "2025-09-12", "users": 29}, {"date": "2025-09-13", "users": 18}, {"date": "2025-09-14", "users": 10}, {"date": "2025-09-15", "users": 27}, {"date": "2025-09-16", "users": 27}, {"date": "2025-09-17", "users": 20}, {"date": "2025-09-18", "users": 33}, {"date": "2025-09-19", "users": 13}, {"date": "2025-09-20", "users": 27}, {"date": "2025-09-21", "users": 21}, {"date": "2025-09-22", "users": 22}, {"date": "2025-09-23", "users": 25}, {"date": "2025-09-24", "users": 32}, {"date": "2025-09-25", "users": 34}, {"date": "2025-09-26", "users": 27}, {"date": "2025-09-27", "users": 27}, {"date": "2025-09-28", "users": 30}, {"date": "2025-09-29", "users": 22}, {"date": "2025-09-30", "users": 34}, {"date": "2025-10-01", "users": 31}, {"date": "2025-10-02", "users": 29}, {"date": "2025-10-03", "users": 22}, {"date": "2025-10-04", "users": 26}, {"date": "2025-10-05", "users": 24}, {"date": "2025-10-06", "users": 43}, {"date": "2025-10-07", "users": 21}, {"date": "2025-10-08", "users": 32}, {"date": "2025-10-09", "users": 24}, {"date": "2025-10-10", "users": 16}, {"date": "2025-10-11", "users": 20}, {"date": "2025-10-12", "users": 25}, {"date": "2025-10-13", "users": 29}, {"date": "2025-10-14", "users": 30}, {"date": "2025-10-15", "users": 31}, {"date": "2025-10-16", "users": 38}, {"date": "2025-10-17", "users": 24}, {"date": "2025-10-18", "users": 15}, {"date": "2025-10-19", "users": 25}, {"date": "2025-10-20", "users": 21}, {"date": "2025-10-21", "users": 20}, {"date": "2025-10-22", "users": 23}, {"date": "2025-10-23", "users": 23}, {"date": "2025-10-24", "users": 29}, {"date": "2025-10-25", "users": 19}, {"date": "2025-10-26", "users": 25}, {"date": "2025-10-27", "users": 26}, {"date": "2025-10-28", "users": 21}, {"date": "2025-10-29", "users": 23}, {"date": "2025-10-30", "users": 36}, {"date": "2025-10-31", "users": 20}, {"date": "2025-11-01", "users": 30}, {"date": "2025-11-02", "users": 26}, {"date": "2025-11-03", "users": 18}, {"date": "2025-11-04", "users": 27}, {"date": "2025-11-05", "users": 22}, {"date": "2025-11-06", "users": 28}, {"date": "2025-11-07", "users": 22}, {"date": "2025-11-08", "users": 25}, {"date": "2025-11-09", "users": 22}, {"date": "2025-11-10", "users": 14}, {"date": "2025-11-11", "users": 26}, {"date": "2025-11-12", "users": 25}, {"date": "2025-11-13", "users": 24}, {"date": "2025-11-14", "users": 31}, {"date": "2025-11-15", "users": 14}, {"date": "2025-11-16", "users": 24}, {"date": "2025-11-17", "users": 22}, {"date": "2025-11-18", "users": 27}, {"date": "2025-11-19", "users": 29}, {"date": "2025-11-20", "users": 38}, {"date": "2025-11-21", "users": 22}, {"date": "2025-11-22", "users": 23}, {"date": "2025-11-23", "users": 17}, {"date": "2025-11-24", "users": 26}, {"date": "2025-11-25", "users": 27}, {"date": "2025-11-26", "users": 20}, {"date": "2025-11-27", "users": 18}, {"date": "2025-11-28", "users": 32}, {"date": "2025-11-29", "users": 22}, {"date": "2025-11-30", "users": 27}, {"date": "2025-12-01", "users": 29}, {"date": "2025-12-02", "users": 33}, {"date": "2025-12-03", "users": 22}, {"date": "2025-12-04", "users": 23}, {"date": "2025-12-05", "users": 20}, {"date": "2025-12-06", "users": 19}, {"date": "2025-12-07", "users": 25}, {"date": "2025-12-08", "users": 29}, {"date": "2025-12-09", "users": 21}, {"date": "2025-12-10", "users": 24}, {"date": "2025-12-11", "users": 33}, {"date": "2025-12-12", "users": 14}, {"date": "2025-12-13", "users": 19}, {"date": "2025-12-14", "users": 20}, {"date": "2025-12-15", "users": 26}, {"date": "2025-12-16", "users": 31}, {"date": "2025-12-17", "users": 25}, {"date": "2025-12-18", "users": 25}, {"date": "2025-12-19", "users": 35}, {"date": "2025-12-20", "users": 17}, {"date": "2025-12-21", "users": 19}, {"date": "2025-12-22", "users": 39}, {"date": "2025-12-23", "users": 22}, {"date": "2025-12-24", "users": 25}, {"date": "2025-12-25", "users": 22}, {"date": "2025-12-26", "users": 14}, {"date": "2025-12-27", "users": 18}, {"date": "2025-12-28", "users": 24}, {"date": "2025-12-29", "users": 18}, {"date": "2025-12-30", "users": 24}, {"date": "2025-12-31", "users": 17}, {"date": "2026-01-01", "users": 25}, {"date": "2026-01-02", "users": 24}, {"date": "2026-01-03", "users": 24}, {"date": "2026-01-04", "users": 18}, {"date": "2026-01-05", "users": 27}, {"date": "2026-01-06", "users": 34}, {"date": "2026-01-07", "users": 22}, {"date": "2026-01-08", "users": 23}, {"date": "2026-01-09", "users": 30}, {"date": "2026-01-10", "users": 27}, {"date": "2026-01-11", "users": 27}, {"date": "2026-01-12", "users": 22}, {"date": "2026-01-13", "users": 26}, {"date": "2026-01-14", "users": 26}, {"date": "2026-01-15", "users": 21}, {"date": "2026-01-16", "users": 26}, {"date": "2026-01-17", "users": 23}, {"date": "2026-01-18", "users": 13}, {"date": "2026-01-19", "users": 23}, {"date": "2026-01-20", "users": 25}, {"date": "2026-01-21", "users": 17}, {"date": "2026-01-22", "users": 27}, {"date": "2026-01-23", "users": 21}, {"date": "2026-01-24", "users": 13}, {"date": "2026-01-25", "users": 24}, {"date": "2026-01-26", "users": 19}, {"date": "2026-01-27", "users": 21}, {"date": "2026-01-28", "users": 27}, {"date": "2026-01-29", "users": 24}, {"date": "2026-01-30", "users": 16}, {"date": "2026-01-31", "users": 16}, {"date": "2026-02-01", "users": 26}, {"date": "2026-02-02", "users": 31}, {"date": "2026-02-03", "users": 21}, {"date": "2026-02-04", "users": 23}, {"date": "2026-02-05", "users": 22}, {"date": "2026-02-06", "users": 23}, {"date": "2026-02-07", "users": 28}, {"date": "2026-02-08", "users": 28}, {"date": "2026-02-09", "users": 33}, {"date": "2026-02-10", "users": 26}, {"date": "2026-02-11", "users": 7}];
+const ALL_SOURCES=[{"s": "(direct) / (none)", "v": 10669}, {"s": "google / cpc", "v": 1512}, {"s": "google / organic", "v": 1332}, {"s": "accounts.google.com / referral", "v": 433}, {"s": "youtube.com / referral", "v": 209}, {"s": "checkout.stripe.com / referral", "v": 135}, {"s": "bing / organic", "v": 81}, {"s": "Klaviyo / campaign", "v": 45}, {"s": "billing.stripe.com / referral", "v": 23}, {"s": "Klaviyo / flow", "v": 21}, {"s": "thomas-van-der-leck.mykajabi.com / referral", "v": 17}, {"s": "nl.search.yahoo.com / referral", "v": 13}, {"s": "outlook.live.com / referral", "v": 13}, {"s": "trustpilot / company_profile", "v": 10}, {"s": "yahoo / organic", "v": 10}];
+
+const DATA_START=ALL_DAILY[0].date, DATA_END=ALL_DAILY[ALL_DAILY.length-1].date;
+Chart.defaults.color='#586280';Chart.defaults.borderColor='rgba(255,255,255,0.035)';Chart.defaults.font.family="'Outfit',sans-serif";Chart.defaults.font.size=11;
+let charts={};
+
+function ma(data,w){return data.map((_,i)=>{const s=Math.max(0,i-w+1);const sl=data.slice(s,i+1);return Math.round(sl.reduce((a,b)=>a+b,0)/sl.length*10)/10;});}
+function fD(d){return new Date(d).toLocaleDateString('en-GB',{day:'numeric',month:'short',year:'2-digit'});}
+function fDL(d){return new Date(d).toLocaleDateString('en-GB',{day:'numeric',month:'short',year:'numeric'});}
+function fN(n){return n.toLocaleString('en-US');}
+function dc(id){if(charts[id]){charts[id].destroy();delete charts[id];}}
+function getF(f,t){return ALL_DAILY.filter(d=>d.date>=f&&d.date<=t);}
+function buildM(data){const m={};data.forEach(d=>{const k=d.date.slice(0,7);if(!m[k])m[k]={t:0,d:0};m[k].t+=d.users;m[k].d++;});return Object.entries(m).sort().map(([k,v])=>({m:k,t:v.t,d:v.d,a:Math.round(v.t/v.d*10)/10}));}
+
+function renderDashboard(fromDate,toDate){
+  const filtered=getF(fromDate,toDate);
+  if(!filtered.length)return;
+  const users=filtered.map(d=>d.users);
+  const total=users.reduce((a,b)=>a+b,0);
+  const avg=Math.round(total/users.length*10)/10;
+  const maxV=Math.max(...users), minV=Math.min(...users);
+  const maxI=users.indexOf(maxV);
+  const peakDate=filtered[maxI].date;
+  const monthly=buildM(filtered);
+  const peakM=monthly.reduce((a,b)=>b.a>a.a?b:a,monthly[0]);
+  const last14=users.slice(-Math.min(14,users.length));
+  const l14a=last14.reduce((a,b)=>a+b,0)/last14.length;
+  const trend=peakM.a?Math.round((l14a-peakM.a)/peakM.a*100):0;
+
+  document.getElementById('rangeSummary').textContent=filtered.length+' days selected';
+  document.getElementById('dailySub').textContent=filtered.length+' data points · 14-day moving average overlaid';
+
+  const pmL=new Date(peakM.m+'-01').toLocaleDateString('en-GB',{month:'short',year:'2-digit'});
+  document.getElementById('kpiRow').innerHTML=
+    `<div class="k kb"><div class="k-lbl">Total Active Users</div><div class="k-val">${fN(total)}</div><div class="k-note">Thank-you page</div></div>`+
+    `<div class="k kt"><div class="k-lbl">Daily Average</div><div class="k-val">${avg}</div><div class="k-note">${filtered.length} days</div></div>`+
+    `<div class="k ko"><div class="k-lbl">Peak Day</div><div class="k-val">${maxV}</div><div class="k-note">${fDL(peakDate)}</div></div>`+
+    `<div class="k kp"><div class="k-lbl">Peak Month</div><div class="k-val">${pmL}</div><div class="k-note">${fN(peakM.t)} users · ${peakM.a}/day</div></div>`+
+    `<div class="k kpk"><div class="k-lbl">Min Day</div><div class="k-val">${minV}</div><div class="k-note">Lowest single day</div></div>`+
+    `<div class="k kr"><div class="k-lbl">Recent Trend</div><div class="k-val">${trend>=0?'↑':'↓'} ${Math.abs(trend)}%</div><div class="k-note">Last 14d vs peak month</div></div>`;
+
+  // Daily chart
+  const labels=filtered.map(d=>fD(d.date));
+  const ma14=ma(users,14);
+  dc('daily');
+  charts.daily=new Chart(document.getElementById('dailyChart'),{type:'bar',data:{labels,datasets:[
+    {type:'line',label:'14-day Moving Avg',data:ma14,borderColor:'#f59e0b',borderWidth:2,pointRadius:0,tension:0.3,order:0},
+    {label:'Daily Users',data:users,backgroundColor:filtered.map(d=>{if(d.date<'2025-02-01')return'rgba(34,197,94,0.35)';if(d.date<'2025-07-01')return'rgba(245,158,11,0.3)';return'rgba(239,68,68,0.25)';}),borderRadius:1,borderSkipped:false,order:1}
+  ]},options:{responsive:true,maintainAspectRatio:false,interaction:{mode:'index',intersect:false},plugins:{legend:{position:'top',align:'end',labels:{boxWidth:10,padding:16,usePointStyle:true}}},scales:{y:{beginAtZero:true,grid:{color:'rgba(255,255,255,0.03)'}},x:{grid:{display:false},ticks:{maxTicksLimit:16,maxRotation:45,font:{size:9}}}}}});
+
+  // Monthly bar
+  const mL=monthly.map(m=>{const[y,mo]=m.m.split('-');return new Date(parseInt(y),parseInt(mo)-1).toLocaleDateString('en-GB',{month:'short',year:'2-digit'});});
+  dc('mBar');
+  charts.mBar=new Chart(document.getElementById('monthlyBar'),{type:'bar',data:{labels:mL,datasets:[{data:monthly.map(m=>m.t),backgroundColor:monthly.map(m=>m.a>=35?'#5b8def':m.a>=25?'rgba(91,141,239,0.5)':'rgba(91,141,239,0.25)'),borderRadius:4,borderSkipped:false}]},options:{responsive:true,maintainAspectRatio:false,plugins:{legend:{display:false},tooltip:{callbacks:{label:c=>c.raw+' users'}}},scales:{y:{beginAtZero:true,grid:{color:'rgba(255,255,255,0.03)'}},x:{grid:{display:false}}}}});
+
+  // Monthly avg
+  dc('mAvg');
+  charts.mAvg=new Chart(document.getElementById('monthlyAvg'),{type:'line',data:{labels:mL,datasets:[{data:monthly.map(m=>m.a),borderColor:'#2dd4bf',backgroundColor:'rgba(45,212,191,0.08)',fill:true,tension:0.35,pointRadius:5,pointBackgroundColor:monthly.map(m=>m.a>=35?'#22c55e':m.a>=25?'#2dd4bf':'#ef4444'),pointBorderColor:'#08090d',pointBorderWidth:2,borderWidth:2.5}]},options:{responsive:true,maintainAspectRatio:false,plugins:{legend:{display:false},tooltip:{callbacks:{label:c=>c.raw+' avg/day'}}},scales:{y:{beginAtZero:true,grid:{color:'rgba(255,255,255,0.03)'}},x:{grid:{display:false}}}}});
+
+  // MoM
+  const momD=monthly.slice(1).map((m,i)=>{const p=monthly[i].a;return p?Math.round((m.a-p)/p*1000)/10:0;});
+  dc('mom');
+  charts.mom=new Chart(document.getElementById('momChart'),{type:'bar',data:{labels:mL.slice(1),datasets:[{data:momD,backgroundColor:momD.map(v=>v>=0?'rgba(34,197,94,0.5)':'rgba(239,68,68,0.4)'),borderColor:momD.map(v=>v>=0?'#22c55e':'#ef4444'),borderWidth:1,borderRadius:3,borderSkipped:false}]},options:{responsive:true,maintainAspectRatio:false,plugins:{legend:{display:false},tooltip:{callbacks:{label:c=>(c.raw>=0?'+':'')+c.raw+'%'}}},scales:{y:{grid:{color:'rgba(255,255,255,0.03)'},ticks:{callback:v=>(v>=0?'+':'')+v+'%'}},x:{grid:{display:false}}}}});
+
+  // Source donut (static)
+  const top7=ALL_SOURCES.slice(0,7),othV=ALL_SOURCES.slice(7).reduce((s,d)=>s+d.v,0);
+  const dL=top7.map(d=>d.s).concat(['Others']),dV=top7.map(d=>d.v).concat([othV]);
+  const dC=['#22d3ee','#a78bfa','#f59e0b','#818cf8','#f472b6','#1e3a8a','#38bdf8','#475569'];
+  dc('donut');
+  charts.donut=new Chart(document.getElementById('srcDonut'),{type:'doughnut',data:{labels:dL,datasets:[{data:dV,backgroundColor:dC,borderColor:'#0e1018',borderWidth:3}]},options:{responsive:true,maintainAspectRatio:false,cutout:'58%',plugins:{legend:{position:'right',labels:{boxWidth:10,padding:9,font:{size:10.5},usePointStyle:true,color:'#94a0c0'}},tooltip:{callbacks:{label:c=>{const t=dV.reduce((a,b)=>a+b,0);return' '+c.raw.toLocaleString()+' ('+(c.raw/t*100).toFixed(1)+'%)';}}}}}});
+
+  // Channel cards
+  const tV=ALL_SOURCES.reduce((s,d)=>s+d.v,0);
+  const chs=[{l:'Direct',v:10670,c:'var(--cyan)'},{l:'Paid Search',v:1512,c:'var(--purple)'},{l:'Organic Search',v:1428,c:'var(--orange)'},{l:'Referral',v:945,c:'var(--pink)'},{l:'Email / Other',v:91,c:'var(--teal)'}];
+  document.getElementById('channelCards').innerHTML=chs.map(ch=>'<div class="chc"><div class="chc-lbl">'+ch.l+'</div><div class="chc-val" style="color:'+ch.c+'">'+fN(ch.v)+'</div><div class="chc-pct">'+(ch.v/tV*100).toFixed(1)+'%</div></div>').join('');
+
+  // Source bars
+  const mxV=ALL_SOURCES[0].v;
+  const cm={'direct':'#22d3ee','cpc':'#a78bfa','organic':'#f59e0b','referral':'#f472b6','klaviyo':'#2dd4bf','trustpilot':'#22c55e','campaign':'#2dd4bf','flow':'#2dd4bf'};
+  function gc(s){for(const[k,c]of Object.entries(cm)){if(s.toLowerCase().includes(k))return c;}return'#64748b';}
+  document.getElementById('srcBars').innerHTML=ALL_SOURCES.map(d=>'<div class="src-row"><div class="src-lbl" title="'+d.s+'">'+d.s+'</div><div class="src-track"><div class="src-fill" style="width:'+(d.v/mxV*100).toFixed(0)+'%;background:'+gc(d.s)+'"></div></div><div class="src-v">'+fN(d.v)+'</div></div>').join('');
+
+  // Day of week
+  const dow=Array(7).fill(null).map(()=>({sum:0,cnt:0}));
+  filtered.forEach(d=>{const dy=new Date(d.date).getDay();dow[dy].sum+=d.users;dow[dy].cnt++;});
+  const dowA=dow.map(d=>d.cnt?Math.round(d.sum/d.cnt*10)/10:0);
+  const dowL=['Sun','Mon','Tue','Wed','Thu','Fri','Sat'];
+  const mxD=Math.max(...dowA);
+  dc('dow');
+  charts.dow=new Chart(document.getElementById('dowChart'),{type:'bar',data:{labels:dowL,datasets:[{data:dowA,backgroundColor:dowA.map(v=>v===mxD?'#5b8def':'rgba(91,141,239,0.35)'),borderRadius:6,borderSkipped:false}]},options:{responsive:true,maintainAspectRatio:false,plugins:{legend:{display:false},tooltip:{callbacks:{label:c=>c.raw+' avg users'}}},scales:{y:{beginAtZero:true,grid:{color:'rgba(255,255,255,0.03)'}},x:{grid:{display:false}}}}});
+
+  // Histogram
+  const bins=[{l:'1-10',a:1,b:10},{l:'11-20',a:11,b:20},{l:'21-30',a:21,b:30},{l:'31-40',a:31,b:40},{l:'41-50',a:41,b:50},{l:'51-60',a:51,b:60},{l:'61+',a:61,b:999}];
+  const bC=bins.map(b=>users.filter(u=>u>=b.a&&u<=b.b).length);
+  const mxB=Math.max(...bC);
+  dc('hist');
+  charts.hist=new Chart(document.getElementById('histChart'),{type:'bar',data:{labels:bins.map(b=>b.l),datasets:[{data:bC,backgroundColor:bC.map(v=>v===mxB?'#a78bfa':'rgba(167,139,250,0.35)'),borderRadius:6,borderSkipped:false}]},options:{responsive:true,maintainAspectRatio:false,plugins:{legend:{display:false},tooltip:{callbacks:{label:c=>c.raw+' days'}}},scales:{y:{beginAtZero:true,grid:{color:'rgba(255,255,255,0.03)'},title:{display:true,text:'# of days',color:'#586280'}},x:{grid:{display:false},title:{display:true,text:'Users/day',color:'#586280'}}}}});
+
+  // Insights
+  const bestDow=dowL[dowA.indexOf(mxD)];
+  document.getElementById('insightsGrid').innerHTML=
+    '<div class="ins"><div class="ins-t">Selected Range</div><div class="ins-b">'+fDL(fromDate)+' → '+fDL(toDate)+' ('+filtered.length+' days). Average '+avg+' users/day with a peak of '+maxV+' on '+fDL(peakDate)+'. Best month was '+pmL+' at '+peakM.a+'/day.</div></div>'+
+    '<div class="ins g"><div class="ins-t">Day-of-Week Winner</div><div class="ins-b">'+bestDow+' is the strongest day at '+mxD+' avg users. Consider timing promotions and content drops to align with this pattern for maximum conversion impact.</div></div>'+
+    '<div class="ins o"><div class="ins-t">Source Split</div><div class="ins-b">Direct traffic dominates at 72.8% of all views. Google CPC (10.3%) + Organic (9.1%) together account for ~20% — strong organic traction relative to paid investment.</div></div>';
+}
+
+// Date controls
+const $f=document.getElementById('dateFrom'),$t=document.getElementById('dateTo');
+$f.min=DATA_START;$f.max=DATA_END;$t.min=DATA_START;$t.max=DATA_END;$f.value=DATA_START;$t.value=DATA_END;
+
+function applyRange(){
+  let f=$f.value||DATA_START,t=$t.value||DATA_END;
+  if(f>t)[f,t]=[t,f];
+  $f.value=f;$t.value=t;
+  document.querySelectorAll('.preset-btn').forEach(b=>b.classList.remove('active'));
+  renderDashboard(f,t);
+}
+
+document.querySelectorAll('.preset-btn').forEach(btn=>{
+  btn.addEventListener('click',()=>{
+    document.querySelectorAll('.preset-btn').forEach(b=>b.classList.remove('active'));
+    btn.classList.add('active');
+    const p=btn.dataset.preset;
+    const end=new Date(DATA_END);
+    let from,to=DATA_END;
+    if(p==='all'){from=DATA_START;}
+    else if(p==='30d'){const d=new Date(end);d.setDate(d.getDate()-29);from=d.toISOString().slice(0,10);}
+    else if(p==='90d'){const d=new Date(end);d.setDate(d.getDate()-89);from=d.toISOString().slice(0,10);}
+    else if(p==='6m'){const d=new Date(end);d.setMonth(d.getMonth()-6);from=d.toISOString().slice(0,10);}
+    else if(p==='ytd'){from='2026-01-01';}
+    else if(p==='2025'){from='2025-01-01';to='2025-12-31';}
+    if(from<DATA_START)from=DATA_START;
+    if(to>DATA_END)to=DATA_END;
+    $f.value=from;$t.value=to;
+    renderDashboard(from,to);
+  });
+});
+
+$f.addEventListener('change',applyRange);
+$t.addEventListener('change',applyRange);
+
+renderDashboard(DATA_START,DATA_END);
+</script>
+</body></html>
